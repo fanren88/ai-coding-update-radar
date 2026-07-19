@@ -1,0 +1,16 @@
+[
+  {
+    "year": 2026,
+    "week": 29,
+    "generatedAt": "2026-07-17T00:00:00.000Z",
+    "introZh": "本周已确认的官方更新来自 Codex Changelog，重点是移动端任务展示与任务管理体验。",
+    "mustHandle": [],
+    "worthTrying": [
+      {
+        "id": "codex-2026-07-13-inline-visualizations",
+        "reasonZh": "经常在移动端查看 Codex 任务的用户可以尝试内联可视化。"
+      }
+    ],
+    "goodToKnow": []
+  }
+]

@@ -1,0 +1,70 @@
+name: Collect official coding updates
+
+on:
+  schedule:
+    - cron: "37 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "Source slug or all"
+        required: false
+        default: "all"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coding-radar-content
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Fetch, normalize and explain official releases
+        id: collect
+        continue-on-error: true
+        env:
+          AI_GATEWAY_API_KEY: ${{ secrets.AI_GATEWAY_API_KEY }}
+          AI_MODEL_PRIMARY: ${{ vars.AI_MODEL_PRIMARY || 'openai/gpt-5.4-mini' }}
+          AI_MODEL_FALLBACK: ${{ vars.AI_MODEL_FALLBACK || 'anthropic/claude-haiku-4.5' }}
+          GITHUB_SOURCE_TOKEN: ${{ secrets.GITHUB_SOURCE_TOKEN || github.token }}
+          SOURCE: ${{ inputs.source || 'all' }}
+        run: npm run collect -- --source "$SOURCE"
+      - name: Validate generated content and static export
+        run: |
+          npm test
+          npm run typecheck
+          npm run build
+      - name: Detect content changes
+        id: changes
+        run: |
+          if git diff --quiet -- content; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commit content snapshot
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          git commit -m "content: collect official coding updates"
+          git push
+      - name: Trigger Vercel static rebuild
+        if: steps.changes.outputs.changed == 'true' && secrets.VERCEL_DEPLOY_HOOK != ''
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: curl --fail-with-body --retry 3 --retry-all-errors -X POST "$VERCEL_DEPLOY_HOOK"
+      - name: Surface degraded sources after preserving status
+        if: steps.collect.outcome == 'failure'
+        run: exit 1
