@@ -1,5 +1,230 @@
 [
   {
+    "id": "claude-code-ae24ebf6d536edcf",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.215",
+    "version": "2.1.215",
+    "channel": "stable",
+    "publishedAt": "2026-07-19T14:08:03.755Z",
+    "collectedAt": "2026-07-19T14:08:03.755Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.215",
+    "body": "- Claude no longer runs the `/verify` and `/code-review` skills on its own; invoke them with `/verify` or `/code-review` when you want them",
+    "sourceLanguage": "en",
+    "contentHash": "30c1be2fce566789e1f7116f42c24ea57132d0f89b54acb74ae55fed007f1b69",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "2.1.215",
+      "bodyEn": "- Claude no longer runs the `/verify` and `/code-review` skills on its own; invoke them with `/verify` or `/code-review` when you want them",
+      "titleZh": "2.1.215",
+      "bodyZh": "- Claude 不再自动运行 `/verify` 和 `/code-review` 技能；需要时请使用 `/verify` 或 `/code-review` 调用它们",
+      "sourceHash": "30c1be2fce566789e1f7116f42c24ea57132d0f89b54acb74ae55fed007f1b69",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:08:07.758Z"
+    }
+  },
+  {
+    "id": "claude-code-b956bb80fa79cd0e",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.214",
+    "version": "2.1.214",
+    "channel": "stable",
+    "publishedAt": "2026-07-19T14:08:03.755Z",
+    "collectedAt": "2026-07-19T14:08:03.755Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.214",
+    "body": "- Fixed single-segment `dir/**` allow rules like `Edit(src/**)` auto-approving writes to nested `dir/` directories anywhere in the tree instead of only `<cwd>/dir`\n- Fixed a permission-check bypass affecting commands run in Windows PowerShell 5.1 sessions\n- Fixed Bash permission checks to fail closed on file-descriptor redirect forms that bash parses differently than the permission analyzer\n- Fixed Bash permission checks misjudging very long commands — commands over 10,000 characters now always prompt instead of running automatically\n- Fixed Bash permission checks treating zsh variable subscripts and modifiers in `[[ ]]` comparisons as inert text — these commands now prompt for approval\n- Fixed Bash permission checks to no longer auto-approve certain `help` and `man` commands that could run unsafe options, command substitutions, or backslash paths\n- Fixed permission prompts on remote sessions that could proceed before the local confirmation dialog\n- Added the EndConversation tool: Claude can end sessions with highly abusive users or jailbreak attempts, as on claude.ai since 2025 — see https://www.anthropic.com/research/end-subset-conversations\n- Added a periodic progress heartbeat for long-running tool calls that previously went silent\n- Added an ISO `modified` timestamp to memory file frontmatter\n- Added `message.uuid`, `client_request_id`, and `tool_source` attributes to OpenTelemetry log events for message-level correlation and tool provenance\n- Added `CLAUDE_CODE_OTEL_CONTENT_MAX_LENGTH` to configure the 60 KB truncation limit on OpenTelemetry content attributes\n- Added reasoning effort to the `subagentStatusLine` payload, so custom agent rows can render model and effort\n- Added permission prompts for `docker` commands (including the Podman `docker` shim) carrying daemon-redirect flags (`--url`, `--connection`, `--identity`, and Podman's remote mode) that previously ran without one\n- Fixed a crash when a GrowthBook feature evaluates to null, and a bug where a malformed flag payload could wipe the cached feature flags\n- Fixed Bash tool killing the Claude session when a `pkill -f` pattern accidentally matched the CLI's own process (Linux)\n- Fixed unbounded memory growth when `--settings` points at a device file or multi-GB file; oversized (>2 MiB) settings files now fail at startup with a clear error\n- Fixed streaming turns failing with \"Socket is closed\" behind corporate proxies on Windows\n- Fixed stream-json output truncation at exit for slow-reading SDK/pipeline consumers; the exit drain now scales with queued bytes instead of a flat 2s cap\n- Fixed scheduled tasks refusing their own configured prompt as untrusted input — the fired prompt is now delivered as the session's assigned task\n- Fixed PowerShell tool commands hanging until timeout when a child process waited on standard input (Windows)\n- Fixed Python scripts under the PowerShell tool crashing with UnicodeDecodeError when reading non-UTF-8 data from standard input (Windows)\n- Fixed Python scripts run via the PowerShell tool crashing with UnicodeEncodeError on non-ASCII output, and PowerShell 7 error messages containing raw ANSI escape sequences (Windows)\n- Fixed the PowerShell tool reporting `where.exe`, `fc.exe`, and `diff.exe` as errors when they return a valid negative answer (Windows)\n- Fixed `>` and `>>` under the PowerShell tool on Windows PowerShell 5.1 writing UTF-16LE files that other tools couldn't read as UTF-8\n- Fixed a displaced background daemon deleting its successor's control socket on shutdown, which made the next client kill the healthy replacement daemon\n- Fixed background sessions parked with `←` or `/background` and left idle keeping the background daemon and a worker process alive indefinitely\n- Fixed completed background sessions being impossible to remove via `claude rm` or the agent view once the background service had gone idle\n- Fixed background sessions dispatched from a non-git folder being impossible to delete from the agents view\n- Fixed reopening a stopped background session failing to restore its saved conversation when an unreadable folder exists in the session store\n- Fixed the Remote Control \"session ready\" push notification firing for sessions where Remote Control was not explicitly enabled\n- Fixed `/install-github-app` and the `/mcp` settings menu being blocked in agent-view sessions — they're now refused only in background sessions with no terminal attached\n- Fixed plugins enabled via the `--settings` CLI flag not loading (regression since v2.1.181)\n- Fixed feature flags going stale in long-running sessions after the OAuth token rotates\n- Fixed `/ultrareview` refusing to run in repos with no merge base — it now offers to review all tracked files\n- Fixed `claude update` and `claude doctor` hanging silently, and the `/status` System diagnostics section going blank, when a shell-config path is a directory\n- Fixed memory frontmatter values being silently truncated at an inline `#` when memory files are saved\n- Fixed session cost and token telemetry double-counting on streams that emit multiple cumulative `message_delta` frames\n- Fixed a spurious \"check your network\" warning that appeared while the advisor was thinking\n- Fixed hooks with exit code 2 not blocking as documented when the hook's stdout JSON fails schema validation\n- Fixed OTel log events emitted outside the turn's async context missing the interaction span's trace context\n- Fixed MCP transient errors during prompts/resources refresh clearing the server's slash commands and resources\n- Improved the `claude rc` workspace-trust error in the home directory to say trust there is never saved and to suggest running from a project directory\n- Changed single-segment `dir/**` hook `if:` conditions to match only `<cwd>/dir`; write `**/dir/**` for any-depth matching. `deny`/`ask` permission rules keep their any-depth match.\n- Changed `file` commands using `-m`/`--magic-file` or `-f`/`--files-from` to require permission instead of being auto-allowed as read-only\n- Changed keep-alive connection pooling to disable after a stale-connection error, so retries open a fresh socket\n- Changed SessionStart hooks to report source `\"fork\"` when a session begins as a fork instead of `\"resume\"`",
+    "sourceLanguage": "en",
+    "contentHash": "2b439443fd6a89d2d461af57669945e8bdd05d8af21bff172530768aeabc6ce4",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-972a217997c9272f",
+    "sourceSlug": "gemini-cli",
+    "externalId": "356232488",
+    "version": "v0.52.0-nightly.20260719.gacae7124b",
+    "channel": "preview",
+    "publishedAt": "2026-07-19T01:32:55.000Z",
+    "collectedAt": "2026-07-19T14:08:04.730Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260719.gacae7124b",
+    "title": "Release v0.52.0-nightly.20260719.gacae7124b",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260718.gacae7124b...v0.52.0-nightly.20260719.gacae7124b",
+    "sourceLanguage": "en",
+    "contentHash": "60ff55034a94518de7cb103ec9d352ddf4400b7d9247a3c1f8ff0dc9314c41e4",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-nightly.20260719.gacae7124b",
+      "bodyEn": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260718.gacae7124b...v0.52.0-nightly.20260719.gacae7124b",
+      "titleZh": "发布 v0.52.0-nightly.20260719.gacae7124b",
+      "bodyZh": "**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260718.gacae7124b...v0.52.0-nightly.20260719.gacae7124b",
+      "sourceHash": "60ff55034a94518de7cb103ec9d352ddf4400b7d9247a3c1f8ff0dc9314c41e4",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:08:21.242Z"
+    }
+  },
+  {
+    "id": "gemini-cli-91eea43ba5b0929e",
+    "sourceSlug": "gemini-cli",
+    "externalId": "355986769",
+    "version": "v0.52.0-nightly.20260718.gacae7124b",
+    "channel": "preview",
+    "publishedAt": "2026-07-18T01:27:53.000Z",
+    "collectedAt": "2026-07-19T14:08:04.730Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260718.gacae7124b",
+    "title": "Release v0.52.0-nightly.20260718.gacae7124b",
+    "body": "## What's Changed\n* feat(caretaker-triage): implement LLM triage orchestrator and container build by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28345\n* refactor(cli): align macOS permissive Seatbelt profiles with deny-default model by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28424\n* fix(core): mitigate infinite ReAct loops and prompt injection loops by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28429\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260716.g3ff5ba20f...v0.52.0-nightly.20260718.gacae7124b",
+    "sourceLanguage": "en",
+    "contentHash": "937bd0b858e7e6850b5a6bf968d367ad24dbda62f4a911264a6dc35ab197e6b8",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-nightly.20260718.gacae7124b",
+      "bodyEn": "## What's Changed\n* feat(caretaker-triage): implement LLM triage orchestrator and container build by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28345\n* refactor(cli): align macOS permissive Seatbelt profiles with deny-default model by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28424\n* fix(core): mitigate infinite ReAct loops and prompt injection loops by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28429\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260716.g3ff5ba20f...v0.52.0-nightly.20260718.gacae7124b",
+      "titleZh": "发布 v0.52.0-nightly.20260718.gacae7124b",
+      "bodyZh": "## 变更内容\n* feat(caretaker-triage): 实现 LLM 分类编排器和容器构建，由 @chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28345 提交\n* refactor(cli): 使 macOS 宽松的 Seatbelt 配置文件与默认拒绝模型对齐，由 @ompatel-aiml 在 https://github.com/google-gemini/gemini-cli/pull/28424 提交\n* fix(core): 缓解无限 ReAct 循环和提示注入循环，由 @amelidev 在 https://github.com/google-gemini/gemini-cli/pull/28429 提交\n\n\n**完整变更日志**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260716.g3ff5ba20f...v0.52.0-nightly.20260718.gacae7124b",
+      "sourceHash": "937bd0b858e7e6850b5a6bf968d367ad24dbda62f4a911264a6dc35ab197e6b8",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:08:23.605Z"
+    }
+  },
+  {
+    "id": "codex-876a6c365da91537",
+    "sourceSlug": "codex",
+    "externalId": "2026-07-18:Codex CLI 0.144.6",
+    "version": "0.144.6",
+    "channel": "stable",
+    "publishedAt": "2026-07-18T00:00:00.000Z",
+    "collectedAt": "2026-07-19T14:08:03.325Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-356112050",
+    "title": "Codex CLI 0.144.6",
+    "body": "```bash\n$ npm install -g @openai/codex@0.144.6\n```\n\n## Bug Fixes\n\n- Refreshed bundled instructions for GPT-5.6 Sol, Terra, and Luna, and corrected their context windows to 272,000 tokens. (#33972, #34009)\n\n## Changelog\n\nFull Changelog: rust-v0.144.5...rust-v0.144.6\n\n- #33972 Backport refreshed bundled model metadata to 0.144 @sayan-oai\n\n- #34009 Narrow 0.144 hotfix to GPT-5.6 prompts and context @sayan-oai\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "134d4ef43f962334ba36805f67dcd9877bf66c99b5cf4bfc450a0b98552cab99",
+    "sourceTopics": [
+      "codex-cli"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Codex CLI 0.144.6",
+      "bodyEn": "```bash\n$ npm install -g @openai/codex@0.144.6\n```\n\n## Bug Fixes\n\n- Refreshed bundled instructions for GPT-5.6 Sol, Terra, and Luna, and corrected their context windows to 272,000 tokens. (#33972, #34009)\n\n## Changelog\n\nFull Changelog: rust-v0.144.5...rust-v0.144.6\n\n- #33972 Backport refreshed bundled model metadata to 0.144 @sayan-oai\n\n- #34009 Narrow 0.144 hotfix to GPT-5.6 prompts and context @sayan-oai\n\nFull release on Github",
+      "titleZh": "Codex CLI 0.144.6",
+      "bodyZh": "```bash\n$ npm install -g @openai/codex@0.144.6\n```\n\n## 错误修复\n\n- 更新了 GPT-5.6 Sol、Terra 和 Luna 的捆绑指令，并将其上下文窗口修正为 272,000 个 token。（#33972, #34009）\n\n## 更新日志\n\n完整更新日志：rust-v0.144.5...rust-v0.144.6\n\n- #33972 将更新的捆绑模型元数据回溯到 0.144 @sayan-oai\n\n- #34009 将 0.144 热修复范围缩小到 GPT-5.6 提示和上下文 @sayan-oai\n\n完整发布信息请查看 Github",
+      "sourceHash": "134d4ef43f962334ba36805f67dcd9877bf66c99b5cf4bfc450a0b98552cab99",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:08:25.814Z"
+    }
+  },
+  {
+    "id": "github-copilot-a7ef730e554338df",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-17T22:05:18.000Z",
+    "collectedAt": "2026-07-19T14:08:04.295Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
+    "title": "Repository-level GitHub Copilot usage metrics generally available",
+    "body": "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review.… The post Repository-level GitHub Copilot usage metrics generally available appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "2e3187d043a3fa6c61c443fba1e98dffdc20f1d6b8cc03fbc41a6c350adbb23a",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Repository-level GitHub Copilot usage metrics generally available",
+      "bodyEn": "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review.… The post Repository-level GitHub Copilot usage metrics generally available appeared first on The GitHub Blog.",
+      "titleZh": "仓库级 GitHub Copilot 使用指标正式可用",
+      "bodyZh": "Copilot 使用指标 REST API 现在报告仓库级活动。两个新端点返回 Copilot 编码代理和 Copilot 代码审查的每日、按仓库划分的拉取请求活动明细。… 文章《仓库级 GitHub Copilot 使用指标正式可用》首次出现在 GitHub 博客上。",
+      "sourceHash": "2e3187d043a3fa6c61c443fba1e98dffdc20f1d6b8cc03fbc41a6c350adbb23a",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:08:27.310Z"
+    }
+  },
+  {
+    "id": "github-copilot-b7c85c763928a854",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-17T22:05:11.000Z",
+    "collectedAt": "2026-07-19T14:08:04.295Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
+    "title": "GitHub Copilot app now available in the usage metrics API",
+    "body": "The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the… The post GitHub Copilot app now available in the usage metrics API appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "7a303b337e6a249f63ec689a60b48bf3c5aa7bded19ce108e96d6e507983c9a8",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "GitHub Copilot app now available in the usage metrics API",
+      "bodyEn": "The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the… The post GitHub Copilot app now available in the usage metrics API appeared first on The GitHub Blog.",
+      "titleZh": "GitHub Copilot 应用现已在使用指标 API 中可用",
+      "bodyZh": "Copilot 使用指标 API 现在在企业与组织的 1 天和 28 天报告中报告 GitHub Copilot 应用的使用情况。这使企业和组织管理员能够了解……该文章《GitHub Copilot 应用现已在使用指标 API 中可用》最初出现在 GitHub 博客上。",
+      "sourceHash": "7a303b337e6a249f63ec689a60b48bf3c5aa7bded19ce108e96d6e507983c9a8",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:08:28.988Z"
+    }
+  },
+  {
+    "id": "github-copilot-9466b1428775514b",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-17T21:08:30.000Z",
+    "collectedAt": "2026-07-19T14:08:04.295Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
+    "title": "Copilot code review: Customization and configurability improvements",
+    "body": "Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation… The post Copilot code review: Customization and configurability improvements appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "03e28e8a3c60e1936305850f8670f60f81a8815df53c5c6309c7173581b52e94",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Copilot code review: Customization and configurability improvements",
+      "bodyEn": "Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation… The post Copilot code review: Customization and configurability improvements appeared first on The GitHub Blog.",
+      "titleZh": "Copilot 代码审查：自定义与可配置性改进",
+      "bodyZh": "Copilot 代码审查现在使用防火墙、自定义设置步骤和独立的运行器配置。它现在从头部分支读取自定义指令，以便于测试和验证……这篇文章《Copilot 代码审查：自定义与可配置性改进》最初出现在 GitHub 博客上。",
+      "sourceHash": "03e28e8a3c60e1936305850f8670f60f81a8815df53c5c6309c7173581b52e94",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:08:30.522Z"
+    }
+  },
+  {
+    "id": "github-copilot-695a6e704fb1880e",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-17T19:47:45.000Z",
+    "collectedAt": "2026-07-19T14:08:04.295Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
+    "title": "GitHub Mobile: Fix pull request comments with Copilot cloud agent",
+    "body": "You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and… The post GitHub Mobile: Fix pull request comments with Copilot cloud agent appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "4dc53e0839e9d7c56d82ef0a08572fedcd3cce88c0cbbaf4bda84bcc6bf4934d",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "GitHub Mobile: Fix pull request comments with Copilot cloud agent",
+      "bodyEn": "You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and… The post GitHub Mobile: Fix pull request comments with Copilot cloud agent appeared first on The GitHub Blog.",
+      "titleZh": "GitHub Mobile：修复 Copilot 云代理的拉取请求评论",
+      "bodyZh": "您现在可以在 GitHub Mobile 中直接从 Copilot 代码审查拉取请求评论中选择“使用 Copilot 修复”。该按钮在拉取请求的主视图和… 上均可用。这篇文章《GitHub Mobile：修复 Copilot 云代理的拉取请求评论》首次出现在 GitHub 博客上。",
+      "sourceHash": "4dc53e0839e9d7c56d82ef0a08572fedcd3cce88c0cbbaf4bda84bcc6bf4934d",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:08:32.074Z"
+    }
+  },
+  {
     "id": "claude-code-0a039d29741245c5",
     "sourceSlug": "claude-code",
     "externalId": "2.1.210",
@@ -205,6 +430,21 @@
     }
   },
   {
+    "id": "cursor-ea67f7ef458f4ba9",
+    "sourceSlug": "cursor",
+    "externalId": "/changelog/slack-improvements",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "collectedAt": "2026-07-19T14:08:04.149Z",
+    "sourceUrl": "https://cursor.com/changelog/slack-improvements",
+    "title": "Improvements to Cursor in Slack",
+    "body": "Cursor in Slack now shares a plan before it starts, runs in multi-repo environments, and can work across channels and threads. #Interaction improvements Cursor now responds with a plan before it begins, so you can jump in and redirect early. As it works, it updates its status so you can follow each step. We also refined how Cursor's responses look in Slack. In-message buttons are gone, replaced by compact footer links. Tables, PRs, and artifacts now render more cleanly. #Multi-repo environment support From Slack, Cursor can now start in a named multi-repo environment instead of a single default repository. If your frontend, backend, and shared code live in separate repos, Cursor reads your request and targets the environment that gives it access to all of them. Mid-task, when Cursor needs a repo outside the current environment, it prompts you with a Switch repository button. Click it, choose the repo or environment, and Cursor picks up right where it left off. #Cross-channel workflows Cursor can now read from and send messages to other Slack channels and threads. During a task, it can pull context from elsewhere in the workspace and post updates back in the original thread or the relevant channel. Learn more in our Slack docs.",
+    "sourceLanguage": "en",
+    "contentHash": "7808fc289a8e735f2a1c7f7d7b7225b590043ad8d850311dc7cb78b11495b32e",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-9996a35d1c496473",
     "sourceSlug": "gemini-cli",
     "externalId": "tag:github.com,2008:Repository/968197216/v0.51.0",
@@ -228,6 +468,32 @@
       "sourceHash": "25f5a8b4d95f8b9042ec729e60e631955fe5f305c9e9b72e62ed469199f817d7",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-19T09:57:30.364Z"
+    }
+  },
+  {
+    "id": "gemini-cli-ea91f4ce2dddccb8",
+    "sourceSlug": "gemini-cli",
+    "externalId": "355246324",
+    "version": "v0.51.0",
+    "channel": "stable",
+    "publishedAt": "2026-07-16T17:15:26.000Z",
+    "collectedAt": "2026-07-19T14:08:04.730Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0",
+    "title": "Release v0.51.0",
+    "body": "## What's Changed\n* Changelog for v0.50.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28150\n* Fix no_proxy test by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28131\n* chore(release): bump version to 0.51.0-nightly.20260625.g3fbf93e26 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28151\n* Vertex base url update by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28145\n* fix(security): enforce case-insensitive sensitive path blocklist and vscode hitl by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27966\n* fix(core-tools): resolve defensive path resolution for at-reference files and fix macOS tests by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28053\n* feat(caretaker): implement Cloud Run webhook ingestion service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28015\n* fix(core): resolve symbolic link directory escape in memory import processor by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28233\n* feat(caretaker): egress cloud run service skeleton by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28167\n* fix(sandbox): make ~/.gitconfig read-only in the macOS sandbox by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28221\n* fix(core): preserve escape sequences in string literals for modern models by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28299\n* fix(core): strip thoughts from scrubbed history turns and resolve thought leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27971\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.50.0...v0.51.0",
+    "sourceLanguage": "en",
+    "contentHash": "a32865dfb713bdc75d7fdbb05f05cdf9748617298030bd655dc63e5bdc073b13",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.51.0",
+      "bodyEn": "## What's Changed\n* Changelog for v0.50.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28150\n* Fix no_proxy test by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28131\n* chore(release): bump version to 0.51.0-nightly.20260625.g3fbf93e26 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28151\n* Vertex base url update by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28145\n* fix(security): enforce case-insensitive sensitive path blocklist and vscode hitl by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27966\n* fix(core-tools): resolve defensive path resolution for at-reference files and fix macOS tests by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28053\n* feat(caretaker): implement Cloud Run webhook ingestion service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28015\n* fix(core): resolve symbolic link directory escape in memory import processor by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28233\n* feat(caretaker): egress cloud run service skeleton by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28167\n* fix(sandbox): make ~/.gitconfig read-only in the macOS sandbox by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28221\n* fix(core): preserve escape sequences in string literals for modern models by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28299\n* fix(core): strip thoughts from scrubbed history turns and resolve thought leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27971\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.50.0...v0.51.0",
+      "titleZh": "发布 v0.51.0",
+      "bodyZh": "## 变更内容\n* 由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28150 提交的 v0.50.0-preview.1 更新日志\n* 由 @jerrylin3321 在 https://github.com/google-gemini/gemini-cli/pull/28131 修复 no_proxy 测试\n* 由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28151 提交的 chore(release): 版本提升至 0.51.0-nightly.20260625.g3fbf93e26\n* 由 @DavidAPierce 在 https://github.com/google-gemini/gemini-cli/pull/28145 更新 Vertex 基础 URL\n* 由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/27966 修复(安全): 强制执行不区分大小写的敏感路径阻止列表和 vscode hitl\n* 由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28053 修复(core-tools): 解决 at-reference 文件的防御性路径解析并修复 macOS 测试\n* 由 @chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28015 新增(caretaker): 实现 Cloud Run webhook 摄取服务\n* 由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28233 修复(core): 解决内存导入处理器中的符号链接目录转义\n* 由 @chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28167 新增(caretaker): 出口 Cloud Run 服务骨架\n* 由 @ompatel-aiml 在 https://github.com/google-gemini/gemini-cli/pull/28221 修复(sandbox): 使 macOS 沙箱中的 ~/.gitconfig 为只读\n* 由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28299 修复(core): 保留现代模型字符串字面量中的转义序列\n* 由 @amelidev 在 https://github.com/google-gemini/gemini-cli/pull/27971 修复(core): 从清理后的历史轮次中剥离思考并解决思考泄漏\n\n\n**完整更新日志**: https://github.com/google-gemini/gemini-cli/compare/v0.50.0...v0.51.0",
+      "sourceHash": "a32865dfb713bdc75d7fdbb05f05cdf9748617298030bd655dc63e5bdc073b13",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:09:29.650Z"
     }
   },
   {
@@ -257,6 +523,32 @@
     }
   },
   {
+    "id": "gemini-cli-712fbba7262f8bd1",
+    "sourceSlug": "gemini-cli",
+    "externalId": "355241026",
+    "version": "v0.52.0-preview.0",
+    "channel": "preview",
+    "publishedAt": "2026-07-16T17:04:45.000Z",
+    "collectedAt": "2026-07-19T14:08:04.730Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-preview.0",
+    "title": "Release v0.52.0-preview.0",
+    "body": "## What's Changed\n* Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216\n* feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163\n* feat(caretaker-egress): implement octokit github action handler for egress service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28303\n* chore(release): bump version to 0.52.0-nightly.20260707.g27a3da3e8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28323\n* Changelog for v0.51.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28320\n* Changelog for v0.50.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28322\n* fix(core-tools): bypass LLM correction for JSON and IPYNB files in write_file and replace by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28223\n* fix(core): use unambiguous previous intent label in fallback summary by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28343\n* feat(caretaker-triage): implement main worker execution loop and egress action publisher by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28306\n* fix(privacy): show a clear message when the account has no Code Assist tier by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28304\n* fix(core): enrich shared project quota limit errors with setup hint by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28391\n* fix(a2a-server): ensure task cancellation aborts execution loop by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28316\n* fix(core): simplify plan mode write policy to support relative paths by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28398\n* feat(core): Bump node google-auth-library version to 10.9.0 by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28385\n* chore/release: bump version to 0.52.0-nightly.20260715.gfa975395b by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28402\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-preview.0...v0.52.0-preview.0",
+    "sourceLanguage": "en",
+    "contentHash": "9f2f971d5a79905a6b218936f24aea4bbe9dc27c6541d3d55668f9704b12f706",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-preview.0",
+      "bodyEn": "## What's Changed\n* Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216\n* feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163\n* feat(caretaker-egress): implement octokit github action handler for egress service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28303\n* chore(release): bump version to 0.52.0-nightly.20260707.g27a3da3e8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28323\n* Changelog for v0.51.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28320\n* Changelog for v0.50.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28322\n* fix(core-tools): bypass LLM correction for JSON and IPYNB files in write_file and replace by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28223\n* fix(core): use unambiguous previous intent label in fallback summary by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28343\n* feat(caretaker-triage): implement main worker execution loop and egress action publisher by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28306\n* fix(privacy): show a clear message when the account has no Code Assist tier by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28304\n* fix(core): enrich shared project quota limit errors with setup hint by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28391\n* fix(a2a-server): ensure task cancellation aborts execution loop by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28316\n* fix(core): simplify plan mode write policy to support relative paths by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28398\n* feat(core): Bump node google-auth-library version to 10.9.0 by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28385\n* chore/release: bump version to 0.52.0-nightly.20260715.gfa975395b by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28402\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-preview.0...v0.52.0-preview.0",
+      "titleZh": "发布 v0.52.0-preview.0",
+      "bodyZh": "## 变更内容\n* 重构：从工作区上下文中排除临时 CI 配置文件，作者：@DavidAPierce 在 https://github.com/google-gemini/gemini-cli/pull/28216\n* 功能(caretaker-triage)：添加 triage worker 核心基础模块，作者：@chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28163\n* 功能(caretaker-egress)：为 egress 服务实现 octokit github action 处理器，作者：@chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28303\n* 杂项(release)：将版本提升至 0.52.0-nightly.20260707.g27a3da3e8，作者：@gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28323\n* v0.51.0-preview.0 的更新日志，作者：@gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28320\n* v0.50.0 的更新日志，作者：@gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28322\n* 修复(core-tools)：在 write_file 和 replace 中绕过 JSON 和 IPYNB 文件的 LLM 修正，作者：@amelidev 在 https://github.com/google-gemini/gemini-cli/pull/28223\n* 修复(core)：在回退摘要中使用明确的先前意图标签，作者：@amelidev 在 https://github.com/google-gemini/gemini-cli/pull/28343\n* 功能(caretaker-triage)：实现主 worker 执行循环和 egress 动作发布器，作者：@chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28306\n* 修复(privacy)：当账户没有 Code Assist 层级时显示清晰消息，作者：@ompatel-aiml 在 https://github.com/google-gemini/gemini-cli/pull/28304\n* 修复(core)：用设置提示丰富共享项目配额限制错误，作者：@amelidev 在 https://github.com/google-gemini/gemini-cli/pull/28391\n* 修复(a2a-server)：确保任务取消中止执行循环，作者：@luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28316\n* 修复(core)：简化计划模式写入策略以支持相对路径，作者：@DavidAPierce 在 https://github.com/google-gemini/gemini-cli/pull/28398\n* 功能(core)：将 node google-auth-library 版本提升至 10.9.0，作者：@jerrylin3321 在 https://github.com/google-gemini/gemini-cli/pull/28385\n* 杂项/release：将版本提升至 0.52.0-nightly.20260715.gfa975395b，作者：@gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28402\n\n\n**完整更新日志**：https://github.com/google-gemini/gemini-cli/compare/v0.51.0-preview.0...v0.52.0-preview.0",
+      "sourceHash": "9f2f971d5a79905a6b218936f24aea4bbe9dc27c6541d3d55668f9704b12f706",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:09:34.913Z"
+    }
+  },
+  {
     "id": "gemini-cli-1ec3fb67b6bf0411",
     "sourceSlug": "gemini-cli",
     "externalId": "tag:github.com,2008:Repository/968197216/v0.52.0-nightly.20260716.g3ff5ba20f",
@@ -280,6 +572,32 @@
       "sourceHash": "eeca1f9abf839a0bdb2d6495b6f1694c285e6e12fd4c151c5fec18bf0237068e",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-19T09:57:36.851Z"
+    }
+  },
+  {
+    "id": "gemini-cli-365cd81752efabfe",
+    "sourceSlug": "gemini-cli",
+    "externalId": "354820831",
+    "version": "v0.52.0-nightly.20260716.g3ff5ba20f",
+    "channel": "preview",
+    "publishedAt": "2026-07-16T01:38:12.000Z",
+    "collectedAt": "2026-07-19T14:08:04.730Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260716.g3ff5ba20f",
+    "title": "Release v0.52.0-nightly.20260716.g3ff5ba20f",
+    "body": "## What's Changed\n* chore/release: bump version to 0.52.0-nightly.20260715.gfa975395b by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28402\n* fix(core,a2a): group cancelled tool responses and coalesce consecutive roles to prevent 400 Bad Request by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28407\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260715.gfa975395b...v0.52.0-nightly.20260716.g3ff5ba20f",
+    "sourceLanguage": "en",
+    "contentHash": "6034a5e809a015e86716f04c5cc4fc7d33a3e65c8726cafc8b8ce231aec3615c",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-nightly.20260716.g3ff5ba20f",
+      "bodyEn": "## What's Changed\n* chore/release: bump version to 0.52.0-nightly.20260715.gfa975395b by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28402\n* fix(core,a2a): group cancelled tool responses and coalesce consecutive roles to prevent 400 Bad Request by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28407\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260715.gfa975395b...v0.52.0-nightly.20260716.g3ff5ba20f",
+      "titleZh": "发布 v0.52.0-nightly.20260716.g3ff5ba20f",
+      "bodyZh": "## 变更内容\n* chore/release: 版本号提升至 0.52.0-nightly.20260715.gfa975395b，由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28402 提交\n* fix(core,a2a): 分组已取消的工具响应并合并连续角色，以防止 400 Bad Request 错误，由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28407 提交\n\n\n**完整变更日志**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260715.gfa975395b...v0.52.0-nightly.20260716.g3ff5ba20f",
+      "sourceHash": "6034a5e809a015e86716f04c5cc4fc7d33a3e65c8726cafc8b8ce231aec3615c",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:09:36.804Z"
     }
   },
   {
@@ -334,6 +652,32 @@
       "sourceHash": "a0b012ad5e6c3820d83f5611c46471974a47476ca7846e583ee666e587d19d90",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-19T09:57:38.083Z"
+    }
+  },
+  {
+    "id": "gemini-cli-5fc6f61221f30bb1",
+    "sourceSlug": "gemini-cli",
+    "externalId": "354156062",
+    "version": "v0.52.0-nightly.20260715.gfa975395b",
+    "channel": "preview",
+    "publishedAt": "2026-07-15T01:28:44.000Z",
+    "collectedAt": "2026-07-19T14:08:04.730Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260715.gfa975395b",
+    "title": "Release v0.52.0-nightly.20260715.gfa975395b",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260714.gfa975395b...v0.52.0-nightly.20260715.gfa975395b",
+    "sourceLanguage": "en",
+    "contentHash": "e86401b3b705bd307c83529e3bdb94118229ffba515dcbed5a3a245f2b32edb9",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-nightly.20260715.gfa975395b",
+      "bodyEn": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260714.gfa975395b...v0.52.0-nightly.20260715.gfa975395b",
+      "titleZh": "发布 v0.52.0-nightly.20260715.gfa975395b",
+      "bodyZh": "**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260714.gfa975395b...v0.52.0-nightly.20260715.gfa975395b",
+      "sourceHash": "e86401b3b705bd307c83529e3bdb94118229ffba515dcbed5a3a245f2b32edb9",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:09:38.137Z"
     }
   },
   {
@@ -441,6 +785,32 @@
     }
   },
   {
+    "id": "gemini-cli-36893f8d85a66a21",
+    "sourceSlug": "gemini-cli",
+    "externalId": "353520522",
+    "version": "v0.52.0-nightly.20260714.gfa975395b",
+    "channel": "preview",
+    "publishedAt": "2026-07-14T01:27:01.000Z",
+    "collectedAt": "2026-07-19T14:08:04.730Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260714.gfa975395b",
+    "title": "Release v0.52.0-nightly.20260714.gfa975395b",
+    "body": "## What's Changed\n* fix(core): enrich shared project quota limit errors with setup hint by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28391\n* fix(a2a-server): ensure task cancellation aborts execution loop by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28316\n* fix(core): simplify plan mode write policy to support relative paths by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28398\n* feat(core): Bump node google-auth-library version to 10.9.0 by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28385\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260713.gf354eebaf...v0.52.0-nightly.20260714.gfa975395b",
+    "sourceLanguage": "en",
+    "contentHash": "4375c01c43989391603764a388fa5dc2864678cda1c9e8ec725876ce0884ecfb",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-nightly.20260714.gfa975395b",
+      "bodyEn": "## What's Changed\n* fix(core): enrich shared project quota limit errors with setup hint by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28391\n* fix(a2a-server): ensure task cancellation aborts execution loop by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28316\n* fix(core): simplify plan mode write policy to support relative paths by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28398\n* feat(core): Bump node google-auth-library version to 10.9.0 by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28385\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260713.gf354eebaf...v0.52.0-nightly.20260714.gfa975395b",
+      "titleZh": "发布 v0.52.0-nightly.20260714.gfa975395b",
+      "bodyZh": "## 变更内容\n* 修复(核心): 丰富共享项目配额限制错误，添加设置提示 by @amelidev 在 https://github.com/google-gemini/gemini-cli/pull/28391\n* 修复(a2a-server): 确保任务取消中止执行循环 by @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28316\n* 修复(核心): 简化计划模式写入策略以支持相对路径 by @DavidAPierce 在 https://github.com/google-gemini/gemini-cli/pull/28398\n* 特性(核心): 将 node google-auth-library 版本升级至 10.9.0 by @jerrylin3321 在 https://github.com/google-gemini/gemini-cli/pull/28385\n\n\n**完整变更日志**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260713.gf354eebaf...v0.52.0-nightly.20260714.gfa975395b",
+      "sourceHash": "4375c01c43989391603764a388fa5dc2864678cda1c9e8ec725876ce0884ecfb",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:09:40.345Z"
+    }
+  },
+  {
     "id": "codex-d315ba6df82ea9d2",
     "sourceSlug": "codex",
     "externalId": "2026-07-14:Codex CLI 0.144.4",
@@ -492,6 +862,32 @@
       "sourceHash": "533a990b1458e4da21198d472dc00628fdd646fb4135a71ef3114462451f230e",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-19T09:57:48.522Z"
+    }
+  },
+  {
+    "id": "gemini-cli-a4065e36ce5bd209",
+    "sourceSlug": "gemini-cli",
+    "externalId": "352890331",
+    "version": "v0.52.0-nightly.20260713.gf354eebaf",
+    "channel": "preview",
+    "publishedAt": "2026-07-13T01:32:43.000Z",
+    "collectedAt": "2026-07-19T14:08:04.730Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260713.gf354eebaf",
+    "title": "Release v0.52.0-nightly.20260713.gf354eebaf",
+    "body": "## What's Changed\n* fix(privacy): show a clear message when the account has no Code Assist tier by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28304\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260710.ga4c91ce19...v0.52.0-nightly.20260713.gf354eebaf",
+    "sourceLanguage": "en",
+    "contentHash": "52a5eca169bcf42f07578120a20b0715a66ac777fc2df72ca9794874c4a1ec5b",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-nightly.20260713.gf354eebaf",
+      "bodyEn": "## What's Changed\n* fix(privacy): show a clear message when the account has no Code Assist tier by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28304\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260710.ga4c91ce19...v0.52.0-nightly.20260713.gf354eebaf",
+      "titleZh": "发布 v0.52.0-nightly.20260713.gf354eebaf",
+      "bodyZh": "## 变更内容\n* 修复(隐私)：当账户没有 Code Assist 层级时显示清晰消息，由 @ompatel-aiml 在 https://github.com/google-gemini/gemini-cli/pull/28304 提交\n\n\n**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260710.ga4c91ce19...v0.52.0-nightly.20260713.gf354eebaf",
+      "sourceHash": "52a5eca169bcf42f07578120a20b0715a66ac777fc2df72ca9794874c4a1ec5b",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:09:41.904Z"
     }
   },
   {
@@ -628,6 +1024,32 @@
       "sourceHash": "b3cf5632cc3edf6b7290d5bb9202907e040a9d2e5d16b0d2f4b4110af94408cd",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-19T09:58:06.692Z"
+    }
+  },
+  {
+    "id": "gemini-cli-2e61d59585056cb3",
+    "sourceSlug": "gemini-cli",
+    "externalId": "351857206",
+    "version": "v0.52.0-nightly.20260710.ga4c91ce19",
+    "channel": "preview",
+    "publishedAt": "2026-07-10T01:43:08.000Z",
+    "collectedAt": "2026-07-19T14:08:04.730Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260710.ga4c91ce19",
+    "title": "Release v0.52.0-nightly.20260710.ga4c91ce19",
+    "body": "## What's Changed\n* fix(core): strip thoughts from scrubbed history turns and resolve thought leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27971\n* Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216\n* feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163\n* feat(caretaker-egress): implement octokit github action handler for egress service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28303\n* chore(release): bump version to 0.52.0-nightly.20260707.g27a3da3e8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28323\n* Changelog for v0.51.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28320\n* Changelog for v0.50.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28322\n* fix(core-tools): bypass LLM correction for JSON and IPYNB files in write_file and replace by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28223\n* fix(core): use unambiguous previous intent label in fallback summary by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28343\n* feat(caretaker-triage): implement main worker execution loop and egress action publisher by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28306\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260707.g15a9429b6...v0.52.0-nightly.20260710.ga4c91ce19",
+    "sourceLanguage": "en",
+    "contentHash": "7ab3b0f6df6e1f95276d05721d5b784e7e1a1a57c8f4f2fa4ebffc247a22b975",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-nightly.20260710.ga4c91ce19",
+      "bodyEn": "## What's Changed\n* fix(core): strip thoughts from scrubbed history turns and resolve thought leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27971\n* Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216\n* feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163\n* feat(caretaker-egress): implement octokit github action handler for egress service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28303\n* chore(release): bump version to 0.52.0-nightly.20260707.g27a3da3e8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28323\n* Changelog for v0.51.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28320\n* Changelog for v0.50.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28322\n* fix(core-tools): bypass LLM correction for JSON and IPYNB files in write_file and replace by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28223\n* fix(core): use unambiguous previous intent label in fallback summary by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28343\n* feat(caretaker-triage): implement main worker execution loop and egress action publisher by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28306\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260707.g15a9429b6...v0.52.0-nightly.20260710.ga4c91ce19",
+      "titleZh": "发布 v0.52.0-nightly.20260710.ga4c91ce19",
+      "bodyZh": "## 变更内容\n* 修复(核心): 从清理后的对话轮次中剥离思考内容并解决思考泄露问题，由 @amelidev 在 https://github.com/google-gemini/gemini-cli/pull/27971 提交\n* 重构: 从工作区上下文中排除临时 CI 配置文件，由 @DavidAPierce 在 https://github.com/google-gemini/gemini-cli/pull/28216 提交\n* 功能(caretaker-triage): 添加 triage 工作核心基础模块，由 @chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28163 提交\n* 功能(caretaker-egress): 为 egress 服务实现 octokit github action 处理器，由 @chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28303 提交\n* 杂项(发布): 版本号提升至 0.52.0-nightly.20260707.g27a3da3e8，由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28323 提交\n* 变更日志 v0.51.0-preview.0，由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28320 提交\n* 变更日志 v0.50.0，由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28322 提交\n* 修复(核心工具): 在 write_file 和 replace 中绕过 LLM 对 JSON 和 IPYNB 文件的修正，由 @amelidev 在 https://github.com/google-gemini/gemini-cli/pull/28223 提交\n* 修复(核心): 在回退摘要中使用明确的上一个意图标签，由 @amelidev 在 https://github.com/google-gemini/gemini-cli/pull/28343 提交\n* 功能(caretaker-triage): 实现主工作执行循环和 egress 动作发布器，由 @chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28306 提交\n\n\n**完整变更日志**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260707.g15a9429b6...v0.52.0-nightly.20260710.ga4c91ce19",
+      "sourceHash": "7ab3b0f6df6e1f95276d05721d5b784e7e1a1a57c8f4f2fa4ebffc247a22b975",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:09:46.170Z"
     }
   },
   {
@@ -790,6 +1212,32 @@
       "sourceHash": "c01b17101d8e95be0385ce097207bba4a81105cac213c25cebd25ddfdc5db959",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-19T09:58:42.813Z"
+    }
+  },
+  {
+    "id": "gemini-cli-34fd441d6040c3a6",
+    "sourceSlug": "gemini-cli",
+    "externalId": "351092063",
+    "version": "v0.51.0-preview.0",
+    "channel": "preview",
+    "publishedAt": "2026-07-08T17:45:50.000Z",
+    "collectedAt": "2026-07-19T14:08:04.730Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-preview.0",
+    "title": "Release v0.51.0-preview.0",
+    "body": "## What's Changed\n* Changelog for v0.50.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28150\n* Fix no_proxy test by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28131\n* chore(release): bump version to 0.51.0-nightly.20260625.g3fbf93e26 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28151\n* Vertex base url update by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28145\n* fix(security): enforce case-insensitive sensitive path blocklist and vscode hitl by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27966\n* fix(core-tools): resolve defensive path resolution for at-reference files and fix macOS tests by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28053\n* feat(caretaker): implement Cloud Run webhook ingestion service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28015\n* fix(core): resolve symbolic link directory escape in memory import processor by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28233\n* feat(caretaker): egress cloud run service skeleton by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28167\n* fix(sandbox): make ~/.gitconfig read-only in the macOS sandbox by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28221\n* fix(core): preserve escape sequences in string literals for modern models by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28299\n* fix(core): strip thoughts from scrubbed history turns and resolve thought leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27971\n\n## New Contributors\n* @jerrylin3321 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28131\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.50.0-preview.1...v0.51.0-preview.0",
+    "sourceLanguage": "en",
+    "contentHash": "974c20d48e2e01cd1b7e70cc0c2c6fecfb7076f9b8863dd0305368191f698002",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.51.0-preview.0",
+      "bodyEn": "## What's Changed\n* Changelog for v0.50.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28150\n* Fix no_proxy test by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28131\n* chore(release): bump version to 0.51.0-nightly.20260625.g3fbf93e26 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28151\n* Vertex base url update by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28145\n* fix(security): enforce case-insensitive sensitive path blocklist and vscode hitl by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27966\n* fix(core-tools): resolve defensive path resolution for at-reference files and fix macOS tests by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28053\n* feat(caretaker): implement Cloud Run webhook ingestion service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28015\n* fix(core): resolve symbolic link directory escape in memory import processor by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28233\n* feat(caretaker): egress cloud run service skeleton by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28167\n* fix(sandbox): make ~/.gitconfig read-only in the macOS sandbox by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28221\n* fix(core): preserve escape sequences in string literals for modern models by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28299\n* fix(core): strip thoughts from scrubbed history turns and resolve thought leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27971\n\n## New Contributors\n* @jerrylin3321 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28131\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.50.0-preview.1...v0.51.0-preview.0",
+      "titleZh": "发布 v0.51.0-preview.0",
+      "bodyZh": "## 变更内容\n* 由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28150 提交的 v0.50.0-preview.1 的更新日志\n* 由 @jerrylin3321 在 https://github.com/google-gemini/gemini-cli/pull/28131 修复 no_proxy 测试\n* 由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28151 提交的 chore(release): 版本提升至 0.51.0-nightly.20260625.g3fbf93e26\n* 由 @DavidAPierce 在 https://github.com/google-gemini/gemini-cli/pull/28145 更新 Vertex 基础 URL\n* 由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/27966 修复(安全): 强制执行不区分大小写的敏感路径阻止列表和 vscode hitl\n* 由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28053 修复(core-tools): 解决 at-reference 文件的防御性路径解析并修复 macOS 测试\n* 由 @chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28015 新增(caretaker): 实现 Cloud Run webhook 摄取服务\n* 由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28233 修复(core): 解决内存导入处理器中的符号链接目录转义\n* 由 @chadd28 在 https://github.com/google-gemini/gemini-cli/pull/28167 新增(caretaker): 出口 Cloud Run 服务骨架\n* 由 @ompatel-aiml 在 https://github.com/google-gemini/gemini-cli/pull/28221 修复(sandbox): 使 macOS 沙箱中的 ~/.gitconfig 为只读\n* 由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28299 修复(core): 保留现代模型字符串字面量中的转义序列\n* 由 @amelidev 在 https://github.com/google-gemini/gemini-cli/pull/27971 修复(core): 从清理后的历史轮次中剥离思考内容并解决思考泄露问题\n\n## 新贡献者\n* @jerrylin3321 在 https://github.com/google-gemini/gemini-cli/pull/28131 做出了首次贡献\n\n**完整更新日志**: https://github.com/google-gemini/gemini-cli/compare/v0.50.0-preview.1...v0.51.0-preview.0",
+      "sourceHash": "974c20d48e2e01cd1b7e70cc0c2c6fecfb7076f9b8863dd0305368191f698002",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:09:50.481Z"
     }
   },
   {
@@ -1211,7 +1659,18 @@
     "contentHash": "0b544f762d4eff2388d8f452fd13ecfd55e7d5c4735eb1bd01425ca2956d03a2",
     "sourceTopics": [
       "codex-cli"
-    ]
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Codex CLI 0.142.2",
+      "bodyEn": "```bash\n$ npm install -g @openai/codex@0.142.2\n```\n\n## New Features\n\n- MCP tools now use tool search by default when supported, improving tool discovery while preserving compatibility with older models and providers. (#29486)\n\n- macOS authentication clients can honor system proxy, PAC, and WPAD settings when respect_system_proxy is enabled. (#26709)\n\n- Plugins can provide dedicated dark-mode logos through local manifests and remote catalogs. (#29488)\n\n- Apps can display richer safety-buffering UI using server-provided visibility and faster-model metadata. (#29473)\n\n## Bug Fixes\n\n- Remote plugin catalogs now return curated featured-plugin rankings. (#29485)\n\n- Expired Amazon Bedrock credentials now produce actionable recovery guidance instead of a generic authorization error. (#28992)\n\n- Remote stdio MCP servers now accept absolute working directories written in the remote platform’s path format. (#29493)\n\n- Remote HTTP(S) image inputs now return clear model-visible validation errors; inline data URLs and local images remain supported. (#29417, #29419)\n\n- PowerShell commands containing executable AST regions the safety classifier cannot inspect now require approval. (#24092)\n\n- Code Mode now warns when the selected model lacks the required metadata. (#29490)\n\n## Chores\n\n- Updated bundled OpenSSL and esbuild dependencies to patched releases. (#29487, #29489)\n\n- Successful formatter runs are now quiet while failures still show diagnostics. (#29467)\n\n## Changelog\n\nFull Changelog: rust-v0.142.1...rust-v0.142.2\n\n- #28769 Register full CDP requirements feature @syuan-oai\n\n- #29485 [codex] fetch featured IDs for remote plugins @ericning-o\n\n- #29487 Upgrade bundled OpenSSL to 3.6.3 @jif-oai\n\n- #29489 [codex] Update esbuild to 0.28.1 @pakrym-oai\n\n- #29488 [plugins] Add dark-mode logo metadata @drewschuster-openai\n\n- #29249 [codex] migrate environment context to model world state @pakrym-oai\n\n- #29494 core: wrap token budget window context @bolinfest\n\n- #29417 [codex] replace remote images with model-visible error text @rka-oai\n\n- #28360 feat(core): store turn_id on ResponseItem metadata @owenlin0\n\n- #29486 [codex] Use tool search for MCP tools by default @sayan-oai\n\n- #29501 path-uri: clarify host-native path conversion @anp-oai\n\n- #29504 fix: world state response item test @celia-oai\n\n- #26704 TUI Plugin Sharing 4 - cover remote plugin catalog flows @canvrno-oai\n\n- #29419 [codex] reject remote images at app-server ingress @rka-oai\n\n- #28992 chore: improve expired Bedrock credential errors @celia-oai\n\n- #29467 Make formatter output quiet on success @anp-oai\n\n- #26709 PAC 4 - Add macOS system proxy resolver @canvrno-oai\n\n- #29490 chore: warn when Code Mode lacks model metadata @celia-oai\n\n- #29493 mcp: accept foreign absolute cwd for remote stdio @anp-oai\n\n- #29473 Propagate safety buffering treatment metadata @fc-oai\n\n- #24092 [codex] Reject unlowered PowerShell AST regions @bookholt-oai\n\nFull release on Github",
+      "titleZh": "Codex CLI 0.142.2",
+      "bodyZh": "```bash\n$ npm install -g @openai/codex@0.142.2\n```\n\n## 新特性\n\n- MCP 工具现在默认在支持时使用工具搜索，改进了工具发现，同时保持与旧模型和提供商的兼容性。（#29486）\n\n- macOS 认证客户端在启用 respect_system_proxy 时，可以遵循系统代理、PAC 和 WPAD 设置。（#26709）\n\n- 插件可以通过本地清单和远程目录提供专用的深色模式徽标。（#29488）\n\n- 应用可以使用服务器提供的可见性和更快的模型元数据显示更丰富的安全缓冲 UI。（#29473）\n\n## 错误修复\n\n- 远程插件目录现在返回精选的特色插件排名。（#29485）\n\n- 过期的 Amazon Bedrock 凭证现在提供可操作的恢复指南，而不是通用的授权错误。（#28992）\n\n- 远程 stdio MCP 服务器现在接受以远程平台路径格式编写的绝对工作目录。（#29493）\n\n- 远程 HTTP(S) 图像输入现在返回清晰的模型可见验证错误；内联数据 URL 和本地图像仍然支持。（#29417, #29419）\n\n- 包含安全分类器无法检查的可执行 AST 区域的 PowerShell 命令现在需要批准。（#24092）\n\n- 代码模式现在在所选模型缺少所需元数据时发出警告。（#29490）\n\n## 杂项\n\n- 更新了捆绑的 OpenSSL 和 esbuild 依赖项到修补版本。（#29487, #29489）\n\n- 成功的格式化程序运行现在静默，而失败时仍显示诊断信息。（#29467）\n\n## 变更日志\n\n完整变更日志：rust-v0.142.1...rust-v0.142.2\n\n- #28769 注册完整的 CDP 需求功能 @syuan-oai\n\n- #29485 [codex] 为远程插件获取精选 ID @ericning-o\n\n- #29487 将捆绑的 OpenSSL 升级到 3.6.3 @jif-oai\n\n- #29489 [codex] 将 esbuild 更新到 0.28.1 @pakrym-oai\n\n- #29488 [插件] 添加深色模式徽标元数据 @drewschuster-openai\n\n- #29249 [codex] 将环境上下文迁移到模型世界状态 @pakrym-oai\n\n- #29494 核心：包装令牌预算窗口上下文 @bolinfest\n\n- #29417 [codex] 用模型可见的错误文本替换远程图像 @rka-oai\n\n- #28360 功能（核心）：在 ResponseItem 元数据上存储 turn_id @owenlin0\n\n- #29486 [codex] 默认对 MCP 工具使用工具搜索 @sayan-oai\n\n- #29501 path-uri：澄清主机本地路径转换 @anp-oai\n\n- #29504 修复：世界状态响应项测试 @celia-oai\n\n- #26704 TUI 插件共享 4 - 覆盖远程插件目录流程 @canvrno-oai\n\n- #29419 [codex] 在应用服务器入口拒绝远程图像 @rka-oai\n\n- #28992 杂项：改进过期的 Bedrock 凭证错误 @celia-oai\n\n- #29467 使格式化程序输出在成功时静默 @anp-oai\n\n- #26709 PAC 4 - 添加 macOS 系统代理解析器 @canvrno-oai\n\n- #29490 杂项：当代码模式缺少模型元数据时发出警告 @celia-oai\n\n- #29493 mcp：接受远程 stdio 的外部绝对 cwd @anp-oai\n\n- #29473 传播安全缓冲处理元数据 @fc-oai\n\n- #24092 [codex] 拒绝未降低的 PowerShell AST 区域 @bookholt-oai\n\n完整发布在 Github 上",
+      "sourceHash": "0b544f762d4eff2388d8f452fd13ecfd55e7d5c4735eb1bd01425ca2956d03a2",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T14:09:56.939Z"
+    }
   },
   {
     "id": "codex-c3c339686c2d657a",
