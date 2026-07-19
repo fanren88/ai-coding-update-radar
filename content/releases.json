@@ -2186,7 +2186,18 @@
     "body": "- 优化本地数据库异常检测与恢复提示，提升异常恢复稳定性\n\n- 优化会话切换与历史加载稳定性，减少卡死、点不动和历史记录不加载的问题\n\n- 优化自动化过程中的连接器配置下载，减少重复下载和额外流量消耗\n\n- 修复首次启动偶现明显卡顿的问题\n\n- 修复数据库异常恢复后部分任务列表或置顶任务访问不稳定的问题\n\n- 修复专家团输出长内容时可能截断、错乱或工具状态异常的问题\n\n- 修复专家团成员配置异常导致启动黑屏的问题\n\n- 修复错误提示一闪而过的问题，便于完整查看错误信息",
     "sourceLanguage": "zh",
     "contentHash": "7f461a9b29cd5dcf7679998856c17087998eaefb47ccae140839607ebb9e33b8",
-    "sourceTopics": []
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "zh",
+      "targetLanguage": "en",
+      "titleEn": "WorkBuddy 5.0.4",
+      "bodyEn": "- Optimized local database anomaly detection and recovery prompts to improve recovery stability\n\n- Optimized session switching and history loading stability, reducing freezes, unresponsiveness, and history not loading\n\n- Optimized connector configuration download during automation to reduce redundant downloads and extra data usage\n\n- Fixed occasional noticeable lag on first launch\n\n- Fixed unstable access to some task lists or pinned tasks after database anomaly recovery\n\n- Fixed potential truncation, disorder, or abnormal tool state when expert group outputs long content\n\n- Fixed black screen on startup caused by abnormal expert group member configuration\n\n- Fixed error messages flashing too quickly, allowing full error details to be viewed",
+      "titleZh": "WorkBuddy 5.0.4",
+      "bodyZh": "- 优化本地数据库异常检测与恢复提示，提升异常恢复稳定性\n\n- 优化会话切换与历史加载稳定性，减少卡死、点不动和历史记录不加载的问题\n\n- 优化自动化过程中的连接器配置下载，减少重复下载和额外流量消耗\n\n- 修复首次启动偶现明显卡顿的问题\n\n- 修复数据库异常恢复后部分任务列表或置顶任务访问不稳定的问题\n\n- 修复专家团输出长内容时可能截断、错乱或工具状态异常的问题\n\n- 修复专家团成员配置异常导致启动黑屏的问题\n\n- 修复错误提示一闪而过的问题，便于完整查看错误信息",
+      "sourceHash": "7f461a9b29cd5dcf7679998856c17087998eaefb47ccae140839607ebb9e33b8",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T17:38:12.915Z"
+    }
   },
   {
     "id": "codex-22313d2358d2118f",
