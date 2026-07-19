@@ -22,8 +22,8 @@ const codexTopics = [
 ] as const;
 
 const copy = {
-  en: { brand: "Update archive", tools: "Tools", archive: "Archive", changelog: "changelog", empty: "No official updates have been collected for this category yet.", topicsLabel: "Codex update categories", languageLabel: "Language", untranslated: "English translation pending — showing the official Chinese text." },
-  zh: { brand: "更新档案", tools: "工具", archive: "归档", changelog: "更新日志", empty: "这一分类暂时没有收录到官方更新。", topicsLabel: "Codex 更新分类", languageLabel: "语言", untranslated: "中文译文尚未生成，当前显示官方英文原文。" },
+  en: { brand: "Update archive", tools: "Tools", archive: "Archive", changelog: "changelog", empty: "No official updates have been collected for this category yet.", topicsLabel: "Codex update categories", languageLabel: "Language", untranslated: "English translation pending — showing the official Chinese text.", quickNav: "Quick navigation", unversioned: "Unversioned", jumpTo: "Jump to version" },
+  zh: { brand: "更新档案", tools: "工具", archive: "归档", changelog: "更新日志", empty: "这一分类暂时没有收录到官方更新。", topicsLabel: "Codex 更新分类", languageLabel: "语言", untranslated: "中文译文尚未生成，当前显示官方英文原文。", quickNav: "快速导航", unversioned: "未标版本", jumpTo: "跳转到版本" },
 } as const;
 
 type ToolSlug = typeof tools[number]["slug"];
@@ -74,6 +74,26 @@ const archiveLabel = (value: string, language: Language) => {
   return language === "zh" ? `${year}年${Number(month)}月` : monthLabel(value, "en");
 };
 const dateLabel = (value: string) => value.slice(0, 10).replaceAll("-", ".");
+const updateAnchor = (item: ArchiveUpdate) => `update-${item.id}`;
+
+function VersionNavigation({ className, items, language }: { className: string; items: ArchiveUpdate[]; language: Language }) {
+  return (
+    <nav className={className} aria-label={copy[language].quickNav}>
+      <p className="update-version-nav-heading">{copy[language].quickNav}</p>
+      <div className="update-version-list">
+        {items.map((item) => {
+          const version = item.version ?? copy[language].unversioned;
+          return (
+            <a key={item.id} href={`#${updateAnchor(item)}`} className="update-version-link" aria-label={`${copy[language].jumpTo} ${version} (${dateLabel(item.publishedAt)})`}>
+              <span>{version}</span>
+              <time dateTime={item.publishedAt}>{dateLabel(item.publishedAt)}</time>
+            </a>
+          );
+        })}
+      </div>
+    </nav>
+  );
+}
 
 export function CodexArchive({ items }: { items: ArchiveUpdate[] }) {
   const [selectedTool, setSelectedTool] = useState<ToolSlug>("codex");
@@ -181,16 +201,18 @@ export function CodexArchive({ items }: { items: ArchiveUpdate[] }) {
           ) : null}
         </header>
 
+        {selectedItems.length ? <VersionNavigation className="update-version-strip" items={selectedItems} language={language}/> : null}
+
         <div className="update-months" aria-live="polite">
           {grouped.length ? grouped.map(([month, monthItems]) => (
             <section key={month} id={`month-${month}`} className="update-month-section">
               <h2 className="font-editorial">{monthLabel(month, language)}</h2>
               <div className="update-month-rows">
                 {monthItems.map((item) => (
-                  <article key={item.id} className="update-log-row">
+                  <article key={item.id} id={updateAnchor(item)} className="update-log-row">
                     <header className="update-log-meta">
                       <time dateTime={item.publishedAt}>{dateLabel(item.publishedAt)}</time>
-                      <p className="font-editorial">{item.version ?? "未标版本"}</p>
+                      <p className="font-editorial">{item.version ?? copy[language].unversioned}</p>
                     </header>
                     <div className="update-log-content">
                       {(language === "zh" && !item.hasContentZh) || (language === "en" && !item.hasContentEn)
@@ -208,6 +230,12 @@ export function CodexArchive({ items }: { items: ArchiveUpdate[] }) {
         </div>
 
       </main>
+
+      {selectedItems.length ? (
+        <aside className="update-version-rail">
+          <VersionNavigation className="update-version-nav" items={selectedItems} language={language}/>
+        </aside>
+      ) : null}
     </div>
   );
 }

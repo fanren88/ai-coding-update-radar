@@ -17,8 +17,14 @@ test("home, five-tool directory and full official content", async ({ page }) => 
   await expect(page.getByRole("heading", { name: "Claude Code changelog" })).toBeVisible();
   await toolDirectory.getByRole("button", { name: /WorkBuddy/ }).click();
   await expect(page.getByRole("heading", { name: "WorkBuddy changelog" })).toBeVisible();
+  const versionNavigation = page.getByRole("navigation", { name: "Quick navigation" });
+  await expect(versionNavigation).toBeVisible();
+  await versionNavigation.getByRole("link", { name: /Jump to version 5\.1\.7/ }).click();
+  await expect(page).toHaveURL(/#update-workbuddy-/);
+  await expect(page.locator("article:target").getByText("5.1.7", { exact: true })).toBeInViewport();
   await page.getByRole("button", { name: "中文" }).click();
   await expect(page.getByRole("heading", { name: "WorkBuddy 更新日志" })).toBeVisible();
+  await expect(page.getByRole("navigation", { name: "快速导航" })).toBeVisible();
   await expect(page.locator(".update-log-content").getByText(/新增助理配额上限六档套餐文案/)).toBeVisible();
   await page.getByRole("button", { name: "EN" }).click();
   await toolDirectory.getByRole("button", { name: /Codex/ }).click();
