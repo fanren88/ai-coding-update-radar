@@ -15,7 +15,10 @@ test("home, five-tool directory and full official content", async ({ page }) => 
   await expect(page.getByRole("heading", { name: "Claude Code changelog" })).toBeVisible();
   await toolDirectory.getByRole("button", { name: /WorkBuddy/ }).click();
   await expect(page.getByRole("heading", { name: "WorkBuddy changelog" })).toBeVisible();
-  await expect(page.getByText(/新增助理配额上限六档套餐文案/).first()).toBeVisible();
+  await page.getByRole("button", { name: "中文" }).click();
+  await expect(page.getByRole("heading", { name: "WorkBuddy 更新日志" })).toBeVisible();
+  await expect(page.locator(".update-log-content").getByText(/新增助理配额上限六档套餐文案/)).toBeVisible();
+  await page.getByRole("button", { name: "EN" }).click();
   await toolDirectory.getByRole("button", { name: /Codex/ }).click();
   await topicDirectory.getByRole("button", { name: "ChatGPT desktop app" }).click();
   await expect(page.getByText("New features", { exact: true }).first()).toBeVisible();
