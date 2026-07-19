@@ -1767,7 +1767,18 @@
     "body": "Plugins, skills, and MCPs let you customize Cursor for your workflows. The new Customize page brings them into one place. You can now add and manage plugins, skills, MCPs, subagents, rules, commands, and hooks at the user, team, or workspace level, and even bring your own custom MCPs. #Marketplace leaderboard Cursor now shows you a leaderboard of the most popular plugins, skills, and MCPs across your team. Add any to your setup with one click from the new Customize page and extend Cursor for your workflow. #Plugin canvases Plugins now support prebuilt canvases: shared setup templates your team can open and reuse. Use the Hex Canvas to build data visualizations. Use the Atlassian Canvas to see a realtime view of all our issues, projects, and documents. #New Team Marketplaces Team marketplaces now support imports of plugin repositories from GitLab, BitBucket, or Azure DevOps so you easily add plugins and distribute them to your team. Learn more in our docs.",
     "sourceLanguage": "en",
     "contentHash": "feb9d31ff50aaddf4e657019e0a34b920a28971de299095311ce59212e60e1df",
-    "sourceTopics": []
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Customize Cursor",
+      "bodyEn": "Plugins, skills, and MCPs let you customize Cursor for your workflows. The new Customize page brings them into one place. You can now add and manage plugins, skills, MCPs, subagents, rules, commands, and hooks at the user, team, or workspace level, and even bring your own custom MCPs. #Marketplace leaderboard Cursor now shows you a leaderboard of the most popular plugins, skills, and MCPs across your team. Add any to your setup with one click from the new Customize page and extend Cursor for your workflow. #Plugin canvases Plugins now support prebuilt canvases: shared setup templates your team can open and reuse. Use the Hex Canvas to build data visualizations. Use the Atlassian Canvas to see a realtime view of all our issues, projects, and documents. #New Team Marketplaces Team marketplaces now support imports of plugin repositories from GitLab, BitBucket, or Azure DevOps so you easily add plugins and distribute them to your team. Learn more in our docs.",
+      "titleZh": "自定义Cursor",
+      "bodyZh": "插件、技能和MCP让您可以根据工作流程自定义Cursor。新的自定义页面将它们集中在一个地方。您现在可以在用户、团队或工作区级别添加和管理插件、技能、MCP、子代理、规则、命令和钩子，甚至可以引入您自己的自定义MCP。#Marketplace排行榜 Cursor现在会向您展示团队中最受欢迎的插件、技能和MCP的排行榜。从新的自定义页面一键添加到您的设置中，扩展Cursor以适应您的工作流程。#Plugin画布 插件现在支持预构建的画布：您的团队可以打开和重用的共享设置模板。使用Hex画布构建数据可视化。使用Atlassian画布实时查看所有问题、项目和文档。#新的团队市场 团队市场现在支持从GitLab、BitBucket或Azure DevOps导入插件仓库，以便您轻松添加插件并将其分发给团队。在我们的文档中了解更多信息。",
+      "sourceHash": "feb9d31ff50aaddf4e657019e0a34b920a28971de299095311ce59212e60e1df",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-19T15:35:38.247Z"
+    }
   },
   {
     "id": "codex-0315f4e53bc07d75",
