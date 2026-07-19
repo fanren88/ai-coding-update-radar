@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
 import { MessageResponse } from "@/components/ai-elements/message";
 import type { ContentUpdate } from "@/lib/content-schema";
 
@@ -23,8 +22,8 @@ const codexTopics = [
 ] as const;
 
 const copy = {
-  en: { brand: "Update archive", tools: "Tools", archive: "Archive", changelog: "changelog", showMore: "Show more", empty: "No official updates have been collected for this category yet.", topicsLabel: "Codex update categories", languageLabel: "Language", untranslated: "English translation pending — showing the official Chinese text." },
-  zh: { brand: "更新档案", tools: "工具", archive: "归档", changelog: "更新日志", showMore: "显示更多", empty: "这一分类暂时没有收录到官方更新。", topicsLabel: "Codex 更新分类", languageLabel: "语言", untranslated: "中文译文尚未生成，当前显示官方英文原文。" },
+  en: { brand: "Update archive", tools: "Tools", archive: "Archive", changelog: "changelog", empty: "No official updates have been collected for this category yet.", topicsLabel: "Codex update categories", languageLabel: "Language", untranslated: "English translation pending — showing the official Chinese text." },
+  zh: { brand: "更新档案", tools: "工具", archive: "归档", changelog: "更新日志", empty: "这一分类暂时没有收录到官方更新。", topicsLabel: "Codex 更新分类", languageLabel: "语言", untranslated: "中文译文尚未生成，当前显示官方英文原文。" },
 } as const;
 
 type ToolSlug = typeof tools[number]["slug"];
@@ -79,7 +78,6 @@ const dateLabel = (value: string) => value.slice(0, 10).replaceAll("-", ".");
 export function CodexArchive({ items }: { items: ArchiveUpdate[] }) {
   const [selectedTool, setSelectedTool] = useState<ToolSlug>("codex");
   const [selectedTopic, setSelectedTopic] = useState<CodexTopic>("all");
-  const [visibleCount, setVisibleCount] = useState(6);
   const language = useSyncExternalStore(subscribeLanguage, languageSnapshot, serverLanguageSnapshot);
 
   useEffect(() => {
@@ -92,15 +90,14 @@ export function CodexArchive({ items }: { items: ArchiveUpdate[] }) {
     .filter((item) => selectedTool !== "codex" || selectedTopic === "all" || topicFor(item) === selectedTopic)
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)), [items, selectedTool, selectedTopic]);
 
-  const visibleItems = selectedItems.slice(0, visibleCount);
   const grouped = useMemo(() => {
     const months = new Map<string, ArchiveUpdate[]>();
-    for (const item of visibleItems) {
+    for (const item of selectedItems) {
       const month = monthKey(item.publishedAt);
       months.set(month, [...(months.get(month) ?? []), item]);
     }
     return [...months.entries()];
-  }, [visibleItems]);
+  }, [selectedItems]);
 
   const archive = useMemo(() => {
     const months = new Map<string, number>();
@@ -114,14 +111,10 @@ export function CodexArchive({ items }: { items: ArchiveUpdate[] }) {
   const selectTool = (slug: ToolSlug) => {
     setSelectedTool(slug);
     setSelectedTopic("all");
-    setVisibleCount(6);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const selectTopic = (topic: CodexTopic) => {
-    setSelectedTopic(topic);
-    setVisibleCount(6);
-  };
+  const selectTopic = (topic: CodexTopic) => setSelectedTopic(topic);
 
   const selectLanguage = (nextLanguage: Language) => {
     window.localStorage.setItem("devpatch-language", nextLanguage);
@@ -214,11 +207,6 @@ export function CodexArchive({ items }: { items: ArchiveUpdate[] }) {
           )}
         </div>
 
-        {visibleCount < selectedItems.length ? (
-          <button type="button" className="update-show-more" onClick={() => setVisibleCount((count) => count + 6)}>
-            {copy[language].showMore} <ChevronDown className="size-4" aria-hidden="true"/>
-          </button>
-        ) : null}
       </main>
     </div>
   );

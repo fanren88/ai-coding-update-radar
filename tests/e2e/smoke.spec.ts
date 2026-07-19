@@ -5,6 +5,8 @@ test("home, five-tool directory and full official content", async ({ page }) => 
   await expect(page.getByRole("heading", { name: "Codex changelog" })).toBeVisible();
   await expect(page.getByRole("combobox")).toHaveCount(0);
   await expect(page.getByText("全部更新", { exact: true })).toHaveCount(0);
+  await expect(page.getByText("Show more", { exact: true })).toHaveCount(0);
+  await expect(page.getByText("显示更多", { exact: true })).toHaveCount(0);
   await expect(page.getByText("GitHub Copilot", { exact: true })).toHaveCount(0);
   const toolDirectory = page.getByRole("navigation", { name: /工具目录|Tool directory/ });
   await expect(toolDirectory.getByRole("button")).toHaveCount(5);
