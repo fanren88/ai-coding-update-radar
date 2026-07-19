@@ -11,6 +11,7 @@ const tools = [
   { slug: "claude-code", name: "Claude Code", descriptionEn: "Latest updates to Claude Code, Anthropic’s coding agent.", descriptionZh: "Claude Code 的最新官方更新，Anthropic 的编程智能体。" },
   { slug: "cursor", name: "Cursor", descriptionEn: "Latest updates to Cursor, the AI code editor.", descriptionZh: "Cursor 的最新官方更新，面向开发者的 AI 代码编辑器。" },
   { slug: "gemini-cli", name: "Gemini CLI", descriptionEn: "Latest updates to Google’s open-source coding agent.", descriptionZh: "Gemini CLI 的最新官方更新，Google 的开源编程智能体。" },
+  { slug: "workbuddy", name: "WorkBuddy", descriptionEn: "Latest updates to WorkBuddy, Tencent Cloud CodeBuddy’s AI work assistant.", descriptionZh: "WorkBuddy 的最新官方更新，腾讯云 CodeBuddy 的 AI 工作助理。" },
 ] as const;
 
 const codexTopics = [
@@ -22,14 +23,20 @@ const codexTopics = [
 ] as const;
 
 const copy = {
-  en: { brand: "Update archive", tools: "Tools", archive: "Archive", changelog: "changelog", showMore: "Show more", empty: "No official updates have been collected for this category yet.", topicsLabel: "Codex update categories", languageLabel: "Language", untranslated: "Chinese translation pending — showing the official English text." },
+  en: { brand: "Update archive", tools: "Tools", archive: "Archive", changelog: "changelog", showMore: "Show more", empty: "No official updates have been collected for this category yet.", topicsLabel: "Codex update categories", languageLabel: "Language", untranslated: "English translation pending — showing the official Chinese text." },
   zh: { brand: "更新档案", tools: "工具", archive: "归档", changelog: "更新日志", showMore: "显示更多", empty: "这一分类暂时没有收录到官方更新。", topicsLabel: "Codex 更新分类", languageLabel: "语言", untranslated: "中文译文尚未生成，当前显示官方英文原文。" },
 } as const;
 
 type ToolSlug = typeof tools[number]["slug"];
 type CodexTopic = typeof codexTopics[number]["slug"];
 type Language = keyof typeof copy;
-type ArchiveUpdate = ContentUpdate & { fullContentEn: string; fullContentZh: string | null };
+type ArchiveUpdate = ContentUpdate & {
+  sourceLanguage: Language;
+  fullContentEn: string;
+  fullContentZh: string | null;
+  hasContentEn: boolean;
+  hasContentZh: boolean;
+};
 
 const languageEvent = "devpatch-language-change";
 const subscribeLanguage = (onChange: () => void) => {
@@ -193,7 +200,9 @@ export function CodexArchive({ items }: { items: ArchiveUpdate[] }) {
                       <p className="font-editorial">{item.version ?? "未标版本"}</p>
                     </header>
                     <div className="update-log-content">
-                      {language === "zh" && !item.fullContentZh ? <p className="update-translation-pending">{copy.zh.untranslated}</p> : null}
+                      {(language === "zh" && !item.hasContentZh) || (language === "en" && !item.hasContentEn)
+                        ? <p className="update-translation-pending">{copy[language].untranslated}</p>
+                        : null}
                       <MessageResponse className="update-log-evidence">{language === "zh" ? item.fullContentZh ?? item.fullContentEn : item.fullContentEn}</MessageResponse>
                     </div>
                   </article>

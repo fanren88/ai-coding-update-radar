@@ -4,8 +4,13 @@ export const channelSchema = z.enum(["nightly", "preview", "stable", "ga", "unkn
 export const categorySchema = z.enum(["feature", "fix", "security", "billing", "deprecation", "breaking", "model", "other"]);
 export const scopeSchema = z.enum(["cli", "editor", "api", "organization", "all"]);
 export const importanceSchema = z.enum(["must_handle", "worth_trying", "good_to_know"]);
+export const sourceLanguageSchema = z.enum(["en", "zh"]);
 
 export const releaseTranslationSchema = z.object({
+  sourceLanguage: sourceLanguageSchema.default("en"),
+  targetLanguage: sourceLanguageSchema.default("zh"),
+  titleEn: z.string().min(1).nullable().default(null),
+  bodyEn: z.string().min(1).nullable().default(null),
   titleZh: z.string().min(1),
   bodyZh: z.string().min(1),
   sourceHash: z.string().length(64),
@@ -24,6 +29,7 @@ export const releaseSchema = z.object({
   sourceUrl: z.string().url(),
   title: z.string().min(1),
   body: z.string().min(1),
+  sourceLanguage: sourceLanguageSchema.default("en"),
   contentHash: z.string().length(64),
   sourceTopics: z.array(z.string().min(1)).default([]),
   translation: releaseTranslationSchema.nullable().optional(),

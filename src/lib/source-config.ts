@@ -4,5 +4,6 @@ export const UPDATE_SOURCES = [
   { slug: "cursor", tool: "Cursor", vendor: "Anysphere", type: "html", url: "https://www.cursor.com/changelog", officialUrl: "https://www.cursor.com", description: "AI 原生代码编辑器" },
   { slug: "github-copilot", tool: "GitHub Copilot", vendor: "GitHub", type: "rss", url: "https://github.blog/changelog/feed/", officialUrl: "https://github.com/features/copilot", description: "GitHub 的 AI 编程助手" },
   { slug: "gemini-cli", tool: "Gemini CLI", vendor: "Google", type: "github", url: "https://api.github.com/repos/google-gemini/gemini-cli/releases", officialUrl: "https://github.com/google-gemini/gemini-cli", description: "Google 的开源终端 AI 代理" },
+  { slug: "workbuddy", tool: "WorkBuddy", vendor: "腾讯云 CodeBuddy", type: "html", url: "https://www.codebuddy.cn/docs/workbuddy/Changelog", officialUrl: "https://www.codebuddy.cn/docs/workbuddy/Changelog", description: "腾讯云 CodeBuddy 的 AI 工作助理" },
 ] as const;
 export type UpdateSourceSlug = (typeof UPDATE_SOURCES)[number]["slug"]; export const getUpdateSource = (slug: string) => UPDATE_SOURCES.find((x) => x.slug === slug);

@@ -13,6 +13,7 @@ const ALLOWED_HOSTS = new Set([
   "github.blog",
   "api.github.com",
   "github.com",
+  "www.codebuddy.cn",
 ]);
 
 export const hashContent = (value: string) => createHash("sha256").update(value).digest("hex");
@@ -225,12 +226,44 @@ export function parseGeminiCli(result: SourceFetchResult): OfficialRelease[] {
   });
 }
 
+export function parseWorkBuddy(result: SourceFetchResult): OfficialRelease[] {
+  const $ = cheerio.load(result.body);
+  const releases = $("main .vp-doc h2").toArray().flatMap((node) => {
+    const element = $(node);
+    const heading = element.clone().find(".header-anchor").remove().end().text().trim();
+    const version = heading.match(/^(\d+(?:\.\d+){1,3})/)?.[1];
+    const date = heading.match(/[（(](\d{4}-\d{2}-\d{2})[）)]/)?.[1];
+    if (!version || !date || Number.isNaN(Date.parse(date))) return [];
+
+    const bodyHtml = element.nextUntil("h2").toArray().map((sibling) => $.html(sibling)).join("\n");
+    const body = codexArticleToMarkdown(bodyHtml);
+    if (!body) return [];
+
+    const anchor = element.attr("id");
+    const sourceUrl = new URL(anchor ? `#${anchor}` : "", "https://www.codebuddy.cn/docs/workbuddy/Changelog").toString();
+    const title = `WorkBuddy ${version}`;
+    return [{
+      externalId: `${date}:${version}`,
+      version,
+      channel: "stable" as const,
+      publishedAt: new Date(`${date}T00:00:00.000Z`),
+      sourceUrl,
+      title,
+      body,
+      contentHash: releaseHash(title, body),
+    }];
+  });
+
+  return releases.slice(0, 30);
+}
+
 const parsers: Record<UpdateSourceSlug, (result: SourceFetchResult) => OfficialRelease[]> = {
   codex: parseCodex,
   "claude-code": parseClaudeCode,
   cursor: parseCursor,
   "github-copilot": parseCopilotFeed,
   "gemini-cli": parseGeminiCli,
+  workbuddy: parseWorkBuddy,
 };
 
 export function createUpdateAdapter(slug: UpdateSourceSlug): UpdateSourceAdapter {

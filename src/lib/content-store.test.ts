@@ -14,7 +14,8 @@ describe("static content store", () => {
     expect(codex).toHaveLength(30);
     expect(codex[0]).toMatchObject({ version: "0.144.5", sourceTopics: ["codex-cli"] });
     expect(codex[0].sourceUrl).toContain("learn.chatgpt.com/docs/changelog");
-    expect(content.sources).toHaveLength(5);
+    expect(content.sources).toHaveLength(6);
+    expect(content.releases.some((item) => item.sourceSlug === "workbuddy" && item.sourceLanguage === "zh")).toBe(true);
   });
 
   it("writes and reloads content atomically", async () => {

@@ -48,7 +48,12 @@ jobs:
           git commit -m "content: generate weekly coding digest"
           git push
       - name: Trigger Vercel static rebuild
-        if: steps.changes.outputs.changed == 'true' && secrets.VERCEL_DEPLOY_HOOK != ''
+        if: steps.changes.outputs.changed == 'true'
         env:
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
-        run: curl --fail-with-body --retry 3 --retry-all-errors -X POST "$VERCEL_DEPLOY_HOOK"
+        run: |
+          if [ -z "$VERCEL_DEPLOY_HOOK" ]; then
+            echo "VERCEL_DEPLOY_HOOK is not configured; relying on Vercel Git integration."
+            exit 0
+          fi
+          curl --fail-with-body --retry 3 --retry-all-errors -X POST "$VERCEL_DEPLOY_HOOK"

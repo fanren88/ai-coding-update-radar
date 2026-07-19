@@ -3,6 +3,7 @@ import { createUpdateAdapter, hashContent } from "./adapters";
 import { loadContent, saveContent, stableId } from "./content-store";
 import type { ContentBundle, ContentRelease, ContentUpdate, ReviewUpdate, SourceState } from "./content-schema";
 import { UPDATE_SOURCES, getUpdateSource, type UpdateSourceSlug } from "./source-config";
+import { detectSourceLanguage } from "./translator";
 import type { OfficialRelease } from "./types";
 
 export interface CollectOptions {
@@ -62,6 +63,7 @@ function toStoredRelease(slug: UpdateSourceSlug, release: OfficialRelease, colle
     sourceUrl: release.sourceUrl,
     title: release.title,
     body: release.body,
+    sourceLanguage: detectSourceLanguage(`${release.title}\n${release.body}`),
     contentHash: release.contentHash,
     sourceTopics: release.sourceTopics ?? [],
   };

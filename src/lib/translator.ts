@@ -5,8 +5,8 @@ const DEFAULT_MODEL = "deepseek-v4-flash";
 const API_URL = "https://api.deepseek.com/chat/completions";
 
 const translatedContentSchema = z.object({
-  titleZh: z.string().min(1),
-  bodyZh: z.string().min(1),
+  titleTranslated: z.string().min(1),
+  bodyTranslated: z.string().min(1),
 });
 
 const deepSeekResponseSchema = z.object({
@@ -37,8 +37,21 @@ function assertStructurePreserved(source: string, translated: string) {
 
 export const hasDeepSeekCredentials = () => Boolean(process.env.DEEPSEEK_API_KEY);
 
+export function detectSourceLanguage(value: string): "en" | "zh" {
+  const prose = value
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/`[^`\n]+`/g, " ")
+    .replace(/https?:\/\/\S+/g, " ");
+  const hanCount = prose.match(/\p{Script=Han}/gu)?.length ?? 0;
+  const latinCount = prose.match(/[A-Za-z]/g)?.length ?? 0;
+  const languageCharacters = hanCount + latinCount;
+  return hanCount >= 4 && languageCharacters > 0 && hanCount / languageCharacters >= 0.2 ? "zh" : "en";
+}
+
 export const translationIsFresh = (release: ContentRelease) => (
   release.translation?.sourceHash === release.contentHash
+  && release.translation.sourceLanguage === release.sourceLanguage
+  && (release.sourceLanguage === "en" ? Boolean(release.translation.bodyZh) : Boolean(release.translation.bodyEn))
 );
 
 export async function translateRelease(release: ContentRelease, options: TranslateOptions = {}): Promise<ReleaseTranslation> {
@@ -46,6 +59,11 @@ export async function translateRelease(release: ContentRelease, options: Transla
   if (!apiKey) throw new Error("missing_deepseek_api_key");
 
   const model = options.model ?? process.env.DEEPSEEK_MODEL ?? DEFAULT_MODEL;
+  const sourceLanguage = release.sourceLanguage ?? detectSourceLanguage(`${release.title}\n${release.body}`);
+  const targetLanguage = sourceLanguage === "en" ? "zh" : "en";
+  const direction = sourceLanguage === "en"
+    ? "把输入中的普通英文完整翻译成自然、简洁的中文"
+    : "Translate all ordinary Chinese content into concise, natural English";
   const request = options.fetchImpl ?? fetch;
   const response = await request(API_URL, {
     method: "POST",
@@ -59,11 +77,11 @@ export async function translateRelease(release: ContentRelease, options: Transla
         {
           role: "system",
           content: [
-            "你是严谨的 AI 编程工具更新日志译者。",
-            "把输入中的普通英文完整翻译成自然、简洁的中文，不要总结、删减或增加信息。",
-            "保留产品名、App 名、公司名、模型名、API、CLI、PR、Markdown、macOS、Windows、GitHub、版本号、命令、参数、文件路径和代码为英文。",
-            "必须原样保留 Markdown 标题层级、列表数量与顺序、代码块和行内代码。",
-            "只返回 JSON，格式为 {\"titleZh\":\"...\",\"bodyZh\":\"...\"}。",
+            "You are a precise translator for AI coding-tool release notes.",
+            `${direction}. Do not summarize, omit, or add information.`,
+            "Keep product names, app names, company names, model names, API, CLI, PR, Markdown, macOS, Windows, GitHub, versions, commands, parameters, file paths, and code in their established English form.",
+            "Preserve Markdown heading levels, list count and order, fenced code blocks, and inline code exactly.",
+            "Return JSON only: {\"titleTranslated\":\"...\",\"bodyTranslated\":\"...\"}.",
           ].join("\n"),
         },
         {
@@ -87,10 +105,15 @@ export async function translateRelease(release: ContentRelease, options: Transla
   if (!choice.message.content) throw new Error("deepseek_empty_output");
 
   const translated = translatedContentSchema.parse(JSON.parse(choice.message.content));
-  assertStructurePreserved(release.body, translated.bodyZh);
+  assertStructurePreserved(release.body, translated.bodyTranslated);
 
   return {
-    ...translated,
+    sourceLanguage,
+    targetLanguage,
+    titleEn: sourceLanguage === "en" ? release.title : translated.titleTranslated,
+    bodyEn: sourceLanguage === "en" ? release.body : translated.bodyTranslated,
+    titleZh: sourceLanguage === "zh" ? release.title : translated.titleTranslated,
+    bodyZh: sourceLanguage === "zh" ? release.body : translated.bodyTranslated,
     sourceHash: release.contentHash,
     model: payload.model || model,
     translatedAt: new Date().toISOString(),
