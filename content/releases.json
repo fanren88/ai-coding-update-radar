@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-3bc650d1a80c6081",
+    "sourceSlug": "gemini-cli",
+    "externalId": "356467002",
+    "version": "v0.52.0-nightly.20260720.gacae7124b",
+    "channel": "preview",
+    "publishedAt": "2026-07-20T01:26:23.000Z",
+    "collectedAt": "2026-07-20T04:25:22.764Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260720.gacae7124b",
+    "title": "Release v0.52.0-nightly.20260720.gacae7124b",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260719.gacae7124b...v0.52.0-nightly.20260720.gacae7124b",
+    "sourceLanguage": "en",
+    "contentHash": "a6c44a9a7952b7616bc13624cac135ca3040b065653b1582bbfc2996c525ee79",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-nightly.20260720.gacae7124b",
+      "bodyEn": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260719.gacae7124b...v0.52.0-nightly.20260720.gacae7124b",
+      "titleZh": "发布 v0.52.0-nightly.20260720.gacae7124b",
+      "bodyZh": "**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260719.gacae7124b...v0.52.0-nightly.20260720.gacae7124b",
+      "sourceHash": "a6c44a9a7952b7616bc13624cac135ca3040b065653b1582bbfc2996c525ee79",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-20T04:25:25.549Z"
+    }
+  },
+  {
     "id": "claude-code-ae24ebf6d536edcf",
     "sourceSlug": "claude-code",
     "externalId": "2.1.215",
