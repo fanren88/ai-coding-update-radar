@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-80bba25e13259f42",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-20T16:00:14.000Z",
+    "collectedAt": "2026-07-20T18:31:38.033Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+    "title": "Copilot users can now see AI credits used per billing cycle",
+    "body": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage… The post Copilot users can now see AI credits used per billing cycle appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "b3dec0041e80ddb20a28ec3dfc30d5f4658993d731e6721554f94c63ab614853",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Copilot users can now see AI credits used per billing cycle",
+      "bodyEn": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage… The post Copilot users can now see AI credits used per billing cycle appeared first on The GitHub Blog.",
+      "titleZh": "Copilot 用户现可查看每个计费周期使用的 AI 积分",
+      "bodyZh": "Copilot Business 和 Copilot Enterprise 用户现在可以查看当前计费周期内已使用的 AI 积分数量，即使没有个人预算。您可以在 GitHub Copilot 使用情况中找到此信息……本文《Copilot 用户现可查看每个计费周期使用的 AI 积分》最初发布于 The GitHub Blog。",
+      "sourceHash": "b3dec0041e80ddb20a28ec3dfc30d5f4658993d731e6721554f94c63ab614853",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-20T18:31:44.630Z"
+    }
+  },
+  {
     "id": "gemini-cli-3bc650d1a80c6081",
     "sourceSlug": "gemini-cli",
     "externalId": "356467002",
