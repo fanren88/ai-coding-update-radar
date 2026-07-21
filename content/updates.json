@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-79f3503520cccf6d-3fd71ffb0b965264",
+    "releaseId": "gemini-cli-79f3503520cccf6d",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.52.0-nightly.20260721.gacae7124b",
+    "what": "官方发布了「Release v0.52.0-nightly.20260721.gacae7124b」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.52.0-nightly.20260721.gacae7124b",
+    "publishedAt": "2026-07-21T01:26:19.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260721.gacae7124b",
+    "evidence": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260720.gacae7124b...v0.52.0-nightly.20260721.gacae7124b",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-e8834b979edf2352-2f83a734c5109801",
     "releaseId": "claude-code-e8834b979edf2352",
     "toolSlug": "claude-code",
