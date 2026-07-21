@@ -546,7 +546,18 @@
     "body": "Cursor in Slack now shares a plan before it starts, runs in multi-repo environments, and can work across channels and threads. #Interaction improvements Cursor now responds with a plan before it begins, so you can jump in and redirect early. As it works, it updates its status so you can follow each step. We also refined how Cursor's responses look in Slack. In-message buttons are gone, replaced by compact footer links. Tables, PRs, and artifacts now render more cleanly. #Multi-repo environment support From Slack, Cursor can now start in a named multi-repo environment instead of a single default repository. If your frontend, backend, and shared code live in separate repos, Cursor reads your request and targets the environment that gives it access to all of them. Mid-task, when Cursor needs a repo outside the current environment, it prompts you with a Switch repository button. Click it, choose the repo or environment, and Cursor picks up right where it left off. #Cross-channel workflows Cursor can now read from and send messages to other Slack channels and threads. During a task, it can pull context from elsewhere in the workspace and post updates back in the original thread or the relevant channel. Learn more in our Slack docs.",
     "sourceLanguage": "en",
     "contentHash": "7808fc289a8e735f2a1c7f7d7b7225b590043ad8d850311dc7cb78b11495b32e",
-    "sourceTopics": []
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Improvements to Cursor in Slack",
+      "bodyEn": "Cursor in Slack now shares a plan before it starts, runs in multi-repo environments, and can work across channels and threads. #Interaction improvements Cursor now responds with a plan before it begins, so you can jump in and redirect early. As it works, it updates its status so you can follow each step. We also refined how Cursor's responses look in Slack. In-message buttons are gone, replaced by compact footer links. Tables, PRs, and artifacts now render more cleanly. #Multi-repo environment support From Slack, Cursor can now start in a named multi-repo environment instead of a single default repository. If your frontend, backend, and shared code live in separate repos, Cursor reads your request and targets the environment that gives it access to all of them. Mid-task, when Cursor needs a repo outside the current environment, it prompts you with a Switch repository button. Click it, choose the repo or environment, and Cursor picks up right where it left off. #Cross-channel workflows Cursor can now read from and send messages to other Slack channels and threads. During a task, it can pull context from elsewhere in the workspace and post updates back in the original thread or the relevant channel. Learn more in our Slack docs.",
+      "titleZh": "Cursor 在 Slack 中的改进",
+      "bodyZh": "Cursor 在 Slack 中现在会在开始前分享计划，支持多仓库环境，并且可以跨频道和线程工作。\n#交互改进\nCursor 现在会在开始前回复一个计划，这样你可以提前介入并调整方向。在它工作时，会更新状态以便你跟踪每一步。我们还优化了 Cursor 在 Slack 中的回复样式。消息内按钮已被移除，取而代之的是紧凑的页脚链接。表格、PR 和工件现在渲染得更清晰。\n#多仓库环境支持\n从 Slack 中，Cursor 现在可以在指定的多仓库环境中启动，而不是单个默认仓库。如果你的前端、后端和共享代码位于不同的仓库中，Cursor 会读取你的请求并定位到能够访问所有这些仓库的环境。在任务进行中，当 Cursor 需要当前环境之外的仓库时，它会提示你点击“切换仓库”按钮。点击后，选择仓库或环境，Cursor 会从断点处继续工作。\n#跨频道工作流\nCursor 现在可以读取其他 Slack 频道和线程的消息，并向它们发送消息。在任务期间，它可以从工作区的其他地方获取上下文，并将更新发布回原始线程或相关频道。更多信息请参阅我们的 Slack 文档。",
+      "sourceHash": "7808fc289a8e735f2a1c7f7d7b7225b590043ad8d850311dc7cb78b11495b32e",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-21T07:16:57.646Z"
+    }
   },
   {
     "id": "gemini-cli-9996a35d1c496473",
