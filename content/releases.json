@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-f0fd03ce4ba730e6",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-22T16:21:47.000Z",
+    "collectedAt": "2026-07-22T17:51:29.129Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
+    "title": "New Copilot usage metrics impact dashboard",
+    "body": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is… The post New Copilot usage metrics impact dashboard appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "7cb841c15506758894d6624cb4371c17c474d9d9d8d2ee674e1604b96a3b02b3",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "New Copilot usage metrics impact dashboard",
+      "bodyEn": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is… The post New Copilot usage metrics impact dashboard appeared first on The GitHub Blog.",
+      "titleZh": "新的 Copilot 使用指标影响仪表板",
+      "bodyZh": "我们为企业管理者和组织所有者发布了一个新的 Copilot 指标影响仪表板。该仪表板通过分享不仅仅是哪些人在使用 Copilot，帮助您讲述更深入的 Copilot 影响故事……这篇文章《新的 Copilot 使用指标影响仪表板》最初出现在 GitHub 博客上。",
+      "sourceHash": "7cb841c15506758894d6624cb4371c17c474d9d9d8d2ee674e1604b96a3b02b3",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-22T17:51:32.536Z"
+    }
+  },
+  {
     "id": "gemini-cli-8438c3bb9643c2f1",
     "sourceSlug": "gemini-cli",
     "externalId": "357727499",
@@ -23,6 +49,32 @@
       "sourceHash": "256d6e16eeee2513bbb4678bd22b6af3e8e43f869fd5826c3e649221e4f025d9",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-22T03:59:54.181Z"
+    }
+  },
+  {
+    "id": "cursor-655e5e42d31c013e",
+    "sourceSlug": "cursor",
+    "externalId": "/changelog/router",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-22T00:00:00.000Z",
+    "collectedAt": "2026-07-22T17:51:29.048Z",
+    "sourceUrl": "https://cursor.com/changelog/router",
+    "title": "Cursor Router",
+    "body": "Auto mode is now powered by Cursor Router. Cursor Router is our intelligent model router. It analyzes each request and sends it to the right model for the job. Frontier models handle work that demands them. Price-efficient models handle the rest. #Optimization modes Select Auto, then choose how the router optimizes: Intelligence: Frontier quality, matching the most expensive and powerful models that might be out of reach for daily use. Balance: Strong quality, matching the frontier models that most people like to daily drive. Cost: Good quality, reaching the highest available intelligence while optimizing token spend. Balance and Intelligence bill at the routed model’s rate. Each mode moves you along the cost-intelligence pareto frontier. #Admin controls Admins can enable the router per team or group, restrict which optimization modes members can use, set the default mode, and allow or block underlying models. Cursor Router is available across desktop, web, iOS, CLI, and our SDK. It is on by default for Teams plans. Enterprise admins can enable it from the dashboard. Learn more in our announcement and docs. Improvements↓↑ Per-request classification by task type and complexity Optimization modes: Cost, Balance, and Intelligence Admin controls: per-team and per-group enablement, mode restrictions, default mode, and model allow and block lists Routed model can be displayed or hidden (hidden by default) Soft and hard enforcement options for standardizing on Auto Grok 4.5 required as a price-efficient routing option",
+    "sourceLanguage": "en",
+    "contentHash": "9f4da48aa220872f3bdb167f85ed0a54e9e1b64b19623ce4ed7e32e5894704ad",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Cursor Router",
+      "bodyEn": "Auto mode is now powered by Cursor Router. Cursor Router is our intelligent model router. It analyzes each request and sends it to the right model for the job. Frontier models handle work that demands them. Price-efficient models handle the rest. #Optimization modes Select Auto, then choose how the router optimizes: Intelligence: Frontier quality, matching the most expensive and powerful models that might be out of reach for daily use. Balance: Strong quality, matching the frontier models that most people like to daily drive. Cost: Good quality, reaching the highest available intelligence while optimizing token spend. Balance and Intelligence bill at the routed model’s rate. Each mode moves you along the cost-intelligence pareto frontier. #Admin controls Admins can enable the router per team or group, restrict which optimization modes members can use, set the default mode, and allow or block underlying models. Cursor Router is available across desktop, web, iOS, CLI, and our SDK. It is on by default for Teams plans. Enterprise admins can enable it from the dashboard. Learn more in our announcement and docs. Improvements↓↑ Per-request classification by task type and complexity Optimization modes: Cost, Balance, and Intelligence Admin controls: per-team and per-group enablement, mode restrictions, default mode, and model allow and block lists Routed model can be displayed or hidden (hidden by default) Soft and hard enforcement options for standardizing on Auto Grok 4.5 required as a price-efficient routing option",
+      "titleZh": "Cursor Router",
+      "bodyZh": "自动模式现在由 Cursor Router 驱动。Cursor Router 是我们的智能模型路由器。它分析每个请求并将其发送到适合该任务的模型。前沿模型处理需要它们的工作。价格高效的模型处理其余部分。#优化模式 选择自动，然后选择路由器如何优化：智能：前沿质量，匹配最昂贵和最强大的模型，这些模型可能日常使用难以企及。平衡：强质量，匹配大多数人日常使用的前沿模型。成本：良好质量，达到可用的最高智能，同时优化 token 消耗。平衡和智能按路由模型的费率计费。每种模式都会让你沿着成本-智能帕累托前沿移动。#管理员控制 管理员可以为每个团队或组启用路由器，限制成员可以使用的优化模式，设置默认模式，并允许或阻止底层模型。Cursor Router 可在桌面、Web、iOS、CLI 和我们的 SDK 上使用。对于 Teams 计划，它默认开启。企业管理员可以从仪表板启用它。在我们的公告和文档中了解更多。改进↓↑ 按任务类型和复杂度的逐请求分类 优化模式：成本、平衡和智能 管理员控制：按团队和组启用、模式限制、默认模式以及模型允许和阻止列表 路由模型可以显示或隐藏（默认隐藏） 软性和硬性强制选项以标准化自动模式 Grok 4.5 作为价格高效的路由选项是必需的",
+      "sourceHash": "9f4da48aa220872f3bdb167f85ed0a54e9e1b64b19623ce4ed7e32e5894704ad",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-22T17:51:36.344Z"
     }
   },
   {
