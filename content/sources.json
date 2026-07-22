@@ -11,10 +11,10 @@
   {
     "slug": "claude-code",
     "status": "healthy",
-    "lastSuccessAt": "2026-07-21T21:43:16.572Z",
+    "lastSuccessAt": "2026-07-22T21:40:47.683Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"60e24d2fc2c9b7339de0604a0bf8ac59de4fbb293f6b20e1a989dbe942d28d55\"",
-    "lastContentHash": "3e896f82454f1898f4d599de1476aad76427d45823169355f74e71bb27ce2e81",
+    "etag": "W/\"72232661e1892d851dbc39c986b4c476e8d5c31bf5188104d4901fd7f3ee4b99\"",
+    "lastContentHash": "0d3a657f2ecebd3fb2d1d0a0020500a4af770cb2702bcdd847e964173100a729",
     "lastError": null
   },
   {
@@ -38,10 +38,10 @@
   {
     "slug": "gemini-cli",
     "status": "healthy",
-    "lastSuccessAt": "2026-07-22T03:59:51.696Z",
+    "lastSuccessAt": "2026-07-22T21:40:48.613Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"490ca38779a9556139d47348e6bb1293ee9eb396517a74ce8d6b8e869baea7fa\"",
-    "lastContentHash": "18f8afa68ef71ada8668b921f05984ea1a456b428e602d9d3c9299a6ff30730c",
+    "etag": "W/\"9c2f35a99f8daaa747228d069910b06e8bb330cc4ffe7b6c038f5128b1d24176\"",
+    "lastContentHash": "ce5454836bd89a808483840a0779dc0611bdf780802c15e5753a44df72b87519",
     "lastError": null
   },
   {
