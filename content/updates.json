@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-8438c3bb9643c2f1-2814be365e4daa38",
+    "releaseId": "gemini-cli-8438c3bb9643c2f1",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.52.0-nightly.20260722.gc776c665b",
+    "what": "官方发布了「Release v0.52.0-nightly.20260722.gc776c665b」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.52.0-nightly.20260722.gc776c665b",
+    "publishedAt": "2026-07-22T01:26:45.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260722.gc776c665b",
+    "evidence": "## What's Changed\n* fix(a2a-server): enforce workspace trust and task isolation to prevent RCE by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28470\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260721.gacae7124b...v0.52.0-nightly.20260722.gc776c665b",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-b28b33e1e429811e-c51bb9e9af7121df",
     "releaseId": "claude-code-b28b33e1e429811e",
     "toolSlug": "claude-code",

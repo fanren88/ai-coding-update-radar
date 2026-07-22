@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-8438c3bb9643c2f1",
+    "sourceSlug": "gemini-cli",
+    "externalId": "357727499",
+    "version": "v0.52.0-nightly.20260722.gc776c665b",
+    "channel": "preview",
+    "publishedAt": "2026-07-22T01:26:45.000Z",
+    "collectedAt": "2026-07-22T03:59:51.696Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260722.gc776c665b",
+    "title": "Release v0.52.0-nightly.20260722.gc776c665b",
+    "body": "## What's Changed\n* fix(a2a-server): enforce workspace trust and task isolation to prevent RCE by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28470\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260721.gacae7124b...v0.52.0-nightly.20260722.gc776c665b",
+    "sourceLanguage": "en",
+    "contentHash": "256d6e16eeee2513bbb4678bd22b6af3e8e43f869fd5826c3e649221e4f025d9",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-nightly.20260722.gc776c665b",
+      "bodyEn": "## What's Changed\n* fix(a2a-server): enforce workspace trust and task isolation to prevent RCE by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28470\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260721.gacae7124b...v0.52.0-nightly.20260722.gc776c665b",
+      "titleZh": "发布 v0.52.0-nightly.20260722.gc776c665b",
+      "bodyZh": "## 变更内容\n* 修复(a2a-server): 强制工作区信任和任务隔离以防止RCE，由 @luisfelipe-alt 提交于 https://github.com/google-gemini/gemini-cli/pull/28470\n\n\n**完整变更日志**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260721.gacae7124b...v0.52.0-nightly.20260722.gc776c665b",
+      "sourceHash": "256d6e16eeee2513bbb4678bd22b6af3e8e43f869fd5826c3e649221e4f025d9",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-22T03:59:54.181Z"
+    }
+  },
+  {
     "id": "claude-code-b28b33e1e429811e",
     "sourceSlug": "claude-code",
     "externalId": "2.1.217",
