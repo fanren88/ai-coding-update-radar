@@ -225,6 +225,34 @@
     }
   },
   {
+    "id": "codex-60fe7615dfc1a26d",
+    "sourceSlug": "codex",
+    "externalId": "2026-07-20:ChatGPT for iOS 1.2026.195",
+    "version": "1.2026.195",
+    "channel": "stable",
+    "publishedAt": "2026-07-20T00:00:00.000Z",
+    "collectedAt": "2026-07-22T14:37:05.327Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-20-mobile",
+    "title": "ChatGPT for iOS 1.2026.195",
+    "body": "## New features\n\n- Added support for rendering Mermaid diagrams inline in task transcripts.\n\n- Added support for interactive forms in Codex tasks.\n\n- Added support for restoring unsent prompts when switching between tasks, hosts, and workspaces.\n\n## Improvements and bug fixes\n\n- Improved task lists to sort by recent activity and show unavailable hosts when creating a task.\n\n- Improved the composer with selected-text previews and smoother new-task transitions.\n\n- Improved goals with support for resuming blocked or usage-limited runs.\n\n- Improved plan progress, Fast controls, and inline dictation.\n\n- Improved Remote onboarding, composer guidance, and iPad navigation.\n\n- Fixed an issue that could close the app when duplicate task-list entries appeared while starting a task.\n\n- Fixed iOS 18 task actions and task-list styling.\n\n- Fixed composer spacing, attachment menu padding, and duplicate transcription indicators.",
+    "sourceLanguage": "en",
+    "contentHash": "13a937566703bb159b0c8e2b5f0b5fa201883ec98b2581c2ae661141378a026f",
+    "sourceTopics": [
+      "codex-mobile"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "ChatGPT for iOS 1.2026.195",
+      "bodyEn": "## New features\n\n- Added support for rendering Mermaid diagrams inline in task transcripts.\n\n- Added support for interactive forms in Codex tasks.\n\n- Added support for restoring unsent prompts when switching between tasks, hosts, and workspaces.\n\n## Improvements and bug fixes\n\n- Improved task lists to sort by recent activity and show unavailable hosts when creating a task.\n\n- Improved the composer with selected-text previews and smoother new-task transitions.\n\n- Improved goals with support for resuming blocked or usage-limited runs.\n\n- Improved plan progress, Fast controls, and inline dictation.\n\n- Improved Remote onboarding, composer guidance, and iPad navigation.\n\n- Fixed an issue that could close the app when duplicate task-list entries appeared while starting a task.\n\n- Fixed iOS 18 task actions and task-list styling.\n\n- Fixed composer spacing, attachment menu padding, and duplicate transcription indicators.",
+      "titleZh": "ChatGPT for iOS 1.2026.195",
+      "bodyZh": "## 新功能\n\n- 新增在任务记录中内联渲染 Mermaid 图表的功能。\n\n- 新增在 Codex 任务中支持交互式表单的功能。\n\n- 新增在切换任务、主机和工作区时恢复未发送提示词的功能。\n\n## 改进与错误修复\n\n- 改进了任务列表，按最近活动排序，并在创建任务时显示不可用的主机。\n\n- 改进了编辑器，增加了选中文本预览和更流畅的新任务切换。\n\n- 改进了目标，支持恢复被阻止或使用受限的运行。\n\n- 改进了计划进度、快速控制以及内联听写。\n\n- 改进了远程引导、编辑器指导和 iPad 导航。\n\n- 修复了启动任务时重复任务列表条目可能导致应用关闭的问题。\n\n- 修复了 iOS 18 的任务操作和任务列表样式。\n\n- 修复了编辑器间距、附件菜单内边距以及重复转录指示器的问题。",
+      "sourceHash": "13a937566703bb159b0c8e2b5f0b5fa201883ec98b2581c2ae661141378a026f",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-22T14:37:22.787Z"
+    }
+  },
+  {
     "id": "claude-code-ae24ebf6d536edcf",
     "sourceSlug": "claude-code",
     "externalId": "2.1.215",

@@ -191,6 +191,29 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-60fe7615dfc1a26d-052a874e2b8cc6ba",
+    "releaseId": "codex-60fe7615dfc1a26d",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "ChatGPT for iOS 1.2026.195",
+    "what": "官方发布了「ChatGPT for iOS 1.2026.195」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "1.2026.195",
+    "publishedAt": "2026-07-20T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-20-mobile",
+    "evidence": "Added support for rendering Mermaid diagrams inline in task transcripts.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-mobile"
+    ]
+  },
+  {
     "id": "claude-code-ae24ebf6d536edcf-cca16afbdcd830af",
     "releaseId": "claude-code-ae24ebf6d536edcf",
     "toolSlug": "claude-code",
