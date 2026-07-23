@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-33b9ff4345110802-702a3a3ae66af993",
+    "releaseId": "gemini-cli-33b9ff4345110802",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.52.0-nightly.20260723.g9681621c6",
+    "what": "官方发布了「Release v0.52.0-nightly.20260723.g9681621c6」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.52.0-nightly.20260723.g9681621c6",
+    "publishedAt": "2026-07-23T01:30:36.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260723.g9681621c6",
+    "evidence": "## What's Changed\n* fix(core): sequentially verify cached credentials and restore GOOGLE_APPLICATION_CREDENTIALS fallback by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28472\n* feat(evals): add eval coverage report command by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28169\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260722.gc776c665b...v0.52.0-nightly.20260723.g9681621c6",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-58d7b5c1b021982c-287029ba35823a17",
     "releaseId": "claude-code-58d7b5c1b021982c",
     "toolSlug": "claude-code",

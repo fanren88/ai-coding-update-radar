@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-33b9ff4345110802",
+    "sourceSlug": "gemini-cli",
+    "externalId": "358409208",
+    "version": "v0.52.0-nightly.20260723.g9681621c6",
+    "channel": "preview",
+    "publishedAt": "2026-07-23T01:30:36.000Z",
+    "collectedAt": "2026-07-23T03:57:31.288Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260723.g9681621c6",
+    "title": "Release v0.52.0-nightly.20260723.g9681621c6",
+    "body": "## What's Changed\n* fix(core): sequentially verify cached credentials and restore GOOGLE_APPLICATION_CREDENTIALS fallback by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28472\n* feat(evals): add eval coverage report command by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28169\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260722.gc776c665b...v0.52.0-nightly.20260723.g9681621c6",
+    "sourceLanguage": "en",
+    "contentHash": "7fc977836151d72efe4f724085389307d4154ab896ca48a318eac5d735c88766",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.52.0-nightly.20260723.g9681621c6",
+      "bodyEn": "## What's Changed\n* fix(core): sequentially verify cached credentials and restore GOOGLE_APPLICATION_CREDENTIALS fallback by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28472\n* feat(evals): add eval coverage report command by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28169\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260722.gc776c665b...v0.52.0-nightly.20260723.g9681621c6",
+      "titleZh": "发布 v0.52.0-nightly.20260723.g9681621c6",
+      "bodyZh": "## 变更内容\n* 修复(核心): 按顺序验证缓存的凭据并恢复 GOOGLE_APPLICATION_CREDENTIALS 回退，由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28472 提交\n* 功能(评估): 添加评估覆盖率报告命令，由 @ved015 在 https://github.com/google-gemini/gemini-cli/pull/28169 提交\n\n\n**完整变更日志**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260722.gc776c665b...v0.52.0-nightly.20260723.g9681621c6",
+      "sourceHash": "7fc977836151d72efe4f724085389307d4154ab896ca48a318eac5d735c88766",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-23T03:57:34.790Z"
+    }
+  },
+  {
     "id": "claude-code-58d7b5c1b021982c",
     "sourceSlug": "claude-code",
     "externalId": "2.1.218",
