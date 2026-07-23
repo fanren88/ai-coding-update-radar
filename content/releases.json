@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-fca8d05549f9f5aa",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-23T22:32:23.000Z",
+    "collectedAt": "2026-07-23T23:32:24.478Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+    "title": "Copilot cloud agent for Linear is now generally available",
+    "body": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents… The post Copilot cloud agent for Linear is now generally available appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "ee222723ea91cdaf175ef4d499c818c511bc0b59289e416a6bdb01fd40ca4596",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Copilot cloud agent for Linear is now generally available",
+      "bodyEn": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents… The post Copilot cloud agent for Linear is now generally available appeared first on The GitHub Blog.",
+      "titleZh": "Copilot 云代理现已正式支持 Linear",
+      "bodyZh": "您现在可以将 Linear 中的问题分配给 Copilot 云代理，这是一个异步、自主的后台代理。当您将 Linear 问题分配给 Copilot 时，它将：分析问题内容……此文章《Copilot 云代理现已正式支持 Linear》最初出现在 GitHub 博客上。",
+      "sourceHash": "ee222723ea91cdaf175ef4d499c818c511bc0b59289e416a6bdb01fd40ca4596",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-23T23:32:27.830Z"
+    }
+  },
+  {
     "id": "github-copilot-2f41a0c9f12793e5",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",

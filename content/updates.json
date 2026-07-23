@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-fca8d05549f9f5aa-51fe815552d0af54",
+    "releaseId": "github-copilot-fca8d05549f9f5aa",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Copilot cloud agent for Linear is now generally available",
+    "what": "官方发布了「Copilot cloud agent for Linear is now generally available」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-07-23T22:32:23.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+    "evidence": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-2f41a0c9f12793e5-db6ee401c273bbf4",
     "releaseId": "github-copilot-2f41a0c9f12793e5",
     "toolSlug": "github-copilot",
