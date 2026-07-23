@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-2f41a0c9f12793e5-db6ee401c273bbf4",
+    "releaseId": "github-copilot-2f41a0c9f12793e5",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
+    "what": "官方发布了「GitHub Mobile: Fix failing Actions checks with Copilot cloud agent」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-07-23T19:47:58.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
+    "evidence": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-33b9ff4345110802-702a3a3ae66af993",
     "releaseId": "gemini-cli-33b9ff4345110802",
     "toolSlug": "gemini-cli",
@@ -19,6 +40,29 @@
     "evidence": "## What's Changed\n* fix(core): sequentially verify cached credentials and restore GOOGLE_APPLICATION_CREDENTIALS fallback by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28472\n* feat(evals): add eval coverage report command by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28169\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260722.gc776c665b...v0.52.0-nightly.20260723.g9681621c6",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-a836c627f7323fde-9d6aee08a7b55630",
+    "releaseId": "codex-a836c627f7323fde",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "ChatGPT Voice and multi-folder projects 26.715",
+    "what": "官方发布了「ChatGPT Voice and multi-folder projects 26.715」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "26.715",
+    "publishedAt": "2026-07-23T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-23-app",
+    "evidence": "Powered by GPT-Live, ChatGPT Voice lets you talk through work and coordinate tasks in Chat, Work, and Codex in the ChatGPT desktop app.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-app"
+    ]
   },
   {
     "id": "claude-code-58d7b5c1b021982c-287029ba35823a17",

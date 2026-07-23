@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-2f41a0c9f12793e5",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-23T19:47:58.000Z",
+    "collectedAt": "2026-07-23T19:58:13.667Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
+    "title": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
+    "body": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed… The post GitHub Mobile: Fix failing Actions checks with Copilot cloud agent appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "12ce2d550eb3f7d4a075cec92d54af5e370bf61f5c1750e34efb9f4154a0da20",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
+      "bodyEn": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed… The post GitHub Mobile: Fix failing Actions checks with Copilot cloud agent appeared first on The GitHub Blog.",
+      "titleZh": "GitHub Mobile：使用 Copilot 云代理修复失败的 Actions 检查",
+      "bodyZh": "现在，当你的拉取请求上的 GitHub Actions 检查失败时，你可以要求 Copilot 编码代理进行调查，并直接从 GitHub Mobile 修复问题。从失败的……这篇文章《GitHub Mobile：使用 Copilot 云代理修复失败的 Actions 检查》最初出现在 GitHub 博客上。",
+      "sourceHash": "12ce2d550eb3f7d4a075cec92d54af5e370bf61f5c1750e34efb9f4154a0da20",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-23T19:58:17.090Z"
+    }
+  },
+  {
     "id": "gemini-cli-33b9ff4345110802",
     "sourceSlug": "gemini-cli",
     "externalId": "358409208",
@@ -23,6 +49,34 @@
       "sourceHash": "7fc977836151d72efe4f724085389307d4154ab896ca48a318eac5d735c88766",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-23T03:57:34.790Z"
+    }
+  },
+  {
+    "id": "codex-a836c627f7323fde",
+    "sourceSlug": "codex",
+    "externalId": "2026-07-23:ChatGPT Voice and multi-folder projects 26.715",
+    "version": "26.715",
+    "channel": "stable",
+    "publishedAt": "2026-07-23T00:00:00.000Z",
+    "collectedAt": "2026-07-23T19:58:12.808Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-23-app",
+    "title": "ChatGPT Voice and multi-folder projects 26.715",
+    "body": "Powered by GPT-Live, ChatGPT Voice lets you talk through work and coordinate tasks in Chat, Work, and Codex in the ChatGPT desktop app.\n\nStart a new chat or task in voice mode, then ask ChatGPT to start, check, or steer work in other threads. On macOS, turn on Screen context to share an appshot of your frontmost window.\n\nVoice is available with Plus, Pro, Business, Edu, and Enterprise plans in the desktop app and through Remote on iOS.\n\nLocal projects in the ChatGPT desktop app can now include multiple related folders. From a project’s menu, select Edit project to add folders and choose the primary folder. New chats, Git operations, and automatic discovery of AGENTS.md, skills, and config.toml use the primary folder. Secondary folders remain available for file search, reading, and editing.\n\nGet started with ChatGPT Voice and multi-folder local projects.",
+    "sourceLanguage": "en",
+    "contentHash": "362533668a2fc737137faa3dc5a679e5bbb679a55152910579cee971e1c595ab",
+    "sourceTopics": [
+      "codex-app"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "ChatGPT Voice and multi-folder projects 26.715",
+      "bodyEn": "Powered by GPT-Live, ChatGPT Voice lets you talk through work and coordinate tasks in Chat, Work, and Codex in the ChatGPT desktop app.\n\nStart a new chat or task in voice mode, then ask ChatGPT to start, check, or steer work in other threads. On macOS, turn on Screen context to share an appshot of your frontmost window.\n\nVoice is available with Plus, Pro, Business, Edu, and Enterprise plans in the desktop app and through Remote on iOS.\n\nLocal projects in the ChatGPT desktop app can now include multiple related folders. From a project’s menu, select Edit project to add folders and choose the primary folder. New chats, Git operations, and automatic discovery of AGENTS.md, skills, and config.toml use the primary folder. Secondary folders remain available for file search, reading, and editing.\n\nGet started with ChatGPT Voice and multi-folder local projects.",
+      "titleZh": "ChatGPT 语音和多文件夹项目 26.715",
+      "bodyZh": "由 GPT-Live 驱动，ChatGPT 语音功能让您可以在 ChatGPT 桌面应用的聊天、工作和 Codex 中通过语音交流并协调任务。\n\n在语音模式下开始新的聊天或任务，然后让 ChatGPT 在其他线程中启动、检查或引导工作。在 macOS 上，开启屏幕上下文以共享最前窗口的应用截图。\n\n语音功能适用于 Plus、Pro、Business、Edu 和 Enterprise 计划的桌面应用以及通过 Remote 在 iOS 上使用。\n\nChatGPT 桌面应用中的本地项目现在可以包含多个相关文件夹。从项目的菜单中选择“编辑项目”以添加文件夹并选择主文件夹。新的聊天、Git 操作以及自动发现 AGENTS.md、技能和 config.toml 将使用主文件夹。次要文件夹仍可用于文件搜索、读取和编辑。\n\n开始使用 ChatGPT 语音和多文件夹本地项目。",
+      "sourceHash": "362533668a2fc737137faa3dc5a679e5bbb679a55152910579cee971e1c595ab",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-23T19:58:19.347Z"
     }
   },
   {
