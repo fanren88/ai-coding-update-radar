@@ -42,6 +42,27 @@
     "sourceTopics": []
   },
   {
+    "id": "workbuddy-ac40de79fe93152c-c76b8d6778062891",
+    "releaseId": "workbuddy-ac40de79fe93152c",
+    "toolSlug": "workbuddy",
+    "toolName": "WorkBuddy",
+    "title": "WorkBuddy 5.3.5",
+    "what": "官方发布了「WorkBuddy 5.3.5」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 WorkBuddy 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.3.5",
+    "publishedAt": "2026-07-25T00:00:00.000Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-3-5-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-07-25",
+    "evidence": "Buddy AI 国内升配（订阅计费）\n\n- WorkBuddy 扩展插件 Hook\n\n- 代理问题修复",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-58d7b5c1b021982c-287029ba35823a17",
     "releaseId": "claude-code-58d7b5c1b021982c",
     "toolSlug": "claude-code",
