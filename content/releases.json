@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-e5255a3926e5ba18",
+    "sourceSlug": "gemini-cli",
+    "externalId": "359900108",
+    "version": "v0.54.0-nightly.20260726.g3818efbbf",
+    "channel": "preview",
+    "publishedAt": "2026-07-26T01:31:03.000Z",
+    "collectedAt": "2026-07-26T04:09:27.444Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260726.g3818efbbf",
+    "title": "Release v0.54.0-nightly.20260726.g3818efbbf",
+    "body": "## What's Changed\n* Changelog for v0.53.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28507\n* Changelog for v0.52.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28508\n* chore(release): bump version to 0.54.0-nightly.20260722.gf743ab579 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28510\n* fix(caretaker): sanitize and wrap issue title in untrusted_context by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28352\n* chore(caretaker): update vitest to v3.2.4 and add package-lock.json files by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28409\n* fix(core): rotate session ID on model fallback to prevent stateful API errors by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28469\n* feat(caretaker-triage): post comment before auto-closing issues by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28411\n* fix(core): enforce HTTPS for GoogleCredentialsAuthProvider to prevent cleartext leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28517\n* fix(core): filter out thought parts from getHistoryTurns when context management is disabled by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28509\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260723.g9681621c6...v0.54.0-nightly.20260726.g3818efbbf",
+    "sourceLanguage": "en",
+    "contentHash": "c70c5f0fd297da6bd603753d1fdd5256f6658c468c333c0f6ed8e2c917cad719",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.54.0-nightly.20260726.g3818efbbf",
+      "bodyEn": "## What's Changed\n* Changelog for v0.53.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28507\n* Changelog for v0.52.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28508\n* chore(release): bump version to 0.54.0-nightly.20260722.gf743ab579 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28510\n* fix(caretaker): sanitize and wrap issue title in untrusted_context by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28352\n* chore(caretaker): update vitest to v3.2.4 and add package-lock.json files by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28409\n* fix(core): rotate session ID on model fallback to prevent stateful API errors by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28469\n* feat(caretaker-triage): post comment before auto-closing issues by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28411\n* fix(core): enforce HTTPS for GoogleCredentialsAuthProvider to prevent cleartext leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28517\n* fix(core): filter out thought parts from getHistoryTurns when context management is disabled by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28509\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260723.g9681621c6...v0.54.0-nightly.20260726.g3818efbbf",
+      "titleZh": "发布 v0.54.0-nightly.20260726.g3818efbbf",
+      "bodyZh": "## 变更内容\n* 为 v0.53.0-preview.0 添加更新日志，由 @gemini-cli-robot 提交于 https://github.com/google-gemini/gemini-cli/pull/28507\n* 为 v0.52.0 添加更新日志，由 @gemini-cli-robot 提交于 https://github.com/google-gemini/gemini-cli/pull/28508\n* chore(release): 将版本号提升至 0.54.0-nightly.20260722.gf743ab579，由 @gemini-cli-robot 提交于 https://github.com/google-gemini/gemini-cli/pull/28510\n* fix(caretaker): 在 untrusted_context 中清理并包装问题标题，由 @chadd28 提交于 https://github.com/google-gemini/gemini-cli/pull/28352\n* chore(caretaker): 将 vitest 更新至 v3.2.4 并添加 package-lock.json 文件，由 @chadd28 提交于 https://github.com/google-gemini/gemini-cli/pull/28409\n* fix(core): 在模型回退时轮换会话 ID 以防止有状态 API 错误，由 @amelidev 提交于 https://github.com/google-gemini/gemini-cli/pull/28469\n* feat(caretaker-triage): 在自动关闭问题前发布评论，由 @chadd28 提交于 https://github.com/google-gemini/gemini-cli/pull/28411\n* fix(core): 强制 GoogleCredentialsAuthProvider 使用 HTTPS 以防止明文泄露，由 @amelidev 提交于 https://github.com/google-gemini/gemini-cli/pull/28517\n* fix(core): 在上下文管理禁用时，从 getHistoryTurns 中过滤掉思考部分，由 @DavidAPierce 提交于 https://github.com/google-gemini/gemini-cli/pull/28509\n\n\n**完整更新日志**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260723.g9681621c6...v0.54.0-nightly.20260726.g3818efbbf",
+      "sourceHash": "c70c5f0fd297da6bd603753d1fdd5256f6658c468c333c0f6ed8e2c917cad719",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-26T04:09:32.616Z"
+    }
+  },
+  {
     "id": "claude-code-2cbe262dd63671d2",
     "sourceSlug": "claude-code",
     "externalId": "2.1.219",

@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-e5255a3926e5ba18-acf7212a9567bdf4",
+    "releaseId": "gemini-cli-e5255a3926e5ba18",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.54.0-nightly.20260726.g3818efbbf",
+    "what": "官方发布了「Release v0.54.0-nightly.20260726.g3818efbbf」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.54.0-nightly.20260726.g3818efbbf",
+    "publishedAt": "2026-07-26T01:31:03.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260726.g3818efbbf",
+    "evidence": "## What's Changed\n* Changelog for v0.53.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28507\n* Changelog for v0.52.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28508\n* chore(release): bump version to 0.54.0-nightly.20260722.gf743ab579 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28510\n* fix(caretaker): sanitize and wrap issue title in untrusted_context by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28352\n* chore(caretaker): update vitest to v3.2.4 and add package-lock.json files by ",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-9b3865ded32152f8-9baacef6e6c9b0a7",
     "releaseId": "claude-code-9b3865ded32152f8",
     "toolSlug": "claude-code",
