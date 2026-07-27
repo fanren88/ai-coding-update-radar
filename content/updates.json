@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-3c5a0d927dc35a54-64ff28a03d448adc",
+    "releaseId": "gemini-cli-3c5a0d927dc35a54",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.54.0-nightly.20260727.g3818efbbf",
+    "what": "官方发布了「Release v0.54.0-nightly.20260727.g3818efbbf」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.54.0-nightly.20260727.g3818efbbf",
+    "publishedAt": "2026-07-27T01:32:29.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260727.g3818efbbf",
+    "evidence": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260726.g3818efbbf...v0.54.0-nightly.20260727.g3818efbbf",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-e5255a3926e5ba18-acf7212a9567bdf4",
     "releaseId": "gemini-cli-e5255a3926e5ba18",
     "toolSlug": "gemini-cli",
