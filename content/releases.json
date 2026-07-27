@@ -1,5 +1,57 @@
 [
   {
+    "id": "github-copilot-bbabde57472042d3",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-27T20:43:37.000Z",
+    "collectedAt": "2026-07-27T21:44:30.942Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+    "title": "Manage GitHub Copilot app access with a dedicated policy",
+    "body": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot… The post Manage GitHub Copilot app access with a dedicated policy appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "61955b5de6223930d08c1a4f6ed6be6dc2fdbddc156c72605251545826d18d77",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Manage GitHub Copilot app access with a dedicated policy",
+      "bodyEn": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot… The post Manage GitHub Copilot app access with a dedicated policy appeared first on The GitHub Blog.",
+      "titleZh": "通过专用策略管理 GitHub Copilot 应用访问权限",
+      "bodyZh": "GitHub Copilot 应用现在拥有自己的策略，因此您可以在企业和组织级别控制谁可以访问它。在此之前，对 Copilot 的访问… 这篇关于通过专用策略管理 GitHub Copilot 应用访问权限的文章最初出现在 GitHub 博客上。",
+      "sourceHash": "61955b5de6223930d08c1a4f6ed6be6dc2fdbddc156c72605251545826d18d77",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-27T21:44:34.052Z"
+    }
+  },
+  {
+    "id": "github-copilot-beab8f92f6eeb134",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-27T17:00:35.000Z",
+    "collectedAt": "2026-07-27T21:44:30.942Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+    "title": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
+    "body": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With… The post Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "5d44ddbb55004e2220fb18526e5c5489ea94911af6a01fd1d09804ab9ca86ba8",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
+      "bodyEn": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With… The post Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent appeared first on The GitHub Blog.",
+      "titleZh": "GitHub Copilot 应用和 Copilot 云代理中的企业托管设置",
+      "bodyZh": "现在，您可以通过企业托管设置来管理 GitHub Copilot 应用和 Copilot 云代理，这些集中管理的策略与您用于在整个企业中控制 Copilot 的策略相同。通过… 这篇关于 GitHub Copilot 应用和 Copilot 云代理中的企业托管设置的文章首次出现在 GitHub 博客上。",
+      "sourceHash": "5d44ddbb55004e2220fb18526e5c5489ea94911af6a01fd1d09804ab9ca86ba8",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-27T21:44:35.634Z"
+    }
+  },
+  {
     "id": "gemini-cli-3c5a0d927dc35a54",
     "sourceSlug": "gemini-cli",
     "externalId": "360164357",
