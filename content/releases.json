@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-13ba188ea0154627",
+    "sourceSlug": "gemini-cli",
+    "externalId": "361395136",
+    "version": "v0.53.0",
+    "channel": "stable",
+    "publishedAt": "2026-07-28T21:45:42.000Z",
+    "collectedAt": "2026-07-28T23:34:31.866Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0",
+    "title": "Release v0.53.0",
+    "body": "## What's Changed\n* fix(core,a2a): group cancelled tool responses and coalesce consecutive roles to prevent 400 Bad Request by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28407\n* feat(caretaker-triage): implement LLM triage orchestrator and container build by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28345\n* refactor(cli): align macOS permissive Seatbelt profiles with deny-default model by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28424\n* fix(core): mitigate infinite ReAct loops and prompt injection loops by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28429\n* fix(a2a-server): enforce workspace trust and task isolation to prevent RCE by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28470\n* fix(core): sequentially verify cached credentials and restore GOOGLE_APPLICATION_CREDENTIALS fallback by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28472\n* feat(evals): add eval coverage report command by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28169\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0...v0.53.0",
+    "sourceLanguage": "en",
+    "contentHash": "bb2b88e13a9fa0aa8d1567ca2f7e887571466fa2c5580e6d534e38feeb708fde",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.53.0",
+      "bodyEn": "## What's Changed\n* fix(core,a2a): group cancelled tool responses and coalesce consecutive roles to prevent 400 Bad Request by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28407\n* feat(caretaker-triage): implement LLM triage orchestrator and container build by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28345\n* refactor(cli): align macOS permissive Seatbelt profiles with deny-default model by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28424\n* fix(core): mitigate infinite ReAct loops and prompt injection loops by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28429\n* fix(a2a-server): enforce workspace trust and task isolation to prevent RCE by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28470\n* fix(core): sequentially verify cached credentials and restore GOOGLE_APPLICATION_CREDENTIALS fallback by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28472\n* feat(evals): add eval coverage report command by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28169\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0...v0.53.0",
+      "titleZh": "发布 v0.53.0",
+      "bodyZh": "## 变更内容\n* 修复(core,a2a): 分组已取消的工具响应并合并连续角色以防止400错误请求，由 @luisfelipe-alt 提交于 https://github.com/google-gemini/gemini-cli/pull/28407\n* 特性(caretaker-triage): 实现LLM分类编排器和容器构建，由 @chadd28 提交于 https://github.com/google-gemini/gemini-cli/pull/28345\n* 重构(cli): 使macOS宽松的Seatbelt配置文件与默认拒绝模型对齐，由 @ompatel-aiml 提交于 https://github.com/google-gemini/gemini-cli/pull/28424\n* 修复(core): 缓解无限ReAct循环和提示注入循环，由 @amelidev 提交于 https://github.com/google-gemini/gemini-cli/pull/28429\n* 修复(a2a-server): 强制工作区信任和任务隔离以防止RCE，由 @luisfelipe-alt 提交于 https://github.com/google-gemini/gemini-cli/pull/28470\n* 修复(core): 顺序验证缓存的凭据并恢复GOOGLE_APPLICATION_CREDENTIALS回退，由 @luisfelipe-alt 提交于 https://github.com/google-gemini/gemini-cli/pull/28472\n* 特性(evals): 添加评估覆盖率报告命令，由 @ved015 提交于 https://github.com/google-gemini/gemini-cli/pull/28169\n\n\n**完整变更日志**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0...v0.53.0",
+      "sourceHash": "bb2b88e13a9fa0aa8d1567ca2f7e887571466fa2c5580e6d534e38feeb708fde",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-28T23:34:37.077Z"
+    }
+  },
+  {
     "id": "gemini-cli-a6dbe3556ed062d2",
     "sourceSlug": "gemini-cli",
     "externalId": "361391540",
