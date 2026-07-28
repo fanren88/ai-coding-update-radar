@@ -1,5 +1,57 @@
 [
   {
+    "id": "gemini-cli-f6b2cf05d017f489",
+    "sourceSlug": "gemini-cli",
+    "externalId": "360786776",
+    "version": "v0.54.0-nightly.20260728.gbef611950",
+    "channel": "preview",
+    "publishedAt": "2026-07-28T01:28:20.000Z",
+    "collectedAt": "2026-07-28T03:49:43.175Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260728.gbef611950",
+    "title": "Release v0.54.0-nightly.20260728.gbef611950",
+    "body": "## What's Changed\n* fix(a2a-server): normalize CRLF line endings to LF in getProposedContent by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28531\n* fix(core): enforce explicit tag length and validation in file keychain by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28523\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260727.g3818efbbf...v0.54.0-nightly.20260728.gbef611950",
+    "sourceLanguage": "en",
+    "contentHash": "854d44c1a6d8224fbf1380853dc90217a5e86de437d790ed14a5bd83d5dc70c8",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.54.0-nightly.20260728.gbef611950",
+      "bodyEn": "## What's Changed\n* fix(a2a-server): normalize CRLF line endings to LF in getProposedContent by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28531\n* fix(core): enforce explicit tag length and validation in file keychain by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28523\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260727.g3818efbbf...v0.54.0-nightly.20260728.gbef611950",
+      "titleZh": "发布 v0.54.0-nightly.20260728.gbef611950",
+      "bodyZh": "## 变更内容\n* 修复(a2a-server): 在 getProposedContent 中将 CRLF 行尾标准化为 LF，由 @luisfelipe-alt 提交于 https://github.com/google-gemini/gemini-cli/pull/28531\n* 修复(core): 在文件密钥链中强制显式标签长度和验证，由 @luisfelipe-alt 提交于 https://github.com/google-gemini/gemini-cli/pull/28523\n\n\n**完整变更日志**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260727.g3818efbbf...v0.54.0-nightly.20260728.gbef611950",
+      "sourceHash": "854d44c1a6d8224fbf1380853dc90217a5e86de437d790ed14a5bd83d5dc70c8",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-28T03:49:46.301Z"
+    }
+  },
+  {
+    "id": "github-copilot-0519cf9e4a2b2fc8",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-28T01:23:10.000Z",
+    "collectedAt": "2026-07-28T03:49:42.634Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+    "title": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
+    "body": "This update brings more control and clarity to your GitHub Copilot for JetBrains workflows. You can now connect MCP servers and custom agents in Claude agent flows, tune telemetry and… The post GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "353697a3964569dc9bac0271c5b84a5a360268b091992305f2df84840d566810",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
+      "bodyEn": "This update brings more control and clarity to your GitHub Copilot for JetBrains workflows. You can now connect MCP servers and custom agents in Claude agent flows, tune telemetry and… The post GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management appeared first on The GitHub Blog.",
+      "titleZh": "GitHub Copilot for JetBrains 增加了改进的 OpenTelemetry 配置和模型管理",
+      "bodyZh": "此更新为您的 GitHub Copilot for JetBrains 工作流带来了更多控制权和清晰度。您现在可以在 Claude 代理流程中连接 MCP 服务器和自定义代理，调整遥测设置以及…… 这篇文章《GitHub Copilot for JetBrains 增加了改进的 OpenTelemetry 配置和模型管理》最初出现在 GitHub 博客上。",
+      "sourceHash": "353697a3964569dc9bac0271c5b84a5a360268b091992305f2df84840d566810",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-28T03:49:47.800Z"
+    }
+  },
+  {
     "id": "github-copilot-bbabde57472042d3",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",

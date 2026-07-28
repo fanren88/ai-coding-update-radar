@@ -2,10 +2,10 @@
   {
     "slug": "codex",
     "status": "healthy",
-    "lastSuccessAt": "2026-07-27T18:09:41.692Z",
+    "lastSuccessAt": "2026-07-28T03:49:41.977Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"2854652064a304afc6f9a3ebd59d5d8d\"",
-    "lastContentHash": "96982570891ec69a23fb71e3448fe0d9061e4c76f7c295e991ed1f18f1146952",
+    "etag": "W/\"b8d5aa0e203a929967efe3734e062f91\"",
+    "lastContentHash": "001fadae5dd72f41ec9d7d9df56d938f2006a9cee38efcb51cdc9ae0bfb6d7e3",
     "lastError": null
   },
   {
@@ -29,19 +29,19 @@
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-07-27T21:44:30.942Z",
+    "lastSuccessAt": "2026-07-28T03:49:42.634Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"7cc1f84044e6c73670f5b93026386753\"",
-    "lastContentHash": "a15373663bd60104d45b0bfb4773ba1e67db68be27894ce2f49220885c3f5fe3",
+    "etag": "W/\"db501825f100b1a79b0b1d4350ddb5e4\"",
+    "lastContentHash": "be62cb97c9a852cd175f1dcb7fa2d462966cdbae682017d4858c52aa7a8bbad0",
     "lastError": null
   },
   {
     "slug": "gemini-cli",
     "status": "healthy",
-    "lastSuccessAt": "2026-07-27T04:24:59.103Z",
+    "lastSuccessAt": "2026-07-28T03:49:43.175Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"daa71062cd5956b7280851956132e31a6c1d574e8e3b7ec804fdea6aacce736b\"",
-    "lastContentHash": "8ae8ca0860020115aca0b66b221111fcf824081d8c5fb6a070ae3a1ee329d49b",
+    "etag": "W/\"856c91a533154bf63a2334a243c47ebb84d333ea4e2000adf4369743c278d649\"",
+    "lastContentHash": "f637b233b3485e786b1fdeacbbc7b46fd97d790e8f70d7b4e97444f07be3a458",
     "lastError": null
   },
   {
