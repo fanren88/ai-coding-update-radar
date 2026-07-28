@@ -126,6 +126,29 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-e451e26b31746d57-47951f9ae6ba9816",
+    "releaseId": "codex-e451e26b31746d57",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "ChatGPT for iOS 1.2026.202",
+    "what": "官方发布了「ChatGPT for iOS 1.2026.202」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "1.2026.202",
+    "publishedAt": "2026-07-27T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-27-mobile",
+    "evidence": "Voice conversations now use your selected ChatGPT voice and show usage-limit warnings.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-mobile"
+    ]
+  },
+  {
     "id": "gemini-cli-e5255a3926e5ba18-acf7212a9567bdf4",
     "releaseId": "gemini-cli-e5255a3926e5ba18",
     "toolSlug": "gemini-cli",

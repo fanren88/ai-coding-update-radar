@@ -156,6 +156,34 @@
     }
   },
   {
+    "id": "codex-e451e26b31746d57",
+    "sourceSlug": "codex",
+    "externalId": "2026-07-27:ChatGPT for iOS 1.2026.202",
+    "version": "1.2026.202",
+    "channel": "stable",
+    "publishedAt": "2026-07-27T00:00:00.000Z",
+    "collectedAt": "2026-07-28T15:03:15.511Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-27-mobile",
+    "title": "ChatGPT for iOS 1.2026.202",
+    "body": "## Improvements and bug fixes\n\n- Voice conversations now use your selected ChatGPT voice and show usage-limit warnings.\n\n- Improved task reconnection and continuity when returning to the app or unlocking with Face ID.\n\n- Composer autocomplete now matches desktop plugin mentions and includes skills from installed plugins.\n\n- Selected-text references remain available after sending so you can preview them again.\n\n- Improved goal controls with clearer progress when pausing or resuming.\n\n- Inline visualizations now render tables and visual themes more reliably.\n\n- Large workspace diffs are more responsive.\n\n- Fixed restored tasks changing the selected model.\n\n- Prevented the composer from becoming stuck after a prompt started.\n\n- Corrected browser and computer tool labels, icons, and placeholder output.",
+    "sourceLanguage": "en",
+    "contentHash": "587097d74f9805b48bb0becb9a2e0094623c8974356d2b3679530e96cf7b28ae",
+    "sourceTopics": [
+      "codex-mobile"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "ChatGPT for iOS 1.2026.202",
+      "bodyEn": "## Improvements and bug fixes\n\n- Voice conversations now use your selected ChatGPT voice and show usage-limit warnings.\n\n- Improved task reconnection and continuity when returning to the app or unlocking with Face ID.\n\n- Composer autocomplete now matches desktop plugin mentions and includes skills from installed plugins.\n\n- Selected-text references remain available after sending so you can preview them again.\n\n- Improved goal controls with clearer progress when pausing or resuming.\n\n- Inline visualizations now render tables and visual themes more reliably.\n\n- Large workspace diffs are more responsive.\n\n- Fixed restored tasks changing the selected model.\n\n- Prevented the composer from becoming stuck after a prompt started.\n\n- Corrected browser and computer tool labels, icons, and placeholder output.",
+      "titleZh": "ChatGPT for iOS 1.2026.202",
+      "bodyZh": "## 改进与错误修复\n\n- 语音对话现在使用你选择的 ChatGPT 语音，并显示使用限制警告。\n\n- 改进了返回应用或通过 Face ID 解锁时的任务重连和连续性。\n\n- 编辑器自动补全现在匹配桌面版插件提及，并包含已安装插件的技能。\n\n- 发送后，选中的文本引用仍然可用，以便你可以再次预览。\n\n- 改进了目标控制，暂停或恢复时进度更清晰。\n\n- 内联可视化现在更可靠地渲染表格和视觉主题。\n\n- 大型工作区差异响应更迅速。\n\n- 修复了恢复任务时更改所选模型的问题。\n\n- 防止了编辑器在提示开始后卡住。\n\n- 修正了浏览器和计算机工具标签、图标及占位输出。",
+      "sourceHash": "587097d74f9805b48bb0becb9a2e0094623c8974356d2b3679530e96cf7b28ae",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-28T15:03:20.858Z"
+    }
+  },
+  {
     "id": "gemini-cli-e5255a3926e5ba18",
     "sourceSlug": "gemini-cli",
     "externalId": "359900108",
