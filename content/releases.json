@@ -1,5 +1,31 @@
 [
   {
+    "id": "cursor-77e1742ecd84a5a0",
+    "sourceSlug": "cursor",
+    "externalId": "/changelog/cursor-start",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-28T12:00:00.000Z",
+    "collectedAt": "2026-07-28T07:21:17.478Z",
+    "sourceUrl": "https://cursor.com/changelog/cursor-start",
+    "title": "Cursor Start",
+    "body": "We're introducing Cursor Start, a new ₹649 monthly plan for developers in India, making daily agentic development accessible and payment easy with local pricing and UPI. Existing Free users in India can upgrade their plan from the dashboard. New users in India can visit cursor.com/signup and select the Start plan during onboarding. Start bills monthly with auto-renewal and is available from July 28, 2026. Cursor Start includes: Generous access to Cursor models: Grok 4.5, our most powerful model, and Composer, our most price-efficient coding model, with enough usage to build with agents every day. Always-on cloud agents that build, test, and ship code while you keep working. Cursor for iOS with remote control, so you can launch and steer agents from your phone. Plugins, MCP servers, hooks, and skills to extend Cursor across your workflows. Local pricing at ₹649 per month, tax inclusive, billed in INR with UPI or card. Learn more in our announcement and docs.",
+    "sourceLanguage": "en",
+    "contentHash": "4ee656164468d34834bf9b016486a1df9205a2db19af0213e879d3d69ddb6391",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Cursor Start",
+      "bodyEn": "We're introducing Cursor Start, a new ₹649 monthly plan for developers in India, making daily agentic development accessible and payment easy with local pricing and UPI. Existing Free users in India can upgrade their plan from the dashboard. New users in India can visit cursor.com/signup and select the Start plan during onboarding. Start bills monthly with auto-renewal and is available from July 28, 2026. Cursor Start includes: Generous access to Cursor models: Grok 4.5, our most powerful model, and Composer, our most price-efficient coding model, with enough usage to build with agents every day. Always-on cloud agents that build, test, and ship code while you keep working. Cursor for iOS with remote control, so you can launch and steer agents from your phone. Plugins, MCP servers, hooks, and skills to extend Cursor across your workflows. Local pricing at ₹649 per month, tax inclusive, billed in INR with UPI or card. Learn more in our announcement and docs.",
+      "titleZh": "Cursor Start",
+      "bodyZh": "我们推出了 Cursor Start，这是面向印度开发者的新 ₹649 月度计划，通过本地定价和 UPI 使日常代理开发变得便捷且支付简单。印度现有的免费用户可以从仪表盘升级其计划。印度新用户可访问 cursor.com/signup 并在注册过程中选择 Start 计划。Start 按月计费，自动续订，自 2026 年 7 月 28 日起可用。Cursor Start 包括：对 Cursor 模型的慷慨访问：Grok 4.5，我们最强大的模型，以及 Composer，我们最具性价比的编码模型，足以每天使用代理进行构建。始终在线的云代理，可在您继续工作时构建、测试和交付代码。支持远程控制的 Cursor for iOS，因此您可以从手机启动和引导代理。插件、MCP 服务器、钩子和技能，以在您的工作流程中扩展 Cursor。本地定价为每月 ₹649，含税，以印度卢比通过 UPI 或卡支付。在我们的公告和文档中了解更多。",
+      "sourceHash": "4ee656164468d34834bf9b016486a1df9205a2db19af0213e879d3d69ddb6391",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-28T07:21:22.518Z"
+    }
+  },
+  {
     "id": "gemini-cli-f6b2cf05d017f489",
     "sourceSlug": "gemini-cli",
     "externalId": "360786776",
