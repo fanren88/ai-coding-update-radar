@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-37ab4b1c66029ac0-aba3d9db5a015d5a",
+    "releaseId": "github-copilot-37ab4b1c66029ac0",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Default model enablement for Copilot Business and Enterprise",
+    "what": "官方发布了「Default model enablement for Copilot Business and Enterprise」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-07-29T14:01:07.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
+    "evidence": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-307522bb17bb468f-47cecd770b818db8",
     "releaseId": "gemini-cli-307522bb17bb468f",
     "toolSlug": "gemini-cli",
@@ -41,6 +62,29 @@
     "generatedBy": "fallback",
     "sourceTopics": [
       "codex-cli"
+    ]
+  },
+  {
+    "id": "codex-d96a7aebe9a34bf6-cbd91af995ace6a2",
+    "releaseId": "codex-d96a7aebe9a34bf6",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Sign in with ChatGPT (beta)",
+    "what": "官方发布了「Sign in with ChatGPT (beta)」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": null,
+    "publishedAt": "2026-07-29T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-29",
+    "evidence": "Sign in with ChatGPT is beginning to roll out in beta across select plugins and partner sites, starting with Airtable, GitLab, HubSpot, Notion, Supabase, and Vercel.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "general"
     ]
   },
   {

@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-37ab4b1c66029ac0",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-29T14:01:07.000Z",
+    "collectedAt": "2026-07-29T17:51:57.756Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
+    "title": "Default model enablement for Copilot Business and Enterprise",
+    "body": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model… The post Default model enablement for Copilot Business and Enterprise appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "d15e20f3fdd0a3091dd7aa6207bf6a586d593aabc84ea9e346a17b25e5876b89",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Default model enablement for Copilot Business and Enterprise",
+      "bodyEn": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model… The post Default model enablement for Copilot Business and Enterprise appeared first on The GitHub Blog.",
+      "titleZh": "Copilot Business 和 Enterprise 的默认模型启用",
+      "bodyZh": "我们正在为 Copilot Business 和 Copilot Enterprise 计划中的通用 Copilot 模型引入全局默认启用策略。管理员无需再手动开启每个新模型……这篇文章《Default model enablement for Copilot Business and Enterprise》最初出现在 GitHub 博客上。",
+      "sourceHash": "d15e20f3fdd0a3091dd7aa6207bf6a586d593aabc84ea9e346a17b25e5876b89",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-29T17:52:01.051Z"
+    }
+  },
+  {
     "id": "gemini-cli-307522bb17bb468f",
     "sourceSlug": "gemini-cli",
     "externalId": "361461098",
@@ -51,6 +77,34 @@
       "sourceHash": "029cffc89ff453485acf05c4e9608d866a93b234ff3ab79c29b465495b4583e1",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-29T03:54:44.079Z"
+    }
+  },
+  {
+    "id": "codex-d96a7aebe9a34bf6",
+    "sourceSlug": "codex",
+    "externalId": "2026-07-29:Sign in with ChatGPT (beta)",
+    "version": null,
+    "channel": "preview",
+    "publishedAt": "2026-07-29T00:00:00.000Z",
+    "collectedAt": "2026-07-29T17:51:57.041Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-29",
+    "title": "Sign in with ChatGPT (beta)",
+    "body": "Sign in with ChatGPT is beginning to roll out in beta across select plugins and partner sites, starting with Airtable, GitLab, HubSpot, Notion, Supabase, and Vercel.\n\nWhen you connect a supported plugin from the ChatGPT plugin directory, you can use Sign in with ChatGPT to create or link an account with that service in fewer steps. On participating partner sites, you can also select Sign in with ChatGPT to create or access your account.\n\nThis makes it easier to start working with supported tools in ChatGPT and Codex.\n\nWhen you sign in, the partner receives only your name, email address, and profile picture, if available. You must still review and approve each plugin’s requested access as a separate step.",
+    "sourceLanguage": "en",
+    "contentHash": "d17df752347344fa541c41c4b203c2f41eba07ba6c3f82c9c047df5b0aa6854a",
+    "sourceTopics": [
+      "general"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Sign in with ChatGPT (beta)",
+      "bodyEn": "Sign in with ChatGPT is beginning to roll out in beta across select plugins and partner sites, starting with Airtable, GitLab, HubSpot, Notion, Supabase, and Vercel.\n\nWhen you connect a supported plugin from the ChatGPT plugin directory, you can use Sign in with ChatGPT to create or link an account with that service in fewer steps. On participating partner sites, you can also select Sign in with ChatGPT to create or access your account.\n\nThis makes it easier to start working with supported tools in ChatGPT and Codex.\n\nWhen you sign in, the partner receives only your name, email address, and profile picture, if available. You must still review and approve each plugin’s requested access as a separate step.",
+      "titleZh": "使用 ChatGPT 登录（测试版）",
+      "bodyZh": "使用 ChatGPT 登录功能开始在部分插件和合作伙伴站点上以测试版形式推出，首批包括 Airtable、GitLab、HubSpot、Notion、Supabase 和 Vercel。\n\n当您从 ChatGPT 插件目录连接受支持的插件时，可以使用“使用 ChatGPT 登录”功能，以更少的步骤创建或关联该服务的账户。在参与的合作伙伴站点上，您也可以选择“使用 ChatGPT 登录”来创建或访问您的账户。\n\n这使得在 ChatGPT 和 Codex 中开始使用受支持的工具变得更加容易。\n\n登录时，合作伙伴仅会收到您的姓名、电子邮件地址和头像（如有）。您仍需单独审核并批准每个插件请求的访问权限。",
+      "sourceHash": "d17df752347344fa541c41c4b203c2f41eba07ba6c3f82c9c047df5b0aa6854a",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-29T17:52:02.968Z"
     }
   },
   {
