@@ -20,10 +20,10 @@
   {
     "slug": "cursor",
     "status": "healthy",
-    "lastSuccessAt": "2026-07-28T21:44:01.957Z",
+    "lastSuccessAt": "2026-07-29T19:55:21.184Z",
     "consecutiveErrors": 0,
     "etag": null,
-    "lastContentHash": "b872ea5cee6163c87a78cf856e105398612d047aa91f3110f86dbdc7f80e44c8",
+    "lastContentHash": "defc2e1beeca3d857bddeb9c513dd98a80bfa3ad0370f93b9bb56f4c73a0a1d4",
     "lastError": null
   },
   {
