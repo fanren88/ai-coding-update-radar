@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-05746085e97d8c7d",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
+    "version": null,
+    "channel": "preview",
+    "publishedAt": "2026-07-29T21:26:19.000Z",
+    "collectedAt": "2026-07-29T23:37:15.728Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
+    "title": "Copilot code review: Agent skills and MCP now generally available",
+    "body": "Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users. Previously announced in public preview, these capabilities… The post Copilot code review: Agent skills and MCP now generally available appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "cdcd2aff028f821fe309387da247ba4e2230cad4aada145ec22a52fcbe6a2b88",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Copilot code review: Agent skills and MCP now generally available",
+      "bodyEn": "Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users. Previously announced in public preview, these capabilities… The post Copilot code review: Agent skills and MCP now generally available appeared first on The GitHub Blog.",
+      "titleZh": "Copilot 代码审查：Agent 技能和 MCP 现已全面可用",
+      "bodyZh": "Copilot 代码审查对 Agent 技能和 MCP 服务器的支持现已面向所有 Copilot Pro、Pro+、Business 和 Enterprise 用户全面可用。此前以公开预览形式发布，这些功能…… 这篇文章 Copilot 代码审查：Agent 技能和 MCP 现已全面可用 最早出现在 GitHub 博客上。",
+      "sourceHash": "cdcd2aff028f821fe309387da247ba4e2230cad4aada145ec22a52fcbe6a2b88",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-29T23:37:20.110Z"
+    }
+  },
+  {
     "id": "github-copilot-37ab4b1c66029ac0",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",

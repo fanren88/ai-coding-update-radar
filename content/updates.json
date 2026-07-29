@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-05746085e97d8c7d-c431baf338ada8e7",
+    "releaseId": "github-copilot-05746085e97d8c7d",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Copilot code review: Agent skills and MCP now generally available",
+    "what": "官方发布了「Copilot code review: Agent skills and MCP now generally available」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": null,
+    "publishedAt": "2026-07-29T21:26:19.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
+    "evidence": "Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-37ab4b1c66029ac0-aba3d9db5a015d5a",
     "releaseId": "github-copilot-37ab4b1c66029ac0",
     "toolSlug": "github-copilot",
