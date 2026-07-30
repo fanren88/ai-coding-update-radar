@@ -52,6 +52,32 @@
     }
   },
   {
+    "id": "github-copilot-b302f2ba8495a635",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
+    "version": null,
+    "channel": "stable",
+    "publishedAt": "2026-07-30T08:00:00.000Z",
+    "collectedAt": "2026-07-30T20:05:18.683Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
+    "title": "GitHub Copilot in Visual Studio Code, July 2026 releases",
+    "body": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code. They also… The post GitHub Copilot in Visual Studio Code, July 2026 releases appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "7dd2e5320c39abb35190a6ec0b6bbbf598b91a7386bfee7dab158919a652c2f2",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "GitHub Copilot in Visual Studio Code, July 2026 releases",
+      "bodyEn": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code. They also… The post GitHub Copilot in Visual Studio Code, July 2026 releases appeared first on The GitHub Blog.",
+      "titleZh": "Visual Studio Code 中的 GitHub Copilot，2026 年 7 月发布",
+      "bodyZh": "本更新日志涵盖 2026 年 7 月发布的 VS Code v1.127 至 v1.131。这些版本改进了您使用代理、审查更改、使用聊天和导航 VS Code 的方式。它们还…… 文章《Visual Studio Code 中的 GitHub Copilot，2026 年 7 月发布》首次出现在 GitHub 博客上。",
+      "sourceHash": "7dd2e5320c39abb35190a6ec0b6bbbf598b91a7386bfee7dab158919a652c2f2",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-30T20:05:22.707Z"
+    }
+  },
+  {
     "id": "gemini-cli-bb33fcbef50d9ac2",
     "sourceSlug": "gemini-cli",
     "externalId": "362135256",
