@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-bb33fcbef50d9ac2-29fb240eb5e10fe5",
+    "releaseId": "gemini-cli-bb33fcbef50d9ac2",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.55.0-nightly.20260730.gdc859e8e4",
+    "what": "官方发布了「Release v0.55.0-nightly.20260730.gdc859e8e4」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.55.0-nightly.20260730.gdc859e8e4",
+    "publishedAt": "2026-07-30T01:27:21.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260730.gdc859e8e4",
+    "evidence": "## What's Changed\n* Changelog for v0.54.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28567\n* Changelog for v0.53.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28568\n* chore/release: bump version to 0.55.0-nightly.20260729.g3499c84f7 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28573\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260729.g3499c84f7...v0.55.0-nightly.20260730.gdc859e8e4",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-05746085e97d8c7d-c431baf338ada8e7",
     "releaseId": "github-copilot-05746085e97d8c7d",
     "toolSlug": "github-copilot",
