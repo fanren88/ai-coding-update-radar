@@ -84,6 +84,29 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-f7f0ad605f8ab22b-524b6b2c9b8e6016",
+    "releaseId": "codex-f7f0ad605f8ab22b",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Browser upgrades, multi-repository review, and image editing 26.727",
+    "what": "官方发布了「Browser upgrades, multi-repository review, and image editing 26.727」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "26.727",
+    "publishedAt": "2026-07-30T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-30-app",
+    "evidence": "The latest ChatGPT desktop app update makes browsing, reviewing code, and editing generated images faster and easier.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-app"
+    ]
+  },
+  {
     "id": "github-copilot-05746085e97d8c7d-c431baf338ada8e7",
     "releaseId": "github-copilot-05746085e97d8c7d",
     "toolSlug": "github-copilot",

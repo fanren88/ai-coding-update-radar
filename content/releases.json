@@ -104,6 +104,34 @@
     }
   },
   {
+    "id": "codex-f7f0ad605f8ab22b",
+    "sourceSlug": "codex",
+    "externalId": "2026-07-30:Browser upgrades, multi-repository review, and image editing 26.727",
+    "version": "26.727",
+    "channel": "stable",
+    "publishedAt": "2026-07-30T00:00:00.000Z",
+    "collectedAt": "2026-07-30T21:46:20.786Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-30-app",
+    "title": "Browser upgrades, multi-repository review, and image editing 26.727",
+    "body": "The latest ChatGPT desktop app update makes browsing, reviewing code, and editing generated images faster and easier.\n\n## Browse and find context faster\n\n- Type in the built-in browser’s address bar to revisit pages from your browsing history or search Google when there’s no match.\n\n- Manage your browsing history in Settings, and let ChatGPT search that history when a task needs to find a page you visited before.\n\n- Use the Chrome extension to mention open tabs or bring highlighted page text into your side chat.\n\n- Ask questions about any YouTube video in the Chrome extension and get answers in seconds.\n\n- Right-click a webpage and select Ask ChatGPT.\n\nLearn more about the built-in browser and the Chrome extension.\n\n## Review changes across repositories\n\nSee all repositories in a multi-folder project and the lines changed in each one. Select Review to inspect diffs across those repositories without switching between separate review views.\n\n## Refine generated images\n\nOpen generated images in an expanded viewer, and switch between Focused view and Canvas view. Add comments across images, choose the ones you want, and send targeted edits without leaving your conversation. Learn more about image generation.\n\n## Other improvements and bug fixes\n\n- Added a new “Activity view” in the sidebar to view which chats you engaged with recently and require attention. Click the bell or use Cmd/Ctrl+Opt+U to change to the new view.\n\n- Updated browser settings to show only supported browsers.\n\n- Improved Windows installation reliability when package file paths are long.\n\n- Other performance and bug fixes.",
+    "sourceLanguage": "en",
+    "contentHash": "4ad592c188f0015851bde98842cd85f8157e5b6bb28f70702377f5c1c3bb783e",
+    "sourceTopics": [
+      "codex-app"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Browser upgrades, multi-repository review, and image editing 26.727",
+      "bodyEn": "The latest ChatGPT desktop app update makes browsing, reviewing code, and editing generated images faster and easier.\n\n## Browse and find context faster\n\n- Type in the built-in browser’s address bar to revisit pages from your browsing history or search Google when there’s no match.\n\n- Manage your browsing history in Settings, and let ChatGPT search that history when a task needs to find a page you visited before.\n\n- Use the Chrome extension to mention open tabs or bring highlighted page text into your side chat.\n\n- Ask questions about any YouTube video in the Chrome extension and get answers in seconds.\n\n- Right-click a webpage and select Ask ChatGPT.\n\nLearn more about the built-in browser and the Chrome extension.\n\n## Review changes across repositories\n\nSee all repositories in a multi-folder project and the lines changed in each one. Select Review to inspect diffs across those repositories without switching between separate review views.\n\n## Refine generated images\n\nOpen generated images in an expanded viewer, and switch between Focused view and Canvas view. Add comments across images, choose the ones you want, and send targeted edits without leaving your conversation. Learn more about image generation.\n\n## Other improvements and bug fixes\n\n- Added a new “Activity view” in the sidebar to view which chats you engaged with recently and require attention. Click the bell or use Cmd/Ctrl+Opt+U to change to the new view.\n\n- Updated browser settings to show only supported browsers.\n\n- Improved Windows installation reliability when package file paths are long.\n\n- Other performance and bug fixes.",
+      "titleZh": "浏览器升级、多仓库审查和图像编辑 26.727",
+      "bodyZh": "最新的 ChatGPT 桌面应用更新使浏览、审查代码和编辑生成的图像更快、更简单。\n\n## 更快地浏览和查找上下文\n\n- 在内置浏览器的地址栏中输入内容，可以重新访问浏览历史中的页面，或者在没有匹配项时搜索 Google。\n\n- 在设置中管理浏览历史，当任务需要查找你之前访问过的页面时，让 ChatGPT 搜索该历史。\n\n- 使用 Chrome 扩展程序提及打开的标签页，或将高亮的页面文本带入侧边聊天。\n\n- 在 Chrome 扩展程序中询问关于任何 YouTube 视频的问题，并在几秒钟内获得答案。\n\n- 右键点击网页并选择“Ask ChatGPT”。\n\n了解更多关于内置浏览器和 Chrome 扩展程序的信息。\n\n## 跨仓库审查更改\n\n查看多文件夹项目中的所有仓库以及每个仓库中更改的行数。选择“Review”以检查这些仓库之间的差异，而无需在单独的审查视图之间切换。\n\n## 优化生成的图像\n\n在扩展查看器中打开生成的图像，并在 Focused 视图和 Canvas 视图之间切换。跨图像添加评论，选择你想要的图像，并发送有针对性的编辑，而无需离开对话。了解更多关于图像生成的信息。\n\n## 其他改进和错误修复\n\n- 在侧边栏中添加了新的“Activity view”，用于查看你最近参与并需要关注的聊天。点击铃铛图标或使用 Cmd/Ctrl+Opt+U 切换到新视图。\n\n- 更新了浏览器设置，仅显示支持的浏览器。\n\n- 改进了当包文件路径较长时的 Windows 安装可靠性。\n\n- 其他性能和错误修复。",
+      "sourceHash": "4ad592c188f0015851bde98842cd85f8157e5b6bb28f70702377f5c1c3bb783e",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-30T21:46:27.813Z"
+    }
+  },
+  {
     "id": "github-copilot-05746085e97d8c7d",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
