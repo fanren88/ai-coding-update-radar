@@ -172,7 +172,18 @@
     "body": "Cursor for iPad is now available on all paid plans. New to both iPhone and iPad: an inbox to stay organized, and a review experience that covers the full PR. Create, review, and merge from anywhere. #Built for the bigger screen The iPad layout is rebuilt around the extra space. Sidebar chats stay pinned so you can watch several agents run at once. Split screen keeps a review open next to a chat, and file diffs render in full. Markup gets more room to work too. Attach a screenshot, then tap to drop a comment at a specific point, or draw directly on the image with Apple Pencil. #A full review surface On iPhone and iPad, the review screen now covers the full PR: comments, checks, and approvals. Add or change reviewers, read comments, and prompt the agent to resolve them. The whole path from agent output to merged PR now travels with you. #Inbox An Inbox helps you and your agents stay organized. See what's in progress, what needs your attention, and which PRs are in review. #Additional improvements for Cursor on iPhone and iPad Bitbucket and Azure DevOps SCM support Multi-PR sessions: when one chat creates multiple PRs, you can now open every one of them, not just the last. Switch between teams that you belong to directly in the app Download the Cursor App or read our docs to learn more.",
     "sourceLanguage": "en",
     "contentHash": "73b2acc8b74654eaf3bc45bf53300b076fb4136f47af6ba1a7cd82a976fa83d2",
-    "sourceTopics": []
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Cursor, now on iPad",
+      "bodyEn": "Cursor for iPad is now available on all paid plans. New to both iPhone and iPad: an inbox to stay organized, and a review experience that covers the full PR. Create, review, and merge from anywhere. #Built for the bigger screen The iPad layout is rebuilt around the extra space. Sidebar chats stay pinned so you can watch several agents run at once. Split screen keeps a review open next to a chat, and file diffs render in full. Markup gets more room to work too. Attach a screenshot, then tap to drop a comment at a specific point, or draw directly on the image with Apple Pencil. #A full review surface On iPhone and iPad, the review screen now covers the full PR: comments, checks, and approvals. Add or change reviewers, read comments, and prompt the agent to resolve them. The whole path from agent output to merged PR now travels with you. #Inbox An Inbox helps you and your agents stay organized. See what's in progress, what needs your attention, and which PRs are in review. #Additional improvements for Cursor on iPhone and iPad Bitbucket and Azure DevOps SCM support Multi-PR sessions: when one chat creates multiple PRs, you can now open every one of them, not just the last. Switch between teams that you belong to directly in the app Download the Cursor App or read our docs to learn more.",
+      "titleZh": "Cursor，现已登陆 iPad",
+      "bodyZh": "Cursor for iPad 现已面向所有付费计划开放。iPhone 和 iPad 均新增了：一个用于保持有序的收件箱，以及一个覆盖完整 PR 的审查体验。随时随地创建、审查和合并。\n#专为大屏幕打造\niPad 布局围绕额外空间进行了重新设计。侧边栏聊天保持固定，以便您可以同时观察多个代理运行。分屏模式让审查与聊天并排打开，文件差异以完整形式呈现。标记功能也获得了更多操作空间。附加截图后，点击可在特定位置添加评论，或使用 Apple Pencil 直接在图像上绘制。\n#完整的审查界面\n在 iPhone 和 iPad 上，审查屏幕现在覆盖完整的 PR：评论、检查和批准。添加或更改审查者、阅读评论，并提示代理解决它们。从代理输出到合并 PR 的整个路径现在都随身携带。\n#收件箱\n收件箱帮助您和您的代理保持有序。查看哪些正在进行中、哪些需要您关注以及哪些 PR 正在审查中。\n#Cursor for iPhone 和 iPad 的其他改进\nBitbucket 和 Azure DevOps SCM 支持\n多 PR 会话：当一个聊天创建多个 PR 时，您现在可以打开每一个，而不仅仅是最后一个。\n直接在应用中切换您所属的团队\n下载 Cursor App 或阅读我们的文档以了解更多信息。",
+      "sourceHash": "73b2acc8b74654eaf3bc45bf53300b076fb4136f47af6ba1a7cd82a976fa83d2",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-30T10:40:42.956Z"
+    }
   },
   {
     "id": "github-copilot-370ef4df22491475",
