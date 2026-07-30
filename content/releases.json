@@ -1,5 +1,57 @@
 [
   {
+    "id": "github-copilot-2bf3f1cbfd23a11e",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-30T15:01:48.000Z",
+    "collectedAt": "2026-07-30T17:59:49.430Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
+    "title": "GitHub Copilot in Visual Studio — July update",
+    "body": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the .NET and Azure teams, and more ways to tailor GitHub Copilot to how you and… The post GitHub Copilot in Visual Studio — July update appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "a5d4f6fc06428ed8504adb52498967bae961127d64022df98a860e27041027dd",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "GitHub Copilot in Visual Studio — July update",
+      "bodyEn": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the .NET and Azure teams, and more ways to tailor GitHub Copilot to how you and… The post GitHub Copilot in Visual Studio — July update appeared first on The GitHub Blog.",
+      "titleZh": "Visual Studio 中的 GitHub Copilot — 7 月更新",
+      "bodyZh": "2026 年 7 月带来了基于 Copilot SDK 的新代理、来自 .NET 和 Azure 团队的内置专业知识，以及更多定制 GitHub Copilot 以适应您和……的方式。这篇文章《Visual Studio 中的 GitHub Copilot — 7 月更新》首次出现在 GitHub 博客上。",
+      "sourceHash": "a5d4f6fc06428ed8504adb52498967bae961127d64022df98a860e27041027dd",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-30T17:59:53.332Z"
+    }
+  },
+  {
+    "id": "github-copilot-eb4ab5efe7ec9db5",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-30T14:54:47.000Z",
+    "collectedAt": "2026-07-30T17:59:49.430Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices",
+    "title": "Limit remote control to managed devices",
+    "body": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is permitted. The new remoteControl… The post Limit remote control to managed devices appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "2f6ee3bcd2e42218c7199bdbe9463172460427af350395219b5eccd3a1ab018c",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Limit remote control to managed devices",
+      "bodyEn": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is permitted. The new remoteControl… The post Limit remote control to managed devices appeared first on The GitHub Blog.",
+      "titleZh": "将远程控制限制为托管设备",
+      "bodyZh": "企业和组织现在可以限制哪些设备有资格托管远程控制的 Copilot 会话，让管理员能够精细控制允许远程控制访问的位置。新的 remoteControl… 这篇文章《将远程控制限制为托管设备》最初出现在 GitHub 博客上。",
+      "sourceHash": "2f6ee3bcd2e42218c7199bdbe9463172460427af350395219b5eccd3a1ab018c",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-30T17:59:54.610Z"
+    }
+  },
+  {
     "id": "gemini-cli-bb33fcbef50d9ac2",
     "sourceSlug": "gemini-cli",
     "externalId": "362135256",
