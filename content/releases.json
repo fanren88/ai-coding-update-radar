@@ -1,5 +1,83 @@
 [
   {
+    "id": "gemini-cli-e59ae8a3c269ac1b",
+    "sourceSlug": "gemini-cli",
+    "externalId": "363336758",
+    "version": "v0.54.0-preview.1",
+    "channel": "preview",
+    "publishedAt": "2026-07-31T21:39:53.000Z",
+    "collectedAt": "2026-07-31T21:43:01.814Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-preview.1",
+    "title": "Release v0.54.0-preview.1",
+    "body": "## What's Changed\n* fix(patch): cherry-pick f47d6c6 to release/v0.54.0-preview.0-pr-28566 to patch version v0.54.0-preview.0 and create version 0.54.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28609\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-preview.0...v0.54.0-preview.1",
+    "sourceLanguage": "en",
+    "contentHash": "0891aa52b4a422de4f85a4f8f42f3727e6e8c537485da0ce25f148138ca06e36",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.54.0-preview.1",
+      "bodyEn": "## What's Changed\n* fix(patch): cherry-pick f47d6c6 to release/v0.54.0-preview.0-pr-28566 to patch version v0.54.0-preview.0 and create version 0.54.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28609\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-preview.0...v0.54.0-preview.1",
+      "titleZh": "发布 v0.54.0-preview.1",
+      "bodyZh": "## 变更内容\n* 修复（补丁）：将 f47d6c6 精选到 release/v0.54.0-preview.0-pr-28566，以修补版本 v0.54.0-preview.0，并创建版本 0.54.0-preview.1，由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28609 中完成\n\n\n**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.54.0-preview.0...v0.54.0-preview.1",
+      "sourceHash": "0891aa52b4a422de4f85a4f8f42f3727e6e8c537485da0ce25f148138ca06e36",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-31T21:43:05.493Z"
+    }
+  },
+  {
+    "id": "gemini-cli-1760d97a4a63c6f3",
+    "sourceSlug": "gemini-cli",
+    "externalId": "363334956",
+    "version": "v0.53.1",
+    "channel": "stable",
+    "publishedAt": "2026-07-31T21:34:30.000Z",
+    "collectedAt": "2026-07-31T21:43:01.814Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.1",
+    "title": "Release v0.53.1",
+    "body": "## What's Changed\n* fix(patch): cherry-pick f47d6c6 to release/v0.53.0-pr-28566 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28610\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.53.0...v0.53.1",
+    "sourceLanguage": "en",
+    "contentHash": "8188cf70ddd94a203e764a88ad3b295ea320dc76df2e6d27de0a1338604dd37e",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.53.1",
+      "bodyEn": "## What's Changed\n* fix(patch): cherry-pick f47d6c6 to release/v0.53.0-pr-28566 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28610\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.53.0...v0.53.1",
+      "titleZh": "发布 v0.53.1",
+      "bodyZh": "## 变更内容\n* 修复（补丁）：将 f47d6c6 挑选到 release/v0.53.0-pr-28566 [冲突] 由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28610 中提交\n\n\n**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.53.0...v0.53.1",
+      "sourceHash": "8188cf70ddd94a203e764a88ad3b295ea320dc76df2e6d27de0a1338604dd37e",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-31T21:43:07.169Z"
+    }
+  },
+  {
+    "id": "github-copilot-bb7456a90da21f2f",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
+    "version": "2.5",
+    "channel": "stable",
+    "publishedAt": "2026-07-31T20:04:01.000Z",
+    "collectedAt": "2026-07-31T21:43:01.491Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
+    "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
+    "body": "As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model… The post Gemini 2.5 Pro and Gemini 3 Flash deprecated appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "04fb91520dc537105dce1e192cec3970d1ea9627403c9dbc3a9f0fac6e47d06d",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
+      "bodyEn": "As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model… The post Gemini 2.5 Pro and Gemini 3 Flash deprecated appeared first on The GitHub Blog.",
+      "titleZh": "Gemini 2.5 Pro 和 Gemini 3 Flash 已弃用",
+      "bodyZh": "自今日（2026年7月31日）起，我们已在所有 GitHub Copilot 体验（包括 Copilot Chat、内联编辑、询问和代理模式以及代码补全）中弃用以下模型。模型… 该文章《Gemini 2.5 Pro 和 Gemini 3 Flash 已弃用》首次出现在 GitHub 博客上。",
+      "sourceHash": "04fb91520dc537105dce1e192cec3970d1ea9627403c9dbc3a9f0fac6e47d06d",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-31T21:43:08.847Z"
+    }
+  },
+  {
     "id": "github-copilot-a6fc9aa7ce873c88",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
@@ -23,6 +101,34 @@
       "sourceHash": "ff06a53860da90f6141afc0ac3a46d158f52880c1e42609a55365fcb89a7b182",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-31T20:06:17.737Z"
+    }
+  },
+  {
+    "id": "codex-f6bccabd33ec2b04",
+    "sourceSlug": "codex",
+    "externalId": "2026-07-31:GPT-5.4 and GPT-5.4 mini retire from Codex on August 31",
+    "version": "5.4",
+    "channel": "stable",
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "collectedAt": "2026-07-31T21:43:00.945Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-31",
+    "title": "GPT-5.4 and GPT-5.4 mini retire from Codex on August 31",
+    "body": "On August 31, 2026, GPT-5.4 and GPT-5.4 mini will no longer be available in Codex for users signed in with ChatGPT. GPT-5.4 and GPT-5.4 mini will remain available on the OpenAI API and Codex sessions authenticated with an API key.\n\nSwitch to their recommended replacements:\n\n- Replace gpt-5.4 with gpt-5.6-terra (GPT-5.6 Terra).\n\n- Replace gpt-5.4-mini with gpt-5.6-luna (GPT-5.6 Luna).\n\nBefore the cutoff, update workspace defaults, saved model settings, managed configurations, custom agents, and scheduled tasks that use either model.\n\nSee Codex models and workspace model availability for details.",
+    "sourceLanguage": "en",
+    "contentHash": "08136989ae29ef5d036e2dfe5881765e4b17fee208e7512699773f50219e5f96",
+    "sourceTopics": [
+      "general"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "GPT-5.4 and GPT-5.4 mini retire from Codex on August 31",
+      "bodyEn": "On August 31, 2026, GPT-5.4 and GPT-5.4 mini will no longer be available in Codex for users signed in with ChatGPT. GPT-5.4 and GPT-5.4 mini will remain available on the OpenAI API and Codex sessions authenticated with an API key.\n\nSwitch to their recommended replacements:\n\n- Replace gpt-5.4 with gpt-5.6-terra (GPT-5.6 Terra).\n\n- Replace gpt-5.4-mini with gpt-5.6-luna (GPT-5.6 Luna).\n\nBefore the cutoff, update workspace defaults, saved model settings, managed configurations, custom agents, and scheduled tasks that use either model.\n\nSee Codex models and workspace model availability for details.",
+      "titleZh": "GPT-5.4 和 GPT-5.4 mini 将于 8 月 31 日从 Codex 中退役",
+      "bodyZh": "2026 年 8 月 31 日，GPT-5.4 和 GPT-5.4 mini 将不再适用于使用 ChatGPT 登录的 Codex 用户。GPT-5.4 和 GPT-5.4 mini 仍将在 OpenAI API 和使用 API 密钥认证的 Codex 会话中可用。\n\n切换到其推荐的替代品：\n\n- 将 gpt-5.4 替换为 gpt-5.6-terra（GPT-5.6 Terra）。\n\n- 将 gpt-5.4-mini 替换为 gpt-5.6-luna（GPT-5.6 Luna）。\n\n在截止日期前，更新使用任一模型的工作区默认设置、已保存的模型设置、托管配置、自定义代理和计划任务。\n\n有关详细信息，请参阅 Codex 模型和工作区模型可用性。",
+      "sourceHash": "08136989ae29ef5d036e2dfe5881765e4b17fee208e7512699773f50219e5f96",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-31T21:43:11.023Z"
     }
   },
   {
