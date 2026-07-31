@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-a6fc9aa7ce873c88",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
+    "version": null,
+    "channel": "preview",
+    "publishedAt": "2026-07-31T18:11:50.000Z",
+    "collectedAt": "2026-07-31T20:06:13.618Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
+    "title": "Enterprise teams model policy targeting in public preview",
+    "body": "You can now take advantage of user-based model policy targeting for GitHub Enterprise customers with Copilot Business or Copilot Enterprise licenses. This feature empowers AI administrators to set a baseline… The post Enterprise teams model policy targeting in public preview appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "ff06a53860da90f6141afc0ac3a46d158f52880c1e42609a55365fcb89a7b182",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Enterprise teams model policy targeting in public preview",
+      "bodyEn": "You can now take advantage of user-based model policy targeting for GitHub Enterprise customers with Copilot Business or Copilot Enterprise licenses. This feature empowers AI administrators to set a baseline… The post Enterprise teams model policy targeting in public preview appeared first on The GitHub Blog.",
+      "titleZh": "企业团队模型策略定位公开预览",
+      "bodyZh": "您现在可以利用基于用户的模型策略定位，适用于拥有Copilot Business或Copilot Enterprise许可证的GitHub企业客户。此功能使AI管理员能够设定基线……该文章《企业团队模型策略定位公开预览》首次出现在GitHub博客上。",
+      "sourceHash": "ff06a53860da90f6141afc0ac3a46d158f52880c1e42609a55365fcb89a7b182",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-31T20:06:17.737Z"
+    }
+  },
+  {
     "id": "github-copilot-2bf3f1cbfd23a11e",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
@@ -3074,7 +3100,18 @@
     "body": "Cursor Automations save you time by automating repetitive tasks with always-on agents. This release introduces the /automate skill, new triggers for GitHub and Slack, and support for computer use. #/automate skill Use /automate to create an automation directly in your local agent session. Describe the task you want to automate in plain language and Cursor will configure the triggers, instructions, and tools for you. #An emoji trigger for Slack React to any Slack message with a designated emoji to kick off an automation. At Cursor, we use this to trigger specific automations right from Slack. #New GitHub triggers Automations now support five additional GitHub triggers: Issue comment: when a comment is made on a non-PR issue PR review comment: when an inline comment is left on a pull request diff PR review submitted: when a PR review is submitted Review thread updated: when a review thread on a pull request is marked resolved or unresolved Workflow run completed: when a GitHub Actions workflow run finishes on a pull request or branch We've added new templates for triaging failed GitHub actions and auto-fixing PR review comments to the Cursor Marketplace to help you get started. #Computer use tool for automations Cloud agents kicked off by automations can now use their own computers to produce demos or artifacts of their work. The computer use tool is enabled by default for every automation, just tell the agent to include a demo of its work in your instructions. To get started, update to the latest version of Cursor. Learn more in our docs. Improvements (3)↓↑ Automations can now be saved in an incomplete state, so you can navigate away to set up an MCP auth without losing your progress Automations can now open PRs by default; so you no longer have to specify that tool in the UI You can now delete memory files in the UI, or prompt your automation to delete outdated memories when it runs",
     "sourceLanguage": "en",
     "contentHash": "e531c20e18770c4b8114d44592817db6539ae561a49c5ac980ebbb29ed59ec55",
-    "sourceTopics": []
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Improvements to Cursor Automations",
+      "bodyEn": "Cursor Automations save you time by automating repetitive tasks with always-on agents. This release introduces the /automate skill, new triggers for GitHub and Slack, and support for computer use. #/automate skill Use /automate to create an automation directly in your local agent session. Describe the task you want to automate in plain language and Cursor will configure the triggers, instructions, and tools for you. #An emoji trigger for Slack React to any Slack message with a designated emoji to kick off an automation. At Cursor, we use this to trigger specific automations right from Slack. #New GitHub triggers Automations now support five additional GitHub triggers: Issue comment: when a comment is made on a non-PR issue PR review comment: when an inline comment is left on a pull request diff PR review submitted: when a PR review is submitted Review thread updated: when a review thread on a pull request is marked resolved or unresolved Workflow run completed: when a GitHub Actions workflow run finishes on a pull request or branch We've added new templates for triaging failed GitHub actions and auto-fixing PR review comments to the Cursor Marketplace to help you get started. #Computer use tool for automations Cloud agents kicked off by automations can now use their own computers to produce demos or artifacts of their work. The computer use tool is enabled by default for every automation, just tell the agent to include a demo of its work in your instructions. To get started, update to the latest version of Cursor. Learn more in our docs. Improvements (3)↓↑ Automations can now be saved in an incomplete state, so you can navigate away to set up an MCP auth without losing your progress Automations can now open PRs by default; so you no longer have to specify that tool in the UI You can now delete memory files in the UI, or prompt your automation to delete outdated memories when it runs",
+      "titleZh": "Cursor 自动化功能改进",
+      "bodyZh": "Cursor 自动化功能通过始终在线的代理自动执行重复性任务，为您节省时间。此版本引入了 /automate 技能、GitHub 和 Slack 的新触发器，并支持计算机使用。 #/automate 技能 使用 /automate 直接在本地代理会话中创建自动化。用自然语言描述您想要自动化的任务，Cursor 将为您配置触发器、指令和工具。 #Slack 的表情符号触发器 对任何 Slack 消息使用指定表情符号进行回复，即可启动自动化。在 Cursor，我们使用此功能直接从 Slack 触发特定自动化。 #新的 GitHub 触发器 自动化现在支持五个额外的 GitHub 触发器： 问题评论：当对非 PR 的问题发表评论时 PR 审查评论：当对拉取请求差异留下内联评论时 PR 审查提交：当提交 PR 审查时 审查线程更新：当拉取请求上的审查线程被标记为已解决或未解决时 工作流运行完成：当 GitHub Actions 工作流在拉取请求或分支上完成运行时 我们在 Cursor Marketplace 中添加了用于分类失败的 GitHub 操作和自动修复 PR 审查评论的新模板，以帮助您入门。 #用于自动化的计算机使用工具 由自动化启动的云代理现在可以使用自己的计算机来生成其工作的演示或工件。计算机使用工具默认对每个自动化启用，只需在指令中告诉代理包含其工作的演示即可。要开始使用，请更新到最新版本的 Cursor。在我们的文档中了解更多信息。 改进（3）↓↑ 自动化现在可以以不完整状态保存，因此您可以离开去设置 MCP 认证而不会丢失进度 自动化现在默认可以打开 PR；因此您不再需要在 UI 中指定该工具 您现在可以在 UI 中删除记忆文件，或提示您的自动化在运行时删除过时的记忆",
+      "sourceHash": "e531c20e18770c4b8114d44592817db6539ae561a49c5ac980ebbb29ed59ec55",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-07-31T20:07:35.523Z"
+    }
   },
   {
     "id": "codex-f7e2c607086505e8",
