@@ -290,6 +290,32 @@
     }
   },
   {
+    "id": "workbuddy-4f957a24c1705856",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-07-30:5.3.8",
+    "version": "5.3.8",
+    "channel": "stable",
+    "publishedAt": "2026-07-30T00:00:00.000Z",
+    "collectedAt": "2026-08-01T14:09:11.717Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-3-8-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-07-30",
+    "title": "WorkBuddy 5.3.8",
+    "body": "- 优化 macOS 文件监听机制，修复长时间使用后的卡顿并解决监听句柄泄漏\n\n- 修复产物索引膨胀导致历史任务无法恢复的问题\n\n- 修复依赖解压失败时命令执行环境检测异常的问题\n\n- 修复预热进程首轮对话人设异常及登录状态同步的问题\n\n- 修复历史消息中错误展示内部消息的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "113ef5dd26cbb176e64d670673b0ba7021c06fd88fef1de59c945e31292dd27f",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "zh",
+      "targetLanguage": "en",
+      "titleEn": "WorkBuddy 5.3.8",
+      "bodyEn": "- Optimized macOS file watching mechanism, fixing lag after prolonged use and resolving watcher handle leaks\n\n- Fixed issue where artifact index bloat prevented recovery of historical tasks\n\n- Fixed abnormal command execution environment detection when dependency extraction fails\n\n- Fixed persona anomalies in first-round conversations of prewarmed processes and login state synchronization issues\n\n- Fixed issue where internal messages were incorrectly displayed in historical messages",
+      "titleZh": "WorkBuddy 5.3.8",
+      "bodyZh": "- 优化 macOS 文件监听机制，修复长时间使用后的卡顿并解决监听句柄泄漏\n\n- 修复产物索引膨胀导致历史任务无法恢复的问题\n\n- 修复依赖解压失败时命令执行环境检测异常的问题\n\n- 修复预热进程首轮对话人设异常及登录状态同步的问题\n\n- 修复历史消息中错误展示内部消息的问题",
+      "sourceHash": "113ef5dd26cbb176e64d670673b0ba7021c06fd88fef1de59c945e31292dd27f",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-01T14:09:14.112Z"
+    }
+  },
+  {
     "id": "github-copilot-05746085e97d8c7d",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
@@ -447,6 +473,32 @@
       "sourceHash": "73b2acc8b74654eaf3bc45bf53300b076fb4136f47af6ba1a7cd82a976fa83d2",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-30T10:40:42.956Z"
+    }
+  },
+  {
+    "id": "workbuddy-d9f5b253bc8f755a",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-07-29:5.3.7",
+    "version": "5.3.7",
+    "channel": "stable",
+    "publishedAt": "2026-07-29T00:00:00.000Z",
+    "collectedAt": "2026-08-01T14:09:11.717Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-3-7-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-07-29",
+    "title": "WorkBuddy 5.3.7",
+    "body": "- 优化小程序端消息推送性能，剥离大字段避免 socket 拥塞\n\n- 修复 Deeplink 跳转时工作目录未正确设置的问题\n\n- 修复海外版 activity 栏专家/技能名称未按语言显示的问题\n\n- 修复端云同步断线后未自动重连的问题\n\n- 修复 Windows 任务执行中反复弹终端窗口的问题\n\n- 修复专家团问询清单在会话切换后丢失的问题\n\n- 修复微信聊天记录在英文环境下展示异常的问题\n\n- 修复云端助理切换会话时子助理状态闪动的问题\n\n- 修复会话分享时网盘文件上传失败的问题\n\n- 修复首次发送消息无法编辑的问题\n\n- 修复 Windows 冷启动闪退的问题\n\n- 修复专家图片格式不支持时未正确提示的问题\n\n- 修复自动化任务弹窗底部按钮闪现即消失的问题\n\n- 修复首条消息编辑重发时的历史回放问题\n\n- 修复 SSE 流式传输中文乱码的问题\n\n- 修复小程序端用户消息重复推送的问题\n\n- 修复高风险工具审批面板闪退的问题\n\n- 修复后台会话切回后内容截断的问题\n\n- 修复账号切换后连接未自动重建的问题\n\n- 修复 PDF 文件预览空白的问题\n\n- 修复 Windows 启动期网络代理超时阻塞 UI 的问题\n\n- 修复我的文件/长期记忆编辑页误出现 AI 编辑按钮的问题\n\n- 修复本地项目任务误禁用 SDK 预览的问题\n\n- 修复我的文件预览 pptm/dot 等 Office 变体格式乱码的问题\n\n- 修复斜杠命令输入卡顿的问题\n\n- 修复增强提示词回流误判的问题\n\n- 修复切换会话后模型可能被静默兜底为 Auto 的问题\n\n- 优化 Windows 更新 loading 关闭时机",
+    "sourceLanguage": "zh",
+    "contentHash": "e5c50b2af391ecca57ecab53f4d25f8a2374070b98ffd1011c67b767869c1bb3",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "zh",
+      "targetLanguage": "en",
+      "titleEn": "WorkBuddy 5.3.7",
+      "bodyEn": "- Optimized message push performance on the mini-program side by stripping large fields to avoid socket congestion\n\n- Fixed an issue where the working directory was not correctly set during Deeplink navigation\n\n- Fixed an issue where expert/skill names in the activity bar of the overseas version were not displayed according to the language\n\n- Fixed an issue where the cloud-device sync did not automatically reconnect after disconnection\n\n- Fixed an issue where the terminal window repeatedly popped up during task execution on Windows\n\n- Fixed an issue where the expert team inquiry checklist was lost after switching sessions\n\n- Fixed an issue where WeChat chat history displayed abnormally in English environments\n\n- Fixed an issue where the sub-assistant status flickered when switching sessions in the cloud assistant\n\n- Fixed an issue where cloud drive file upload failed when sharing sessions\n\n- Fixed an issue where the first message could not be edited\n\n- Fixed a crash on cold start on Windows\n\n- Fixed an issue where no proper prompt was shown when the expert image format was unsupported\n\n- Fixed an issue where the bottom button in the automation task popup flashed and disappeared\n\n- Fixed an issue with history playback when editing and resending the first message\n\n- Fixed an issue with garbled Chinese characters in SSE streaming\n\n- Fixed an issue where user messages were duplicated on the mini-program side\n\n- Fixed a crash in the high-risk tool approval panel\n\n- Fixed an issue where content was truncated after switching back to a background session\n\n- Fixed an issue where the connection was not automatically rebuilt after switching accounts\n\n- Fixed an issue where PDF file preview appeared blank\n\n- Fixed an issue where network proxy timeout blocked the UI during Windows startup\n\n- Fixed an issue where the AI edit button mistakenly appeared on the My Files/Long-term Memory edit pages\n\n- Fixed an issue where SDK preview was mistakenly disabled for local project tasks\n\n- Fixed an issue with garbled preview of Office variant formats like pptm and dot in My Files\n\n- Fixed an issue with lag when entering slash commands\n\n- Fixed an issue with misjudgment in enhanced prompt feedback\n\n- Fixed an issue where the model could be silently defaulted to Auto after switching sessions\n\n- Optimized the timing of closing the loading indicator for Windows updates",
+      "titleZh": "WorkBuddy 5.3.7",
+      "bodyZh": "- 优化小程序端消息推送性能，剥离大字段避免 socket 拥塞\n\n- 修复 Deeplink 跳转时工作目录未正确设置的问题\n\n- 修复海外版 activity 栏专家/技能名称未按语言显示的问题\n\n- 修复端云同步断线后未自动重连的问题\n\n- 修复 Windows 任务执行中反复弹终端窗口的问题\n\n- 修复专家团问询清单在会话切换后丢失的问题\n\n- 修复微信聊天记录在英文环境下展示异常的问题\n\n- 修复云端助理切换会话时子助理状态闪动的问题\n\n- 修复会话分享时网盘文件上传失败的问题\n\n- 修复首次发送消息无法编辑的问题\n\n- 修复 Windows 冷启动闪退的问题\n\n- 修复专家图片格式不支持时未正确提示的问题\n\n- 修复自动化任务弹窗底部按钮闪现即消失的问题\n\n- 修复首条消息编辑重发时的历史回放问题\n\n- 修复 SSE 流式传输中文乱码的问题\n\n- 修复小程序端用户消息重复推送的问题\n\n- 修复高风险工具审批面板闪退的问题\n\n- 修复后台会话切回后内容截断的问题\n\n- 修复账号切换后连接未自动重建的问题\n\n- 修复 PDF 文件预览空白的问题\n\n- 修复 Windows 启动期网络代理超时阻塞 UI 的问题\n\n- 修复我的文件/长期记忆编辑页误出现 AI 编辑按钮的问题\n\n- 修复本地项目任务误禁用 SDK 预览的问题\n\n- 修复我的文件预览 pptm/dot 等 Office 变体格式乱码的问题\n\n- 修复斜杠命令输入卡顿的问题\n\n- 修复增强提示词回流误判的问题\n\n- 修复切换会话后模型可能被静默兜底为 Auto 的问题\n\n- 优化 Windows 更新 loading 关闭时机",
+      "sourceHash": "e5c50b2af391ecca57ecab53f4d25f8a2374070b98ffd1011c67b767869c1bb3",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-01T14:09:17.931Z"
     }
   },
   {
@@ -629,6 +681,32 @@
       "sourceHash": "353697a3964569dc9bac0271c5b84a5a360268b091992305f2df84840d566810",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-28T03:49:47.800Z"
+    }
+  },
+  {
+    "id": "workbuddy-2fa134ea369e03d2",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-07-28:5.3.6",
+    "version": "5.3.6",
+    "channel": "stable",
+    "publishedAt": "2026-07-28T00:00:00.000Z",
+    "collectedAt": "2026-08-01T14:09:11.717Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-3-6-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-07-28",
+    "title": "WorkBuddy 5.3.6",
+    "body": "- 新增 WorkBuddy 官网登录跳转能力，支持从 www.workbuddy.cn / staging.workbuddy.cn 无缝拉起桌面端登录\n\n- 优化图片模型能力提示，所选模型不支持图片时改为 Toast 引导切换模型，避免发送按钮点了没反应\n\n- 优化 Ardot 设计画布图片生成模式，新增真实图片与文本占位图两种模式，占位图不消耗生成额度\n\n- 修复流式响应中文偶现乱码的问题（SSE chunk 边界截断 UTF-8 多字节字符）\n\n- 修复深度思考并行子任务时思考文本相互覆盖的问题\n\n- 修复我的文件面板打开 PDF / 文档预览偶现空白的问题\n\n- 修复预览 HTML 无法加载 ECharts / Chart.js / D3 等外部图表库导致图表渲染失败的问题\n\n- 修复英文版微信导出的聊天记录 ZIP 被误判为不可解析的问题\n\n- 修复 Claw 工作空间目录权限异常时无法回退到系统默认目录的问题\n\n- 修复套件市场更新后插件列表与磁盘状态脱节、多进程缓存过期的问题\n\n- 修复对话流式返回期间打开输入框「技能」子菜单列表长时间空白的问题\n\n- 修复首页输入框「+」菜单中腾讯文档 / 乐享等品牌图标被裁成圆形的问题\n\n- 修复「允许完全访问」二次确认弹窗底部按钮颜色渲染错误的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "6272b9436d3ca006a43938ce0208709a59e8b88cb8f328f19e4ca850053a23b9",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "zh",
+      "targetLanguage": "en",
+      "titleEn": "WorkBuddy 5.3.6",
+      "bodyEn": "- Added WorkBuddy official website login redirect capability, supporting seamless desktop login from www.workbuddy.cn / staging.workbuddy.cn\n\n- Optimized image model capability prompts: when the selected model does not support images, a Toast guides the user to switch models, avoiding unresponsive send button\n\n- Optimized Ardot design canvas image generation modes: added two modes - real image and text placeholder. Placeholder images do not consume generation quota\n\n- Fixed occasional garbled Chinese characters in streaming responses (SSE chunk boundary truncating UTF-8 multi-byte characters)\n\n- Fixed issue where thinking text overwrites each other during deep thinking parallel subtasks\n\n- Fixed occasional blank screen when opening PDF/document preview in My Files panel\n\n- Fixed issue where HTML preview fails to load external chart libraries like ECharts / Chart.js / D3, causing chart rendering failure\n\n- Fixed issue where English version WeChat exported chat history ZIP was misjudged as unparseable\n\n- Fixed issue where Claw workspace directory permission errors prevented fallback to system default directory\n\n- Fixed issue where plugin list and disk state were out of sync after suite market update, and multi-process cache expiration\n\n- Fixed issue where the \"Skills\" submenu in the input box remained blank for a long time during streaming responses\n\n- Fixed issue where brand icons like Tencent Docs / Lexiang in the \"+\" menu on the homepage were cropped into circles\n\n- Fixed issue where the bottom button color in the \"Allow Full Access\" secondary confirmation dialog was rendered incorrectly",
+      "titleZh": "WorkBuddy 5.3.6",
+      "bodyZh": "- 新增 WorkBuddy 官网登录跳转能力，支持从 www.workbuddy.cn / staging.workbuddy.cn 无缝拉起桌面端登录\n\n- 优化图片模型能力提示，所选模型不支持图片时改为 Toast 引导切换模型，避免发送按钮点了没反应\n\n- 优化 Ardot 设计画布图片生成模式，新增真实图片与文本占位图两种模式，占位图不消耗生成额度\n\n- 修复流式响应中文偶现乱码的问题（SSE chunk 边界截断 UTF-8 多字节字符）\n\n- 修复深度思考并行子任务时思考文本相互覆盖的问题\n\n- 修复我的文件面板打开 PDF / 文档预览偶现空白的问题\n\n- 修复预览 HTML 无法加载 ECharts / Chart.js / D3 等外部图表库导致图表渲染失败的问题\n\n- 修复英文版微信导出的聊天记录 ZIP 被误判为不可解析的问题\n\n- 修复 Claw 工作空间目录权限异常时无法回退到系统默认目录的问题\n\n- 修复套件市场更新后插件列表与磁盘状态脱节、多进程缓存过期的问题\n\n- 修复对话流式返回期间打开输入框「技能」子菜单列表长时间空白的问题\n\n- 修复首页输入框「+」菜单中腾讯文档 / 乐享等品牌图标被裁成圆形的问题\n\n- 修复「允许完全访问」二次确认弹窗底部按钮颜色渲染错误的问题",
+      "sourceHash": "6272b9436d3ca006a43938ce0208709a59e8b88cb8f328f19e4ca850053a23b9",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-01T14:09:21.502Z"
     }
   },
   {
