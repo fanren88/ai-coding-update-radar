@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-3e4c79d61c3f3d4a",
+    "sourceSlug": "gemini-cli",
+    "externalId": "363394322",
+    "version": "v0.55.0-nightly.20260801.gf47d6c6f7",
+    "channel": "preview",
+    "publishedAt": "2026-08-01T01:27:07.000Z",
+    "collectedAt": "2026-08-01T04:03:45.892Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260801.gf47d6c6f7",
+    "title": "Release v0.55.0-nightly.20260801.gf47d6c6f7",
+    "body": "## What's Changed\n* fix(core): classify capacity exhaustion as terminal to prevent retry hangs by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28599\n* fix(core,cli): propagate InvalidStreamError details to UI for specific empty response guidance by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28566\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260730.gdc859e8e4...v0.55.0-nightly.20260801.gf47d6c6f7",
+    "sourceLanguage": "en",
+    "contentHash": "a721566cb24b244874ee13ff514711bff2c079e8ae27844d7ceccbd6a814d807",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.55.0-nightly.20260801.gf47d6c6f7",
+      "bodyEn": "## What's Changed\n* fix(core): classify capacity exhaustion as terminal to prevent retry hangs by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28599\n* fix(core,cli): propagate InvalidStreamError details to UI for specific empty response guidance by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28566\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260730.gdc859e8e4...v0.55.0-nightly.20260801.gf47d6c6f7",
+      "titleZh": "发布 v0.55.0-nightly.20260801.gf47d6c6f7",
+      "bodyZh": "## 变更内容\n* 修复(核心)：将容量耗尽归类为终止状态，以防止重试挂起，由 @luisfelipe-alt 在 https://github.com/google-gemini/gemini-cli/pull/28599 中提出\n* 修复(核心,CLI)：将 InvalidStreamError 详细信息传播到 UI，以提供针对空响应的具体指导，由 @DavidAPierce 在 https://github.com/google-gemini/gemini-cli/pull/28566 中提出\n\n\n**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260730.gdc859e8e4...v0.55.0-nightly.20260801.gf47d6c6f7",
+      "sourceHash": "a721566cb24b244874ee13ff514711bff2c079e8ae27844d7ceccbd6a814d807",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-01T04:03:49.760Z"
+    }
+  },
+  {
     "id": "gemini-cli-e59ae8a3c269ac1b",
     "sourceSlug": "gemini-cli",
     "externalId": "363336758",
