@@ -21,6 +21,27 @@
     "sourceTopics": []
   },
   {
+    "id": "cursor-3f181a596cb6bea4-03d4f0817f8456fd",
+    "releaseId": "cursor-3f181a596cb6bea4",
+    "toolSlug": "cursor",
+    "toolName": "Cursor",
+    "title": "Google Workspace Plugins",
+    "what": "官方发布了「Google Workspace Plugins」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Cursor 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-03T00:00:00.000Z",
+    "sourceUrl": "https://cursor.com/changelog/google-workspace-plugins",
+    "evidence": "Cursor can now read, write, and act across Google Workspace via plugins, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-e07e5db6bae547bf-bc23800214c959e8",
     "releaseId": "gemini-cli-e07e5db6bae547bf",
     "toolSlug": "gemini-cli",
