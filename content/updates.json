@@ -37,7 +37,7 @@
     "version": null,
     "publishedAt": "2026-08-03T00:00:00.000Z",
     "sourceUrl": "https://cursor.com/changelog/google-workspace-plugins",
-    "evidence": "Cursor can now read, write, and act across Google Workspace via plugins, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor.",
+    "evidence": "Cursor can now read, write, and act across your Google Workspace.",
     "generatedBy": "fallback",
     "sourceTopics": []
   },

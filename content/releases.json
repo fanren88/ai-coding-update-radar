@@ -32,23 +32,23 @@
     "version": null,
     "channel": "unknown",
     "publishedAt": "2026-08-03T00:00:00.000Z",
-    "collectedAt": "2026-08-03T20:16:53.699Z",
+    "collectedAt": "2026-08-03T23:42:21.786Z",
     "sourceUrl": "https://cursor.com/changelog/google-workspace-plugins",
     "title": "Google Workspace Plugins",
-    "body": "Cursor can now read, write, and act across Google Workspace via plugins, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor. Install plugins to connect: Google Drive: search files and folders, open and download content, create and organize files Gmail: search and read mail, draft and send messages, apply labels and manage threads Google Calendar: read schedules, create and update events, and find free time Google Docs: open and read documents, write and edit text, and create new docs Google Sheets: read ranges and find values, update cells, and create and edit spreadsheets Google Chat: read spaces and messages, and send messages and DMs Browse the new plugins in the Cursor Marketplace or install them from the Customize page in Cursor. Learn more in our docs.",
+    "body": "Cursor can now read, write, and act across your Google Workspace. New plugins give coding agents direct access to Gmail, Google Drive, Calendar, Docs, and Sheets, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor. Install plugins to connect: Google Drive: search files and folders, open and download content, create and organize files Gmail: search and read mail, draft and send messages, apply labels and manage threads Google Calendar: read schedules, create and update events, find free time Google Docs: open and read documents, write and edit text, create new docs Google Sheets: read ranges and find values, update cells, create and edit spreadsheets Google Chat: read spaces and messages, send messages and DMs Browse the new plugins in the Cursor Marketplace or install them from the Customize page in Cursor. Learn more in our docs.",
     "sourceLanguage": "en",
-    "contentHash": "23a561f800834553cc201a718e98530f421f9ab70ca5e76ff379719e04b4a050",
+    "contentHash": "6843b1edfc85b40dd1793fb6893ea39e4ddde31cb07927f2cd713168f725f0dd",
     "sourceTopics": [],
     "translation": {
       "sourceLanguage": "en",
       "targetLanguage": "zh",
       "titleEn": "Google Workspace Plugins",
-      "bodyEn": "Cursor can now read, write, and act across Google Workspace via plugins, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor. Install plugins to connect: Google Drive: search files and folders, open and download content, create and organize files Gmail: search and read mail, draft and send messages, apply labels and manage threads Google Calendar: read schedules, create and update events, and find free time Google Docs: open and read documents, write and edit text, and create new docs Google Sheets: read ranges and find values, update cells, and create and edit spreadsheets Google Chat: read spaces and messages, and send messages and DMs Browse the new plugins in the Cursor Marketplace or install them from the Customize page in Cursor. Learn more in our docs.",
+      "bodyEn": "Cursor can now read, write, and act across your Google Workspace. New plugins give coding agents direct access to Gmail, Google Drive, Calendar, Docs, and Sheets, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor. Install plugins to connect: Google Drive: search files and folders, open and download content, create and organize files Gmail: search and read mail, draft and send messages, apply labels and manage threads Google Calendar: read schedules, create and update events, find free time Google Docs: open and read documents, write and edit text, create new docs Google Sheets: read ranges and find values, update cells, create and edit spreadsheets Google Chat: read spaces and messages, send messages and DMs Browse the new plugins in the Cursor Marketplace or install them from the Customize page in Cursor. Learn more in our docs.",
       "titleZh": "Google Workspace 插件",
-      "bodyZh": "Cursor 现在可以通过插件在 Google Workspace 中进行读取、写入和操作，因此您可以在不离开 Cursor 的情况下获取上下文、起草和更新文件，以及管理收件箱和日历。安装插件以连接：Google Drive：搜索文件和文件夹，打开和下载内容，创建和组织文件 Gmail：搜索和阅读邮件，起草和发送消息，应用标签和管理线程 Google Calendar：读取日程，创建和更新事件，并查找空闲时间 Google Docs：打开和阅读文档，编写和编辑文本，以及创建新文档 Google Sheets：读取范围和查找值，更新单元格，以及创建和编辑电子表格 Google Chat：读取空间和消息，并发送消息和私信 在 Cursor Marketplace 中浏览新插件，或从 Cursor 的 Customize 页面安装它们。在我们的文档中了解更多信息。",
-      "sourceHash": "23a561f800834553cc201a718e98530f421f9ab70ca5e76ff379719e04b4a050",
+      "bodyZh": "Cursor 现在可以跨 Google Workspace 进行读取、写入和操作。新的插件让编码代理能够直接访问 Gmail、Google Drive、Calendar、Docs 和 Sheets，因此您可以在不离开 Cursor 的情况下获取上下文、起草和更新文件，以及管理收件箱和日历。安装插件以连接：Google Drive：搜索文件和文件夹，打开和下载内容，创建和组织文件 Gmail：搜索和阅读邮件，起草和发送消息，应用标签和管理线程 Google Calendar：读取日程，创建和更新事件，查找空闲时间 Google Docs：打开和阅读文档，编写和编辑文本，创建新文档 Google Sheets：读取范围和查找值，更新单元格，创建和编辑电子表格 Google Chat：读取空间和消息，发送消息和私信 在 Cursor Marketplace 中浏览新插件，或从 Cursor 的 Customize 页面安装它们。在我们的文档中了解更多。",
+      "sourceHash": "6843b1edfc85b40dd1793fb6893ea39e4ddde31cb07927f2cd713168f725f0dd",
       "model": "deepseek-v4-flash",
-      "translatedAt": "2026-08-03T20:16:58.332Z"
+      "translatedAt": "2026-08-03T23:42:26.215Z"
     }
   },
   {
