@@ -1,5 +1,61 @@
 [
   {
+    "id": "claude-code-1e76c42741a83033",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.221",
+    "version": "2.1.221",
+    "channel": "stable",
+    "publishedAt": "2026-08-04T03:52:23.804Z",
+    "collectedAt": "2026-08-04T03:52:23.804Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.221",
+    "body": "- [VSCode] Added Focus view: a chat-menu toggle that hides tool activity behind an expandable per-turn summary with a live running-tool indicator, toggled with `Ctrl+Alt+F` or the \"Claude Code: Toggle Focus view\" command\n- Added `mode: \"mask\"` for sandbox credential files on Linux and WSL — sandboxed commands read a sentinel copy (the whole file, or just the spans captured by an `extract` regex) while the sandbox proxy substitutes the real value on egress; on macOS file masking falls back to `deny`\n- Added warnings to `claude plugin validate` when a marketplace or plugin name would be rejected by Claude Desktop's managed marketplace sync\n- Added a `prompt-audit` subcommand to the `claude-api` skill for auditing prompts and tool descriptions for patterns written for older models\n- Fixed a Bash tool permission-check bypass where zsh could execute hidden commands in `[[ ]]` regex conditionals; affected commands now prompt for permission\n- Fixed PowerShell permission checks mishandling paths containing quote characters on Windows; such paths now prompt for approval\n- Fixed the thinking toggle having no effect for the rest of a session that started with thinking off; disabling an MCP server mid-connect no longer silently reverts\n- Fixed MCP servers from `--mcp-config` not being connected before the first turn in print mode (`-p`), which made the model emit tool calls as literal text\n- Fixed @-mentioned files being silently dropped when pressing Esc to retract a prompt and resubmitting it\n- Fixed a crash when preparing API requests for SDK MCP tools named after built-in object properties such as `constructor`\n- Fixed WebSearch failing with a 400 error at effort `xhigh`/`max` when thinking is disabled\n- Fixed sandboxed large uploads failing with TLS errors through the sandbox proxy\n- Fixed Team and Enterprise spend-limit message incorrectly blaming the org's monthly limit instead of your individual spend limit\n- Fixed Bedrock authentication with AWS SSO named profiles failing in desktop-managed sessions on Windows machines that set a stray `HOME` environment variable\n- Fixed `CLAUDE_CODE_RESUME_INTERRUPTED_TURN=0` not disabling interrupted-turn auto-resume; falsy values are now honored\n- Fixed a rare wake-from-sleep race where two Claude Code processes could both refresh the same MCP connector or WIF OAuth token at once, forcing re-authentication\n- Fixed renaming a session from Claude Code Desktop or claude.ai not updating the CLI's session name; session names from every rename surface are now sanitized\n- Fixed plugin- and org-delivered skills named after terminal-only built-ins (e.g. `/help`, `/feedback`) being un-invocable in non-interactive sessions\n- Fixed the \"Plugins changed\" notification lingering after plugins were reloaded instead of clearing\n- Fixed Vim mode: the yank register now survives dialogs, history search, and the transcript view instead of being silently emptied\n- Fixed Vim mode: undoing back to an empty prompt now arms the \"press ← again\" confirm before returning to the agent view\n- Improved tool search on Google Vertex AI: re-enabled for Claude 4.5-generation and newer models\n- Improved auto mode: permission checks for parallel tool calls are now cache-efficient, and switching modes while a check is pending reliably prompts instead of applying the stale result\n- Reduced prompt-cache costs for auto-mode permission checks by reusing the cached conversation prefix across decisions\n- Improved Stats panel to count cache tokens in its token totals, with a breakdown by input, output, cache read, and cache write\n- Improved `/ultrareview` error messages when a repo shares no history with its base: a checkout with no branches is now refused up front with advice to create one, and refusal hints no longer suggest `git fetch --unshallow` on clones that are already complete\n- Improved Windows startup: process creation times are now read via a native kernel32 call instead of spawning PowerShell, so endpoint security tools that gate `powershell.exe` no longer prompt\n- Changed background sessions to commit and push to preserve work, open a draft PR only when the task calls for one, follow your CLAUDE.md git instructions, and always end by reporting where the work lives\n- Changed `/plugin install` to refresh a stale marketplace catalog and retry before reporting a plugin not found\n- Changed plugins installed from `/plugin` to activate immediately when safe, instead of always requiring `/reload-plugins`\n- Changed plugins to accept `\".\"` as a `skills` path, and the root-level `SKILL.md` validation error now suggests using the plugin root\n- Changed `/status` to show the session kind: `interactive`, or a background job that is `attached` or `unattended`\n- Changed emoji autocomplete to accept common alternate shortcodes like `:thumbsup:`, `:thumbsdown:`, and `:love:`\n- Changed sessions forked with `/fork` to create a new worktree of their own instead of working in the original session's checkout\n- Changed Claude in Chrome to close the browser tabs it opens once it no longer needs them\n- Changed fast mode to report on the stream when usage credits run out mid-session, instead of failing silently\n- Changed Monitor: a watch that exits without producing any output now says so instead of reporting \"stream ended\"\n- Changed the Gateway `model` field validation: non-string values are rejected with a 400 instead of being forwarded\n- Removed the repeated \"Permission mode changed while the auto-mode classifier call was queued\" notice from approval prompts",
+    "sourceLanguage": "en",
+    "contentHash": "2527c6f32e9a0c69af2b206c32e89a33c759aa7be6bf8d4a21cd6ecb5cfa8b92",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-3465b79269f31ec1",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-03T23:27:35.000Z",
+    "collectedAt": "2026-08-04T03:52:24.320Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+    "title": "Customize the reasoning level for Copilot cloud agent",
+    "body": "When you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it. This allows you to control how much the… The post Customize the reasoning level for Copilot cloud agent appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "8873535a291fcb0f4bcd058fe8b15618d2185e797f833e5abfef2f9314cd827d",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Customize the reasoning level for Copilot cloud agent",
+      "bodyEn": "When you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it. This allows you to control how much the… The post Customize the reasoning level for Copilot cloud agent appeared first on The GitHub Blog.",
+      "titleZh": "为 Copilot 云代理自定义推理级别",
+      "bodyZh": "当您将任务委托给 GitHub Copilot 云代理时，您现在可以为支持该功能的模型设置推理级别。这使您可以控制… 文章《为 Copilot 云代理自定义推理级别》首次出现在 GitHub 博客上。",
+      "sourceHash": "8873535a291fcb0f4bcd058fe8b15618d2185e797f833e5abfef2f9314cd827d",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-04T03:52:36.059Z"
+    }
+  },
+  {
+    "id": "github-copilot-4f828c3185a439ee",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-03T19:14:58.000Z",
+    "collectedAt": "2026-08-04T03:52:24.320Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+    "title": "Trigger Copilot automations with comments",
+    "body": "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull… The post Trigger Copilot automations with comments appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "7ac9b49b02381b917f0210790af3e79899006079c6d8550ec9f8bc9f1a3154ff",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-77bc2e177a4a61b0",
     "sourceSlug": "gemini-cli",
     "externalId": "363945570",
@@ -32,23 +88,23 @@
     "version": null,
     "channel": "unknown",
     "publishedAt": "2026-08-03T00:00:00.000Z",
-    "collectedAt": "2026-08-03T23:42:21.786Z",
+    "collectedAt": "2026-08-04T03:52:24.009Z",
     "sourceUrl": "https://cursor.com/changelog/google-workspace-plugins",
     "title": "Google Workspace Plugins",
-    "body": "Cursor can now read, write, and act across your Google Workspace. New plugins give coding agents direct access to Gmail, Google Drive, Calendar, Docs, and Sheets, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor. Install plugins to connect: Google Drive: search files and folders, open and download content, create and organize files Gmail: search and read mail, draft and send messages, apply labels and manage threads Google Calendar: read schedules, create and update events, find free time Google Docs: open and read documents, write and edit text, create new docs Google Sheets: read ranges and find values, update cells, create and edit spreadsheets Google Chat: read spaces and messages, send messages and DMs Browse the new plugins in the Cursor Marketplace or install them from the Customize page in Cursor. Learn more in our docs.",
+    "body": "Cursor can now read, write, and act across your Google Workspace. New plugins give coding agents direct access to Gmail, Google Drive, Calendar, Docs, and Sheets, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor. Install plugins to connect: Google Drive: search files and folders, open and download content, create and organize files Gmail: search and read mail, draft and send messages, apply labels and manage threads Google Calendar: read schedules, create and update events, find free time Google Docs: open and read documents, write and edit text, create new docs Google Sheets: read ranges and find values, update cells, create and edit spreadsheets Browse the new plugins in the Cursor Marketplace or install them from the Customize page in Cursor. Learn more in our docs.",
     "sourceLanguage": "en",
-    "contentHash": "6843b1edfc85b40dd1793fb6893ea39e4ddde31cb07927f2cd713168f725f0dd",
+    "contentHash": "a3030aa5613dcb7c712ffe8702ee19c6efe030ca74b4fdf3bfdc254d4a3bd31e",
     "sourceTopics": [],
     "translation": {
       "sourceLanguage": "en",
       "targetLanguage": "zh",
       "titleEn": "Google Workspace Plugins",
-      "bodyEn": "Cursor can now read, write, and act across your Google Workspace. New plugins give coding agents direct access to Gmail, Google Drive, Calendar, Docs, and Sheets, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor. Install plugins to connect: Google Drive: search files and folders, open and download content, create and organize files Gmail: search and read mail, draft and send messages, apply labels and manage threads Google Calendar: read schedules, create and update events, find free time Google Docs: open and read documents, write and edit text, create new docs Google Sheets: read ranges and find values, update cells, create and edit spreadsheets Google Chat: read spaces and messages, send messages and DMs Browse the new plugins in the Cursor Marketplace or install them from the Customize page in Cursor. Learn more in our docs.",
+      "bodyEn": "Cursor can now read, write, and act across your Google Workspace. New plugins give coding agents direct access to Gmail, Google Drive, Calendar, Docs, and Sheets, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor. Install plugins to connect: Google Drive: search files and folders, open and download content, create and organize files Gmail: search and read mail, draft and send messages, apply labels and manage threads Google Calendar: read schedules, create and update events, find free time Google Docs: open and read documents, write and edit text, create new docs Google Sheets: read ranges and find values, update cells, create and edit spreadsheets Browse the new plugins in the Cursor Marketplace or install them from the Customize page in Cursor. Learn more in our docs.",
       "titleZh": "Google Workspace 插件",
-      "bodyZh": "Cursor 现在可以跨 Google Workspace 进行读取、写入和操作。新的插件让编码代理能够直接访问 Gmail、Google Drive、Calendar、Docs 和 Sheets，因此您可以在不离开 Cursor 的情况下获取上下文、起草和更新文件，以及管理收件箱和日历。安装插件以连接：Google Drive：搜索文件和文件夹，打开和下载内容，创建和组织文件 Gmail：搜索和阅读邮件，起草和发送消息，应用标签和管理线程 Google Calendar：读取日程，创建和更新事件，查找空闲时间 Google Docs：打开和阅读文档，编写和编辑文本，创建新文档 Google Sheets：读取范围和查找值，更新单元格，创建和编辑电子表格 Google Chat：读取空间和消息，发送消息和私信 在 Cursor Marketplace 中浏览新插件，或从 Cursor 的 Customize 页面安装它们。在我们的文档中了解更多。",
-      "sourceHash": "6843b1edfc85b40dd1793fb6893ea39e4ddde31cb07927f2cd713168f725f0dd",
+      "bodyZh": "Cursor 现在可以跨您的 Google Workspace 进行读取、写入和操作。新的插件让编码代理能够直接访问 Gmail、Google Drive、Calendar、Docs 和 Sheets，因此您可以在不离开 Cursor 的情况下获取上下文、起草和更新文件，以及管理您的收件箱和日历。安装插件以连接：Google Drive：搜索文件和文件夹，打开和下载内容，创建和组织文件 Gmail：搜索和阅读邮件，起草和发送消息，应用标签和管理线程 Google Calendar：读取日程，创建和更新事件，查找空闲时间 Google Docs：打开和阅读文档，编写和编辑文本，创建新文档 Google Sheets：读取范围和查找值，更新单元格，创建和编辑电子表格 在 Cursor Marketplace 中浏览新插件，或从 Cursor 的 Customize 页面安装它们。在我们的文档中了解更多信息。",
+      "sourceHash": "a3030aa5613dcb7c712ffe8702ee19c6efe030ca74b4fdf3bfdc254d4a3bd31e",
       "model": "deepseek-v4-flash",
-      "translatedAt": "2026-08-03T23:42:26.215Z"
+      "translatedAt": "2026-08-04T03:52:40.683Z"
     }
   },
   {
@@ -153,6 +209,32 @@
       "sourceHash": "8188cf70ddd94a203e764a88ad3b295ea320dc76df2e6d27de0a1338604dd37e",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-31T21:43:07.169Z"
+    }
+  },
+  {
+    "id": "github-copilot-4b67a6b38daeb57a",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-31T21:26:48.000Z",
+    "collectedAt": "2026-08-04T03:52:24.320Z",
+    "sourceUrl": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
+    "title": "Upcoming August 2026 model deprecations in GitHub Copilot",
+    "body": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date… The post Upcoming August 2026 model deprecations in GitHub Copilot appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "d8fc1da65953557e2ae2e07103df2fa0c6f68fa487e186f13f6ccef2a9b62299",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Upcoming August 2026 model deprecations in GitHub Copilot",
+      "bodyEn": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date… The post Upcoming August 2026 model deprecations in GitHub Copilot appeared first on The GitHub Blog.",
+      "titleZh": "GitHub Copilot 中即将于 2026 年 8 月弃用的模型",
+      "bodyZh": "我们将于 2026 年 9 月 1 日在所有 GitHub Copilot 体验（包括 Copilot Chat、内联编辑、询问和代理模式以及代码补全）中弃用以下模型：模型弃用日期… 帖子“GitHub Copilot 中即将于 2026 年 8 月弃用的模型”首先出现在 GitHub 博客上。",
+      "sourceHash": "d8fc1da65953557e2ae2e07103df2fa0c6f68fa487e186f13f6ccef2a9b62299",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-04T03:52:43.243Z"
     }
   },
   {
