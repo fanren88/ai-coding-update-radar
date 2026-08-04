@@ -53,7 +53,18 @@
     "body": "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull… The post Trigger Copilot automations with comments appeared first on The GitHub Blog.",
     "sourceLanguage": "en",
     "contentHash": "7ac9b49b02381b917f0210790af3e79899006079c6d8550ec9f8bc9f1a3154ff",
-    "sourceTopics": []
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Trigger Copilot automations with comments",
+      "bodyEn": "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull… The post Trigger Copilot automations with comments appeared first on The GitHub Blog.",
+      "titleZh": "通过评论触发 Copilot 自动化",
+      "bodyZh": "您现在可以创建 Copilot 云代理自动化，当问题评论或拉取请求评论创建时运行。常见用例包括：生成文档：在拉取请求上评论… 帖子“通过评论触发 Copilot 自动化”首次出现在 GitHub 博客上。",
+      "sourceHash": "7ac9b49b02381b917f0210790af3e79899006079c6d8550ec9f8bc9f1a3154ff",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-04T07:19:44.088Z"
+    }
   },
   {
     "id": "gemini-cli-77bc2e177a4a61b0",
