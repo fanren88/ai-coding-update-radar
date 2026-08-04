@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-f3b86f70b8237c12-933fe96d7f5e3b70",
+    "releaseId": "github-copilot-f3b86f70b8237c12",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Retiring the Copilot Billing Preview app",
+    "what": "官方发布了「Retiring the Copilot Billing Preview app」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": null,
+    "publishedAt": "2026-08-04T19:09:32.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+    "evidence": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-1e76c42741a83033-b4364a95460207f3",
     "releaseId": "claude-code-1e76c42741a83033",
     "toolSlug": "claude-code",

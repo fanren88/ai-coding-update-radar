@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-f3b86f70b8237c12",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+    "version": null,
+    "channel": "preview",
+    "publishedAt": "2026-08-04T19:09:32.000Z",
+    "collectedAt": "2026-08-04T20:11:26.197Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+    "title": "Retiring the Copilot Billing Preview app",
+    "body": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings. The app helped… The post Retiring the Copilot Billing Preview app appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "972cb98452207b19b1bf4acc43357acf096088138c9971c046cf7166db46f63b",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Retiring the Copilot Billing Preview app",
+      "bodyEn": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings. The app helped… The post Retiring the Copilot Billing Preview app appeared first on The GitHub Blog.",
+      "titleZh": "停用 Copilot 计费预览应用",
+      "bodyZh": "我们已停用 GitHub Copilot 计费预览应用，该应用不再可用。您可以直接在 GitHub 计费设置中查看和管理您的 Copilot 支出。该应用曾帮助…… 这篇关于停用 Copilot 计费预览应用的文章最初出现在 GitHub 博客上。",
+      "sourceHash": "972cb98452207b19b1bf4acc43357acf096088138c9971c046cf7166db46f63b",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-04T20:11:30.294Z"
+    }
+  },
+  {
     "id": "claude-code-1e76c42741a83033",
     "sourceSlug": "claude-code",
     "externalId": "2.1.221",
