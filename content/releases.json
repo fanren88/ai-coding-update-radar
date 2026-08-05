@@ -1,5 +1,33 @@
 [
   {
+    "id": "codex-c35f2bded90c2dc9",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-05:Codex CLI 0.146.1",
+    "version": "0.146.1",
+    "channel": "stable",
+    "publishedAt": "2026-08-05T00:00:00.000Z",
+    "collectedAt": "2026-08-05T18:08:23.237Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-365644216",
+    "title": "Codex CLI 0.146.1",
+    "body": "```bash\n$ npm install -g @openai/codex@0.146.1\n```\n\n## Bug Fixes\n\n- Apply safer automatic-review defaults for cyber-capable models and explain permission changes in the terminal interface. (#37057)\n\n## Changelog\n\nFull Changelog: rust-v0.146.0...rust-v0.146.1\n\n- #37057 [0.146] Backport safer cyber-model auto-review defaults @anp-oai\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "f04efcc20454726d756a9650a4200237f2cfb580b2ceca98e554375b6d8bc72b",
+    "sourceTopics": [
+      "codex-cli"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Codex CLI 0.146.1",
+      "bodyEn": "```bash\n$ npm install -g @openai/codex@0.146.1\n```\n\n## Bug Fixes\n\n- Apply safer automatic-review defaults for cyber-capable models and explain permission changes in the terminal interface. (#37057)\n\n## Changelog\n\nFull Changelog: rust-v0.146.0...rust-v0.146.1\n\n- #37057 [0.146] Backport safer cyber-model auto-review defaults @anp-oai\n\nFull release on Github",
+      "titleZh": "Codex CLI 0.146.1",
+      "bodyZh": "```bash\n$ npm install -g @openai/codex@0.146.1\n```\n\n## 错误修复\n\n- 为具备网络能力的模型应用更安全的自动审查默认设置，并在终端界面中解释权限变更。(#37057)\n\n## 变更日志\n\n完整变更日志：rust-v0.146.0...rust-v0.146.1\n\n- #37057 [0.146] 回移更安全的网络模型自动审查默认设置 @anp-oai\n\n完整发布信息见 GitHub",
+      "sourceHash": "f04efcc20454726d756a9650a4200237f2cfb580b2ceca98e554375b6d8bc72b",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-05T18:08:27.864Z"
+    }
+  },
+  {
     "id": "claude-code-f1120855e8aea7e8",
     "sourceSlug": "claude-code",
     "externalId": "2.1.222",
