@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-412eeeaddaef78db-45cf70538f2b4b39",
+    "releaseId": "github-copilot-412eeeaddaef78db",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Kimi K3 is now available in GitHub Copilot",
+    "what": "官方发布了「Kimi K3 is now available in GitHub Copilot」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-06T17:27:25.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+    "evidence": "Editor’s note (August 6, 2026): We have temporarily paused the roll-out of Kimi K3 while we mitigate an incident with GitHub Actions.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-14192bfa9ca5b83b-f6c17611e7d5a644",
     "releaseId": "claude-code-14192bfa9ca5b83b",
     "toolSlug": "claude-code",

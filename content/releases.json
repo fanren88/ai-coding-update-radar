@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-412eeeaddaef78db",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-06T17:27:25.000Z",
+    "collectedAt": "2026-08-07T00:27:29.285Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+    "title": "Kimi K3 is now available in GitHub Copilot",
+    "body": "Editor’s note (August 6, 2026): We have temporarily paused the roll-out of Kimi K3 while we mitigate an incident with GitHub Actions. We will resume the roll-out as soon as… The post Kimi K3 is now available in GitHub Copilot appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "217fdc0ab09e1e8951fff48cd354c9bdcc73821a1212a7aad9fc1ba9ecf30c42",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Kimi K3 is now available in GitHub Copilot",
+      "bodyEn": "Editor’s note (August 6, 2026): We have temporarily paused the roll-out of Kimi K3 while we mitigate an incident with GitHub Actions. We will resume the roll-out as soon as… The post Kimi K3 is now available in GitHub Copilot appeared first on The GitHub Blog.",
+      "titleZh": "Kimi K3 现已在 GitHub Copilot 中可用",
+      "bodyZh": "编者注（2026年8月6日）：我们已暂时暂停 Kimi K3 的推出，同时处理与 GitHub Actions 相关的事件。我们将尽快恢复推出…… 文章《Kimi K3 现已在 GitHub Copilot 中可用》最初发布在 GitHub 博客上。",
+      "sourceHash": "217fdc0ab09e1e8951fff48cd354c9bdcc73821a1212a7aad9fc1ba9ecf30c42",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-07T00:27:33.018Z"
+    }
+  },
+  {
     "id": "claude-code-14192bfa9ca5b83b",
     "sourceSlug": "claude-code",
     "externalId": "2.1.223",
