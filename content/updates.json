@@ -126,6 +126,27 @@
     "sourceTopics": []
   },
   {
+    "id": "github-copilot-7230fa9ad47396f8-feb002830f0d0582",
+    "releaseId": "github-copilot-7230fa9ad47396f8",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "MCP allowlists in enterprise managed settings",
+    "what": "官方发布了「MCP allowlists in enterprise managed settings」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-07T00:11:19.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
+    "evidence": "Enterprise owners can now centrally control which Model Context Protocol (MCP) servers GitHub Copilot clients are allowed to run by using the new allowedMcpServers and deniedMcpServers keys in enterprise managed… The post MCP allowlists in enterprise managed settings appeared first on The GitHub Blog.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "codex-63a6593017b89a82-8d3db903f5e2d63b",
     "releaseId": "codex-63a6593017b89a82",
     "toolSlug": "codex",
