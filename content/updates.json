@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-4efb6a2e61c1aaca-0f3d65b8c574d399",
+    "releaseId": "github-copilot-4efb6a2e61c1aaca",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "GitHub Code Quality no longer adds Copilot as a reviewer",
+    "what": "官方发布了「GitHub Code Quality no longer adds Copilot as a reviewer」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-07T15:07:25.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+    "evidence": "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-b514be897d540adf-e4ca5bbbec833e58",
     "releaseId": "claude-code-b514be897d540adf",
     "toolSlug": "claude-code",

@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-4efb6a2e61c1aaca",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-07T15:07:25.000Z",
+    "collectedAt": "2026-08-07T17:28:54.694Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+    "title": "GitHub Code Quality no longer adds Copilot as a reviewer",
+    "body": "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have… The post GitHub Code Quality no longer adds Copilot as a reviewer appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "040867e16596d8d36de756ef7a30d100453e9ca5b4e8f3fde4363ec97954bfe3",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "GitHub Code Quality no longer adds Copilot as a reviewer",
+      "bodyEn": "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have… The post GitHub Code Quality no longer adds Copilot as a reviewer appeared first on The GitHub Blog.",
+      "titleZh": "GitHub 代码质量不再将 Copilot 添加为审查者",
+      "bodyZh": "在仓库上启用 GitHub 代码质量不再创建自动请求 GitHub Copilot 对拉取请求进行代码审查的规则集。在已经具有…的仓库中，该帖子 GitHub 代码质量不再将 Copilot 添加为审查者 首次出现在 GitHub 博客上。",
+      "sourceHash": "040867e16596d8d36de756ef7a30d100453e9ca5b4e8f3fde4363ec97954bfe3",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-07T17:28:58.511Z"
+    }
+  },
+  {
     "id": "claude-code-b514be897d540adf",
     "sourceSlug": "claude-code",
     "externalId": "2.1.224",
