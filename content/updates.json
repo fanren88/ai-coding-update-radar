@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-89f06f364f7ddb98-bf731d384a611ddc",
+    "releaseId": "github-copilot-89f06f364f7ddb98",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Copilot usage metrics API adds agent app activity",
+    "what": "官方发布了「Copilot usage metrics API adds agent app activity」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-07T18:20:47.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+    "evidence": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-4efb6a2e61c1aaca-0f3d65b8c574d399",
     "releaseId": "github-copilot-4efb6a2e61c1aaca",
     "toolSlug": "github-copilot",

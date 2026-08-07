@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-89f06f364f7ddb98",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-07T18:20:47.000Z",
+    "collectedAt": "2026-08-07T19:36:05.875Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+    "title": "Copilot usage metrics API adds agent app activity",
+    "body": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now… The post Copilot usage metrics API adds agent app activity appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "3987657c929c0777eeeaec44ba71e58bfa57b2e96e9cc900d8136d1edb35c2a1",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Copilot usage metrics API adds agent app activity",
+      "bodyEn": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now… The post Copilot usage metrics API adds agent app activity appeared first on The GitHub Blog.",
+      "titleZh": "Copilot 使用指标 API 新增代理应用活动",
+      "bodyZh": "自从代理应用在 GitHub 上推出以来，团队已经能够在他们的 GitHub 工作流程中直接运行来自合作伙伴（如 Claude 和 Codex）的代理。Copilot 使用指标 API 现在…… 这篇关于 Copilot 使用指标 API 新增代理应用活动的文章首次出现在 GitHub 博客上。",
+      "sourceHash": "3987657c929c0777eeeaec44ba71e58bfa57b2e96e9cc900d8136d1edb35c2a1",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-07T19:36:09.577Z"
+    }
+  },
+  {
     "id": "github-copilot-4efb6a2e61c1aaca",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
