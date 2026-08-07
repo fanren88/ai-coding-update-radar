@@ -1,5 +1,57 @@
 [
   {
+    "id": "github-copilot-ad7ab72fea29f2c7",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-07T21:05:37.000Z",
+    "collectedAt": "2026-08-07T23:09:13.871Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
+    "title": "Copilot impact dashboard adds a return on investment section",
+    "body": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two… The post Copilot impact dashboard adds a return on investment section appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "f9b07e8633ec9b8b94aadd5659e5d8506e68a10a268d4ca3bca166e365cb6b8c",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Copilot impact dashboard adds a return on investment section",
+      "bodyEn": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two… The post Copilot impact dashboard adds a return on investment section appeared first on The GitHub Blog.",
+      "titleZh": "Copilot 影响仪表板新增投资回报率板块",
+      "bodyZh": "Copilot 影响仪表板现在包含一个“潜在投资回报率”板块，将您在 Copilot 上的支出与获得的拉取请求输出相关联。新增内容有二……这篇关于 Copilot 影响仪表板新增投资回报率板块的文章最初出现在 GitHub 博客上。",
+      "sourceHash": "f9b07e8633ec9b8b94aadd5659e5d8506e68a10a268d4ca3bca166e365cb6b8c",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-07T23:09:17.945Z"
+    }
+  },
+  {
+    "id": "github-copilot-00c7afd0c331218e",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-07T20:49:26.000Z",
+    "collectedAt": "2026-08-07T23:09:13.871Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+    "title": "Copilot code review effort levels are generally available",
+    "body": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a… The post Copilot code review effort levels are generally available appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "290fcd06b498cfe7a23a4d59b22201909d89110b98c58e0621e4f447620f673c",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Copilot code review effort levels are generally available",
+      "bodyEn": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a… The post Copilot code review effort levels are generally available appeared first on The GitHub Blog.",
+      "titleZh": "Copilot 代码审查工作量级别现已全面可用",
+      "bodyZh": "GitHub Copilot 代码审查的轻量级和均衡工作量级别现已全面可用。它们让您能够根据代码的复杂性和风险来匹配审查的深度……这篇关于 Copilot 代码审查工作量级别全面可用的文章首发于 GitHub 博客。",
+      "sourceHash": "290fcd06b498cfe7a23a4d59b22201909d89110b98c58e0621e4f447620f673c",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-07T23:09:19.647Z"
+    }
+  },
+  {
     "id": "github-copilot-89f06f364f7ddb98",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
