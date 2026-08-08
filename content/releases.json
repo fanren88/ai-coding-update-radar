@@ -1,5 +1,31 @@
 [
   {
+    "id": "claude-code-92a7ac7ebaff5247",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.226",
+    "version": "2.1.226",
+    "channel": "stable",
+    "publishedAt": "2026-08-08T03:54:27.458Z",
+    "collectedAt": "2026-08-08T03:54:27.458Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.226",
+    "body": "- Bug fixes and reliability improvements",
+    "sourceLanguage": "en",
+    "contentHash": "245339a058302333eebb90665fb3a1469cd114015c4bdd95b685293b3ad55cc3",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "2.1.226",
+      "bodyEn": "- Bug fixes and reliability improvements",
+      "titleZh": "2.1.226",
+      "bodyZh": "- 错误修复和可靠性改进",
+      "sourceHash": "245339a058302333eebb90665fb3a1469cd114015c4bdd95b685293b3ad55cc3",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-08T03:54:31.515Z"
+    }
+  },
+  {
     "id": "claude-code-8811977174234979",
     "sourceSlug": "claude-code",
     "externalId": "2.1.225",
