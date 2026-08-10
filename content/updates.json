@@ -338,6 +338,27 @@
     ]
   },
   {
+    "id": "workbuddy-e813139b36036eaa-8f83fcc148b49b47",
+    "releaseId": "workbuddy-e813139b36036eaa",
+    "toolSlug": "workbuddy",
+    "toolName": "WorkBuddy",
+    "title": "WorkBuddy 5.3.11",
+    "what": "官方发布了「WorkBuddy 5.3.11」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 WorkBuddy 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.3.11",
+    "publishedAt": "2026-08-07T00:00:00.000Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-3-11-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-08-07",
+    "evidence": "新增对话出错时「检查网络」快捷入口，网络异常可一键跳转诊断\n\n- 新增企微/微信助理逐字流式输出，回复过程实时可见不再等待完整回复\n\n- 新增企微/微信助理支持先发文件后补文字描述，一次性发起对话\n\n- 新增对话流显示每轮运行时间，方便感知任务耗时\n\n- 新增任务列表批量删除与批量归档操作\n\n- 新增「我安装的」技能页面本地搜索框，快速定位已安装技能\n\n- 新增 Teams 项目邀请链接免审直接加入\n\n- 新增支持修改账户昵称\n\n- 新增开机自启动设置项\n\n- 新增个性化设置中「显示文件变更过程详情」开关\n\n- 新增创意设计场景「设计风格/补图方式」选项\n\n- 新增技能开关切换后 toast 反馈提示\n\n- 新增资料库支持 deeplink 直接打开指定文档\n\n- 新增 Python 类连接器运行时支持\n\n- 优化 Windows 工作空间文件目录监听，减少界面卡顿\n\n- 优化排队弹窗升级按钮按当前套餐升档展示\n\n- 优化首次启动体验，减少白屏等待时间\n\n- 优化主页面切换标签页流畅度\n\n- 优化连接器管理页面视觉样式\n\n- 优化侧栏与自动化面板 UI 交互\n\n- 修复配置 DeepSeek 自定义模型后对话 AI 回复为空的问题\n\n- 修复输入框无法多选文本及光标乱跳的问题\n\n- 修复升级后本地助理聊天记录丢失的问题\n\n- 修复升级后任务分享失败的问题\n\n- 修复上传自定义 Sk",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-412eeeaddaef78db-45cf70538f2b4b39",
     "releaseId": "github-copilot-412eeeaddaef78db",
     "toolSlug": "github-copilot",
