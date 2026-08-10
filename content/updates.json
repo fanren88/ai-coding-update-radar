@@ -1,5 +1,26 @@
 [
   {
+    "id": "claude-code-e3bd3c47e25f4c00-70f41e1fa9e7a667",
+    "releaseId": "claude-code-e3bd3c47e25f4c00",
+    "toolSlug": "claude-code",
+    "toolName": "Claude Code",
+    "title": "2.1.227",
+    "what": "官方发布了「2.1.227」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Claude Code 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "2.1.227",
+    "publishedAt": "2026-08-10T23:09:40.907Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "evidence": "Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users to enable usage credits for Fable\n- Fixed every Bash command failing under `claude-code-action` with `allowed_non_write_users` on GitHub-hosted runners\n- Fixed `/tui` bringing back a conversation that had been rewound to before its first message\n- Improved slash-command menu: blue now marks only the selected row, matched characters are bolded instead of recolored, and emoji or accented names keep their glyphs\n- Improved performan",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-ab125d750c6e47e3-ba54fbaa4312d8d8",
     "releaseId": "github-copilot-ab125d750c6e47e3",
     "toolSlug": "github-copilot",

@@ -1,5 +1,31 @@
 [
   {
+    "id": "claude-code-e3bd3c47e25f4c00",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.227",
+    "version": "2.1.227",
+    "channel": "stable",
+    "publishedAt": "2026-08-10T23:09:40.907Z",
+    "collectedAt": "2026-08-10T23:09:40.907Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.227",
+    "body": "- Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users to enable usage credits for Fable\n- Fixed every Bash command failing under `claude-code-action` with `allowed_non_write_users` on GitHub-hosted runners\n- Fixed `/tui` bringing back a conversation that had been rewound to before its first message\n- Improved slash-command menu: blue now marks only the selected row, matched characters are bolded instead of recolored, and emoji or accented names keep their glyphs\n- Improved performance: fewer event-loop stalls on file-not-found suggestions and at-mention size checks",
+    "sourceLanguage": "en",
+    "contentHash": "cbebb5a6d0cd62020f3af4ccbca3d80f7836847c822288ae104b99cab889cbc5",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "2.1.227",
+      "bodyEn": "- Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users to enable usage credits for Fable\n- Fixed every Bash command failing under `claude-code-action` with `allowed_non_write_users` on GitHub-hosted runners\n- Fixed `/tui` bringing back a conversation that had been rewound to before its first message\n- Improved slash-command menu: blue now marks only the selected row, matched characters are bolded instead of recolored, and emoji or accented names keep their glyphs\n- Improved performance: fewer event-loop stalls on file-not-found suggestions and at-mention size checks",
+      "titleZh": "2.1.227",
+      "bodyZh": "- 修复了当会话以过期的登录令牌开始时，功能标志未根据用户的订阅层级进行评估的问题，这可能会错误地提示Max计划用户为Fable启用使用额度\n- 修复了在GitHub托管的运行器上，`claude-code-action`中所有Bash命令因`allowed_non_write_users`而失败的问题\n- 修复了`/tui`恢复一个已被回退到第一条消息之前的对话的问题\n- 改进了斜杠命令菜单：蓝色现在仅标记选中的行，匹配的字符以粗体显示而非重新着色，表情符号或带重音的名称保留其字形\n- 改进了性能：减少了文件未找到建议和@提及大小检查时的事件循环停滞",
+      "sourceHash": "cbebb5a6d0cd62020f3af4ccbca3d80f7836847c822288ae104b99cab889cbc5",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-10T23:09:45.909Z"
+    }
+  },
+  {
     "id": "github-copilot-ab125d750c6e47e3",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
