@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-ab125d750c6e47e3",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-10T14:27:04.000Z",
+    "collectedAt": "2026-08-10T15:33:38.224Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+    "title": "Copilot on web expands conversation controls",
+    "body": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat… The post Copilot on web expands conversation controls appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "49ccf8c0ffaf958650262dc089a0ecd266eb709c200da3e57354c2cd896c0052",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Copilot on web expands conversation controls",
+      "bodyEn": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat… The post Copilot on web expands conversation controls appeared first on The GitHub Blog.",
+      "titleZh": "Copilot 网页版扩展对话控制",
+      "bodyZh": "我们对 github.com 上的 Copilot Chat 进行了改进，使其更易于使用。这些改进包括更便捷地访问聊天中的最近对话、最小化聊天的功能…… 文章《Copilot 网页版扩展对话控制》最初发布在 GitHub 博客上。",
+      "sourceHash": "49ccf8c0ffaf958650262dc089a0ecd266eb709c200da3e57354c2cd896c0052",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-10T15:33:42.230Z"
+    }
+  },
+  {
     "id": "gemini-cli-8d12cfc5f3b42be1",
     "sourceSlug": "gemini-cli",
     "externalId": "367631658",

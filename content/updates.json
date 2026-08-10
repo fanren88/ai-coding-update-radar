@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-ab125d750c6e47e3-ba54fbaa4312d8d8",
+    "releaseId": "github-copilot-ab125d750c6e47e3",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Copilot on web expands conversation controls",
+    "what": "官方发布了「Copilot on web expands conversation controls」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-10T14:27:04.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+    "evidence": "We’ve made improvements to Copilot Chat on github.com that make it easier to use.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-8d12cfc5f3b42be1-84efd976a5f8b442",
     "releaseId": "gemini-cli-8d12cfc5f3b42be1",
     "toolSlug": "gemini-cli",
