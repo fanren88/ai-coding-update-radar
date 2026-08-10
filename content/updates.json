@@ -42,6 +42,29 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-3559a93a66cedd5d-a8669d10f5f4cd2a",
+    "releaseId": "codex-3559a93a66cedd5d",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Introducing Daybreak Blue and Daybreak Red",
+    "what": "官方发布了「Introducing Daybreak Blue and Daybreak Red」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-10T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-10-daybreak",
+    "evidence": "Daybreak now offers two access tiers for approved defenders: Daybreak Blue and Daybreak Red.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "general"
+    ]
+  },
+  {
     "id": "gemini-cli-ddca3a8e106bd6d6-fb202384883113c6",
     "releaseId": "gemini-cli-ddca3a8e106bd6d6",
     "toolSlug": "gemini-cli",

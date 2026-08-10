@@ -52,6 +52,34 @@
     }
   },
   {
+    "id": "codex-3559a93a66cedd5d",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-10:Introducing Daybreak Blue and Daybreak Red",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-10T00:00:00.000Z",
+    "collectedAt": "2026-08-10T17:31:16.735Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-10-daybreak",
+    "title": "Introducing Daybreak Blue and Daybreak Red",
+    "body": "Daybreak now offers two access tiers for approved defenders: Daybreak Blue and Daybreak Red. Use them to move from security findings to validated fixes in explicitly authorized engagements.\n\nStart with Daybreak Blue for most defensive security work. It provides access to general-purpose models such as GPT-5.6 Sol for vulnerability discovery, secure code review, detection engineering, incident response, malware analysis, and patch validation.\n\nDaybreak Red provides separately approved access to purpose-trained models such as GPT-5.6 Cyber for authorized vulnerability reproduction, exploit validation, penetration testing, red teaming, and complex system analysis.\n\nAccess requires approval through Trusted Access for Cyber and applies only to the approved identity, workspace or API organization and project, model, and product surface. Daybreak Red requires separate approval and provisioning; Daybreak Blue access doesn’t grant access to Daybreak Red.\n\nWork in an isolated environment, define your engagement scope, use least-privilege permission profiles, and configure Auto-review for eligible actions before they cross the sandbox boundary.\n\nLearn more about Cyber Safety, Codex credit rates, and API token prices.",
+    "sourceLanguage": "en",
+    "contentHash": "13f7ebf908d612bd2e3d8caa2e84f38799a03e677be76a0336c3f3a598f02ed6",
+    "sourceTopics": [
+      "general"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Introducing Daybreak Blue and Daybreak Red",
+      "bodyEn": "Daybreak now offers two access tiers for approved defenders: Daybreak Blue and Daybreak Red. Use them to move from security findings to validated fixes in explicitly authorized engagements.\n\nStart with Daybreak Blue for most defensive security work. It provides access to general-purpose models such as GPT-5.6 Sol for vulnerability discovery, secure code review, detection engineering, incident response, malware analysis, and patch validation.\n\nDaybreak Red provides separately approved access to purpose-trained models such as GPT-5.6 Cyber for authorized vulnerability reproduction, exploit validation, penetration testing, red teaming, and complex system analysis.\n\nAccess requires approval through Trusted Access for Cyber and applies only to the approved identity, workspace or API organization and project, model, and product surface. Daybreak Red requires separate approval and provisioning; Daybreak Blue access doesn’t grant access to Daybreak Red.\n\nWork in an isolated environment, define your engagement scope, use least-privilege permission profiles, and configure Auto-review for eligible actions before they cross the sandbox boundary.\n\nLearn more about Cyber Safety, Codex credit rates, and API token prices.",
+      "titleZh": "推出 Daybreak Blue 和 Daybreak Red",
+      "bodyZh": "Daybreak 现在为经批准的防御者提供两个访问层级：Daybreak Blue 和 Daybreak Red。使用它们可以在明确授权的参与中从安全发现转向经过验证的修复。\n\n对于大多数防御性安全工作，从 Daybreak Blue 开始。它提供对通用模型（如 GPT-5.6 Sol）的访问，用于漏洞发现、安全代码审查、检测工程、事件响应、恶意软件分析和补丁验证。\n\nDaybreak Red 提供对经过专门训练的模型（如 GPT-5.6 Cyber）的单独批准访问，用于授权的漏洞复现、漏洞利用验证、渗透测试、红队演练和复杂系统分析。\n\n访问需要通过 Trusted Access for Cyber 批准，并且仅适用于已批准的标识、工作区或 API 组织和项目、模型及产品表面。Daybreak Red 需要单独的批准和配置；Daybreak Blue 访问权限不授予 Daybreak Red 的访问权限。\n\n在隔离的环境中工作，定义您的参与范围，使用最小权限配置文件，并在操作跨越沙箱边界之前为符合条件的操作配置自动审查。\n\n了解更多关于 Cyber Safety、Codex 信用费率和 API 令牌价格的信息。",
+      "sourceHash": "13f7ebf908d612bd2e3d8caa2e84f38799a03e677be76a0336c3f3a598f02ed6",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-10T17:31:22.959Z"
+    }
+  },
+  {
     "id": "gemini-cli-ddca3a8e106bd6d6",
     "sourceSlug": "gemini-cli",
     "externalId": "367346757",
