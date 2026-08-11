@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-a408602b999a3844-47aee1b84f51a122",
+    "releaseId": "gemini-cli-a408602b999a3844",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.56.0-nightly.20260811.geef19f25c",
+    "what": "官方发布了「Release v0.56.0-nightly.20260811.geef19f25c」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.56.0-nightly.20260811.geef19f25c",
+    "publishedAt": "2026-08-11T01:16:16.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260811.geef19f25c",
+    "evidence": "## What's Changed\n* fix(core): refresh MCP OAuth tokens with the stored client ID by @ParthivNaresh in https://github.com/google-gemini/gemini-cli/pull/28481\n\n## New Contributors\n* @ParthivNaresh made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28481\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260810.gcf22ac7e8...v0.56.0-nightly.20260811.geef19f25c",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-e3bd3c47e25f4c00-70f41e1fa9e7a667",
     "releaseId": "claude-code-e3bd3c47e25f4c00",
     "toolSlug": "claude-code",
