@@ -1,5 +1,57 @@
 [
   {
+    "id": "github-copilot-7ceba0473dadf6af",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
+    "version": null,
+    "channel": "stable",
+    "publishedAt": "2026-08-11T18:50:42.000Z",
+    "collectedAt": "2026-08-11T19:40:44.658Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
+    "title": "Upcoming deprecation of MAI-Code-1-Flash",
+    "body": "With the launch of MAI-Code-1.1-Flash, we will deprecate MAI-Code-1-Flash across all GitHub Copilot experiences on September 10, 2026: Model Deprecation date Suggested alternative MAI-Code-1-Flash 9-10-2026 MAI-Code-1.1-Flash Please update your workflows… The post Upcoming deprecation of MAI-Code-1-Flash appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "c3da9bb8814815fa8d3d7d959d831196a2c643fad3d2410c9eaf9584bd593e33",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Upcoming deprecation of MAI-Code-1-Flash",
+      "bodyEn": "With the launch of MAI-Code-1.1-Flash, we will deprecate MAI-Code-1-Flash across all GitHub Copilot experiences on September 10, 2026: Model Deprecation date Suggested alternative MAI-Code-1-Flash 9-10-2026 MAI-Code-1.1-Flash Please update your workflows… The post Upcoming deprecation of MAI-Code-1-Flash appeared first on The GitHub Blog.",
+      "titleZh": "MAI-Code-1-Flash 即将弃用",
+      "bodyZh": "随着 MAI-Code-1.1-Flash 的发布，我们将于 2026 年 9 月 10 日在所有 GitHub Copilot 体验中弃用 MAI-Code-1-Flash：模型弃用日期建议替代方案 MAI-Code-1-Flash 2026-09-10 MAI-Code-1.1-Flash 请更新您的工作流程… 帖子《MAI-Code-1-Flash 即将弃用》首先出现在 GitHub 博客上。",
+      "sourceHash": "c3da9bb8814815fa8d3d7d959d831196a2c643fad3d2410c9eaf9584bd593e33",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-11T19:40:48.242Z"
+    }
+  },
+  {
+    "id": "github-copilot-c4741e41ef309a2c",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+    "version": "1.1",
+    "channel": "stable",
+    "publishedAt": "2026-08-11T18:13:56.000Z",
+    "collectedAt": "2026-08-11T19:40:44.658Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+    "title": "MAI-Code-1.1-Flash available in GitHub Copilot",
+    "body": "MAI-Code-1.1-Flash, Microsoft’s latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers improvements across coding quality,… The post MAI-Code-1.1-Flash available in GitHub Copilot appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "1e9b0cd6fce19fd3f8d8da0d724159245cef4d9dc13686f4b44128c9b2211454",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "MAI-Code-1.1-Flash available in GitHub Copilot",
+      "bodyEn": "MAI-Code-1.1-Flash, Microsoft’s latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers improvements across coding quality,… The post MAI-Code-1.1-Flash available in GitHub Copilot appeared first on The GitHub Blog.",
+      "titleZh": "MAI-Code-1.1-Flash 现已在 GitHub Copilot 中可用",
+      "bodyZh": "MAI-Code-1.1-Flash，微软最新的小型编码模型，现已在 GitHub Copilot 中推出。基于 MAI-Code-1-Flash，它增加了原生视觉支持以进行图像理解，并在编码质量等方面带来了改进…… 这篇文章 MAI-Code-1.1-Flash 现已在 GitHub Copilot 中可用 首次出现在 GitHub 博客上。",
+      "sourceHash": "1e9b0cd6fce19fd3f8d8da0d724159245cef4d9dc13686f4b44128c9b2211454",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-11T19:40:49.812Z"
+    }
+  },
+  {
     "id": "gemini-cli-f62f6097dc4e9d18",
     "sourceSlug": "gemini-cli",
     "externalId": "368722894",
