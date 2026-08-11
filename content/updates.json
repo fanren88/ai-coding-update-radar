@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-f62f6097dc4e9d18-59d2383685a53fb1",
+    "releaseId": "gemini-cli-f62f6097dc4e9d18",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.55.0-preview.3",
+    "what": "官方发布了「Release v0.55.0-preview.3」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.55.0-preview.3",
+    "publishedAt": "2026-08-11T17:01:42.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-preview.3",
+    "evidence": "## What's Changed\n* fix(patch): cherry-pick 188e255 to release/v0.55.0-preview.2-pr-28730 to patch version v0.55.0-preview.2 and create version 0.55.0-preview.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28771\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-preview.2...v0.55.0-preview.3",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-a408602b999a3844-47aee1b84f51a122",
     "releaseId": "gemini-cli-a408602b999a3844",
     "toolSlug": "gemini-cli",

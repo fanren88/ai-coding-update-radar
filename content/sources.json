@@ -38,10 +38,10 @@
   {
     "slug": "gemini-cli",
     "status": "healthy",
-    "lastSuccessAt": "2026-08-11T02:37:36.201Z",
+    "lastSuccessAt": "2026-08-11T17:34:05.785Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"210c671c4939dd8cfbbdec08b19e355d6d5a396444377be9d79cabe08519fee6\"",
-    "lastContentHash": "34831f2c962caccac3de9365614db92e2927c4b5227902f1de6497ba9ba6c366",
+    "etag": "W/\"432230148ee0dbd95251c01d6d400dddefae4e91c814d3058271b889ec225faa\"",
+    "lastContentHash": "c7aaf6a187e6582ebb40c17f712e8747a9d3338bbbc9ceb6d7910ce417214cea",
     "lastError": null
   },
   {

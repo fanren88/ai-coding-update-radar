@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-f62f6097dc4e9d18",
+    "sourceSlug": "gemini-cli",
+    "externalId": "368722894",
+    "version": "v0.55.0-preview.3",
+    "channel": "preview",
+    "publishedAt": "2026-08-11T17:01:42.000Z",
+    "collectedAt": "2026-08-11T17:34:05.785Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-preview.3",
+    "title": "Release v0.55.0-preview.3",
+    "body": "## What's Changed\n* fix(patch): cherry-pick 188e255 to release/v0.55.0-preview.2-pr-28730 to patch version v0.55.0-preview.2 and create version 0.55.0-preview.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28771\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-preview.2...v0.55.0-preview.3",
+    "sourceLanguage": "en",
+    "contentHash": "3aca97128128a752550ebf1102a81026c21e666992295a43fa2dd20910fd8387",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.55.0-preview.3",
+      "bodyEn": "## What's Changed\n* fix(patch): cherry-pick 188e255 to release/v0.55.0-preview.2-pr-28730 to patch version v0.55.0-preview.2 and create version 0.55.0-preview.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28771\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-preview.2...v0.55.0-preview.3",
+      "titleZh": "发布 v0.55.0-preview.3",
+      "bodyZh": "## 变更内容\n* 修复（补丁）：将 188e255 精选到 release/v0.55.0-preview.2-pr-28730，以修补版本 v0.55.0-preview.2 并创建版本 0.55.0-preview.3，由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28771 中完成\n\n\n**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.55.0-preview.2...v0.55.0-preview.3",
+      "sourceHash": "3aca97128128a752550ebf1102a81026c21e666992295a43fa2dd20910fd8387",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-11T17:34:09.282Z"
+    }
+  },
+  {
     "id": "gemini-cli-a408602b999a3844",
     "sourceSlug": "gemini-cli",
     "externalId": "368281133",
