@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-21886080ab750d9e-f30f2ac14e7159ce",
+    "releaseId": "gemini-cli-21886080ab750d9e",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.56.0-nightly.20260812.g5024443c7",
+    "what": "官方发布了「Release v0.56.0-nightly.20260812.g5024443c7」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.56.0-nightly.20260812.g5024443c7",
+    "publishedAt": "2026-08-12T01:18:41.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260812.g5024443c7",
+    "evidence": "## What's Changed\n* fix(core,cli): resolve false model capacity exhaustion and fix core quota lookup model mapping by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28730\n* feat(evals): add local report command and developer documentation by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28369\n* fix(core): dynamically resolve Cloud Workstations proxy redirect URI for OAuth flows by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28688\n* fix(core): resolve swallowed directory mismatch in IDE connections by @amelidev in https://github.com/google-gemi",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-b44538bde591c478-8da8fe3853343256",
     "releaseId": "claude-code-b44538bde591c478",
     "toolSlug": "claude-code",
