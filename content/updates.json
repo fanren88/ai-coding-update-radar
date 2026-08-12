@@ -21,6 +21,27 @@
     "sourceTopics": []
   },
   {
+    "id": "workbuddy-91218c501680c8b6-114a38efe43b4bfb",
+    "releaseId": "workbuddy-91218c501680c8b6",
+    "toolSlug": "workbuddy",
+    "toolName": "WorkBuddy",
+    "title": "WorkBuddy 5.3.12",
+    "what": "官方发布了「WorkBuddy 5.3.12」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 WorkBuddy 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.3.12",
+    "publishedAt": "2026-08-12T00:00:00.000Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-3-12-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-08-12",
+    "evidence": "新增灵感分享口令，可复制口令给他人并直达对应灵感详情\n\n- 优化移动端连接电脑在弱网、休眠恢复后的同步与续聊稳定性\n\n- 优化输入框和模型选择菜单样式，输入区边界与浮层层级更清晰\n\n- 修复大体积 Markdown 附件预览导致 WorkBuddy 卡死的问题\n\n- 修复 Windows 非系统盘或中文路径下产物无法预览、下载或提示 Access denied 的问题\n\n- 修复休眠恢复或弱网启动后界面长时间白屏、转圈和创建会话超时的问题\n\n- 修复本地助理内存快速增长导致白屏或崩溃的问题\n\n- 修复本地助理重启后任务上下文丢失、无法继续执行的问题\n\n- 修复「允许锁屏远程」重启后状态丢失，导致远程访问失效的问题\n\n- 修复 IMA 连接器偶发掉线、需要重新授权的问题\n\n- 修复专家深链在冷启动期间无法打开专家详情的问题\n\n- 修复 HTML 产物分享后无法跳转资料库、微信卡片后缀显示异常的问题\n\n- 修复内置浏览器中地图类页面无法绘制的问题\n\n- 修复企业管理员调整模型白名单后，客户端仍显示旧自定义模型的问题",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-b44538bde591c478-8da8fe3853343256",
     "releaseId": "claude-code-b44538bde591c478",
     "toolSlug": "claude-code",
