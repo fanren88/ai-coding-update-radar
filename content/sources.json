@@ -20,19 +20,19 @@
   {
     "slug": "cursor",
     "status": "healthy",
-    "lastSuccessAt": "2026-08-04T18:15:07.626Z",
+    "lastSuccessAt": "2026-08-12T19:43:23.954Z",
     "consecutiveErrors": 0,
     "etag": null,
-    "lastContentHash": "e165ad99b3b8bad159b3e6693a373b32ae342008baa6460c8bcfeb87f4962a38",
+    "lastContentHash": "58feb4d91227f6e0dd161230b8c70fdcefb5374f385d0aaba062e5cc4a5b6fb1",
     "lastError": null
   },
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-08-11T21:26:31.331Z",
+    "lastSuccessAt": "2026-08-12T19:43:24.030Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"28121d212bdbfa66632840530f8776f6\"",
-    "lastContentHash": "614489668a084f4cf8d2be18d8240b1b2d4fb3ec913733835db2bfbd4de6aafa",
+    "etag": "W/\"54441c727a2da0fd22b45b4d3ee020f1\"",
+    "lastContentHash": "7f89ffc4ceea1f7ce2079cc2be7611db4e740d5b0dc709faf1e8349f1b37596a",
     "lastError": null
   },
   {
