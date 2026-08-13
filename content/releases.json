@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-copilot-9e4b9edc908b992c",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
+    "version": "3.7",
+    "channel": "stable",
+    "publishedAt": "2026-08-13T14:00:53.000Z",
+    "collectedAt": "2026-08-13T19:39:40.455Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
+    "title": "Gemini 3.7 Flash is now available in GitHub Copilot",
+    "body": "Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic… The post Gemini 3.7 Flash is now available in GitHub Copilot appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "b386da55d2d501cbb0870d2b5a61d9d1736e882c356eb3ac7eb5b21e6cb00780",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Gemini 3.7 Flash is now available in GitHub Copilot",
+      "bodyEn": "Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic… The post Gemini 3.7 Flash is now available in GitHub Copilot appeared first on The GitHub Blog.",
+      "titleZh": "Gemini 3.7 Flash 现已在 GitHub Copilot 中可用",
+      "bodyZh": "Gemini 3.7 Flash，谷歌最新的 Flash 模型，现已在 GitHub Copilot 中推出。根据我们的早期测试，该模型在 Web 和应用程序开发以及代理式…方面有所改进。这篇文章《Gemini 3.7 Flash 现已在 GitHub Copilot 中可用》首次出现在 GitHub 博客上。",
+      "sourceHash": "b386da55d2d501cbb0870d2b5a61d9d1736e882c356eb3ac7eb5b21e6cb00780",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-13T19:39:44.028Z"
+    }
+  },
+  {
     "id": "claude-code-b96bd16cfc5d4a64",
     "sourceSlug": "claude-code",
     "externalId": "2.1.231",
@@ -75,6 +101,34 @@
       "sourceHash": "a1babdabb9481233f10293f57ed02bd16056869a759ea0e95f18e6b58ff12996",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-08-13T17:34:44.150Z"
+    }
+  },
+  {
+    "id": "codex-9bce737d4e1ad48c",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-13:Computer History",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "collectedAt": "2026-08-13T19:39:39.530Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-13-app",
+    "title": "Computer History",
+    "body": "Computer History is an opt-in feature in the ChatGPT desktop app on macOS that turns activity across apps and websites into memories and a timeline that ChatGPT and Codex can use. Choose which apps and websites contribute, pause collection, and review or delete your history at any time.\n\nComputer History is available to ChatGPT Pro, Business, and Enterprise users. Business and Enterprise administrators must enable access before workspace members can turn it on. Initial availability excludes the European Economic Area (EEA), Switzerland, and the United Kingdom.",
+    "sourceLanguage": "en",
+    "contentHash": "183a2f8014b8f6959b93a977927d8f32eb5be5d535db8bdb46544e1dd9b560a2",
+    "sourceTopics": [
+      "codex-app"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Computer History",
+      "bodyEn": "Computer History is an opt-in feature in the ChatGPT desktop app on macOS that turns activity across apps and websites into memories and a timeline that ChatGPT and Codex can use. Choose which apps and websites contribute, pause collection, and review or delete your history at any time.\n\nComputer History is available to ChatGPT Pro, Business, and Enterprise users. Business and Enterprise administrators must enable access before workspace members can turn it on. Initial availability excludes the European Economic Area (EEA), Switzerland, and the United Kingdom.",
+      "titleZh": "计算机历史",
+      "bodyZh": "计算机历史是macOS上ChatGPT桌面应用中的一项可选功能，它将跨应用和网站的活动转化为记忆和时间线，供ChatGPT和Codex使用。您可以选择哪些应用和网站贡献内容，暂停收集，并随时查看或删除您的历史记录。\n\n计算机历史适用于ChatGPT Pro、Business和Enterprise用户。Business和Enterprise管理员必须先启用访问权限，工作区成员才能开启此功能。初始可用性不包括欧洲经济区（EEA）、瑞士和英国。",
+      "sourceHash": "183a2f8014b8f6959b93a977927d8f32eb5be5d535db8bdb46544e1dd9b560a2",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-13T19:39:45.965Z"
     }
   },
   {
@@ -402,6 +456,35 @@
       "sourceHash": "0a50be6a01ae2409e29f87db25fe426e8f75908e7883d3736039f0ccbf33b718",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-08-11T02:37:39.936Z"
+    }
+  },
+  {
+    "id": "codex-2a2e6fd9694b3016",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-11:Linux desktop preview and agent imports",
+    "version": null,
+    "channel": "preview",
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "collectedAt": "2026-08-13T19:39:39.530Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-11-app",
+    "title": "Linux desktop preview and agent imports",
+    "body": "## Install the ChatGPT desktop app on Linux\n\nThe ChatGPT desktop app for Linux is available in preview for supported Ubuntu, Debian, and Fedora desktop distributions on x64 and ARM64 processors. Download the .deb or .rpm package for your distribution, then sign in to work with projects, local files, and Codex.\n\n## Import setup and recent work from other agents\n\nThe desktop app supports Claude Code, Claude Cowork, and Cursor. Import instructions, settings, skills, plugins, projects, and recent work, then turn on automatic updates in Settings > Import to keep imported work in sync.\n\nCodex CLI can also import supported setup and recent chats from Claude Code and Cursor with /import.",
+    "sourceLanguage": "en",
+    "contentHash": "275954c88fa23e9f343303778c5d3f7745a608d9be5916c316bafaf0624aa61d",
+    "sourceTopics": [
+      "codex-app",
+      "codex-cli"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Linux desktop preview and agent imports",
+      "bodyEn": "## Install the ChatGPT desktop app on Linux\n\nThe ChatGPT desktop app for Linux is available in preview for supported Ubuntu, Debian, and Fedora desktop distributions on x64 and ARM64 processors. Download the .deb or .rpm package for your distribution, then sign in to work with projects, local files, and Codex.\n\n## Import setup and recent work from other agents\n\nThe desktop app supports Claude Code, Claude Cowork, and Cursor. Import instructions, settings, skills, plugins, projects, and recent work, then turn on automatic updates in Settings > Import to keep imported work in sync.\n\nCodex CLI can also import supported setup and recent chats from Claude Code and Cursor with /import.",
+      "titleZh": "Linux 桌面预览版与代理导入",
+      "bodyZh": "## 在 Linux 上安装 ChatGPT 桌面应用\n\nChatGPT 桌面应用现已在 Linux 上提供预览版，支持 x64 和 ARM64 处理器的 Ubuntu、Debian 和 Fedora 桌面发行版。下载适用于您发行版的 .deb 或 .rpm 包，然后登录以使用项目、本地文件和 Codex。\n\n## 从其他代理导入设置和近期工作\n\n桌面应用支持 Claude Code、Claude Cowork 和 Cursor。导入说明、设置、技能、插件、项目和近期工作，然后在“设置”>“导入”中开启自动更新，以保持导入的工作同步。\n\nCodex CLI 也可以通过 /import 从 Claude Code 和 Cursor 导入支持的设置和近期聊天记录。",
+      "sourceHash": "275954c88fa23e9f343303778c5d3f7745a608d9be5916c316bafaf0624aa61d",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-13T19:39:56.213Z"
     }
   },
   {
