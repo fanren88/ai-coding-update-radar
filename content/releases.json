@@ -1,5 +1,31 @@
 [
   {
+    "id": "claude-code-b96bd16cfc5d4a64",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.231",
+    "version": "2.1.231",
+    "channel": "stable",
+    "publishedAt": "2026-08-13T09:43:57.790Z",
+    "collectedAt": "2026-08-13T09:43:57.790Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.231",
+    "body": "- Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
+    "sourceLanguage": "en",
+    "contentHash": "6922ab39952db777fca75955cdc5871e268ac73439961eda17b069556abcce8f",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "2.1.231",
+      "bodyEn": "- Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
+      "titleZh": "2.1.231",
+      "bodyZh": "- 修复了 MCP OAuth 登录因重定向 URI 不匹配而失败的问题，该问题影响使用预注册 OAuth 客户端的服务器，例如 Slack",
+      "sourceHash": "6922ab39952db777fca75955cdc5871e268ac73439961eda17b069556abcce8f",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-13T09:44:01.354Z"
+    }
+  },
+  {
     "id": "gemini-cli-21e62a2ce052a403",
     "sourceSlug": "gemini-cli",
     "externalId": "369613286",
