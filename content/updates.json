@@ -42,6 +42,27 @@
     "sourceTopics": []
   },
   {
+    "id": "cursor-b34a896542419a75-c3227518982df362",
+    "releaseId": "cursor-b34a896542419a75",
+    "toolSlug": "cursor",
+    "toolName": "Cursor",
+    "title": "Cloud Agents Start 3x Faster with Builds",
+    "what": "官方发布了「Cloud Agents Start 3x Faster with Builds」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Cursor 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "sourceUrl": "https://cursor.com/changelog/08-13-26",
+    "evidence": "Agents do their best work when they start in a ready environment: repos cloned, dependencies installed, and your install script already run.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-2b61a6a9c4369823-5916c3bb95f7d8b0",
     "releaseId": "claude-code-2b61a6a9c4369823",
     "toolSlug": "claude-code",

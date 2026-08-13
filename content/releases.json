@@ -52,6 +52,32 @@
     }
   },
   {
+    "id": "cursor-b34a896542419a75",
+    "sourceSlug": "cursor",
+    "externalId": "/changelog/08-13-26",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "collectedAt": "2026-08-13T17:34:38.131Z",
+    "sourceUrl": "https://cursor.com/changelog/08-13-26",
+    "title": "Cloud Agents Start 3x Faster with Builds",
+    "body": "Agents do their best work when they start in a ready environment: repos cloned, dependencies installed, and your install script already run. This release introduces builds: ready-to-use copies of your development environment that Cursor prepares in the background. Agents boot into a ready environment instead of setting up from scratch each session. Builds are included with Cloud Agents at no additional cost. #Faster starts Cursor runs a new build of your environment regularly. When a build succeeds, it becomes the environment future agents start from. Cursor keeps warm copies ready so the next agent does not wait. Internally, our environments now boot 10x faster, with 3x faster time to first token. Use your install command for anything that can be prepared ahead of time. The start command still runs when you first prompt an agent and should focus on services that need to be fresh in the session. #More resilient agent runs When a bad commit or dependency update breaks your environment, agents keep using the last successful build. The broken build never becomes active, you are notified of the issue, and your agents keep working while you debug in the background. #Build history and debugging Each environment has a Builds tab in the Cloud Agents dashboard. You can inspect build status, logs, commit SHAs, and which build each agent run used. Agents can also inspect and manage builds using built-in tools. #Getting started New environments use Builds automatically. For an existing environment, open it in the Cloud Agents dashboard, go to the Builds tab, and click Enable Builds. Or click Run setup agent first to test the migration and review any proposed config changes. You can also trigger a Build manually, debug a failing Build with an agent, and control how stale Builds refresh with a configurable threshold. Learn more in our announcement post and docs.",
+    "sourceLanguage": "en",
+    "contentHash": "a1babdabb9481233f10293f57ed02bd16056869a759ea0e95f18e6b58ff12996",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Cloud Agents Start 3x Faster with Builds",
+      "bodyEn": "Agents do their best work when they start in a ready environment: repos cloned, dependencies installed, and your install script already run. This release introduces builds: ready-to-use copies of your development environment that Cursor prepares in the background. Agents boot into a ready environment instead of setting up from scratch each session. Builds are included with Cloud Agents at no additional cost. #Faster starts Cursor runs a new build of your environment regularly. When a build succeeds, it becomes the environment future agents start from. Cursor keeps warm copies ready so the next agent does not wait. Internally, our environments now boot 10x faster, with 3x faster time to first token. Use your install command for anything that can be prepared ahead of time. The start command still runs when you first prompt an agent and should focus on services that need to be fresh in the session. #More resilient agent runs When a bad commit or dependency update breaks your environment, agents keep using the last successful build. The broken build never becomes active, you are notified of the issue, and your agents keep working while you debug in the background. #Build history and debugging Each environment has a Builds tab in the Cloud Agents dashboard. You can inspect build status, logs, commit SHAs, and which build each agent run used. Agents can also inspect and manage builds using built-in tools. #Getting started New environments use Builds automatically. For an existing environment, open it in the Cloud Agents dashboard, go to the Builds tab, and click Enable Builds. Or click Run setup agent first to test the migration and review any proposed config changes. You can also trigger a Build manually, debug a failing Build with an agent, and control how stale Builds refresh with a configurable threshold. Learn more in our announcement post and docs.",
+      "titleZh": "云代理借助构建功能启动速度提升3倍",
+      "bodyZh": "代理在就绪环境中启动时表现最佳：仓库已克隆、依赖已安装、安装脚本已运行。本次发布引入了构建功能：Cursor在后台准备的开发环境即用副本。代理启动时直接进入就绪环境，无需每次会话从头设置。构建功能随云代理免费提供。 #更快的启动 Cursor定期为你的环境运行新构建。构建成功后，它将成为未来代理启动的环境。Cursor保持热副本就绪，因此下一个代理无需等待。在内部，我们的环境现在启动速度快10倍，首次令牌生成时间快3倍。使用你的安装命令来处理任何可以提前准备的内容。启动命令仍在你首次提示代理时运行，应专注于需要在会话中保持新鲜的服务。 #更稳健的代理运行 当糟糕的提交或依赖更新破坏你的环境时，代理会继续使用最后一次成功的构建。损坏的构建永远不会激活，你会收到问题通知，而你的代理在你后台调试时继续工作。 #构建历史与调试 每个环境在云代理仪表板中都有一个“构建”标签页。你可以检查构建状态、日志、提交SHA以及每个代理运行使用了哪个构建。代理还可以使用内置工具检查和管理构建。 #开始使用 新环境自动使用构建功能。对于现有环境，请在云代理仪表板中打开它，转到“构建”标签页，然后点击“启用构建”。或者先点击“运行设置代理”来测试迁移并审查任何建议的配置更改。你也可以手动触发构建，使用代理调试失败的构建，并通过可配置阈值控制过期构建的刷新方式。在我们的公告文章和文档中了解更多信息。",
+      "sourceHash": "a1babdabb9481233f10293f57ed02bd16056869a759ea0e95f18e6b58ff12996",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-13T17:34:44.150Z"
+    }
+  },
+  {
     "id": "claude-code-2b61a6a9c4369823",
     "sourceSlug": "claude-code",
     "externalId": "2.1.229",
