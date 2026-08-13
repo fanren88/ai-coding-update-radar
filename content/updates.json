@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-21e62a2ce052a403-fae7b95209376dae",
+    "releaseId": "gemini-cli-21e62a2ce052a403",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.56.0-nightly.20260813.g1ac337739",
+    "what": "官方发布了「Release v0.56.0-nightly.20260813.g1ac337739」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.56.0-nightly.20260813.g1ac337739",
+    "publishedAt": "2026-08-13T01:19:22.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260813.g1ac337739",
+    "evidence": "## What's Changed\n* Feat/eval validate by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28344\n* feat(evals): add tool call formatter and integrate failure summaries by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28305\n* Changelog for v0.55.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28779\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260812.g5024443c7...v0.56.0-nightly.20260813.g1ac337739",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-2b61a6a9c4369823-5916c3bb95f7d8b0",
     "releaseId": "claude-code-2b61a6a9c4369823",
     "toolSlug": "claude-code",

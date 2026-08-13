@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-21e62a2ce052a403",
+    "sourceSlug": "gemini-cli",
+    "externalId": "369613286",
+    "version": "v0.56.0-nightly.20260813.g1ac337739",
+    "channel": "preview",
+    "publishedAt": "2026-08-13T01:19:22.000Z",
+    "collectedAt": "2026-08-13T03:11:47.736Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260813.g1ac337739",
+    "title": "Release v0.56.0-nightly.20260813.g1ac337739",
+    "body": "## What's Changed\n* Feat/eval validate by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28344\n* feat(evals): add tool call formatter and integrate failure summaries by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28305\n* Changelog for v0.55.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28779\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260812.g5024443c7...v0.56.0-nightly.20260813.g1ac337739",
+    "sourceLanguage": "en",
+    "contentHash": "1126c2cb16b70cb1a5566bb9f6ec3635185fa40d531d3389f545cb69c67c31fe",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.56.0-nightly.20260813.g1ac337739",
+      "bodyEn": "## What's Changed\n* Feat/eval validate by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28344\n* feat(evals): add tool call formatter and integrate failure summaries by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28305\n* Changelog for v0.55.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28779\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260812.g5024443c7...v0.56.0-nightly.20260813.g1ac337739",
+      "titleZh": "发布 v0.56.0-nightly.20260813.g1ac337739",
+      "bodyZh": "## 变更内容\n* 功能/评估验证 由 @ved015 在 https://github.com/google-gemini/gemini-cli/pull/28344 中提交\n* 功能（评估）：添加工具调用格式化器并整合失败摘要 由 @ved015 在 https://github.com/google-gemini/gemini-cli/pull/28305 中提交\n* v0.55.1 的变更日志 由 @gemini-cli-robot 在 https://github.com/google-gemini/gemini-cli/pull/28779 中提交\n\n\n**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260812.g5024443c7...v0.56.0-nightly.20260813.g1ac337739",
+      "sourceHash": "1126c2cb16b70cb1a5566bb9f6ec3635185fa40d531d3389f545cb69c67c31fe",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-13T03:11:50.916Z"
+    }
+  },
+  {
     "id": "claude-code-2b61a6a9c4369823",
     "sourceSlug": "claude-code",
     "externalId": "2.1.229",
