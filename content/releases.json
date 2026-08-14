@@ -1,5 +1,31 @@
 [
   {
+    "id": "claude-code-f967a6a75914167d",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.233",
+    "version": "2.1.233",
+    "channel": "stable",
+    "publishedAt": "2026-08-14T22:55:27.675Z",
+    "collectedAt": "2026-08-14T22:55:27.675Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.233",
+    "body": "- Added GitLab merge request URL support to the `--worktree` flag and the `claude agents` view (where MRs display as `!N`)\n- Added an opt-in `forward_user_identity` apps gateway setting on Anthropic upstreams that sends the signed-in user's identity as headers, so a proxy behind the gateway can attribute spend per user\n- Added opt-in memory cgroup support for Bash tool commands on Linux (`CLAUDE_CODE_TOOL_MEMORY_LIMIT`) so a runaway build can't stall the session\n- Added `CLAUDE_CODE_WEBFETCH_CACHE_TTL_MS` environment variable to configure the WebFetch session URL cache TTL (default unchanged: 15 minutes)\n- Fixed cloud sessions occasionally being marked as lost when the environment shut down while Claude was waiting on a permission prompt\n- Fixed MCP v2 connections endlessly reopening the subscriptions/listen stream against servers that terminate long-held streams on a fixed timeout (e.g. serverless hosts)\n- Fixed Notification hooks not firing for permission prompts when running under Claude Desktop or VS Code\n- Fixed idle sessions on Linux sometimes keeping one CPU core at 100% when sandboxing is enabled\n- Fixed bundled skill aliases like `/checkup` and `/review` reporting \"Unknown command\" in `-p` mode or with plugins/MCP loaded when a user or project skill shadows the bundled skill\n- Fixed skill/command argument substitution to prevent argument values from being re-expanded as template markers\n- Fixed Windows paths spelled with the NT `\\??\\` device prefix bypassing UNC path validation, closing an NTLM credential-leak vector\n- Improved `claude self-hosted-runner` session start time: the session branch is now created without rewriting the working tree, and two server round trips no longer block the agent's launch\n- Improved apps gateway error forwarding: 400/413 errors from Vertex, Foundry, and Claude Platform on AWS upstreams now carry the upstream's own message; fixes a bug with auto-compact on apps gateway\n- Improved `claude plugin validate` to check a bare `.claude/skills` directory, reporting SKILL.md files whose frontmatter fails to parse\n- Improved screen reader mode: the `/effort` selector renders as a numbered list with a typed-number prompt, and hint and dialog text is no longer clipped\n- Improved print mode diagnostics: a `[claude-code:unrecognized_model]` line is written to stderr when a request goes out for a model ID Claude Code doesn't recognize; map it with `modelOverrides` to silence\n- Changed the GitHub app setup tip to no longer appear in repositories whose origin remote is on gitlab.com or bitbucket.org; the enterprise marketplace tip now covers non-GitHub internal git hosts\n- Todo/task-tracking tools (TaskCreate/Get/Update/List, TodoWrite) are no longer available on Opus 4.8, Sonnet 5, Fable 5, Mythos 5, and newer models; set `CLAUDE_CODE_ENABLE_TODO_TOOLS=1` to bring them back\n- Windows: fixed auto mode repeatedly stopping for manual approval on ordinary `cd <dir> && <command> > file` Bash commands (a 2.1.232 regression)\n- Reverted the 2.1.232 Bash permission changes for Cygwin-style symlinks on Windows and for input redirections (`< file`); a narrower version will return in a later release",
+    "sourceLanguage": "en",
+    "contentHash": "12297fdffb3f4c3d0dffca32ba62b9f3f6f93bfc1ae64bd7df18bfa30c8422f3",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "2.1.233",
+      "bodyEn": "- Added GitLab merge request URL support to the `--worktree` flag and the `claude agents` view (where MRs display as `!N`)\n- Added an opt-in `forward_user_identity` apps gateway setting on Anthropic upstreams that sends the signed-in user's identity as headers, so a proxy behind the gateway can attribute spend per user\n- Added opt-in memory cgroup support for Bash tool commands on Linux (`CLAUDE_CODE_TOOL_MEMORY_LIMIT`) so a runaway build can't stall the session\n- Added `CLAUDE_CODE_WEBFETCH_CACHE_TTL_MS` environment variable to configure the WebFetch session URL cache TTL (default unchanged: 15 minutes)\n- Fixed cloud sessions occasionally being marked as lost when the environment shut down while Claude was waiting on a permission prompt\n- Fixed MCP v2 connections endlessly reopening the subscriptions/listen stream against servers that terminate long-held streams on a fixed timeout (e.g. serverless hosts)\n- Fixed Notification hooks not firing for permission prompts when running under Claude Desktop or VS Code\n- Fixed idle sessions on Linux sometimes keeping one CPU core at 100% when sandboxing is enabled\n- Fixed bundled skill aliases like `/checkup` and `/review` reporting \"Unknown command\" in `-p` mode or with plugins/MCP loaded when a user or project skill shadows the bundled skill\n- Fixed skill/command argument substitution to prevent argument values from being re-expanded as template markers\n- Fixed Windows paths spelled with the NT `\\??\\` device prefix bypassing UNC path validation, closing an NTLM credential-leak vector\n- Improved `claude self-hosted-runner` session start time: the session branch is now created without rewriting the working tree, and two server round trips no longer block the agent's launch\n- Improved apps gateway error forwarding: 400/413 errors from Vertex, Foundry, and Claude Platform on AWS upstreams now carry the upstream's own message; fixes a bug with auto-compact on apps gateway\n- Improved `claude plugin validate` to check a bare `.claude/skills` directory, reporting SKILL.md files whose frontmatter fails to parse\n- Improved screen reader mode: the `/effort` selector renders as a numbered list with a typed-number prompt, and hint and dialog text is no longer clipped\n- Improved print mode diagnostics: a `[claude-code:unrecognized_model]` line is written to stderr when a request goes out for a model ID Claude Code doesn't recognize; map it with `modelOverrides` to silence\n- Changed the GitHub app setup tip to no longer appear in repositories whose origin remote is on gitlab.com or bitbucket.org; the enterprise marketplace tip now covers non-GitHub internal git hosts\n- Todo/task-tracking tools (TaskCreate/Get/Update/List, TodoWrite) are no longer available on Opus 4.8, Sonnet 5, Fable 5, Mythos 5, and newer models; set `CLAUDE_CODE_ENABLE_TODO_TOOLS=1` to bring them back\n- Windows: fixed auto mode repeatedly stopping for manual approval on ordinary `cd <dir> && <command> > file` Bash commands (a 2.1.232 regression)\n- Reverted the 2.1.232 Bash permission changes for Cygwin-style symlinks on Windows and for input redirections (`< file`); a narrower version will return in a later release",
+      "titleZh": "2.1.233",
+      "bodyZh": "- 为 `--worktree` 标志和 `claude agents` 视图添加了 GitLab 合并请求 URL 支持（其中 MR 显示为 `!N`）\n- 在 Anthropic 上游添加了可选的 `forward_user_identity` 应用网关设置，该设置将已登录用户的身份作为标头发送，以便网关后面的代理可以按用户归因支出\n- 在 Linux 上为 Bash 工具命令添加了可选的内存 cgroup 支持（`CLAUDE_CODE_TOOL_MEMORY_LIMIT`），这样失控的构建就不会阻塞会话\n- 添加了 `CLAUDE_CODE_WEBFETCH_CACHE_TTL_MS` 环境变量，用于配置 WebFetch 会话 URL 缓存 TTL（默认不变：15 分钟）\n- 修复了当 Claude 等待权限提示时环境关闭，云会话偶尔被标记为丢失的问题\n- 修复了 MCP v2 连接针对在固定超时（例如无服务器主机）终止长时间持有流的服务器，不断重新打开订阅/监听流的问题\n- 修复了在 Claude Desktop 或 VS Code 下运行时，权限提示的通知钩子不触发的问题\n- 修复了 Linux 上启用沙箱时，空闲会话有时会让一个 CPU 核心保持 100% 使用率的问题\n- 修复了捆绑的技能别名（如 `/checkup` 和 `/review`）在 `-p` 模式或加载了插件/MCP 时，当用户或项目技能遮蔽捆绑技能时报告“未知命令”的问题\n- 修复了技能/命令参数替换，防止参数值被重新展开为模板标记\n- 修复了使用 NT `\\??\\` 设备前缀拼写的 Windows 路径绕过 UNC 路径验证的问题，堵住了 NTLM 凭据泄露的途径\n- 改进了 `claude self-hosted-runner` 会话启动时间：现在创建会话分支时无需重写工作树，并且两次服务器往返不再阻塞代理的启动\n- 改进了应用网关错误转发：来自 Vertex、Foundry 和 AWS 上的 Claude Platform 上游的 400/413 错误现在携带上游自己的消息；修复了应用网关上的自动压缩错误\n- 改进了 `claude plugin validate`，使其检查裸的 `.claude/skills` 目录，报告 frontmatter 解析失败的 SKILL.md 文件\n- 改进了屏幕阅读器模式：`/effort` 选择器现在呈现为带编号的列表，并带有输入数字的提示，提示和对话框文本不再被裁剪\n- 改进了打印模式诊断：当请求发出 Claude Code 无法识别的模型 ID 时，会向 stderr 写入 `[claude-code:unrecognized_model]` 行；使用 `modelOverrides` 映射它以消除提示\n- 更改了 GitHub 应用设置提示，使其不再出现在源远程位于 gitlab.com 或 bitbucket.org 的仓库中；企业市场提示现在涵盖非 GitHub 的内部 git 主机\n- Todo/任务跟踪工具（TaskCreate/Get/Update/List、TodoWrite）在 Opus 4.8、Sonnet 5、Fable 5、Mythos 5 及更新模型上不再可用；设置 `CLAUDE_CODE_ENABLE_TODO_TOOLS=1` 可恢复它们\n- Windows：修复了自动模式在普通的 `cd <dir> && <command> > file` Bash 命令上反复停止等待手动批准的问题（2.1.232 回归）\n- 还原了 2.1.232 中针对 Windows 上 Cygwin 风格符号链接和输入重定向（`< file`）的 Bash 权限更改；更窄范围的版本将在后续版本中返回",
+      "sourceHash": "12297fdffb3f4c3d0dffca32ba62b9f3f6f93bfc1ae64bd7df18bfa30c8422f3",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-14T22:55:35.889Z"
+    }
+  },
+  {
     "id": "github-copilot-c41fedd664439b3e",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
@@ -1656,6 +1682,34 @@
       "sourceHash": "08136989ae29ef5d036e2dfe5881765e4b17fee208e7512699773f50219e5f96",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-07-31T21:43:11.023Z"
+    }
+  },
+  {
+    "id": "codex-d5565e4c2b689c89",
+    "sourceSlug": "codex",
+    "externalId": "2026-07-31:Record & Replay expands to the EU, UK, and Switzerland",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "collectedAt": "2026-08-14T22:55:27.077Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-07-31-app",
+    "title": "Record & Replay expands to the EU, UK, and Switzerland",
+    "body": "Record & Replay is now available in the European Union, the United Kingdom, and Switzerland. On macOS, demonstrate a workflow and turn it into a reusable skill. Computer Use must also be available and enabled.",
+    "sourceLanguage": "en",
+    "contentHash": "0961501bdcc11eb8c35f55adeabd858190aa9c73e607ee7374a7126a45549d05",
+    "sourceTopics": [
+      "codex-app"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Record & Replay expands to the EU, UK, and Switzerland",
+      "bodyEn": "Record & Replay is now available in the European Union, the United Kingdom, and Switzerland. On macOS, demonstrate a workflow and turn it into a reusable skill. Computer Use must also be available and enabled.",
+      "titleZh": "记录与回放扩展到欧盟、英国和瑞士",
+      "bodyZh": "记录与回放现已在欧盟、英国和瑞士可用。在 macOS 上，演示一个工作流并将其转化为可复用的技能。计算机使用也必须可用并已启用。",
+      "sourceHash": "0961501bdcc11eb8c35f55adeabd858190aa9c73e607ee7374a7126a45549d05",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-14T22:56:03.254Z"
     }
   },
   {
