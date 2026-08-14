@@ -1,5 +1,57 @@
 [
   {
+    "id": "github-copilot-c41fedd664439b3e",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+    "version": "4.6",
+    "channel": "stable",
+    "publishedAt": "2026-08-14T16:17:46.000Z",
+    "collectedAt": "2026-08-14T17:34:09.591Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+    "title": "Grok 4.6 is now available in GitHub Copilot",
+    "body": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows. In our internal testing, Grok 4.6 showed… The post Grok 4.6 is now available in GitHub Copilot appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "740058201f357c8e3b9e376c062d46967efb00c72dafe8d21e0b13354fe9a9d6",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Grok 4.6 is now available in GitHub Copilot",
+      "bodyEn": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows. In our internal testing, Grok 4.6 showed… The post Grok 4.6 is now available in GitHub Copilot appeared first on The GitHub Blog.",
+      "titleZh": "Grok 4.6 现已在 GitHub Copilot 中可用",
+      "bodyZh": "Grok 4.6，xAI 的最新推理模型，现已在 GitHub Copilot 中推出。它专为代理式编码和复杂的多步骤工作流而设计。在我们的内部测试中，Grok 4.6 表现出…… 该文章 Grok 4.6 现已在 GitHub Copilot 中可用 首次出现在 GitHub 博客上。",
+      "sourceHash": "740058201f357c8e3b9e376c062d46967efb00c72dafe8d21e0b13354fe9a9d6",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-14T17:34:13.111Z"
+    }
+  },
+  {
+    "id": "github-copilot-e5ff0ee6aec27d2d",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-14T03:15:56.000Z",
+    "collectedAt": "2026-08-14T17:34:09.591Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+    "title": "GitHub Copilot weekly releases — August 10",
+    "body": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general… The post GitHub Copilot weekly releases — August 10 appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "1ade1204d5d1a44062dd9f8a59fc777cef0982a3d6c7bdbc7078bdf7b79928c9",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "GitHub Copilot weekly releases — August 10",
+      "bodyEn": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general… The post GitHub Copilot weekly releases — August 10 appeared first on The GitHub Blog.",
+      "titleZh": "GitHub Copilot 每周更新 — 8月10日",
+      "bodyZh": "从新模型和便携插件到更流畅的代理工作流，本周的更新使 GitHub Copilot 在编辑器、命令行和 Copilot 应用中更加灵活。GitHub Copilot，通用… 这篇帖子 GitHub Copilot 每周更新 — 8月10日 首次出现在 GitHub 博客上。",
+      "sourceHash": "1ade1204d5d1a44062dd9f8a59fc777cef0982a3d6c7bdbc7078bdf7b79928c9",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-14T17:34:14.331Z"
+    }
+  },
+  {
     "id": "claude-code-13ff0fb346e3512d",
     "sourceSlug": "claude-code",
     "externalId": "2.1.232",
@@ -181,6 +233,32 @@
       "sourceHash": "183a2f8014b8f6959b93a977927d8f32eb5be5d535db8bdb46544e1dd9b560a2",
       "model": "deepseek-v4-flash",
       "translatedAt": "2026-08-13T19:39:45.965Z"
+    }
+  },
+  {
+    "id": "workbuddy-d40cf3fb8978e317",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-08-13:5.3.13",
+    "version": "5.3.13",
+    "channel": "stable",
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "collectedAt": "2026-08-14T17:34:11.075Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-3-13-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-08-13",
+    "title": "WorkBuddy 5.3.13",
+    "body": "- 新增灵感「一键做同款」，支持快速套版复刻网页\n\n- 优化同时运行多个任务时的流畅度，减少切换卡顿和白屏\n\n- 优化资料库上传体验，成功后可一键跳转查看，已在资料库中的文件不再重复上传\n\n- 修复子任务一直停在准备中、无法继续执行的问题\n\n- 修复对话中 WeData 图表无法展示的问题\n\n- 修复思考过程中代码块文字重叠的问题\n\n- 修复网页搜索结果出现空链接的问题\n\n- 修复分享文件弹窗遮罩样式异常的问题\n\n- 修复对话区元宝搜索入口消失的问题\n\n- 修复海外版提示词增强不可用的问题\n\n- 修复海外版历史消息日期未按语言显示的问题\n\n- 修复海外版关于页官网跳转错误的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "7a00d9c11173fa673d600dd477d501828d0b3108ba1904bddfb1b60c50c04cf6",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "zh",
+      "targetLanguage": "en",
+      "titleEn": "WorkBuddy 5.3.13",
+      "bodyEn": "- Added \"One-click Same Style\" for inspiration, supporting quick template replication of web pages\n\n- Optimized smoothness when running multiple tasks simultaneously, reducing lag and white screens when switching\n\n- Optimized the library upload experience, allowing one-click jump to view after success, and files already in the library are no longer uploaded repeatedly\n\n- Fixed the issue where subtasks remained stuck in \"Preparing\" and could not continue\n\n- Fixed the issue where WeData charts could not be displayed in conversations\n\n- Fixed the issue of overlapping text in code blocks during thinking\n\n- Fixed the issue of empty links appearing in web search results\n\n- Fixed the issue of abnormal styling of the share file popup overlay\n\n- Fixed the issue where the Yuanbao search entry disappeared in the conversation area\n\n- Fixed the issue where prompt enhancement was unavailable in the overseas version\n\n- Fixed the issue where historical message dates in the overseas version were not displayed according to language\n\n- Fixed the issue of incorrect official website redirect on the About page in the overseas version",
+      "titleZh": "WorkBuddy 5.3.13",
+      "bodyZh": "- 新增灵感「一键做同款」，支持快速套版复刻网页\n\n- 优化同时运行多个任务时的流畅度，减少切换卡顿和白屏\n\n- 优化资料库上传体验，成功后可一键跳转查看，已在资料库中的文件不再重复上传\n\n- 修复子任务一直停在准备中、无法继续执行的问题\n\n- 修复对话中 WeData 图表无法展示的问题\n\n- 修复思考过程中代码块文字重叠的问题\n\n- 修复网页搜索结果出现空链接的问题\n\n- 修复分享文件弹窗遮罩样式异常的问题\n\n- 修复对话区元宝搜索入口消失的问题\n\n- 修复海外版提示词增强不可用的问题\n\n- 修复海外版历史消息日期未按语言显示的问题\n\n- 修复海外版关于页官网跳转错误的问题",
+      "sourceHash": "7a00d9c11173fa673d600dd477d501828d0b3108ba1904bddfb1b60c50c04cf6",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-14T17:34:16.758Z"
     }
   },
   {
