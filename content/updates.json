@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-4ee0c5839fae9761-d7fae7a35ed2fc15",
+    "releaseId": "gemini-cli-4ee0c5839fae9761",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.56.0-nightly.20260815.g2a87e7be1",
+    "what": "官方发布了「Release v0.56.0-nightly.20260815.g2a87e7be1」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.56.0-nightly.20260815.g2a87e7be1",
+    "publishedAt": "2026-08-15T01:15:26.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260815.g2a87e7be1",
+    "evidence": "## What's Changed\n* [SSR Agent] Issue Fix (19826): Migrate process.env to vi.stubEnv in a2a-server tests by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28811\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260814.gc0d192452...v0.56.0-nightly.20260815.g2a87e7be1",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-f967a6a75914167d-97af702f065d39fe",
     "releaseId": "claude-code-f967a6a75914167d",
     "toolSlug": "claude-code",

@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-4ee0c5839fae9761",
+    "sourceSlug": "gemini-cli",
+    "externalId": "370912790",
+    "version": "v0.56.0-nightly.20260815.g2a87e7be1",
+    "channel": "preview",
+    "publishedAt": "2026-08-15T01:15:26.000Z",
+    "collectedAt": "2026-08-15T02:01:40.618Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260815.g2a87e7be1",
+    "title": "Release v0.56.0-nightly.20260815.g2a87e7be1",
+    "body": "## What's Changed\n* [SSR Agent] Issue Fix (19826): Migrate process.env to vi.stubEnv in a2a-server tests by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28811\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260814.gc0d192452...v0.56.0-nightly.20260815.g2a87e7be1",
+    "sourceLanguage": "en",
+    "contentHash": "9b933f3984a9310680f074ec9824df27f819977f4a7b3faa11b4521581706bc7",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.56.0-nightly.20260815.g2a87e7be1",
+      "bodyEn": "## What's Changed\n* [SSR Agent] Issue Fix (19826): Migrate process.env to vi.stubEnv in a2a-server tests by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28811\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260814.gc0d192452...v0.56.0-nightly.20260815.g2a87e7be1",
+      "titleZh": "发布 v0.56.0-nightly.20260815.g2a87e7be1",
+      "bodyZh": "## 变更内容\n* [SSR Agent] 问题修复 (19826)：由 @joneba-google 在 https://github.com/google-gemini/gemini-cli/pull/28811 中将 a2a-server 测试中的 process.env 迁移至 vi.stubEnv\n\n\n**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260814.gc0d192452...v0.56.0-nightly.20260815.g2a87e7be1",
+      "sourceHash": "9b933f3984a9310680f074ec9824df27f819977f4a7b3faa11b4521581706bc7",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-15T02:01:44.321Z"
+    }
+  },
+  {
     "id": "claude-code-f967a6a75914167d",
     "sourceSlug": "claude-code",
     "externalId": "2.1.233",
