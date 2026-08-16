@@ -46,11 +46,11 @@
   },
   {
     "slug": "workbuddy",
-    "status": "healthy",
+    "status": "degraded",
     "lastSuccessAt": "2026-08-14T17:34:11.075Z",
-    "consecutiveErrors": 0,
+    "consecutiveErrors": 1,
     "etag": "W/\"6a7f4241-22b05\"",
     "lastContentHash": "538552e375125366b6a2b03e132b33ed98048ec321745717c71846dd6febd791",
-    "lastError": null
+    "lastError": "fetch failed"
   }
 ]
