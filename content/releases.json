@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-fe525859c4bcd6a7",
+    "sourceSlug": "gemini-cli",
+    "externalId": "371198813",
+    "version": "v0.56.0-nightly.20260816.g2a87e7be1",
+    "channel": "preview",
+    "publishedAt": "2026-08-16T01:09:18.000Z",
+    "collectedAt": "2026-08-16T02:09:11.678Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260816.g2a87e7be1",
+    "title": "Release v0.56.0-nightly.20260816.g2a87e7be1",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260815.g2a87e7be1...v0.56.0-nightly.20260816.g2a87e7be1",
+    "sourceLanguage": "en",
+    "contentHash": "a8f1bff59b30eb9ae53c717c68f38b9f1326eb2d1c44e5390eb6fd0f5701c29d",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.56.0-nightly.20260816.g2a87e7be1",
+      "bodyEn": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260815.g2a87e7be1...v0.56.0-nightly.20260816.g2a87e7be1",
+      "titleZh": "发布 v0.56.0-nightly.20260816.g2a87e7be1",
+      "bodyZh": "**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260815.g2a87e7be1...v0.56.0-nightly.20260816.g2a87e7be1",
+      "sourceHash": "a8f1bff59b30eb9ae53c717c68f38b9f1326eb2d1c44e5390eb6fd0f5701c29d",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-16T02:09:14.307Z"
+    }
+  },
+  {
     "id": "gemini-cli-4ee0c5839fae9761",
     "sourceSlug": "gemini-cli",
     "externalId": "370912790",
