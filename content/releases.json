@@ -1,5 +1,31 @@
 [
   {
+    "id": "gemini-cli-18f601e1b5ab71c3",
+    "sourceSlug": "gemini-cli",
+    "externalId": "371479514",
+    "version": "v0.56.0-nightly.20260817.g9a15c45fb",
+    "channel": "preview",
+    "publishedAt": "2026-08-17T01:08:01.000Z",
+    "collectedAt": "2026-08-17T02:06:56.946Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260817.g9a15c45fb",
+    "title": "Release v0.56.0-nightly.20260817.g9a15c45fb",
+    "body": "## What's Changed\n* [SSR Agent] Issue Fix (21911): Add composite flag to packages/cli tsconfig by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28813\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260816.g2a87e7be1...v0.56.0-nightly.20260817.g9a15c45fb",
+    "sourceLanguage": "en",
+    "contentHash": "e79364df2be8e10e10d7eb8eeb748b4528ea97fa5435dedb7abcdf46f7f07d51",
+    "sourceTopics": [],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "Release v0.56.0-nightly.20260817.g9a15c45fb",
+      "bodyEn": "## What's Changed\n* [SSR Agent] Issue Fix (21911): Add composite flag to packages/cli tsconfig by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28813\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260816.g2a87e7be1...v0.56.0-nightly.20260817.g9a15c45fb",
+      "titleZh": "发布 v0.56.0-nightly.20260817.g9a15c45fb",
+      "bodyZh": "## 变更内容\n* [SSR Agent] 问题修复 (21911)：为 packages/cli tsconfig 添加 composite 标志，由 @joneba-google 在 https://github.com/google-gemini/gemini-cli/pull/28813 中提交\n\n\n**完整变更日志**：https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260816.g2a87e7be1...v0.56.0-nightly.20260817.g9a15c45fb",
+      "sourceHash": "e79364df2be8e10e10d7eb8eeb748b4528ea97fa5435dedb7abcdf46f7f07d51",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-17T02:06:59.772Z"
+    }
+  },
+  {
     "id": "gemini-cli-fe525859c4bcd6a7",
     "sourceSlug": "gemini-cli",
     "externalId": "371198813",

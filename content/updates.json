@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-18f601e1b5ab71c3-8e2e206378e0e74b",
+    "releaseId": "gemini-cli-18f601e1b5ab71c3",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.56.0-nightly.20260817.g9a15c45fb",
+    "what": "官方发布了「Release v0.56.0-nightly.20260817.g9a15c45fb」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.56.0-nightly.20260817.g9a15c45fb",
+    "publishedAt": "2026-08-17T01:08:01.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260817.g9a15c45fb",
+    "evidence": "## What's Changed\n* [SSR Agent] Issue Fix (21911): Add composite flag to packages/cli tsconfig by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28813\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260816.g2a87e7be1...v0.56.0-nightly.20260817.g9a15c45fb",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-fe525859c4bcd6a7-9f60c399177fbbfa",
     "releaseId": "gemini-cli-fe525859c4bcd6a7",
     "toolSlug": "gemini-cli",
