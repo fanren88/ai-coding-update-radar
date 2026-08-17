@@ -21,6 +21,27 @@
     "sourceTopics": []
   },
   {
+    "id": "cursor-6b299a14e7408a0d-4e0bf6e31044c2ca",
+    "releaseId": "cursor-6b299a14e7408a0d",
+    "toolSlug": "cursor",
+    "toolName": "Cursor",
+    "title": "Origin Code Hosting",
+    "what": "官方发布了「Origin Code Hosting」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Cursor 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "sourceUrl": "https://cursor.com/changelog/origin-code-hosting",
+    "evidence": "Cursor can now host your code.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-fe525859c4bcd6a7-9f60c399177fbbfa",
     "releaseId": "gemini-cli-fe525859c4bcd6a7",
     "toolSlug": "gemini-cli",
