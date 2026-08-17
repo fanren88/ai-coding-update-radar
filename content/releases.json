@@ -1246,6 +1246,34 @@
     }
   },
   {
+    "id": "codex-2dfb944b31626a46",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-07:ChatGPT for iOS 1.2026.209",
+    "version": "1.2026.209",
+    "channel": "stable",
+    "publishedAt": "2026-08-07T00:00:00.000Z",
+    "collectedAt": "2026-08-17T13:24:08.738Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-03-mobile",
+    "title": "ChatGPT for iOS 1.2026.209",
+    "body": "## Improvements and bug fixes\n\n- Improved task reconnection with visible progress while keeping existing tasks usable during connection checks.\n\n- New tasks now preserve their first prompt and attachments while starting, preventing empty tasks that could not be reopened.\n\n- Improved editing performance for long prompts.\n\n- Voice conversations now follow your Background Conversations setting.\n\n- Approvals and user-input requests now recover reliably after reconnecting, with cleaner approval details in the transcript.\n\n- Fixed follow-up /goal prompts after completing a goal.\n\n- Fixed task-list freezes, disappearing task titles, flashing thinking summaries, and transcript crashes.",
+    "sourceLanguage": "en",
+    "contentHash": "a05b3907f9bd9819522ef4065c026a454751ac7e4f873f63f1060d5a57f9a765",
+    "sourceTopics": [
+      "codex-mobile"
+    ],
+    "translation": {
+      "sourceLanguage": "en",
+      "targetLanguage": "zh",
+      "titleEn": "ChatGPT for iOS 1.2026.209",
+      "bodyEn": "## Improvements and bug fixes\n\n- Improved task reconnection with visible progress while keeping existing tasks usable during connection checks.\n\n- New tasks now preserve their first prompt and attachments while starting, preventing empty tasks that could not be reopened.\n\n- Improved editing performance for long prompts.\n\n- Voice conversations now follow your Background Conversations setting.\n\n- Approvals and user-input requests now recover reliably after reconnecting, with cleaner approval details in the transcript.\n\n- Fixed follow-up /goal prompts after completing a goal.\n\n- Fixed task-list freezes, disappearing task titles, flashing thinking summaries, and transcript crashes.",
+      "titleZh": "ChatGPT for iOS 1.2026.209",
+      "bodyZh": "## 改进和错误修复\n\n- 改进了任务重连，并在连接检查期间显示可见进度，同时保持现有任务可用。\n\n- 新任务现在在启动时会保留其首个提示和附件，防止出现无法重新打开的空任务。\n\n- 改进了长提示的编辑性能。\n\n- 语音对话现在遵循您的“后台对话”设置。\n\n- 批准和用户输入请求在重新连接后现在能可靠恢复，并在记录中显示更清晰的批准详情。\n\n- 修复了完成目标后的后续/目标提示问题。\n\n- 修复了任务列表冻结、任务标题消失、思考摘要闪烁以及记录崩溃的问题。",
+      "sourceHash": "a05b3907f9bd9819522ef4065c026a454751ac7e4f873f63f1060d5a57f9a765",
+      "model": "deepseek-v4-flash",
+      "translatedAt": "2026-08-17T13:24:21.998Z"
+    }
+  },
+  {
     "id": "github-copilot-412eeeaddaef78db",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",

@@ -1017,6 +1017,29 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-2dfb944b31626a46-05891555bf31f6ee",
+    "releaseId": "codex-2dfb944b31626a46",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "ChatGPT for iOS 1.2026.209",
+    "what": "官方发布了「ChatGPT for iOS 1.2026.209」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "1.2026.209",
+    "publishedAt": "2026-08-07T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-03-mobile",
+    "evidence": "Improved task reconnection with visible progress while keeping existing tasks usable during connection checks.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-mobile"
+    ]
+  },
+  {
     "id": "github-copilot-412eeeaddaef78db-45cf70538f2b4b39",
     "releaseId": "github-copilot-412eeeaddaef78db",
     "toolSlug": "github-copilot",
