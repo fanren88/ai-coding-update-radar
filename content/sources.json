@@ -37,12 +37,12 @@
   },
   {
     "slug": "gemini-cli",
-    "status": "healthy",
+    "status": "degraded",
     "lastSuccessAt": "2026-08-17T02:06:56.946Z",
-    "consecutiveErrors": 0,
+    "consecutiveErrors": 1,
     "etag": "W/\"c9813d65c123b0c7922cf15497b79f397ac8eff5d693d4b8e49d65d522e456be\"",
     "lastContentHash": "7819ba3fb9889d5d21480bba5bb12defc13ed604086870ff3e64a4f34923f436",
-    "lastError": null
+    "lastError": "parser_returned_no_releases"
   },
   {
     "slug": "workbuddy",
