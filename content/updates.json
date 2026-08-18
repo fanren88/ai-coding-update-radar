@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-f310acb6b2dafcb5-b216afb18063f301",
+    "releaseId": "gemini-cli-f310acb6b2dafcb5",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.56.0-nightly.20260818.g194edea47",
+    "what": "官方发布了「Release v0.56.0-nightly.20260818.g194edea47」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.56.0-nightly.20260818.g194edea47",
+    "publishedAt": "2026-08-18T01:00:05.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260818.g194edea47",
+    "evidence": "## What's Changed\n* [SSR Agent] Issue Fix (26120): Clarify privacy notice wording and selection options by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28820\n* [SSR Agent] Issue Fix (21919): Fix TypeScript strict-null errors in integration tests by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28814\n* [SSR Agent] Issue Fix (21477): Prevent indefinite TUI hang by adding execution timeouts by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28812\n* [SSR Agent] Issue Fix (19239): Update /clear command docs to include context reset by @j",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-53c2ddc716436ac7-fcd345cf0b805848",
     "releaseId": "claude-code-53c2ddc716436ac7",
     "toolSlug": "claude-code",
