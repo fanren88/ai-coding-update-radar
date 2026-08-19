@@ -15,6 +15,21 @@
     "sourceTopics": []
   },
   {
+    "id": "cursor-80f9dcbf59a8d66f",
+    "sourceSlug": "cursor",
+    "externalId": "/changelog/08-19-26",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "collectedAt": "2026-08-19T19:05:05.974Z",
+    "sourceUrl": "https://cursor.com/changelog/08-19-26",
+    "title": "Cloud Agents and Cursor Harness Improvements",
+    "body": "We're continuing to improve cloud agents and the Cursor harness so always-on agents can operate as a system, building and shipping software on their own without the need for intervention at each loop. With this release, cloud agents can automatically pick up work in response to events, hold a goal until it's met, and stay on course through long-running sessions. #Subscriptions Cursor can now monitor your PRs, watch a Slack thread, or run scheduled tasks. Cursor Agent subscribes to an event source (a thread or conversation) and wakes when something happens. Subscriptions are available for cloud agents only, for now. Cloud agents automatically subscribe to PRs they create and drive them to completion, fixing CI and addressing bot comments. In Slack, ask @cursor check back in an hour and keep going until that feedback is in. #Custom modes Use any skill as a Custom Mode: a skill that stays pinned in the chat. Custom modes keep agents focused on a skill - you can think about it like \"always on\" skills. From /, pick a skill and press ⌥⏎ (Mac) or Alt+Enter (Windows), or choose Use as Mode. #Subagents on their own machines Subagents can now run on their own virtual machines. Each gets an isolated copy of the project with clean context in its own cloud environment. Have subagents test the parent agent's changes in fresh environments or swarm independent fixes without collisions. Try run a swarm of subagents to test my app for bugs, each in its own environment. #/goal Use /goal to give the agent a long-lived objective to work towards until it's fully complete. Try /goal fix all flaky tests and make CI green in a new chat. Pair it with a custom mode to follow a playbook, or /loop for recurring check-ins. #Steering improvements You can now send a message to steer the agent while it's working without interruption. Follow-ups wait for the next tool call instead of cutting the agent off mid-action. Type a follow-up and hit Send now, or press ⏎ twice.",
+    "sourceLanguage": "en",
+    "contentHash": "c2cad4879d343ca652b01a7ea66cc65903c9a1718f535b1705d8cf60a5f85cd2",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-f9a47a87a85dec44",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
