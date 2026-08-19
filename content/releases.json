@@ -83,12 +83,12 @@
     "version": "1.2026.223",
     "channel": "stable",
     "publishedAt": "2026-08-18T00:00:00.000Z",
-    "collectedAt": "2026-08-19T10:58:18.783Z",
+    "collectedAt": "2026-08-19T13:27:44.560Z",
     "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-17-mobile",
     "title": "ChatGPT for iOS 1.2026.223",
-    "body": "## New features\n\n- Added a setting to open ChatGPT directly in Codex Remote on launch.\n\n- Added support for standard MCP forms and editable message approvals.\n\n- Linked folders now open directly in Files.\n\n## Improvements and bug fixes\n\n- Improved the New Thread project picker to reflect the selected host’s current projects.\n\n- Voice now works directly from existing task composers, connects more reliably, and continues task actions in the background.\n\n- Improved diff review stability and performance, especially in large workspaces.\n\n- Added a Retry action when task messages fail to load.\n\n- Fixed large task responses failing to load.\n\n- Fixed tasks disappearing or remaining unavailable after being idle, reconnecting, or returning to the task list.\n\n- Improved host pairing reliability and prevented enrollment checks from freezing the app.\n\n- Improved response annotations and preserved streamed activity when tasks complete.\n\n- Canceling or editing a steering message now prevents delivery.",
+    "body": "## New features\n\n- Added a setting to open ChatGPT directly in Codex Remote on launch.\n\n- Added support for standard MCP forms and editable message approvals.\n\n- Linked folders now open directly in the files sheet.\n\n## Improvements and bug fixes\n\n- Improved the New Thread project picker to reflect the selected host’s current projects.\n\n- Voice now works directly from existing task composers, connects more reliably, and continues task actions in the background.\n\n- Improved diff review stability and performance, especially in large workspaces.\n\n- Added a Retry action when task messages fail to load.\n\n- Fixed large task responses failing to load.\n\n- Fixed tasks disappearing or remaining unavailable after being idle, reconnecting, or returning to the task list.\n\n- Improved host pairing reliability and prevented enrollment checks from freezing the app.\n\n- Improved response annotations and preserved streamed activity when tasks complete.\n\n- Canceling or editing a steering message now prevents delivery.",
     "sourceLanguage": "en",
-    "contentHash": "f5a852837fff67a5508cd1face39ba2e5f23a9ed476ba6b0996d01767b4d5b3e",
+    "contentHash": "6444efa7ad8ec70b16ec351324ece9b6b176cd2e9d8e9b52acc95ef625fd8397",
     "sourceTopics": [
       "codex-mobile"
     ]
