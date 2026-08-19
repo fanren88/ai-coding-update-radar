@@ -77,6 +77,23 @@
     ]
   },
   {
+    "id": "codex-9210c30f17ce7aca",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-18:ChatGPT for iOS 1.2026.223",
+    "version": "1.2026.223",
+    "channel": "stable",
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "collectedAt": "2026-08-19T07:22:50.229Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-17-mobile",
+    "title": "ChatGPT for iOS 1.2026.223",
+    "body": "## New features\n\n- Added a setting to open ChatGPT directly in Codex Remote on launch.\n\n- Added support for standard MCP forms and editable Messages approvals.\n\n- Linked folders now open directly in Files.\n\n## Improvements and bug fixes\n\n- Improved the New Thread project picker to reflect the selected host’s current projects.\n\n- Voice now works directly from existing task composers, connects more reliably, and continues task actions in the background.\n\n- Improved diff review stability and performance, especially in large workspaces.\n\n- Added a Retry action when task messages fail to load.\n\n- Fixed large task responses failing to load.\n\n- Fixed tasks disappearing or remaining unavailable after being idle, reconnecting, or returning to the task list.\n\n- Improved host pairing reliability and prevented enrollment checks from freezing the app.\n\n- Improved response annotations and preserved streamed activity when tasks complete.\n\n- Canceling or editing a steering message now prevents delivery.",
+    "sourceLanguage": "en",
+    "contentHash": "61b723c17317512b223285526cfa31263c8e489f309eebc54b82b70906564160",
+    "sourceTopics": [
+      "codex-mobile"
+    ]
+  },
+  {
     "id": "claude-code-53c2ddc716436ac7",
     "sourceSlug": "claude-code",
     "externalId": "2.1.234",

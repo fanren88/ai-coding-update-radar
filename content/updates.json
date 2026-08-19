@@ -107,6 +107,29 @@
     ]
   },
   {
+    "id": "codex-9210c30f17ce7aca-faf9413468cd743b",
+    "releaseId": "codex-9210c30f17ce7aca",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "ChatGPT for iOS 1.2026.223",
+    "what": "官方发布了「ChatGPT for iOS 1.2026.223」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "1.2026.223",
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-17-mobile",
+    "evidence": "Added a setting to open ChatGPT directly in Codex Remote on launch.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-mobile"
+    ]
+  },
+  {
     "id": "claude-code-53c2ddc716436ac7-fcd345cf0b805848",
     "releaseId": "claude-code-53c2ddc716436ac7",
     "toolSlug": "claude-code",
