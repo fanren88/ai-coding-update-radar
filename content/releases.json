@@ -1,5 +1,35 @@
 [
   {
+    "id": "gemini-cli-eef1624cac7c7e67",
+    "sourceSlug": "gemini-cli",
+    "externalId": "372741335",
+    "version": "v0.56.0-nightly.20260819.g571851b10",
+    "channel": "preview",
+    "publishedAt": "2026-08-19T01:07:23.000Z",
+    "collectedAt": "2026-08-19T02:05:36.883Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260819.g571851b10",
+    "title": "Release v0.56.0-nightly.20260819.g571851b10",
+    "body": "## What's Changed\n* [SSR Agent] Issue Fix (28050): Add Vertex AI locations documentation link by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28865\n* [SSR Agent] Issue Fix (22093): Prevent subagents from running when agents mode is disabled by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28867\n* [SSR Agent] Issue Fix (23954): Add trailing space to autocomplete suggestions by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28868\n* [SSR Agent] Issue Fix (24935): Force terminal buffer rerender after exiting external editors by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28880\n* [SSR Agent] Issue Fix (28518): Fix sub-agent handoff token regression on startup by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28882\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260818.g194edea47...v0.56.0-nightly.20260819.g571851b10",
+    "sourceLanguage": "en",
+    "contentHash": "538a982c10db126c896985aa1360134dd226c01dda61df287430763f53467808",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-f9a47a87a85dec44",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-18T23:33:07.000Z",
+    "collectedAt": "2026-08-19T02:05:36.538Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+    "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
+    "body": "GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls for everyone on your enterprise’s… The post Enterprise managed settings in GitHub Copilot for JetBrains appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "b88bc3e46ef4483b0457bf10a7964dd28b2351980a69bf06ec0c99ebb3e61eaa",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-3def0f7dc3c7650f",
     "sourceSlug": "claude-code",
     "externalId": "2.1.235",
