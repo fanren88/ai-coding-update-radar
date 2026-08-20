@@ -30,6 +30,24 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-51595df538edcc69",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-20:Codex and ChatGPT updates",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "collectedAt": "2026-08-20T19:17:05.771Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-20-app",
+    "title": "Codex and ChatGPT updates",
+    "body": "## New features\n\n- Apple Messages: Use the Apple Messages plugin to read and search Messages chats on your Mac and prepare or send messages. It’s available on all plans in the ChatGPT desktop app for macOS. You can use the plugin in ChatGPT Work and Codex. By default, ChatGPT sends messages only after you approve the message and its recipients. See the plugin guide for persistent-approval risks, revocation steps, and the known issue with tasks that disable approval prompts.\n\n- Site co-editing: Where Site collaboration is available, owners can invite active members of the same workspace as editors. Editors can read the Site’s live database data, update the Site, save versions, and publish changes after the owner publishes the Site for the first time. Owners retain control of the audience, settings, analytics, ownership, version restoration, and editor access.\n\n- Editable Site URLs: Where URL editing is available, owners can change an existing Site’s ChatGPT-hosted address without creating another deployment. The previous address redirects to the new URL. Custom domains are a separate, existing feature and aren’t changed by this setting.\n\n- Computer History in Europe: Computer History is now available in the EEA, Switzerland, and the United Kingdom for ChatGPT Pro, Business, and Enterprise users in the ChatGPT desktop app on macOS. It’s off by default and requires Memories. Business and Enterprise administrators must enable access before workspace members can choose to turn it on.\n\n- Shared thread snapshots: On all Codex plans, share a read-only snapshot of a local Codex thread from the ChatGPT desktop app for macOS. The snapshot doesn’t update when the original thread changes. Personal-account links can be opened by anyone with the link; workspace-account links are limited to members of the originating workspace. Codex redacts known secret patterns, but review the shared content because sensitive content may remain. View or revoke links in ChatGPT data controls, under Shared links.\n\n- Unified pinned threads: Keep the same pinned chats across the ChatGPT desktop app and iOS.",
+    "sourceLanguage": "en",
+    "contentHash": "c2cf917de817cf863ca00ba79e7911ad17bb160df03d91e15e728e4771d74c1c",
+    "sourceTopics": [
+      "general",
+      "codex-app"
+    ]
+  },
+  {
     "id": "claude-code-a98d3cf21ac340b7",
     "sourceSlug": "claude-code",
     "externalId": "2.1.236",
@@ -103,6 +121,23 @@
     "sourceLanguage": "en",
     "contentHash": "c2cad4879d343ca652b01a7ea66cc65903c9a1718f535b1705d8cf60a5f85cd2",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-9a190448c5c923fd",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-19:GitLab support in Codex cloud (Beta)",
+    "version": null,
+    "channel": "preview",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "collectedAt": "2026-08-20T19:17:05.771Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-19-gitlab",
+    "title": "GitLab support in Codex cloud (Beta)",
+    "body": "GitLab support is available in beta on all ChatGPT plans. Connect a GitLab project to Codex cloud, create an environment for it, start tasks from issues or merge requests with @codex, and request one-off or automatic merge request reviews.\n\nThe integration runs in Codex cloud. A managed workspace admin can disable the connector. GitLab-triggered activity requires permission to configure the applicable webhook. For GitLab Self-Managed or GitLab Dedicated, a workspace admin must configure the connection, and webhook activity requires GitLab 19.0 or later.\n\nCodex cannot complete a review when GitLab omits a collapsed or oversize diff.\n\nLearn how to use Codex with GitLab.",
+    "sourceLanguage": "en",
+    "contentHash": "2d1123ae91d5f40440a10d8a37dc49e9b80fdb4bd2f921a86af485d9b6578863",
+    "sourceTopics": [
+      "general"
+    ]
   },
   {
     "id": "github-copilot-f9a47a87a85dec44",
@@ -238,6 +273,23 @@
     "sourceLanguage": "en",
     "contentHash": "498a0071acdb4cb80d763c39ba080a77e85da4f4b78426f539a6e80a6cfb1b6d",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-df205927018da857",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-17:Public plugin catalog CSV export",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "collectedAt": "2026-08-20T19:17:05.771Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-17-admin-csv",
+    "title": "Public plugin catalog CSV export",
+    "body": "Eligible ChatGPT Enterprise workspace owners and admins can download a CSV of the public plugins visible to their workspace. The export includes plugin, app, and Chat skill names and descriptions, along with developer, version, date added in UTC, and OpenAI verification metadata.\n\nOpen Admin > Plugins, select Public, and then select the download icon (Export CSV). The export uses a public-catalog snapshot that can be up to 48 hours old and does not include plugins created for the workspace. It isn’t available in FedRAMP workspaces.\n\nLearn more about plugin controls.",
+    "sourceLanguage": "en",
+    "contentHash": "12975c2712bdb3f3d0d36e73a7b7150bca251c2c9f3a1ab88905ce61f79a6814",
+    "sourceTopics": [
+      "general"
+    ]
   },
   {
     "id": "gemini-cli-fe525859c4bcd6a7",

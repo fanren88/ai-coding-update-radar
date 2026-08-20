@@ -42,6 +42,30 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-51595df538edcc69-c0f87f41f36e2061",
+    "releaseId": "codex-51595df538edcc69",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex and ChatGPT updates",
+    "what": "官方发布了「Codex and ChatGPT updates」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-20-app",
+    "evidence": "Apple Messages: Use the Apple Messages plugin to read and search Messages chats on your Mac and prepare or send messages.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "general",
+      "codex-app"
+    ]
+  },
+  {
     "id": "claude-code-a98d3cf21ac340b7-8cca8451651bb010",
     "releaseId": "claude-code-a98d3cf21ac340b7",
     "toolSlug": "claude-code",
@@ -145,6 +169,29 @@
     "evidence": "We're continuing to improve cloud agents and the Cursor harness so always-on agents can operate as a system, building and shipping software on their own without the need for intervention at each loop.",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-9a190448c5c923fd-5698ee69ca637c7c",
+    "releaseId": "codex-9a190448c5c923fd",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "GitLab support in Codex cloud (Beta)",
+    "what": "官方发布了「GitLab support in Codex cloud (Beta)」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": null,
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-19-gitlab",
+    "evidence": "GitLab support is available in beta on all ChatGPT plans.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "general"
+    ]
   },
   {
     "id": "github-copilot-f9a47a87a85dec44-caebbadb67009e70",
@@ -317,6 +364,29 @@
     "evidence": "Cursor can now host your code.",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-df205927018da857-ec6a6ad47ff5f64a",
+    "releaseId": "codex-df205927018da857",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Public plugin catalog CSV export",
+    "what": "官方发布了「Public plugin catalog CSV export」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-17-admin-csv",
+    "evidence": "Eligible ChatGPT Enterprise workspace owners and admins can download a CSV of the public plugins visible to their workspace.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "general"
+    ]
   },
   {
     "id": "gemini-cli-fe525859c4bcd6a7-9f60c399177fbbfa",
