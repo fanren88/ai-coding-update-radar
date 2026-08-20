@@ -1,5 +1,35 @@
 [
   {
+    "id": "claude-code-aa82559fc93b624f",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.237",
+    "version": "2.1.237",
+    "channel": "stable",
+    "publishedAt": "2026-08-20T02:04:39.768Z",
+    "collectedAt": "2026-08-20T02:04:39.768Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.237",
+    "body": "- Fixed prompt caching for sessions using an LLM gateway or custom base URL\n- Added a built-in \"Concise\" output style: Claude leads with results and skips preamble and narration, while doing the work just as thoroughly. Select it under Output style in /config.",
+    "sourceLanguage": "en",
+    "contentHash": "dec2a90c114188a51e0b02030877213c9bcbf7a7ea1e1854a048339196c6f042",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-68099f3246037570",
+    "sourceSlug": "gemini-cli",
+    "externalId": "373438701",
+    "version": "v0.56.0-nightly.20260820.ge90c63fa1",
+    "channel": "preview",
+    "publishedAt": "2026-08-20T01:27:23.000Z",
+    "collectedAt": "2026-08-20T02:04:40.394Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260820.ge90c63fa1",
+    "title": "Release v0.56.0-nightly.20260820.ge90c63fa1",
+    "body": "## What's Changed\n* fix(core): preserve empty text turns with tools or media by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28892\n* Changelog for v0.57.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28918\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260819.g571851b10...v0.56.0-nightly.20260820.ge90c63fa1",
+    "sourceLanguage": "en",
+    "contentHash": "7bd728fb77849ac411eb06f988df14290f0cc138734ae2897caf86e45461dc04",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-a98d3cf21ac340b7",
     "sourceSlug": "claude-code",
     "externalId": "2.1.236",
