@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-52d6db07d8c75fdb-48962621c6a9f24a",
+    "releaseId": "gemini-cli-52d6db07d8c75fdb",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.56.0-nightly.20260821.g30573d2e4",
+    "what": "官方发布了「Release v0.56.0-nightly.20260821.g30573d2e4」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.56.0-nightly.20260821.g30573d2e4",
+    "publishedAt": "2026-08-21T01:08:09.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260821.g30573d2e4",
+    "evidence": "## What's Changed\n* fix(core): ensure consistent symlink evaluation in ignore path handling by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28915\n* refactor(core): remove eslint-disable and type-asserts from shellExecutionService by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28862\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260820.ge90c63fa1...v0.56.0-nightly.20260821.g30573d2e4",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-df686b86d324afdf-02951cea5d0232ba",
     "releaseId": "claude-code-df686b86d324afdf",
     "toolSlug": "claude-code",
@@ -84,6 +105,29 @@
     "sourceTopics": [
       "general",
       "codex-app"
+    ]
+  },
+  {
+    "id": "codex-84f7ed1f3fed0572-e576faaa9f27e678",
+    "releaseId": "codex-84f7ed1f3fed0572",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex CLI 0.149.0",
+    "what": "官方发布了「Codex CLI 0.149.0」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "0.149.0",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-374028976",
+    "evidence": "Added an interactive codex agents dashboard for searching, starting, opening, renaming, and stopping tasks, with configurable shortcuts.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-cli"
     ]
   },
   {
