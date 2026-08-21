@@ -11,10 +11,10 @@
   {
     "slug": "claude-code",
     "status": "healthy",
-    "lastSuccessAt": "2026-08-20T21:00:19.336Z",
+    "lastSuccessAt": "2026-08-21T20:54:56.762Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"f4ca2754bba50c43a1de08d003f3362a9a20214781650f3b91c7753f6557e3b9\"",
-    "lastContentHash": "7b1839626e6cdf70ab90f3c9e76659d283b10f4455e4d039fa651f40e7817fdb",
+    "etag": "W/\"03835b1cc98f3dea66fda58f617191f978a876f0f0995d75c30258e71aa0d3c2\"",
+    "lastContentHash": "95457041fffe0d2db285fa7501000cfe1211ac0af50715c98d61e252656c0d07",
     "lastError": null
   },
   {
