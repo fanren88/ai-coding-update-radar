@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-eb80560ee1a000d1",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+    "version": null,
+    "channel": "preview",
+    "publishedAt": "2026-08-21T16:07:15.000Z",
+    "collectedAt": "2026-08-21T17:03:51.214Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+    "title": "The new GitHub Copilot experience in Slack",
+    "body": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to… The post The new GitHub Copilot experience in Slack appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "78c2fa947b2c117850a31fbb2ccc82be17713341a0ad29c97774690b4660dea8",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-6ef374b8331e635c",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-21T16:03:36.000Z",
+    "collectedAt": "2026-08-21T17:03:51.214Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+    "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+    "body": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot… The post Shared agentic work with GitHub Copilot in Microsoft Teams appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "83007a3d9170036c6eedfc8a77d6890c5e7caddece653f71c619072c2521b44b",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-52d6db07d8c75fdb",
     "sourceSlug": "gemini-cli",
     "externalId": "374113889",
