@@ -339,6 +339,21 @@
     ]
   },
   {
+    "id": "workbuddy-fad5e9f1545b2216",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-08-17:5.3.14",
+    "version": "5.3.14",
+    "channel": "stable",
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "collectedAt": "2026-08-21T03:32:23.347Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-3-14-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-08-17",
+    "title": "WorkBuddy 5.3.14",
+    "body": "- 新增 Markdown AI 编辑快捷键提示，支持 Enter 直接发送、Cmd+Enter 换行\n\n- 优化长期记忆加载与本地助理变量恢复，新建和恢复对话更稳定\n\n- 优化自动化任务高峰期调度，减少集中触发和误判错过执行\n\n- 优化灵感案例访问和做同款流程，提升资源打开、分享口令和覆盖确认体验\n\n- 优化并行灵感任务页面性能，减少任务切换卡顿和历史任务白屏\n\n- 修复多个任务同时提问时回复内容串话的问题\n\n- 修复技能名称为纯数字时新建会话失败的问题\n\n- 修复粘贴腾讯文档链接后点击「去授权」无响应的问题\n\n- 修复文件分享持续失败的问题\n\n- 修复思考过程代码块重叠显示的问题\n\n- 修复海外版提示词增强、历史日期和关于页跳转异常的问题\n\n- 修复子 Agent 沙箱任务可能永久等待的问题\n\n- 修复 Wedata 图表卡片无法正常渲染的问题\n\n- 修复元宝搜索入口异常隐藏的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "84c8d919fd67c9fadd7109ee2d834ca23a3fb1c1b8f6d450cd945ffbb4f922cf",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-fe525859c4bcd6a7",
     "sourceSlug": "gemini-cli",
     "externalId": "371198813",
