@@ -1,5 +1,20 @@
 [
   {
+    "id": "claude-code-2635203623ea4450",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.240",
+    "version": "2.1.240",
+    "channel": "stable",
+    "publishedAt": "2026-08-22T14:53:59.771Z",
+    "collectedAt": "2026-08-22T14:53:59.771Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.240",
+    "body": "- Bug fixes and reliability improvements",
+    "sourceLanguage": "en",
+    "contentHash": "8f75fcb7cea279d16aba6e153531a2d0c946eb327b3f58b1fecd886d5659deac",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-f5a8de251920249c",
     "sourceSlug": "gemini-cli",
     "externalId": "374760224",

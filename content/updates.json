@@ -1,5 +1,26 @@
 [
   {
+    "id": "claude-code-2635203623ea4450-b876a1196c2f414c",
+    "releaseId": "claude-code-2635203623ea4450",
+    "toolSlug": "claude-code",
+    "toolName": "Claude Code",
+    "title": "2.1.240",
+    "what": "官方发布了「2.1.240」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Claude Code 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "2.1.240",
+    "publishedAt": "2026-08-22T14:53:59.771Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "evidence": "Bug fixes and reliability improvements",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-f5a8de251920249c-4689373f0a52c3a5",
     "releaseId": "gemini-cli-f5a8de251920249c",
     "toolSlug": "gemini-cli",
