@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-f5a8de251920249c",
+    "sourceSlug": "gemini-cli",
+    "externalId": "374760224",
+    "version": "v0.56.0-nightly.20260822.g5411f113c",
+    "channel": "preview",
+    "publishedAt": "2026-08-22T01:10:05.000Z",
+    "collectedAt": "2026-08-22T02:03:07.681Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260822.g5411f113c",
+    "title": "Release v0.56.0-nightly.20260822.g5411f113c",
+    "body": "## What's Changed\n* fix(sandbox): isolate Docker and container runtime sockets and binaries in macOS Seatbelt by @josebalius in https://github.com/google-gemini/gemini-cli/pull/28935\n\n## New Contributors\n* @josebalius made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28935\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260821.g30573d2e4...v0.56.0-nightly.20260822.g5411f113c",
+    "sourceLanguage": "en",
+    "contentHash": "33eb47074961433abd7df2d81311e35f34f03283c8255616351d783cc9f5f661",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-97664e67c14355f4",
     "sourceSlug": "claude-code",
     "externalId": "2.1.239",
