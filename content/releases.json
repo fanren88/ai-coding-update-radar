@@ -1,5 +1,37 @@
 [
   {
+    "id": "gemini-cli-bc14e551993e1109",
+    "sourceSlug": "gemini-cli",
+    "externalId": "375378272",
+    "version": "v0.56.0-nightly.20260824.g5411f113c",
+    "channel": "preview",
+    "publishedAt": "2026-08-24T00:59:21.000Z",
+    "collectedAt": "2026-08-24T02:10:00.508Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260824.g5411f113c",
+    "title": "Release v0.56.0-nightly.20260824.g5411f113c",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260823.g5411f113c...v0.56.0-nightly.20260824.g5411f113c",
+    "sourceLanguage": "en",
+    "contentHash": "760e7cdc3c769af0540800f2d82a6700d7285ef97b5dee69b801f3f35cbe7587",
+    "sourceTopics": []
+  },
+  {
+    "id": "codex-03e03efb0447c64b",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-24:Codex CLI 0.149.1",
+    "version": "0.149.1",
+    "channel": "stable",
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "collectedAt": "2026-08-24T02:09:59.097Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-375371090",
+    "title": "Codex CLI 0.149.1",
+    "body": "```bash\n$ npm install -g @openai/codex@0.149.1\n```\n\n## Changelog\n\nFull Changelog: rust-v0.149.0...rust-v0.149.1\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "468910265cf2f002ae1676bce82296b327c8b2b2d2aa0416c21248e0843cf5e2",
+    "sourceTopics": [
+      "codex-cli"
+    ]
+  },
+  {
     "id": "claude-code-179f0f99ab145d91",
     "sourceSlug": "claude-code",
     "externalId": "2.1.241",
