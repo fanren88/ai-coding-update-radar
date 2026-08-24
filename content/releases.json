@@ -32,6 +32,23 @@
     ]
   },
   {
+    "id": "codex-8c743170402c989b",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-24:Codex MCP server command deprecated",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "collectedAt": "2026-08-24T17:09:00.883Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-24",
+    "title": "Codex MCP server command deprecated",
+    "body": "The codex mcp-server command is now deprecated. Use the Codex app server instead. To use Codex from Claude Code, use the Codex plugin for Claude Code.",
+    "sourceLanguage": "en",
+    "contentHash": "82fafdee570c2090b13e408bc3841fb95bfd8e532f8602ec62736e7051c992eb",
+    "sourceTopics": [
+      "general"
+    ]
+  },
+  {
     "id": "claude-code-179f0f99ab145d91",
     "sourceSlug": "claude-code",
     "externalId": "2.1.241",
