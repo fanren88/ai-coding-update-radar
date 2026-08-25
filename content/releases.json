@@ -1,5 +1,20 @@
 [
   {
+    "id": "claude-code-ccdc810bdb93389e",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.245",
+    "version": "2.1.245",
+    "channel": "stable",
+    "publishedAt": "2026-08-25T07:27:50.103Z",
+    "collectedAt": "2026-08-25T07:27:50.103Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.245",
+    "body": "- Fixed a crash on startup on Linux distributions that ship glibc 2.44 (for example Arch Linux, CachyOS and Fedora Rawhide)",
+    "sourceLanguage": "en",
+    "contentHash": "d3a2071421df01f75dcae8cf4ec93e6f763e2a0ac37d852f79465b6b4ff361a1",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-86bbc58ad45b5d2e",
     "sourceSlug": "claude-code",
     "externalId": "2.1.243",
