@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-164744e2ac7b3045",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-25T20:05:26.000Z",
+    "collectedAt": "2026-08-25T20:59:01.457Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+    "title": "GitHub Copilot app Customize tab is generally available",
+    "body": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP… The post GitHub Copilot app Customize tab is generally available appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "94f37b75d2906fd3e05d7efe6c6b8244a9f3935c90c0a4d392766b0d9e43cada",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-a2ef892b1838f5f8",
     "sourceSlug": "gemini-cli",
     "externalId": "376624905",
@@ -73,6 +88,43 @@
     "sourceLanguage": "en",
     "contentHash": "15b832b607a9cf0f4b9d1f244ec465c3823a1bbcdab7dd03cd9e4e0366cd8bc6",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-401832aafec18cc3",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-25:Browser extensions, site tools, and cloud sign-in",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "collectedAt": "2026-08-25T20:59:00.375Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-25-browser",
+    "title": "Browser extensions, site tools, and cloud sign-in",
+    "body": "- More browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up your browser in Settings > Computer Use in the ChatGPT desktop app. All five support tab mentions and browser control; Opera doesn’t support side chat.\n\n- Site tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work and Codex can use tools provided by a website to work with the page. Use GPT-5.6 Sol or GPT-5.6 Terra and update to the latest desktop app. Site tools aren’t available with GPT-5.6 Luna or in Enterprise or Edu workspaces.\n\n- Cloud browser sign-in: On eligible plans, ChatGPT Work on the web, iOS, and Android can ask you to sign in to a supported website through the cloud browser. Enter your details in the sign-in flow, not in the chat. Cloud browser sessions stay separate from your local browser. Website sign-in isn’t available for Enterprise or Edu workspaces.\n\nAvailability depends on rollout and workspace settings. Website-access and action-confirmation requirements still apply.",
+    "sourceLanguage": "en",
+    "contentHash": "fe0b33d1c43c16d2054f485b396d6810772742742d12e9472ac7a909048286f5",
+    "sourceTopics": [
+      "general",
+      "codex-app",
+      "codex-mobile"
+    ]
+  },
+  {
+    "id": "codex-1eb5babffc628992",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-25:Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "collectedAt": "2026-08-25T20:59:00.375Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-25-event-triggers",
+    "title": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+    "body": "ChatGPT scheduled tasks can now run when supported events occur in Gmail, Slack, or GitHub. Filter Gmail messages by sender or subject, watch selected Slack channels, or respond to pull request activity such as reviews, comments, commit updates, and merges.\n\nEvent-triggered tasks are available in ChatGPT on the web and mobile for eligible plans. Connect the relevant app and approve its requested access before creating a task. The ChatGPT Slack app must be a member of each watched channel, and the connected GitHub app must have access to each watched repository.\n\nAn event-triggered task can’t also use a time-based schedule. When matching events arrive close together, ChatGPT may combine them in one run. Open Scheduled to review pending events or choose Run now.\n\nLearn how to trigger scheduled tasks from app events.",
+    "sourceLanguage": "en",
+    "contentHash": "81f3032c54f1c1010416e981b4f187fa1c8091c5f9f5b5dc9f443bc928ef4062",
+    "sourceTopics": [
+      "general",
+      "codex-mobile"
+    ]
   },
   {
     "id": "gemini-cli-5eb160f392543d43",

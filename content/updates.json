@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-164744e2ac7b3045-bd76478c36fb7ede",
+    "releaseId": "github-copilot-164744e2ac7b3045",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "GitHub Copilot app Customize tab is generally available",
+    "what": "官方发布了「GitHub Copilot app Customize tab is generally available」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-25T20:05:26.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+    "evidence": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-a2ef892b1838f5f8-045db067dd07f665",
     "releaseId": "gemini-cli-a2ef892b1838f5f8",
     "toolSlug": "gemini-cli",
@@ -103,6 +124,55 @@
     "evidence": "## What's Changed\n* fix(a2a-server): clear stale cancellation error on new message turns by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28940\n* fix(core): declare top-level safety checkers in write policy configuration by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28961\n* (FIX) history rollback and retry nudge optimizations by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28934\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260824.g5411f113c...v0.56.0-nightly.20260825.g812f7a2bc",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-401832aafec18cc3-5687eb9737458335",
+    "releaseId": "codex-401832aafec18cc3",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Browser extensions, site tools, and cloud sign-in",
+    "what": "官方发布了「Browser extensions, site tools, and cloud sign-in」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-25-browser",
+    "evidence": "More browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "general",
+      "codex-app",
+      "codex-mobile"
+    ]
+  },
+  {
+    "id": "codex-1eb5babffc628992-0075a25e6ea1aba6",
+    "releaseId": "codex-1eb5babffc628992",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+    "what": "官方发布了「Trigger scheduled tasks from Gmail, Slack, and GitHub events」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-25T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-25-event-triggers",
+    "evidence": "ChatGPT scheduled tasks can now run when supported events occur in Gmail, Slack, or GitHub.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "general",
+      "codex-mobile"
+    ]
   },
   {
     "id": "gemini-cli-5eb160f392543d43-b775f9fdfae30414",
