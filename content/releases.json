@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-559cc7674c29c6c5",
+    "sourceSlug": "gemini-cli",
+    "externalId": "376819023",
+    "version": "v0.59.0-nightly.20260826.g64b5b79a6",
+    "channel": "preview",
+    "publishedAt": "2026-08-26T01:07:54.000Z",
+    "collectedAt": "2026-08-26T02:11:44.546Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260826.g64b5b79a6",
+    "title": "Release v0.59.0-nightly.20260826.g64b5b79a6",
+    "body": "## What's Changed\n* Changelog for v0.58.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29082\n* chore(release): bump version to 0.59.0-nightly.20260825.g812f7a2bc by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29083\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260825.g812f7a2bc...v0.59.0-nightly.20260826.g64b5b79a6",
+    "sourceLanguage": "en",
+    "contentHash": "54631cea8ce132eea24f06aa58feeb07d8d16bfd3500143b923b5ce30218e4f4",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-91e836955999f374",
     "sourceSlug": "claude-code",
     "externalId": "2.1.246",

@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-559cc7674c29c6c5-6e35c22f9e8e947a",
+    "releaseId": "gemini-cli-559cc7674c29c6c5",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.59.0-nightly.20260826.g64b5b79a6",
+    "what": "官方发布了「Release v0.59.0-nightly.20260826.g64b5b79a6」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.59.0-nightly.20260826.g64b5b79a6",
+    "publishedAt": "2026-08-26T01:07:54.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260826.g64b5b79a6",
+    "evidence": "## What's Changed\n* Changelog for v0.58.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29082\n* chore(release): bump version to 0.59.0-nightly.20260825.g812f7a2bc by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29083\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260825.g812f7a2bc...v0.59.0-nightly.20260826.g64b5b79a6",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-91e836955999f374-ecf076b95327a86b",
     "releaseId": "claude-code-91e836955999f374",
     "toolSlug": "claude-code",
