@@ -29,19 +29,19 @@
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-08-28T01:06:02.489Z",
+    "lastSuccessAt": "2026-08-28T14:39:20.526Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"aa1217162c9058d2510055602605273a\"",
-    "lastContentHash": "0bc4acbefe569378930d7bf448ddfb4726296a66a4524881c079484b7afc0060",
+    "etag": "W/\"ab6708d14cf309e31391326d9fab4b74\"",
+    "lastContentHash": "61a4bfdb52a35c8f232c87ee3a593ea8dff5dd8ae60dbeae82fe385b1aa2422f",
     "lastError": null
   },
   {
     "slug": "gemini-cli",
     "status": "healthy",
-    "lastSuccessAt": "2026-08-27T03:32:04.881Z",
+    "lastSuccessAt": "2026-08-28T14:39:21.093Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"49f0421ab18a0d94e6a6b4e2c7a71da5f0a7fa373c89edc009ea028b25a3d2b9\"",
-    "lastContentHash": "bac4fae50159f3fe9ff7ba0825704bfbd6cfed0b93958eb73fb489a1befb04a9",
+    "etag": "W/\"c77717401837ed987b446d5b63e8f1e3cc5ed9525e3003d58803db2563cfdca0\"",
+    "lastContentHash": "efe617706127dde17fc594c3c281d0838caabb54cc59cf2184b67364505e527e",
     "lastError": null
   },
   {

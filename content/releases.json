@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-4a0589cf32d672ba",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-28T11:37:19.000Z",
+    "collectedAt": "2026-08-28T14:39:20.526Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+    "title": "Upcoming changes to GitHub Copilot policies and billing",
+    "body": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you. Reopening… The post Upcoming changes to GitHub Copilot policies and billing appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "1d70a0ff8a3a1375abf648075c4515a128289e63803679156a3a19f846260aed",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-57d2cafc3028106c",
+    "sourceSlug": "gemini-cli",
+    "externalId": "378251117",
+    "version": "v0.59.0-nightly.20260828.g3c311beac",
+    "channel": "preview",
+    "publishedAt": "2026-08-28T03:53:11.000Z",
+    "collectedAt": "2026-08-28T14:39:21.093Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260828.g3c311beac",
+    "title": "Release v0.59.0-nightly.20260828.g3c311beac",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260827.g3c311beac...v0.59.0-nightly.20260828.g3c311beac",
+    "sourceLanguage": "en",
+    "contentHash": "2118f4906231bbac351ae0dd04d7a801b1d6e6c115a59af46c6eb76f2faa2ffe",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-7ce5947072c702e0",
     "sourceSlug": "claude-code",
     "externalId": "2.1.250",
