@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-850afb853d24127d",
+    "sourceSlug": "gemini-cli",
+    "externalId": "378843765",
+    "version": "v0.59.0-nightly.20260829.g0bd1d4397",
+    "channel": "preview",
+    "publishedAt": "2026-08-29T01:56:42.000Z",
+    "collectedAt": "2026-08-29T07:20:11.542Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260829.g0bd1d4397",
+    "title": "Release v0.59.0-nightly.20260829.g0bd1d4397",
+    "body": "## What's Changed\n* fix(core): enforce fail-closed workspace trust and filter mcpServers in restricted mode by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29099\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260828.g3c311beac...v0.59.0-nightly.20260829.g0bd1d4397",
+    "sourceLanguage": "en",
+    "contentHash": "a0f4aab774b99862b909b94359705d9d226cecb45f83ad49176c1e0d47f398e2",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-5a98d4dfd3627eb5",
     "sourceSlug": "claude-code",
     "externalId": "2.1.251",
