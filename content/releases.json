@@ -15,6 +15,23 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-c013688d16bc2faf",
+    "sourceSlug": "codex",
+    "externalId": "2026-08-29:Codex CLI 0.151.0",
+    "version": "0.151.0",
+    "channel": "stable",
+    "publishedAt": "2026-08-29T00:00:00.000Z",
+    "collectedAt": "2026-08-29T13:59:21.917Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-378941035",
+    "title": "Codex CLI 0.151.0",
+    "body": "```bash\n$ npm install -g @openai/codex@0.151.0\n```\n\n## New Features\n\n- Added a configurable grace period for discovering tools from optional MCP servers. (#41199)\n\n- Extensions can now inspect or replace MCP tool results before they reach the model. (#41202)\n\n- Plugin catalogs now combine per-repository configuration and report invalid project marketplaces without hiding valid plugins. (#41208)\n\n## Bug Fixes\n\n- Preserved restored permission profiles across TUI turns and prevented /cd from weakening sandbox restrictions. (#41192)\n\n- Kept tool availability and reasoning effort correct when switching models or falling back to another model. (#41195, #41206)\n\n- Improved remote sandbox enforcement using the executor’s actual home directory, operating system, and path conventions. (#41196, #41204, #41207, #41209)\n\n- Preserved structured MCP tool and resource errors in app-server responses. (#41196)\n\n- Counted nested subagent token usage toward root goal budgets. (#41183)\n\n- Prevented stale Guardian classifications from authorizing actions after permission state changes. (#41196)\n\n## Chores\n\n- Added telemetry for escalated stdin reviews and remote executor MCP discovery. (#41189, #41205)\n\n- Stabilized Guardian WebSocket and core fixture tests under slow or highly concurrent CI. (#41191, #41194)\n\n## Changelog\n\nFull Changelog: rust-v0.150.0...rust-v0.151.0\n\n- #41183 Account subagent token usage toward root goals @copyberry\n\n- #41189 Instrument stdin review size checks @copyberry\n\n- #41191 Stabilize Guardian WebSocket tests @copyberry\n\n- #41192 Preserve restored permission profiles in TUI sessions @copyberry\n\n- #41193 Report affected capabilities from remote plugin syncs @copyberry\n\n- #41194 Harden core test fixture startup assertions @copyberry\n\n- #41195 Finalize model-specific tool plans in ToolRouter @copyberry\n\n- #41196 Improve sandboxing, MCP errors, and cached approvals @copyberry\n\n- #41199 Make the optional MCP startup grace configurable @copyberry\n\n- #41202 Let extensions process MCP tool results @copyberry\n\n- #41204 Propagate executor home directories into sandbox contexts @copyberry\n\n- #41205 Track executor MCP discovery telemetry @copyberry\n\n- #41206 Make Ultra reasoning fallback model-aware @copyberry\n\n- #41207 Propagate executor OS into turn environments @copyberry\n\n- #41208 Honor per-repository plugin configuration in catalog requests @copyberry\n\n- #41209 Align deny-read matching with executor path semantics @copyberry\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "00330513ccddb5d8eaac5ef1a096ab037852414430e0e1fda081e40abc294fea",
+    "sourceTopics": [
+      "codex-cli"
+    ]
+  },
+  {
     "id": "claude-code-5a98d4dfd3627eb5",
     "sourceSlug": "claude-code",
     "externalId": "2.1.251",
