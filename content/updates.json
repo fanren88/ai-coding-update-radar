@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-7e6784e6e6f8f06d-c0a4bef7b8a5b572",
+    "releaseId": "gemini-cli-7e6784e6e6f8f06d",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.59.0-nightly.20260830.g0bd1d4397",
+    "what": "官方发布了「Release v0.59.0-nightly.20260830.g0bd1d4397」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.59.0-nightly.20260830.g0bd1d4397",
+    "publishedAt": "2026-08-30T01:27:35.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260830.g0bd1d4397",
+    "evidence": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260829.g0bd1d4397...v0.59.0-nightly.20260830.g0bd1d4397",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-850afb853d24127d-d0e2053aa8c13860",
     "releaseId": "gemini-cli-850afb853d24127d",
     "toolSlug": "gemini-cli",
