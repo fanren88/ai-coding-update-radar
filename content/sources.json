@@ -20,10 +20,10 @@
   {
     "slug": "cursor",
     "status": "healthy",
-    "lastSuccessAt": "2026-08-28T01:06:02.400Z",
+    "lastSuccessAt": "2026-08-31T17:41:52.549Z",
     "consecutiveErrors": 0,
     "etag": null,
-    "lastContentHash": "0a281f6e9a4f157e409137fa551fa6084ae4d4f46acc03ce61d46477802c2a6a",
+    "lastContentHash": "fc7b93aa9e7586a7b8eddeeaeb13e74c797e8643ff49d9082524f039900f92d9",
     "lastError": null
   },
   {
@@ -47,10 +47,10 @@
   {
     "slug": "workbuddy",
     "status": "healthy",
-    "lastSuccessAt": "2026-08-21T13:29:08.048Z",
+    "lastSuccessAt": "2026-08-31T17:41:54.338Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"6a87bc77-23040\"",
-    "lastContentHash": "e0c6d31e0a51bf92e4fb519429f4d95fbc65de46de9bb7591ea1144424084c28",
+    "etag": "W/\"6a957e0b-25023\"",
+    "lastContentHash": "5bef9535fcf69465306b37de259b6393452ed04cf0d43a61d0dd1496d15353e3",
     "lastError": null
   }
 ]

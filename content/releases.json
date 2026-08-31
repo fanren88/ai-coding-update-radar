@@ -30,6 +30,21 @@
     "sourceTopics": []
   },
   {
+    "id": "workbuddy-6ee9c0c7477b4295",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-08-30:5.4.5",
+    "version": "5.4.5",
+    "channel": "stable",
+    "publishedAt": "2026-08-30T00:00:00.000Z",
+    "collectedAt": "2026-08-31T17:41:54.338Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-4-5-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-08-30",
+    "title": "WorkBuddy 5.4.5",
+    "body": "- 个人面板新增「记忆与进化」快捷入口，可直接进入个性化记忆设置\n\n- 优化模型档位记忆，思考强度与上下文长度可按会话保存，切换任务或重启后仍保持原选择\n\n- 提升长对话浏览与切换流畅度，返回仍在生成的会话时可补齐离开期间的思考、正文和工具内容\n\n- 修复历史会话早期产物丢失，并改善云端变更文件和 HTML 产物页内标签切换的预览体验\n\n- 提升桌面端与移动端同步完整性，会话标题、置顶状态和顺序可正确同步，断线后可自动恢复连接\n\n- 修复复杂回复正文被工具状态截断，导致内容缺失或顺序异常的问题\n\n- 优化任务结束状态，取消任务统一显示「用户已取消」，历史任务卡在待确认时可正常停止并继续对话\n\n- 修复仅问答模式错误加载工具而无法正常对话的问题\n\n- 修复 Windows 下表格助理不可用或无法正确处理本地路径的问题\n\n- 提升企业代理环境下的连接稳定性，并支持钉钉跟随系统代理连接\n\n- 优化侧栏菜单，当专家、技能和连接器均不可用时自动隐藏空入口",
+    "sourceLanguage": "zh",
+    "contentHash": "211486ac9da9991cc085d59b9e459c2c791a7605d7cee9f24258d1f4bfb6222b",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-850afb853d24127d",
     "sourceSlug": "gemini-cli",
     "externalId": "378843765",
@@ -164,6 +179,21 @@
     "body": "- Added `--restricted` (or `CLAUDE_CODE_RESTRICTED=1`): removes the built-in tools that run commands or code and `WebFetch` (unless named in `--tools`), keeps file tools inside the working directory, refuses `bypassPermissions`, and ignores user, project and local settings files\n- Added `experimental.cacheTtl` (`\"5m\"` or `\"1h\"`) to agent frontmatter: a per-agent prompt cache TTL used when no subagent TTL setting is configured\n- Added `claude self-hosted-runner --client-label <label>` (or `SELF_HOSTED_RUNNER_CLIENT_LABEL`) to override the label the runner registers with (default: hostname)\n- Added server-managed settings diagnostics: a startup warning when the settings fail to load, and a `/doctor` and `/status` line explaining a load failure or why they weren't fetched (Bedrock/Vertex/third-party provider, custom `ANTHROPIC_BASE_URL`)\n- Added a warning in `/web-setup` when the GitHub CLI token lacks the `workflow` scope, since pushes to very large repositories can be rejected without it\n- Added `/usage-credits` for Enterprise organizations billed through AWS Marketplace, self-serve Enterprise, and Enterprise trials, so members can request a higher usage limit from their admin\n- Added cross-session messaging (`SendMessage` / `ListAgents`) between sessions on the same machine on Bedrock, Vertex, and Foundry, and when telemetry is disabled\n- Fixed a prompt-cache miss (and lost extended-thinking context) roughly once an hour in long sessions, caused by tool definitions being re-rendered after an OAuth token refresh\n- Fixed the `ScheduleWakeup` tool definition changing between a session and its `--resume` when the account had entered usage overage, causing a full prompt-cache miss on the resumed session's first turn\n- Fixed Claude Desktop and Cowork sessions disappearing after 30 days: the transcript cleanup now keeps desktop-written sessions while they are in the app (unless org policy manages retention); the new `desktopSessionCleanupPeriodDays` setting caps the exemption\n- Fixed being sent to the login screen when another Claude Code process held the token refresh lock while the session token had expired; the request now fails with a retryable error instead\n- Windows: Fixed the `claude agents` list not responding to the keyboard after detaching from a session, or when launched in a terminal tab left in win32-input-mode\n- Fixed the recommended Console sign-in in `/login` failing with an OAuth error before showing a sign-in URL on machines where it can't be used (for example when `ANTHROPIC_API_KEY` or an API key helper is set); it now falls back to the API-key sign-in\n- Fixed model names in `/model` and fast-mode switch notices to render as code, so suffixes like `[1m]` display literally instead of as a link\n- Fixed `claude agents` skipping the workspace trust prompt when the `CI` environment variable is set\n- Fixed `claude agents` crashing on launch when the PR-status cache held a malformed entry\n- Fixed agent view resurrecting a weeks-old background session after the machine was off: such a session now shows as stopped at its real end, and opening it asks before resuming its saved conversation\n- Fixed agent view sometimes opening an older conversation, and dropping the typed prompt, when starting a new session\n- Fixed `claude agents`: opening a stopped session that you already resumed in another terminal no longer starts a second process on that conversation; the row now says it is open in a terminal\n- Fixed `claude agents` and `claude rm` refusing to delete a session (\"has commits that are not pushed anywhere\") when its worktree branch was already merged into your checked-out default branch (e.g. local `main`) but not yet pushed\n- Fixed background sessions waiting silently when a `PermissionRequest` or `PreToolUse` hook prints an invalid answer: the `claude agents` row now names the hook and the schema error\n- Fixed hooks silently treating a stdout `{…}` object that isn't valid JSON as plain text; it's now reported as a hook error with the parse message\n- Fixed `/mcp` listing a project `.mcp.json` entry that declares the claude.ai connector type under the trusted \"claude.ai\" heading; it now appears under its real scope\n- Fixed MCP servers whose `headersHelper` supplies the `Authorization` header falling into OAuth discovery on a 401 instead of re-running the helper and retrying the call as documented\n- Fixed `/login` to a Claude apps gateway hanging when the managed-settings security approval dialog was required\n- Fixed gateway model discovery (`CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY`) never running when `apiKeyHelper` is the only credential\n- Fixed `claude logs` leaving mouse tracking, bracketed paste and the alternate screen switched on in the terminal it was run from\n- Fixed the trust dialog's list of repo permission rules showing a garbled character when a long rule was cut off in the middle of an emoji\n- Fixed the permission mode indicator staying hidden behind the \"Press Ctrl-C again to exit\" hint when you press shift+tab right after ctrl+c\n- Fixed `/ultrareview` and locally seeded cloud sessions uploading uncommitted edits to `prod.env`-style and `*.tfvars` files, or to editor swap, temp, and backup copies of credential files (e.g. `key.pem.tmp`, `id_rsa.swo`); they now stay on your machine\n- Fixed Remote Control sessions occasionally never showing a permission prompt or the latest messages on the connected device after the CLI silently reconnected\n- Fixed cloud sessions occasionally failing at startup when the container's session credentials were not yet readable\n- Fixed `claude remote-control` rejecting its own flags (e.g. `--spawn`, `--name`) when a global flag or a wrapper-injected option precedes the subcommand\n- Fixed startup warnings (e.g. \"N MCP servers need authentication\") rendering one column right of the rest of the transcript\n- Fixed a backgrounded worktree session losing its checkout: the background session now holds the worktree's lock while it runs, so cleanup and `git worktree remove` leave it alone\n- Fixed @-mentions of other sessions not matching names typed with non-Latin characters (for example Korean entered through an IME)\n- Fixed an invalid `crossSessionInbound` value being silently ignored: it now warns and holds cross-session messages (user settings) or refuses them (managed settings) until fixed\n- Fixed rate-limit, usage, and fast-mode messages telling you to run `/usage-credits` when that command isn't available for your organization (e.g. hidden with `DISABLE_EXTRA_USAGE_COMMAND`)\n- [VSCode] Fixed a chat tab getting stuck on \"No conversation found\" when its session was never saved; it now starts a new conversation instead\n- Improved the Workflow tool's prompt footprint: its description is now about 1k tokens instead of 5.7k, with the script-writing reference moved into a bundled `workflow-authoring` skill\n- Improved the prompt-footer PR badge to check GitHub less often while the pull request is unchanged; a push or a `gh pr` command still refreshes it right away\n- Improved managed settings: client-side timeout, MCP startup-mode, and stream-watchdog env vars no longer trigger the settings-approval prompt\n- Improved `/ultrareview <PR#>` to check before launch that the GitHub account connected to your Claude account can access the repository, and to explain how to fix it, instead of failing after the cloud session starts\n- Improved cross-session messaging: falls back to a private per-user `/tmp` directory when the default one can't be used, and the notice and `/status` name the directory to fix\n- Changed shift+enter in the agent view dispatch input to insert a newline (matching the prompt); ctrl+enter now dispatches and attaches\n- Changed `/loop`: self-paced dynamic mode and the no-prompt autonomous default are now always available, including on Bedrock/Vertex/Foundry\n- Changed Anthropic telemetry export failures to log at debug level as `[Anthropic telemetry]` instead of `[3P telemetry] OTEL diag error`, so they are not mistaken for your OTel collector failing\n- Changed cross-session messaging in Linux user namespaces: root-equivalent trust for unmapped owners is limited to canonical system directories\n- Changed `SendMessage` from a subagent to another session: the result now notes that any reply is delivered to the parent session's conversation, not to the subagent",
     "sourceLanguage": "en",
     "contentHash": "26847db17dce9ff55b8fb3a3c1d56e955b7eb907bcdf63c89b619a5a34321462",
+    "sourceTopics": []
+  },
+  {
+    "id": "workbuddy-f5f4cfa55b7bf097",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-08-28:5.4.4",
+    "version": "5.4.4",
+    "channel": "stable",
+    "publishedAt": "2026-08-28T00:00:00.000Z",
+    "collectedAt": "2026-08-31T17:41:54.338Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-4-4-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-08-28",
+    "title": "WorkBuddy 5.4.4",
+    "body": "- 新增专家链接直达能力，可从活动链接进入指定专家并自动带入引导语\n\n- 提升专家和专家团启动稳定性，修复启动卡住、身份或版本错配，以及「做同款」时名称、头像异常的问题\n\n- 修复本地助理回复结束后只显示「已完成」、新建对话误复用旧会话的问题\n\n- 优化超长对话加载，减少历史内容过多导致的卡顿和加载失败\n\n- 优化产物区展示与分享，保留最终交付文件、隐藏中间文件，并避免按消息片段分享时遗漏产物\n\n- 优化自定义 MCP 配置，支持中文及大写服务名，并修复已连接服务工具列表为空的问题\n\n- 修复关闭技能后仍可搜索、连接器状态异常变化，以及关闭专家后自动恢复的问题\n\n- 提升移动端连接电脑的稳定性，改善弱网、休眠唤醒和网络切换后的同步与重连体验\n\n- 优化任务权限处理，拒绝单步权限时仅跳过当前步骤，执行中切换能力不再中断当前回复\n\n- 提升 PPT 和表格生成稳定性，修复部分设备无法生成、公式重算结果不准确等问题",
+    "sourceLanguage": "zh",
+    "contentHash": "998f8171532537c467575791875cf9c3d81f2c715ae9735eb9805cafed9b71f4",
     "sourceTopics": []
   },
   {
@@ -306,6 +336,21 @@
     "sourceTopics": [
       "codex-mobile"
     ]
+  },
+  {
+    "id": "workbuddy-812c4a2e2825eac1",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-08-26:5.4.3",
+    "version": "5.4.3",
+    "channel": "stable",
+    "publishedAt": "2026-08-26T00:00:00.000Z",
+    "collectedAt": "2026-08-31T17:41:54.338Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-4-3-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-08-26",
+    "title": "WorkBuddy 5.4.3",
+    "body": "- 修复升级后已置顶的任务和会话丢失的问题\n\n- 提升专家团会话稳定性，修复首次发起无响应、连接超时及重开后无法继续协作的问题\n\n- 优化自动化任务体验，支持搜索并选择专家团，减少自定义 MCP 确认卡住及任务中断后重复补跑的问题\n\n- 修复超长会话压缩后无法继续发送消息，以及翻页查看历史时消息或产物不完整的问题\n\n- 优化产物分享体验，补齐分享入口、微信唤起和本地文件快捷操作，并改进分享开关与超时提示\n\n- 提升连接器和 MCP 稳定性，修复断网、取消授权、自定义授权及插件或专家能力加载异常\n\n- 修复 HTML 产物删除后展示原始错误页的问题，改为显示清晰的空状态\n\n- 修复使用中文输入法重命名资料库时，确认候选词会误提交名称的问题\n\n- 优化设计类会话续聊速度，减少继续追问时的消息等待\n\n- 修复新建会话流式回复缺失或多条消息顺序错乱的问题\n\n- 修复桌面端 Office 文件因系统防火墙限制而无法预览的问题\n\n- 修复网页端任务完成后无法继续追问，以及会话恢复后 Max 模式失效的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "9fe938ea727622df67f9cd43e4fe86fc770688910b8dca060030b79d3ea3e072",
+    "sourceTopics": []
   },
   {
     "id": "claude-code-91e836955999f374",
@@ -514,6 +559,21 @@
     ]
   },
   {
+    "id": "workbuddy-3a14ba4783169ec6",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-08-24:5.4.2",
+    "version": "5.4.2",
+    "channel": "stable",
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "collectedAt": "2026-08-31T17:41:54.338Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-4-2-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-08-24",
+    "title": "WorkBuddy 5.4.2",
+    "body": "- 提升桌面端长时间运行稳定性，减少后台运行引起的界面卡顿与系统资源占用",
+    "sourceLanguage": "zh",
+    "contentHash": "bcd76db688fa707da68cbde0ae7f99d9666b50af47c75d3f6224d1f9c9095b30",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-179f0f99ab145d91",
     "sourceSlug": "claude-code",
     "externalId": "2.1.241",
@@ -541,6 +601,21 @@
     "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260822.g5411f113c...v0.56.0-nightly.20260823.g5411f113c",
     "sourceLanguage": "en",
     "contentHash": "f2144bfe45a53dda19511479723dbfb04d808f017ac53af15e4fb710576525f9",
+    "sourceTopics": []
+  },
+  {
+    "id": "workbuddy-5d4d5a8952ec8887",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-08-23:5.4.1",
+    "version": "5.4.1",
+    "channel": "stable",
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "collectedAt": "2026-08-31T17:41:54.338Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-4-1-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-08-23",
+    "title": "WorkBuddy 5.4.1",
+    "body": "- 提升多轮对话稳定性，修复取消后无法继续发送、切换模型或专家时任务中断等问题\n\n- 优化专家使用体验，修复专家链接无法召唤、专家改名后启动旧版本及历史署名丢失的问题\n\n- 提升连接器授权与开关稳定性，修复授权失败后状态卡住、反复跳转授权页或开关延迟的问题\n\n- 优化资料库与腾讯文档使用流程，待办中的资料库链接可展示为文档卡片，上传后可自动启用连接器\n\n- 优化任务列表与历史会话，归档任务可完整加载，未读状态、会话分类和链接跳转更准确\n\n- 优化输入框与消息展示，切换场景时保留已输入内容，复制链接不再丢失原地址\n\n- 优化工作区权限处理，无访问权限时提前引导授权，并减少同类权限重复弹窗\n\n- 提升移动端连接电脑的同步稳定性，修复附件、图片、重复消息及上传超时等问题\n\n- 优化自动化任务的默认权限、工作空间展示和会话定位，运行记录与任务状态更清晰\n\n- 提升流式对话和产物加载性能，减少长回复期间的界面卡顿\n\n- 修复表格新增行和图表预览异常，跨端查看结果更一致",
+    "sourceLanguage": "zh",
+    "contentHash": "88c82ac8949041a751a3dd45eaa953e2d593ddc398d822d325d0502fd392dc26",
     "sourceTopics": []
   },
   {
@@ -712,6 +787,21 @@
     "sourceTopics": [
       "codex-cli"
     ]
+  },
+  {
+    "id": "workbuddy-54437507cd5777bc",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-08-20:5.4.0",
+    "version": "5.4.0",
+    "channel": "stable",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "collectedAt": "2026-08-31T17:41:54.338Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-4-0-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-08-20",
+    "title": "WorkBuddy 5.4.0",
+    "body": "- 支持创建 Worktree 任务，在同一工作区并行处理多个开发任务，代码改动互不干扰\n\n- 新增代码开发模式下的 Git 分支展示与安全切换，并提供独立本地终端和后台命令运行面板\n\n- 新增全新系统设置页、客户端自检工具和系统通知，环境排查与待确认任务处理更便捷\n\n- 新增 3D 模型生成、创意设计 PPT 模板和「媒体运营」场景，并支持本地 PPT AI 编辑撤销与重做\n\n- 优化输入体验，支持拖拽添加文件、将粘贴的长文本收起为标签，以及通过微信聊天记录发起对话\n\n- 增强腾讯文档与资料库能力，支持更多内容加入会话，并可通过「一键做同款」快速复刻网页\n\n- 优化专家、工作空间和任务管理，支持最近使用专家搜索、工作空间重命名及任务右键操作\n\n- 增强模型选择，清晰展示会员权益档位，并支持为复杂任务选择更高推理强度和上下文长度\n\n- 新增自动化任务每月多日期执行周期，定时安排更灵活\n\n- 提升启动、建连、历史加载和会话切换速度，长对话浏览及多任务切换更流畅\n\n- 优化产物分享和长耗时 MCP 工具执行，减少分享等待及工具被提前中断\n\n- 修复输入草稿丢失、上下文压缩消息错序、账号或连接器切换后信息未刷新，以及部分文件无法预览的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "a48077deecf57e22bf78364b69c82da72c4ffdb5f872a2a3dbf098c6f4c82b03",
+    "sourceTopics": []
   },
   {
     "id": "claude-code-a98d3cf21ac340b7",
@@ -932,12 +1022,12 @@
     "version": null,
     "channel": "unknown",
     "publishedAt": "2026-08-17T00:00:00.000Z",
-    "collectedAt": "2026-08-17T19:09:51.992Z",
+    "collectedAt": "2026-08-31T17:41:52.549Z",
     "sourceUrl": "https://cursor.com/changelog/origin-code-hosting",
     "title": "Origin Code Hosting",
-    "body": "Cursor can now host your code. Origin begins rolling out today in early beta on all paid plans. We're starting with the essentials, designed for agent scale: repos, pull requests, code browsing, and GitHub sync. Agent-native features ship soon. #Origin Repos The new Codebase tab is home for Origin repos. Click +New to create a new repo and name it. Once you do, a page shows you how to install the CLI, with commands for how to clone a repo or push a local project. Push, and your code is hosted on Origin. Name your codebase when you create your first repo. That name becomes part of every repo's URL: cursor.com/codebase/acme-corp. #Bring your GitHub repos Your GitHub repos can sit alongside the ones Cursor hosts. Connect GitHub to Cursor, pick your org, and you'll see the repos you can sync. Select one and Cursor pulls it in. You choose what gets synced and can disconnect a repo at any time. Anyone with read or write access to a synced repo can view it in Cursor too. Synced repos update in real time. Browse, search, and pull from the copy in Origin. Pushes keep going to GitHub, which stays the source of truth for anything started there. Icons next to each repo name tell you which ones Cursor hosts and which came from GitHub. #Pull requests Every repo has pull requests. Open one to see the timeline, commits, checks, and files changed. Review the diff, leave comments, and merge. Pull requests on synced repos sync both ways: comment in Cursor and it posts to GitHub, react or reply on GitHub and it shows up in Cursor within seconds. Got a review assigned to you on GitHub? Review and merge it from Cursor. #Agents in every repo Your code, PRs, and agents are now in the same place. Ask Cursor questions about code you're browsing. It can answer, make changes, update PRs, or push a branch. #App extensions for Cursor repos We're building an app ecosystem so your whole stack works seamlessly with Origin. Integrations with Vercel, Depot, and Buildkite are already available, with more coming soon. Connect Vercel from a repo's Apps tab and every PR gets a preview deployment where you can test and make comments. Merge, and it ships to production. For CI, connect Depot or Buildkite. Both run your existing GitHub Actions workflows and Buildkite also runs its native pipelines. #Settings Every repo has settings. Check sync status for GitHub repos, manage who has access, and see which apps are connected. Origin is rolling out in early beta to all paid plan users starting today, except enterprise orgs whose admins opt out. Name your codebase and create your first repo. Learn more in our docs or get started today.",
+    "body": "Cursor can now host your code. Origin begins rolling out today in early beta on all paid plans. We're starting with the essentials, designed for agent scale: repos, pull requests, code browsing, and GitHub sync. Agent-native features ship soon. #Origin Repos The new Codebase tab is home for Origin repos. Click +New to create a new repo and name it. Once you do, a page shows you how to install the CLI, with commands for how to clone a repo or push a local project. Push, and your code is hosted on Origin. For Origin-hosted repos, Origin is the source of truth. Pushes land on Origin, and GitHub is not in the path. Name your codebase when you create your first repo. That name becomes part of every repo's URL: cursor.com/codebase/acme-corp. #Bring your GitHub repos Your GitHub repos can sit alongside the ones Cursor hosts. Connect GitHub to Cursor, pick your org, and you'll see the repos you can sync. Select one and Cursor pulls it in. You choose what gets synced and can disconnect a repo at any time. Anyone with read or write access to a synced repo can view it in Cursor too. Synced repos update in real time. Browse, search, and pull from the copy in Origin. For synced repos, GitHub stays the source of truth: pushes keep going to GitHub, and Origin mirrors the result. Icons next to each repo name tell you which ones Cursor hosts and which came from GitHub. #Pull requests Every repo has pull requests. Open one to see the timeline, commits, checks, and files changed. Review the diff, leave comments, and merge. Pull requests on synced repos sync both ways: comment in Cursor and it posts to GitHub, react or reply on GitHub and it shows up in Cursor within seconds. Got a review assigned to you on GitHub? Review and merge it from Cursor. #Agents in every repo Your code, PRs, and agents are now in the same place. Ask Cursor questions about code you're browsing. It can answer, make changes, update PRs, or push a branch. #App extensions for Cursor repos We're building an app ecosystem so your whole stack works seamlessly with Origin. Integrations with Vercel, Depot, and Buildkite are already available, with more coming soon. Connect Vercel from a repo's Apps tab and every PR gets a preview deployment where you can test and make comments. Merge, and it ships to production. For CI, connect Depot or Buildkite. Both run your existing GitHub Actions workflows and Buildkite also runs its native pipelines. #Settings Every repo has settings. Check sync status for GitHub repos, manage who has access, and see which apps are connected. Origin is rolling out in early beta to all paid plan users starting today, except enterprise orgs whose admins opt out. Name your codebase and create your first repo. Learn more in our docs or get started today.",
     "sourceLanguage": "en",
-    "contentHash": "498a0071acdb4cb80d763c39ba080a77e85da4f4b78426f539a6e80a6cfb1b6d",
+    "contentHash": "c1356b7f573fb5819622aa1d333d5ee0966ef2d2886777d0b7746122fff92974",
     "sourceTopics": []
   },
   {
