@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-3e4ee78d8df9bb37",
+    "sourceSlug": "gemini-cli",
+    "externalId": "379457670",
+    "version": "v0.59.0-nightly.20260831.g0bd1d4397",
+    "channel": "preview",
+    "publishedAt": "2026-08-31T01:30:31.000Z",
+    "collectedAt": "2026-08-31T08:52:46.281Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260831.g0bd1d4397",
+    "title": "Release v0.59.0-nightly.20260831.g0bd1d4397",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260830.g0bd1d4397...v0.59.0-nightly.20260831.g0bd1d4397",
+    "sourceLanguage": "en",
+    "contentHash": "c3496d7eace30ac4a34b4a1904921938f738eaaec4d33230a4cceb1a3a9fd35e",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-7e6784e6e6f8f06d",
     "sourceSlug": "gemini-cli",
     "externalId": "379150232",
@@ -404,12 +419,12 @@
     "version": null,
     "channel": "unknown",
     "publishedAt": "2026-08-25T00:00:00.000Z",
-    "collectedAt": "2026-08-25T20:59:00.375Z",
+    "collectedAt": "2026-08-31T08:52:44.980Z",
     "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-25-browser",
     "title": "Browser extensions, site tools, and cloud sign-in",
-    "body": "- More browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up your browser in Settings > Computer Use in the ChatGPT desktop app. All five support tab mentions and browser control; Opera doesn’t support side chat.\n\n- Site tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work and Codex can use tools provided by a website to work with the page. Use GPT-5.6 Sol or GPT-5.6 Terra and update to the latest desktop app. Site tools aren’t available with GPT-5.6 Luna or in Enterprise or Edu workspaces.\n\n- Cloud browser sign-in: On eligible plans, ChatGPT Work on the web, iOS, and Android can ask you to sign in to a supported website through the cloud browser. Enter your details in the sign-in flow, not in the chat. Cloud browser sessions stay separate from your local browser. Website sign-in isn’t available for Enterprise or Edu workspaces.\n\nAvailability depends on rollout and workspace settings. Website-access and action-confirmation requirements still apply.",
+    "body": "- More browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up your browser in Settings > Computer Use in the ChatGPT desktop app. All five support tab mentions and browser control; Opera doesn't support side chat.\n\n- Site tools (WebMCP): In the desktop app's built-in browser, ChatGPT Work and Codex can use tools provided by a website to work with the page. Use GPT-5.6 Sol or GPT-5.6 Terra and update to the latest desktop app. Site tools aren't available with GPT-5.6 Luna or in Enterprise or Edu workspaces.\n\n- Cloud browser sign-in: On eligible plans, ChatGPT Work on the web, iOS, and Android can ask you to sign in to a supported website through the cloud browser. Enter your details in the sign-in flow, not in the chat. Cloud browser sessions stay separate from your local browser. Website sign-in isn't available for Enterprise or Edu workspaces.\n\nAvailability depends on rollout and workspace settings. Website-access and action-confirmation requirements still apply.",
     "sourceLanguage": "en",
-    "contentHash": "fe0b33d1c43c16d2054f485b396d6810772742742d12e9472ac7a909048286f5",
+    "contentHash": "b8dd8f20d56c4c35403883a72c37339d44cddff29543ae9685d7b4571b511c05",
     "sourceTopics": [
       "general",
       "codex-app",
@@ -423,12 +438,12 @@
     "version": null,
     "channel": "unknown",
     "publishedAt": "2026-08-25T00:00:00.000Z",
-    "collectedAt": "2026-08-25T20:59:00.375Z",
+    "collectedAt": "2026-08-31T08:52:44.980Z",
     "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-25-event-triggers",
     "title": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-    "body": "ChatGPT scheduled tasks can now run when supported events occur in Gmail, Slack, or GitHub. Filter Gmail messages by sender or subject, watch selected Slack channels, or respond to pull request activity such as reviews, comments, commit updates, and merges.\n\nEvent-triggered tasks are available in ChatGPT on the web and mobile for eligible plans. Connect the relevant app and approve its requested access before creating a task. The ChatGPT Slack app must be a member of each watched channel, and the connected GitHub app must have access to each watched repository.\n\nAn event-triggered task can’t also use a time-based schedule. When matching events arrive close together, ChatGPT may combine them in one run. Open Scheduled to review pending events or choose Run now.\n\nLearn how to trigger scheduled tasks from app events.",
+    "body": "ChatGPT scheduled tasks can now run when supported events occur in Gmail, Slack, or GitHub. Filter Gmail messages by sender or subject, watch selected Slack channels, or respond to pull request activity such as reviews, comments, commit updates, and merges.\n\nEvent-triggered tasks are available in ChatGPT on the web and mobile for eligible plans. Connect the relevant app and approve its requested access before creating a task. The ChatGPT Slack app must be a member of each watched channel, and the connected GitHub app must have access to each watched repository.\n\nAn event-triggered task can't also use a time-based schedule. When matching events arrive close together, ChatGPT may combine them in one run. Open Scheduled to review pending events or choose Run now.\n\nLearn how to trigger scheduled tasks from app events.",
     "sourceLanguage": "en",
-    "contentHash": "81f3032c54f1c1010416e981b4f187fa1c8091c5f9f5b5dc9f443bc928ef4062",
+    "contentHash": "b1a7074ef4bf8cd58c49784703b3253a169bce1d146541f6660bd23bc0958eb6",
     "sourceTopics": [
       "general",
       "codex-mobile"
@@ -670,12 +685,12 @@
     "version": null,
     "channel": "unknown",
     "publishedAt": "2026-08-20T00:00:00.000Z",
-    "collectedAt": "2026-08-20T19:17:05.771Z",
+    "collectedAt": "2026-08-31T08:52:44.980Z",
     "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-20-app",
     "title": "Codex and ChatGPT updates",
-    "body": "## New features\n\n- Apple Messages: Use the Apple Messages plugin to read and search Messages chats on your Mac and prepare or send messages. It’s available on all plans in the ChatGPT desktop app for macOS. You can use the plugin in ChatGPT Work and Codex. By default, ChatGPT sends messages only after you approve the message and its recipients. See the plugin guide for persistent-approval risks, revocation steps, and the known issue with tasks that disable approval prompts.\n\n- Site co-editing: Where Site collaboration is available, owners can invite active members of the same workspace as editors. Editors can read the Site’s live database data, update the Site, save versions, and publish changes after the owner publishes the Site for the first time. Owners retain control of the audience, settings, analytics, ownership, version restoration, and editor access.\n\n- Editable Site URLs: Where URL editing is available, owners can change an existing Site’s ChatGPT-hosted address without creating another deployment. The previous address redirects to the new URL. Custom domains are a separate, existing feature and aren’t changed by this setting.\n\n- Computer History in Europe: Computer History is now available in the EEA, Switzerland, and the United Kingdom for ChatGPT Pro, Business, and Enterprise users in the ChatGPT desktop app on macOS. It’s off by default and requires Memories. Business and Enterprise administrators must enable access before workspace members can choose to turn it on.\n\n- Shared thread snapshots: On all Codex plans, share a read-only snapshot of a local Codex thread from the ChatGPT desktop app for macOS. The snapshot doesn’t update when the original thread changes. Personal-account links can be opened by anyone with the link; workspace-account links are limited to members of the originating workspace. Codex redacts known secret patterns, but review the shared content because sensitive content may remain. View or revoke links in ChatGPT data controls, under Shared links.\n\n- Unified pinned threads: Keep the same pinned chats across the ChatGPT desktop app and iOS.",
+    "body": "## New features\n\n- Apple Messages: Use the Apple Messages plugin to read and search Messages chats on your Mac and prepare or send messages. It's available on all plans in the ChatGPT desktop app for macOS. You can use the plugin in ChatGPT Work and Codex. By default, ChatGPT sends messages only after you approve the message and its recipients. See the plugin guide for persistent-approval risks, revocation steps, and the known issue with tasks that disable approval prompts.\n\n- Site co-editing: Where Site collaboration is available, owners can invite active members of the same workspace as editors. Editors can read the Site's live database data, update the Site, save versions, and publish changes after the owner publishes the Site for the first time. Owners retain control of the audience, settings, analytics, ownership, version restoration, and editor access.\n\n- Editable Site URLs: Where URL editing is available, owners can change an existing Site's ChatGPT-hosted address without creating another deployment. The previous address redirects to the new URL. Custom domains are a separate, existing feature and aren't changed by this setting.\n\n- Computer History in Europe: Computer History is now available in the EEA, Switzerland, and the United Kingdom for ChatGPT Pro, Business, and Enterprise users in the ChatGPT desktop app on macOS. It's off by default and requires Memories. Business and Enterprise administrators must enable access before workspace members can choose to turn it on.\n\n- Shared thread snapshots: On all Codex plans, share a read-only snapshot of a local Codex thread from the ChatGPT desktop app for macOS. The snapshot doesn't update when the original thread changes. Personal-account links can be opened by anyone with the link; workspace-account links are limited to members of the originating workspace. Codex redacts known secret patterns, but review the shared content because sensitive content may remain. View or revoke links in ChatGPT data controls, under Shared links.\n\n- Unified pinned threads: Keep the same pinned chats across the ChatGPT desktop app and iOS.",
     "sourceLanguage": "en",
-    "contentHash": "c2cf917de817cf863ca00ba79e7911ad17bb160df03d91e15e728e4771d74c1c",
+    "contentHash": "064eba1d76d0da8eb1f52021b5a0d448308976bee0e45a58a319c19b16afffcd",
     "sourceTopics": [
       "general",
       "codex-app"
