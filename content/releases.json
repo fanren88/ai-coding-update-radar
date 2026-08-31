@@ -1,5 +1,35 @@
 [
   {
+    "id": "claude-code-67bcf713ece8d639",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.252",
+    "version": "2.1.252",
+    "channel": "stable",
+    "publishedAt": "2026-08-31T23:00:32.307Z",
+    "collectedAt": "2026-08-31T23:00:32.307Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.252",
+    "body": "- Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs\n- Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json yet\n- Fixed Remote Control sessions hosted by Claude Desktop or VS Code stalling for minutes after a tool finished when the connection to claude.ai was degraded\n- Fixed background task notifications with very large failure output (for example git errors on a full disk) making the conversation exceed the API request size limit",
+    "sourceLanguage": "en",
+    "contentHash": "ff4b6266dd8091d9a59e6b10020d61dfceb6b1e9ee029850278a37c93945b000",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-144fda9a32c74290",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
+    "version": null,
+    "channel": "stable",
+    "publishedAt": "2026-08-31T08:39:54.000Z",
+    "collectedAt": "2026-08-31T23:00:32.761Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
+    "title": "GitHub Copilot in VS Code, August 2026 releases",
+    "body": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the… The post GitHub Copilot in VS Code, August 2026 releases appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "d3480d265a0893598c3a9a0d5d5cb859351a8f9df0f0c634f311127853ab979f",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-3e4ee78d8df9bb37",
     "sourceSlug": "gemini-cli",
     "externalId": "379457670",

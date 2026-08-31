@@ -11,10 +11,10 @@
   {
     "slug": "claude-code",
     "status": "healthy",
-    "lastSuccessAt": "2026-08-28T23:39:54.794Z",
+    "lastSuccessAt": "2026-08-31T23:00:32.307Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"1a314e6f14bb15dd8de7ce5385629820509eb8155d1635dfb13aba790457e852\"",
-    "lastContentHash": "df83aef2b689227326499a9acb0827ac0922d7f243ea0c55298d9a17b2d52fa8",
+    "etag": "W/\"b8c4f5e066268b97341e7278ef34ad5561768aee276b0a621e1be01667870177\"",
+    "lastContentHash": "82e22ccaec11500fdbded8bc666c06e4f7cb581b736710bc5b4241b481f725ed",
     "lastError": null
   },
   {
@@ -29,10 +29,10 @@
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-08-28T23:39:55.061Z",
+    "lastSuccessAt": "2026-08-31T23:00:32.761Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"9d38b0797cf40e8b84c9e928a461a990\"",
-    "lastContentHash": "6474c8d6d7fc142476e7868b4343fdbe212d209af8d30f55c3c0963d5f79ee94",
+    "etag": "W/\"8ff77d8196bb22f9ecb306e9812374dc\"",
+    "lastContentHash": "1684a148fd5cf699bde204d644bce5c22bd3bbba4c9edf2ccb4c2c2a43e22989",
     "lastError": null
   },
   {
