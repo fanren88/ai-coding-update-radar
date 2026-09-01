@@ -44,6 +44,27 @@
     ]
   },
   {
+    "id": "workbuddy-25e8d277165da9a0-dc7f6b3e69c21683",
+    "releaseId": "workbuddy-25e8d277165da9a0",
+    "toolSlug": "workbuddy",
+    "toolName": "WorkBuddy",
+    "title": "WorkBuddy 5.4.7",
+    "what": "官方发布了「WorkBuddy 5.4.7」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 WorkBuddy 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.4.7",
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-4-7-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-09-01",
+    "evidence": "新增「订阅和用量」设置页，可查看套餐概览、分类积分和资源包明细，并在应用内购买积分、管理自动续费\n\n- 优化积分展示与刷新，购买后无需刷新整页即可查看最新余额，体验版套餐的基础积分显示更准确\n\n- 修复快速、均衡、极致三档模型无法发送图片的问题\n\n- 修复 Windows 下部分会话首次发送消息后无响应或失败的问题",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-67bcf713ece8d639-42e97f203a15e2ea",
     "releaseId": "claude-code-67bcf713ece8d639",
     "toolSlug": "claude-code",

@@ -32,6 +32,21 @@
     ]
   },
   {
+    "id": "workbuddy-25e8d277165da9a0",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-09-01:5.4.7",
+    "version": "5.4.7",
+    "channel": "stable",
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "collectedAt": "2026-09-01T11:58:52.724Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-4-7-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-09-01",
+    "title": "WorkBuddy 5.4.7",
+    "body": "- 新增「订阅和用量」设置页，可查看套餐概览、分类积分和资源包明细，并在应用内购买积分、管理自动续费\n\n- 优化积分展示与刷新，购买后无需刷新整页即可查看最新余额，体验版套餐的基础积分显示更准确\n\n- 修复快速、均衡、极致三档模型无法发送图片的问题\n\n- 修复 Windows 下部分会话首次发送消息后无响应或失败的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "5e4c4eb0c8c15b227e154afd26ee9998a6df114bfa7fea4b3b7798b17ff88edf",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-67bcf713ece8d639",
     "sourceSlug": "claude-code",
     "externalId": "2.1.252",
