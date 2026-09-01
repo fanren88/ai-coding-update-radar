@@ -62,6 +62,21 @@
     "sourceTopics": []
   },
   {
+    "id": "github-copilot-c509f55c2690faf7",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-31T21:58:46.000Z",
+    "collectedAt": "2026-09-01T16:53:04.690Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+    "title": "Copilot model access update for GitHub Team plans",
+    "body": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is… The post Copilot model access update for GitHub Team plans appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "1ccabb95a135a9556507fa17f7527c2a949ecac36a461be2afa7fcf7391ccb99",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-144fda9a32c74290",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",

@@ -86,6 +86,27 @@
     "sourceTopics": []
   },
   {
+    "id": "github-copilot-c509f55c2690faf7-8feebed21497b232",
+    "releaseId": "github-copilot-c509f55c2690faf7",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Copilot model access update for GitHub Team plans",
+    "what": "官方发布了「Copilot model access update for GitHub Team plans」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-08-31T21:58:46.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+    "evidence": "We have updated how model access is determined for Copilot users who hold seats in more than one organization.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-144fda9a32c74290-b6abf78a90566f5f",
     "releaseId": "github-copilot-144fda9a32c74290",
     "toolSlug": "github-copilot",
