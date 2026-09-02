@@ -30,6 +30,21 @@
     "sourceTopics": []
   },
   {
+    "id": "workbuddy-d31d364fd8985e9f",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-09-02:5.5.1",
+    "version": "5.5.1",
+    "channel": "stable",
+    "publishedAt": "2026-09-02T00:00:00.000Z",
+    "collectedAt": "2026-09-02T11:40:48.043Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-5-1-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-09-02",
+    "title": "WorkBuddy 5.5.1",
+    "body": "- 视频生成支持选择画面比例、是否带声音，并可描述不希望出现的内容\n\n- 桌面端侧栏新增当前客户端版本号，便于快速确认所用版本\n\n- 提升个人及项目云助理的建连和历史任务切换速度，减少首屏与预览区域的白屏等待\n\n- 优化「订阅和用量」页面，购买积分到账变化更直观，支付二维码展示更稳定，到期提醒更加明确\n\n- 优化敏感内容确认，同一次任务访问多个敏感内容时不再重复弹窗，并减少图片内容被误判\n\n- 优化自动化任务和运行记录的搜索与刷新，减少筛选卡顿和空白页，并恢复筛选工具栏\n\n- 修复移除专家后仍以专家口吻回答，以及首次使用专家时上下文偶尔未生效的问题\n\n- 修复后台命令的任务标题、运行状态和完成状态显示异常\n\n- 修复专家、技能、连接器图标或站内图片被误拖入输入框的问题\n\n- 修复首次响应前失败后重试时上下文丢失的问题\n\n- 修复部分模型服务异常被误报为网络失败，以及错误提示中的网页链接无法打开的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "9a2d1eaac63eb1b7d4655c943d2e0b4386c034fb579c2c9f8641d71094d04625",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-f6c1d176219053dd",
     "sourceSlug": "claude-code",
     "externalId": "2.1.257",
@@ -184,6 +199,21 @@
     "sourceTopics": [
       "codex-cli"
     ]
+  },
+  {
+    "id": "workbuddy-03c54ce6719034e0",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-09-01:5.5.0",
+    "version": "5.5.0",
+    "channel": "stable",
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "collectedAt": "2026-09-02T11:40:48.043Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-5-0-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-09-01",
+    "title": "WorkBuddy 5.5.0",
+    "body": "- 新增行业 Buddy 应用，可按场景提供专属首页、专家、技能和连接器，进入应用后可直接发起更贴合行业需求的任务\n\n- 支持通过 macOS 和 Windows 系统分享入口，将微信聊天记录发送到 WorkBuddy，并优化转发内容预览\n\n- 新增图片处理能力，支持去文字或水印、图片修复、增强、美颜和透明背景抠图\n\n- 增强腾讯文档编辑能力，支持更多内容读取、写入和文档操作场景\n\n- 提升桌面端冷启动、快速问答及斜杠命令面板的响应速度，减少打开应用和开始提问时的等待\n\n- 优化内置浏览器多标签切换和后台资源占用，低配置设备使用更流畅\n\n- 隔离行业 Buddy 应用与通用版的输入框草稿，切换应用时不再互相覆盖内容\n\n- 修复升级后首次启动可能长时间白屏，以及 Windows 安装或卸载时弹出黑色终端窗口的问题\n\n- 修复企业腾讯文档首次预览停留在登录页，以及连接器授权失效后无法重新授权的问题\n\n- 修复编辑后重新发送时内容错位、旧回复恢复，或发送失败后输入内容丢失的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "9b0c3c2deda94881b662a717aaae2afa0f16bb068a04b01b261a0283494a59d3",
+    "sourceTopics": []
   },
   {
     "id": "claude-code-67bcf713ece8d639",
