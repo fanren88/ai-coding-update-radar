@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-0f7d471b5fcc335a",
+    "sourceSlug": "gemini-cli",
+    "externalId": "380922533",
+    "version": "v0.59.0-nightly.20260902.g4963a4456",
+    "channel": "preview",
+    "publishedAt": "2026-09-02T01:29:10.000Z",
+    "collectedAt": "2026-09-02T05:00:21.348Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260902.g4963a4456",
+    "title": "Release v0.59.0-nightly.20260902.g4963a4456",
+    "body": "## What's Changed\n* fix(core): improve destination validation and connection routing in web fetch utilities by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29120\n\n## New Contributors\n* @diegogodinezr made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29120\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260901.g0bd1d4397...v0.59.0-nightly.20260902.g4963a4456",
+    "sourceLanguage": "en",
+    "contentHash": "8f1cdc3ae9f2fc8a7e3059b2ef4d8c87815e5eff98951329f8aad32ccbc36f27",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-d384bca3915e45e3",
     "sourceSlug": "claude-code",
     "externalId": "2.1.258",
@@ -198,6 +213,21 @@
     "body": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is… The post Copilot model access update for GitHub Team plans appeared first on The GitHub Blog.",
     "sourceLanguage": "en",
     "contentHash": "1ccabb95a135a9556507fa17f7527c2a949ecac36a461be2afa7fcf7391ccb99",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-a90d945af0e55a25",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-08-31T21:21:40.000Z",
+    "collectedAt": "2026-09-02T05:00:20.925Z",
+    "sourceUrl": "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated",
+    "title": "Selected GitHub Copilot models deprecated",
+    "body": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post Selected GitHub Copilot models deprecated appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "b58f1c41db959b8aeb7a0d5016d758887294e56b3453eb3949e1df8f61adc3e1",
     "sourceTopics": []
   },
   {
