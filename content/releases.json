@@ -1,5 +1,20 @@
 [
   {
+    "id": "claude-code-d384bca3915e45e3",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.258",
+    "version": "2.1.258",
+    "channel": "stable",
+    "publishedAt": "2026-09-02T00:29:25.153Z",
+    "collectedAt": "2026-09-02T00:29:25.153Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.258",
+    "body": "- Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255\n- Fixed remote and scheduled sessions failing with \"user messages must have non-empty content\" after a re-sent permission approval could not be applied",
+    "sourceLanguage": "en",
+    "contentHash": "abe16865fc5b7eb5db07579c9433ec8e0e659eecf7461e62ab039c98868f17d6",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-f6c1d176219053dd",
     "sourceSlug": "claude-code",
     "externalId": "2.1.257",
@@ -57,6 +72,21 @@
     "body": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off… The post Copilot code review can now approve pull requests appeared first on The GitHub Blog.",
     "sourceLanguage": "en",
     "contentHash": "83d309452dba17fb4907968598db04d5f3c21d55cd1a089845e341bf36fe1c32",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-fe2ffe194622a50c",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+    "version": "5.1",
+    "channel": "stable",
+    "publishedAt": "2026-09-01T14:29:23.000Z",
+    "collectedAt": "2026-09-02T00:29:25.484Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+    "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+    "body": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.… The post Claude Fable 5.1 is generally available in GitHub Copilot appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "9c727b5310b1bb3d6f53fa0e1550b9c12419edd0f357b77c746a49e168ce5c51",
     "sourceTopics": []
   },
   {
@@ -121,6 +151,23 @@
     "contentHash": "43d540f4efea9a66e7e81171c2968d08006c97a9e7c9bf185eb16a40fdf5362c",
     "sourceTopics": [
       "codex-mobile"
+    ]
+  },
+  {
+    "id": "codex-691591739d28e1e2",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-01:Codex CLI 0.152.1",
+    "version": "0.152.1",
+    "channel": "stable",
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "collectedAt": "2026-09-02T00:29:24.676Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-380862087",
+    "title": "Codex CLI 0.152.1",
+    "body": "```bash\n$ npm install -g @openai/codex@0.152.1\n```\n\n## Bug Fixes\n\n- Guardian approval review now honors Node REPL policies provided through model metadata.\n\nFull Changelog: rust-v0.152.0...rust-v0.152.1\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "665957a36fc89896a79fbcbce72f74c497fa83a78e6c1b1124dc3bd8f5ad9a8f",
+    "sourceTopics": [
+      "codex-cli"
     ]
   },
   {

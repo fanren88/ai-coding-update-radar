@@ -1,5 +1,26 @@
 [
   {
+    "id": "claude-code-d384bca3915e45e3-1ad2adc5736c2d70",
+    "releaseId": "claude-code-d384bca3915e45e3",
+    "toolSlug": "claude-code",
+    "toolName": "Claude Code",
+    "title": "2.1.258",
+    "what": "官方发布了「2.1.258」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Claude Code 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "2.1.258",
+    "publishedAt": "2026-09-02T00:29:25.153Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "evidence": "Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255\n- Fixed remote and scheduled sessions failing with \"user messages must have non-empty content\" after a re-sent permission approval could not be applied",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-f6c1d176219053dd-a69094b666a85564",
     "releaseId": "claude-code-f6c1d176219053dd",
     "toolSlug": "claude-code",
@@ -80,6 +101,27 @@
     "publishedAt": "2026-09-01T19:25:57.000Z",
     "sourceUrl": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
     "evidence": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-fe2ffe194622a50c-4a064c0e13bf1cec",
+    "releaseId": "github-copilot-fe2ffe194622a50c",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+    "what": "官方发布了「Claude Fable 5.1 is generally available in GitHub Copilot」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.1",
+    "publishedAt": "2026-09-01T14:29:23.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+    "evidence": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot.",
     "generatedBy": "fallback",
     "sourceTopics": []
   },
@@ -169,6 +211,29 @@
     "generatedBy": "fallback",
     "sourceTopics": [
       "codex-mobile"
+    ]
+  },
+  {
+    "id": "codex-691591739d28e1e2-f95a24da63104e60",
+    "releaseId": "codex-691591739d28e1e2",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex CLI 0.152.1",
+    "what": "官方发布了「Codex CLI 0.152.1」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "0.152.1",
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-380862087",
+    "evidence": "Guardian approval review now honors Node REPL policies provided through model metadata.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-cli"
     ]
   },
   {
