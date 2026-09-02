@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-d5d9d182f472f35f",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-02T18:51:12.000Z",
+    "collectedAt": "2026-09-02T21:14:27.408Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
+    "title": "Enterprise-managed settings support any default model",
+    "body": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.… The post Enterprise-managed settings support any default model appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "0a4f24bf0819565b194b2e1f5c842cf5bfa07a8aaafc6ded0c5739aca5530ca2",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-0f7d471b5fcc335a",
     "sourceSlug": "gemini-cli",
     "externalId": "380922533",
@@ -42,6 +57,21 @@
     "body": "- 视频生成支持选择画面比例、是否带声音，并可描述不希望出现的内容\n\n- 桌面端侧栏新增当前客户端版本号，便于快速确认所用版本\n\n- 提升个人及项目云助理的建连和历史任务切换速度，减少首屏与预览区域的白屏等待\n\n- 优化「订阅和用量」页面，购买积分到账变化更直观，支付二维码展示更稳定，到期提醒更加明确\n\n- 优化敏感内容确认，同一次任务访问多个敏感内容时不再重复弹窗，并减少图片内容被误判\n\n- 优化自动化任务和运行记录的搜索与刷新，减少筛选卡顿和空白页，并恢复筛选工具栏\n\n- 修复移除专家后仍以专家口吻回答，以及首次使用专家时上下文偶尔未生效的问题\n\n- 修复后台命令的任务标题、运行状态和完成状态显示异常\n\n- 修复专家、技能、连接器图标或站内图片被误拖入输入框的问题\n\n- 修复首次响应前失败后重试时上下文丢失的问题\n\n- 修复部分模型服务异常被误报为网络失败，以及错误提示中的网页链接无法打开的问题",
     "sourceLanguage": "zh",
     "contentHash": "9a2d1eaac63eb1b7d4655c943d2e0b4386c034fb579c2c9f8641d71094d04625",
+    "sourceTopics": []
+  },
+  {
+    "id": "cursor-d63c909297957e7f",
+    "sourceSlug": "cursor",
+    "externalId": "/changelog/self-hosted-machines",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-02T00:00:00.000Z",
+    "collectedAt": "2026-09-02T21:14:27.330Z",
+    "sourceUrl": "https://cursor.com/changelog/self-hosted-machines",
+    "title": "Self-hosted machines",
+    "body": "Cursor supports self-hosted machines, which let you keep tool execution entirely in your own network. Your codebase, build outputs, and secrets all stay on internal machines running in your infrastructure, while the agent handles tool calls locally. #Dynamic pool scheduling My Machines connects a single laptop or VM to your account for personal workflows. Team pools are named queues of workers for a team or enterprise. Capacity can grow as requests arrive and shrink when workers disconnect, so your self-hosted machines can scale with demand. Pools are not tied to one repository: name the pool, and any available worker can claim the request. Pools can also hibernate idle machines, then restore within a reconnect window when a follow-up arrives, so you don't keep expensive capacity warm just for the next prompt. #Run on your sandboxes Cloud agents can now execute on infrastructure you already use, including from AWS Lambda, Coder, Cloudflare, Daytona, Modal, Namespace, Vercel, and E2B. #Computer use on Linux and Mac Self-hosted workers now support computer use on Linux and Mac. With the right desktop packages, an agent can click, type, take screenshots, and drive the browser. You can watch its desktop or take control from Cursor.",
+    "sourceLanguage": "en",
+    "contentHash": "4039e396796b9fb51d4ccb07ba84e7f4247836ec8900bc02bdd52175de3574f2",
     "sourceTopics": []
   },
   {
