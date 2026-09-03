@@ -1,5 +1,50 @@
 [
   {
+    "id": "github-copilot-7905e02a3e2fcd1d",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-03T19:40:14.000Z",
+    "collectedAt": "2026-09-03T21:17:50.238Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+    "title": "Upcoming deprecation of selected GitHub Copilot models",
+    "body": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "614be327860c488ba8b5762693dd67bf76b17fdea4cbfef1b43d27f04ed002b5",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-6a5ff55c6918f815",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+    "version": "3.8",
+    "channel": "stable",
+    "publishedAt": "2026-09-03T18:50:38.000Z",
+    "collectedAt": "2026-09-03T21:17:50.238Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+    "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+    "body": "Gemini 3.8 Flash, Google’s latest Flash model, is now available in GitHub Copilot. In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rigorous… The post Gemini 3.8 Flash is now available in GitHub Copilot appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "c8aaaa4c9cf931fcdf8fef669645f33fa3033aacec87ae143e22989be2a4b633",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-a9fac6365652cb04",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-03T14:40:43.000Z",
+    "collectedAt": "2026-09-03T21:17:50.238Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
+    "title": "Reopening Copilot Business and Enterprise signups",
+    "body": "We’re gradually reopening sign-ups for Copilot Business and Copilot Enterprise customers paying by credit card or PayPal over the next couple of weeks. If you’ve been waiting to get started… The post Reopening Copilot Business and Enterprise signups appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "57c8b750557640dfd044d0a6e78925f792657e4fc59da2c43d31434684cb5203",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-d5d642bddd5918f1",
     "sourceSlug": "claude-code",
     "externalId": "2.1.259",
@@ -45,6 +90,23 @@
     "sourceLanguage": "zh",
     "contentHash": "f4034d4b82f48247c6aa68166e9de2692ff0f82e660c3beac1f5f36a463ca09b",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-ffae621f94aca4d2",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-03:Codex CLI 0.153.1",
+    "version": "0.153.1",
+    "channel": "stable",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "collectedAt": "2026-09-03T21:17:49.469Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-382330424",
+    "title": "Codex CLI 0.153.1",
+    "body": "```bash\n$ npm install -g @openai/codex@0.153.1\n```\n\n## New Features\n\n- Added support for configuring GPT-6-Astra through the API without changing the default model or showing it in the model picker. (#42605)\n\n## Changelog\n\nFull Changelog: rust-v0.153.0...rust-v0.153.1\n\n- #42605 Backport GPT-6-Astra model catalog to 0.153 @anp-oai\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "d5180d49a6ea72fc7b5ddb752656044268314b394b8a521d29702d363df38691",
+    "sourceTopics": [
+      "codex-cli"
+    ]
   },
   {
     "id": "github-copilot-d5d9d182f472f35f",
