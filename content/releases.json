@@ -32,6 +32,21 @@
     ]
   },
   {
+    "id": "workbuddy-7ea3489aaf692029",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-09-03:5.5.2",
+    "version": "5.5.2",
+    "channel": "stable",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "collectedAt": "2026-09-03T11:40:44.645Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-5-2-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-09-03",
+    "title": "WorkBuddy 5.5.2",
+    "body": "- 优化积分到期提醒和积分明细，按有效期分类展示，并保留尚未过期的积分包记录\n\n- 优化会话中的链接与文件引用，悬停时可查看完整地址或路径，展开内容时页面位置更稳定\n\n- 恢复 Ctrl+Enter 或 Cmd+Enter 换行习惯，同时保留自定义快捷键优先级\n\n- 修复会话报错后消息消失、重试重复发送，以及切换模型后错误信息不匹配的问题\n\n- 提升本地历史恢复能力，工作区路径发生变化或存在单条异常记录时仍可正常打开会话\n\n- 修复 Windows 触屏设备计划看板无法滚动或点按，以及将磁盘根目录设为默认工作区后无法新建会话的问题\n\n- 修复自动化任务长期显示运行中、正常执行被误判为补跑、运行记录不及时刷新及闲时触发延迟的问题\n\n- 减少系统睡眠唤醒或短暂无响应后误入「界面加载失败」页面的情况\n\n- 修复美团助手下单时未展示微信 AI 支付确认的问题\n\n- 修复新版对话完成元宝搜索后未显示技术支持入口的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "f4034d4b82f48247c6aa68166e9de2692ff0f82e660c3beac1f5f36a463ca09b",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-d5d9d182f472f35f",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
