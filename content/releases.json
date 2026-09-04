@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-f30d9c54d9e64fad",
+    "sourceSlug": "gemini-cli",
+    "externalId": "382426326",
+    "version": "v0.60.0-nightly.20260904.g87a9c71d5",
+    "channel": "preview",
+    "publishedAt": "2026-09-04T01:40:22.000Z",
+    "collectedAt": "2026-09-04T05:03:27.662Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260904.g87a9c71d5",
+    "title": "Release v0.60.0-nightly.20260904.g87a9c71d5",
+    "body": "## What's Changed\n* fix(core): enforce RFC 9207 issuer identification in MCP OAuth flow by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29117\n* chore(release): bump version to 0.60.0-nightly.20260901.g0bd1d4397 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29162\n* Changelog for v0.58.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29161\n* fix(cli): isolate temporary directory for macOS Seatbelt sandbox by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29171\n* feat(extensions): harden path resolution and boundary validation in extension loader by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29169\n* Changelog for v0.59.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29159\n* fix(core): sanitize and remove hardcoded Google CrUX API key in chrome-devtools-mcp by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29158\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260902.g4963a4456...v0.60.0-nightly.20260904.g87a9c71d5",
+    "sourceLanguage": "en",
+    "contentHash": "8f965c55ae51e482bc7caf82aa6e8bcc023429642648e20a940e5b3f79831218",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-c7a42f53e1f4b934",
     "sourceSlug": "claude-code",
     "externalId": "2.1.260",
@@ -119,6 +134,23 @@
     "body": "```bash\n$ npm install -g @openai/codex@0.153.1\n```\n\n## New Features\n\n- Added support for configuring GPT-6-Astra through the API without changing the default model or showing it in the model picker. (#42605)\n\n## Changelog\n\nFull Changelog: rust-v0.153.0...rust-v0.153.1\n\n- #42605 Backport GPT-6-Astra model catalog to 0.153 @anp-oai\n\nFull release on Github",
     "sourceLanguage": "en",
     "contentHash": "d5180d49a6ea72fc7b5ddb752656044268314b394b8a521d29702d363df38691",
+    "sourceTopics": [
+      "codex-cli"
+    ]
+  },
+  {
+    "id": "codex-162e4d1c5b894cfb",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-03:Codex CLI 0.153.2",
+    "version": "0.153.2",
+    "channel": "stable",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "collectedAt": "2026-09-04T05:03:26.366Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-382394608",
+    "title": "Codex CLI 0.153.2",
+    "body": "```bash\n$ npm install -g @openai/codex@0.153.2\n```\n\n## Bug Fixes\n\n- Corrected the GPT-6-Astra Fast tier description to say “2x speed, increased usage” instead of “1.5x.” This changes only the displayed text, not how requests run. (#42632)\n\n## Changelog\n\nFull Changelog: rust-v0.153.1...rust-v0.153.2\n\n- #42632 Fix GPT-6-Astra Fast tier description for 0.153.2 @anp-oai\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "0cf901495851948eeaa534a302abb2cd690b1741ba287772284ef416daa4476d",
     "sourceTopics": [
       "codex-cli"
     ]

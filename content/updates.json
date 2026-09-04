@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-f30d9c54d9e64fad-d42ce206fc97010e",
+    "releaseId": "gemini-cli-f30d9c54d9e64fad",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.60.0-nightly.20260904.g87a9c71d5",
+    "what": "官方发布了「Release v0.60.0-nightly.20260904.g87a9c71d5」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.60.0-nightly.20260904.g87a9c71d5",
+    "publishedAt": "2026-09-04T01:40:22.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260904.g87a9c71d5",
+    "evidence": "## What's Changed\n* fix(core): enforce RFC 9207 issuer identification in MCP OAuth flow by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29117\n* chore(release): bump version to 0.60.0-nightly.20260901.g0bd1d4397 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29162\n* Changelog for v0.58.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29161\n* fix(cli): isolate temporary directory for macOS Seatbelt sandbox by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29171\n* feat(extensions): harden path ",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-c7a42f53e1f4b934-df0e6fce2f26c8a4",
     "releaseId": "claude-code-c7a42f53e1f4b934",
     "toolSlug": "claude-code",
@@ -166,6 +187,29 @@
     "publishedAt": "2026-09-03T00:00:00.000Z",
     "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-382330424",
     "evidence": "Added support for configuring GPT-6-Astra through the API without changing the default model or showing it in the model picker.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-cli"
+    ]
+  },
+  {
+    "id": "codex-162e4d1c5b894cfb-25923782602bca41",
+    "releaseId": "codex-162e4d1c5b894cfb",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex CLI 0.153.2",
+    "what": "官方发布了「Codex CLI 0.153.2」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "0.153.2",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-382394608",
+    "evidence": "Corrected the GPT-6-Astra Fast tier description to say “2x speed, increased usage” instead of “1.5x.” This changes only the displayed text, not how requests run.",
     "generatedBy": "fallback",
     "sourceTopics": [
       "codex-cli"
