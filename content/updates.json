@@ -128,6 +128,29 @@
     ]
   },
   {
+    "id": "codex-4d84ad837b2a8ff0-71be080ffda16864",
+    "releaseId": "codex-4d84ad837b2a8ff0",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex CLI 0.153.4",
+    "what": "官方发布了「Codex CLI 0.153.4」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "0.153.4",
+    "publishedAt": "2026-09-04T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-383061770",
+    "evidence": "Fixed Astra’s visibility in the bundled model picker and made it the bundled default when no model is explicitly configured.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-cli"
+    ]
+  },
+  {
     "id": "github-copilot-7905e02a3e2fcd1d-3619b3456bd1f4bc",
     "releaseId": "github-copilot-7905e02a3e2fcd1d",
     "toolSlug": "github-copilot",

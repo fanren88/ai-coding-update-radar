@@ -92,6 +92,23 @@
     ]
   },
   {
+    "id": "codex-4d84ad837b2a8ff0",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-04:Codex CLI 0.153.4",
+    "version": "0.153.4",
+    "channel": "stable",
+    "publishedAt": "2026-09-04T00:00:00.000Z",
+    "collectedAt": "2026-09-05T00:21:07.578Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-383061770",
+    "title": "Codex CLI 0.153.4",
+    "body": "```bash\n$ npm install -g @openai/codex@0.153.4\n```\n\n## Bug Fixes\n\n- Fixed Astra’s visibility in the bundled model picker and made it the bundled default when no model is explicitly configured. (#42874)\n\n- Updated Astra’s guidance to use asynchronous questions only when the tool is available in the session. (#42878)\n\n## Changelog\n\nFull Changelog: rust-v0.153.3...rust-v0.153.4\n\n- #42874 [0.153 hotfix] Show Astra in bundled model picker @rhan-oai\n\n- #42878 [0.153 hotfix] Qualify Astra async-question guidance by tool availability @rhan-oai\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "baeaa59c014f33ff4e6339bda3c161dee5b1a4340002af0b008ca966a4f8b090",
+    "sourceTopics": [
+      "codex-cli"
+    ]
+  },
+  {
     "id": "github-copilot-7905e02a3e2fcd1d",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
