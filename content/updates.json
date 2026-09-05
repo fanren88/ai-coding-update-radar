@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-deb8ba478fb61dd3-8cb297ef2204fec2",
+    "releaseId": "gemini-cli-deb8ba478fb61dd3",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.60.0-nightly.20260905.g85aca163f",
+    "what": "官方发布了「Release v0.60.0-nightly.20260905.g85aca163f」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.60.0-nightly.20260905.g85aca163f",
+    "publishedAt": "2026-09-05T01:26:55.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260905.g85aca163f",
+    "evidence": "## What's Changed\n* fix(extensions): prompt for consent on environment changes and sanitize runtime-altering environment variables by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28863\n* fix(core): enhance workspace path boundary checks and symlink resolution in command safety and file discovery by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29170\n* fix(config): enforce strict permission and ownership checks on system-wide configuration paths by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29115\n\n## New Contributors\n* @jesussa",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-101ac0018f12b7f1-23747e553351faaf",
     "releaseId": "claude-code-101ac0018f12b7f1",
     "toolSlug": "claude-code",

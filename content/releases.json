@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-deb8ba478fb61dd3",
+    "sourceSlug": "gemini-cli",
+    "externalId": "383094195",
+    "version": "v0.60.0-nightly.20260905.g85aca163f",
+    "channel": "preview",
+    "publishedAt": "2026-09-05T01:26:55.000Z",
+    "collectedAt": "2026-09-05T04:54:18.084Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260905.g85aca163f",
+    "title": "Release v0.60.0-nightly.20260905.g85aca163f",
+    "body": "## What's Changed\n* fix(extensions): prompt for consent on environment changes and sanitize runtime-altering environment variables by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28863\n* fix(core): enhance workspace path boundary checks and symlink resolution in command safety and file discovery by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29170\n* fix(config): enforce strict permission and ownership checks on system-wide configuration paths by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29115\n\n## New Contributors\n* @jesussamuel-byte made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29170\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0-nightly.20260904.g87a9c71d5...v0.60.0-nightly.20260905.g85aca163f",
+    "sourceLanguage": "en",
+    "contentHash": "5e0ff771d08c4f1b22dbc165ef065f354774568eee50cf612d1248a25916a418",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-101ac0018f12b7f1",
     "sourceSlug": "claude-code",
     "externalId": "2.1.261",
