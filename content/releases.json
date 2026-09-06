@@ -1,5 +1,35 @@
 [
   {
+    "id": "claude-code-e1445fe04a9fe8ce",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.263",
+    "version": "2.1.263",
+    "channel": "stable",
+    "publishedAt": "2026-09-06T05:02:20.841Z",
+    "collectedAt": "2026-09-06T05:02:20.841Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.263",
+    "body": "- Bug fixes and reliability improvements",
+    "sourceLanguage": "en",
+    "contentHash": "68be428b0319082dd0e1cd3dcb96f074b686d18c4d05e526e5023ec5cc72e307",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-30a2fc545311d746",
+    "sourceSlug": "gemini-cli",
+    "externalId": "383426213",
+    "version": "v0.60.0-nightly.20260906.g85aca163f",
+    "channel": "preview",
+    "publishedAt": "2026-09-06T01:28:09.000Z",
+    "collectedAt": "2026-09-06T05:02:21.803Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260906.g85aca163f",
+    "title": "Release v0.60.0-nightly.20260906.g85aca163f",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0-nightly.20260905.g85aca163f...v0.60.0-nightly.20260906.g85aca163f",
+    "sourceLanguage": "en",
+    "contentHash": "52eac86e7cfedfdcbd3953c74b7ef018a0fbce91e3cf481a4b77a2b55fb1e5a3",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-deb8ba478fb61dd3",
     "sourceSlug": "gemini-cli",
     "externalId": "383094195",
