@@ -235,6 +235,27 @@
     ]
   },
   {
+    "id": "workbuddy-6e895271f2a134b9-91c6ad98812853eb",
+    "releaseId": "workbuddy-6e895271f2a134b9",
+    "toolSlug": "workbuddy",
+    "toolName": "WorkBuddy",
+    "title": "WorkBuddy 5.5.3",
+    "what": "官方发布了「WorkBuddy 5.5.3」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 WorkBuddy 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.5.3",
+    "publishedAt": "2026-09-04T00:00:00.000Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-5-3-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-09-04",
+    "evidence": "本地 Office 文件预览支持更大文件，Word 和表格最高 100MB，演示文稿最高 500MB\n\n- 优化桌面端与移动端的模型列表一致性，避免自定义模型与同名内置模型互相覆盖或丢失\n\n- 提升 Kling V3 文生视频和图生视频的参数兼容性，支持 720P、1080P 输出\n\n- 修复企业微信群聊中 @机器人后持续「思考中」、无法回复的问题\n\n- 修复消息已处理后仍无故继续运行的问题，减少重复续写和额外请求\n\n- 修复 Windows 盘符根目录下、工作空间外的文本和 Markdown 产物显示「暂无数据」的问题",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-7905e02a3e2fcd1d-3619b3456bd1f4bc",
     "releaseId": "github-copilot-7905e02a3e2fcd1d",
     "toolSlug": "github-copilot",
