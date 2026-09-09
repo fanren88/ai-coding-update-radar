@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-56c4269b99a656fe",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-09T02:43:38.000Z",
+    "collectedAt": "2026-09-09T05:08:35.382Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+    "title": "Enterprise-managed sandbox in Copilot for JetBrains",
+    "body": "This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot… The post Enterprise-managed sandbox in Copilot for JetBrains appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "e5b094213a8af8a96749bc89e710b78e3574d499e94cf13ab4f67783f4961dca",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-1052b3f6c6718e02",
+    "sourceSlug": "gemini-cli",
+    "externalId": "385164011",
+    "version": "v0.61.0-nightly.20260909.ged2ac40df",
+    "channel": "preview",
+    "publishedAt": "2026-09-09T01:26:07.000Z",
+    "collectedAt": "2026-09-09T05:08:35.946Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260909.ged2ac40df",
+    "title": "Release v0.61.0-nightly.20260909.ged2ac40df",
+    "body": "## What's Changed\n* fix(core): mitigate NTFS 8.3 short name (SFN) path by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29116\n* fix(cli): isolate settings directory in sandbox containers by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29216\n* fix(core): enforce envelope metadata provenance for untrusted tool outputs by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29215\n* Changelog for v0.60.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29251\n* chore(release): bump version to 0.61.0-nightly.20260908.gc647533d6 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29254\n* Changelog for v0.59.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29253\n* fix(core): preserve explicit versioned Flash model IDs by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/29252\n\n## New Contributors\n* @urielefrenvirtusa made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29116\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0-nightly.20260908.g85aca163f...v0.61.0-nightly.20260909.ged2ac40df",
+    "sourceLanguage": "en",
+    "contentHash": "a445fb3ac785f78c289ed9a12d45a311237ebbed502c8d3c1782a216f02aa8e7",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-62666cb46d3c1200",
     "sourceSlug": "claude-code",
     "externalId": "2.1.266",
