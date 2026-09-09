@@ -1,5 +1,35 @@
 [
   {
+    "id": "claude-code-62666cb46d3c1200",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.266",
+    "version": "2.1.266",
+    "channel": "stable",
+    "publishedAt": "2026-09-09T00:31:42.092Z",
+    "collectedAt": "2026-09-09T00:31:42.092Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.266",
+    "body": "- Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented `CLAUDE_CODE_USE_GATEWAY` environment variable, previously ignored unless `ANTHROPIC_BASE_URL` and `ANTHROPIC_AUTH_TOKEN` were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, `apiKeyHelper`, or custom auth headers failed every request with \"Not signed in to the Cloud gateway\". The variable on its own is ignored again; no configuration change is needed",
+    "sourceLanguage": "en",
+    "contentHash": "5048d0b3e6e4f43b55d4a740c49ab79987c8a09ad23c83cb75255242ec69b949",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-5024ef0cc7b0b963",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+    "version": "3.22",
+    "channel": "stable",
+    "publishedAt": "2026-09-08T21:52:42.000Z",
+    "collectedAt": "2026-09-09T00:31:42.273Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+    "title": "GitHub Enterprise Server 3.22 is now generally available",
+    "body": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to… The post GitHub Enterprise Server 3.22 is now generally available appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "2c9fc6408cea46f4c32e97c45bbb79186cee09b8f9ed1157ea2541f525728e89",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-0a125dcc47d9433c",
     "sourceSlug": "claude-code",
     "externalId": "2.1.265",
