@@ -135,6 +135,38 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-9a0fe9e864535c6d",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-08:ChatGPT for iOS 1.2026.244",
+    "version": "1.2026.244",
+    "channel": "stable",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "collectedAt": "2026-09-09T11:47:51.854Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-08-mobile",
+    "title": "ChatGPT for iOS 1.2026.244",
+    "body": "## New features\n\n- Reference other tasks directly in the composer with @ mentions.\n\n- Answer live questions while Codex continues working, without losing your draft.\n\n- Explore files with Back navigation, recent files, and remembered reading positions.\n\n- Choose a starting branch for new worktrees, or include your current local changes.\n\n- Worktree setup can now continue in the background on iOS 26, with progress shown in a Live Activity.\n\n## Improvements and bug fixes\n\n- Voice now respects your selected model and reasoning effort.\n\n- Restored missing delegated-task messages and fixed navigation between linked tasks.\n\n- Code reviews now complete more reliably, without duplicate activity or stuck running states.\n\n- Fixed crashes and stale queued messages when switching from Queue to Steer.\n\n- Improved reconnect reliability and preserved device pairing during temporary service outages.\n\n- Resolved duplicate plugin skills in composer suggestions.",
+    "sourceLanguage": "en",
+    "contentHash": "1c5fd42775d013b1fce0e9c6889646146e8c35a54e0b924f7ca82fa8f9c2e2c0",
+    "sourceTopics": [
+      "codex-mobile"
+    ]
+  },
+  {
+    "id": "workbuddy-79bc817d9df40212",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-09-08:5.5.4",
+    "version": "5.5.4",
+    "channel": "stable",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "collectedAt": "2026-09-09T11:47:54.479Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-5-4-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-09-08",
+    "title": "WorkBuddy 5.5.4",
+    "body": "- 「允许锁屏运行」新增关闭、熄屏后继续运行、保持屏幕常亮三种模式\n\n- 客户端将「自动化」统一更名为更直观的「定时任务」\n\n- 模型的上下文窗口档位可分别记忆，新建会话或重启后继续沿用上次选择\n\n- 修复登录凭证过期后界面仍显示已登录、发送消息却提示服务异常的问题\n\n- 修复本地任务首次提问偶发卡在「正在连接 MCP 服务…」的问题\n\n- 修复超长本地会话点击「查看更多」无法加载更早提问的问题\n\n- 修复未选择工作空间新建任务时，侧栏短暂出现日期文件夹的问题\n\n- 修复移动端任务产物中混入过程文件的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "b27034dd72d0611b39baf9e54bf899efc63b4fa4e232032d2b6d2dae7092e122",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-939fb0df4689c758",
     "sourceSlug": "gemini-cli",
     "externalId": "383779745",
