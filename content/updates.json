@@ -1,5 +1,26 @@
 [
   {
+    "id": "claude-code-02f727b31c47fc2f-0b0fe85f7a1b457c",
+    "releaseId": "claude-code-02f727b31c47fc2f",
+    "toolSlug": "claude-code",
+    "toolName": "Claude Code",
+    "title": "2.1.267",
+    "what": "官方发布了「2.1.267」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Claude Code 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "2.1.267",
+    "publishedAt": "2026-09-09T21:08:25.799Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "evidence": "Added `maxEffortLevel` setting (top-level or per model under `modelSettings`): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level\n- Added `--system-prompt-snapshot off` to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text)\n- Fixed Cowork scheduled tasks in the cloud failing at startup for organizations whose managed settings require sandboxing\n- Fixed `/context` and other local command output rendering blank on mobile clients\n- Fixed shift+enter and ",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-56c4269b99a656fe-af072725fa25aef0",
     "releaseId": "github-copilot-56c4269b99a656fe",
     "toolSlug": "github-copilot",
