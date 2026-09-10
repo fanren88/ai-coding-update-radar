@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-7d9f0398b44b7d3e",
+    "sourceSlug": "gemini-cli",
+    "externalId": "385945071",
+    "version": "v0.61.0-nightly.20260910.ged2ac40df",
+    "channel": "preview",
+    "publishedAt": "2026-09-10T01:26:45.000Z",
+    "collectedAt": "2026-09-10T05:11:36.430Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260910.ged2ac40df",
+    "title": "Release v0.61.0-nightly.20260910.ged2ac40df",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260909.ged2ac40df...v0.61.0-nightly.20260910.ged2ac40df",
+    "sourceLanguage": "en",
+    "contentHash": "2b96801c38c54c166c399b0f6d5c8f19c19e4d943a171087c24099a1f64aebf6",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-02f727b31c47fc2f",
     "sourceSlug": "claude-code",
     "externalId": "2.1.267",
