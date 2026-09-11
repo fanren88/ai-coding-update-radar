@@ -15,6 +15,21 @@
     "sourceTopics": []
   },
   {
+    "id": "github-copilot-ca8127be73ee1774",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-10T22:55:07.000Z",
+    "collectedAt": "2026-09-11T16:44:14.042Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+    "title": "GitHub Copilot weekly releases — September 7",
+    "body": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code… The post GitHub Copilot weekly releases — September 7 appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "011c19fbcc2624c6ab4c2aa3bb51928513258fc92a3a3e835f03745c968e13bd",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-ea97d5d4a42230d1",
     "sourceSlug": "claude-code",
     "externalId": "2.1.268",
@@ -411,6 +426,23 @@
     "sourceLanguage": "en",
     "contentHash": "5e0ff771d08c4f1b22dbc165ef065f354774568eee50cf612d1248a25916a418",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-c18c5f1cbc93a09b",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-05:Codex MCP server removed",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "collectedAt": "2026-09-11T16:44:13.345Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-05",
+    "title": "Codex MCP server removed",
+    "body": "The codex mcp-server command and standalone codex-mcp-server binary have been removed after their deprecation on August 24, 2026. Update integrations that launch either command before upgrading Codex.\n\nUse the Codex app server for integrations. The app-server command is experimental and isn't supported for production workloads.\n\nSee the migration guidance for details. Codex continues to support connecting to external MCP servers through codex mcp.",
+    "sourceLanguage": "en",
+    "contentHash": "2329ce6c22f754155f91a7217a746a7d20a266853e1d16db5971c46386df4615",
+    "sourceTopics": [
+      "general"
+    ]
   },
   {
     "id": "claude-code-101ac0018f12b7f1",
