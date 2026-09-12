@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-6685e430b79fef72",
+    "sourceSlug": "gemini-cli",
+    "externalId": "387415269",
+    "version": "v0.61.0-nightly.20260912.g9c1b0a610",
+    "channel": "preview",
+    "publishedAt": "2026-09-12T01:25:00.000Z",
+    "collectedAt": "2026-09-12T04:58:49.767Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260912.g9c1b0a610",
+    "title": "Release v0.61.0-nightly.20260912.g9c1b0a610",
+    "body": "## What's Changed\n* fix(core): prevent indirect prompt injection via build file modifications and untrusted flags by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29250\n* fix(sandbox): harden filesystem boundaries and isolate runtime state by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29214\n\n## New Contributors\n* @villahernandez-coder made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29250\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260911.ged2ac40df...v0.61.0-nightly.20260912.g9c1b0a610",
+    "sourceLanguage": "en",
+    "contentHash": "d87b917c1ca46d6c379dd6606198b88d2a056d3fb48f09d04c0049811fd9024c",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-28ba300194033bae",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
