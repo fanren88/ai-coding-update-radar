@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-28ba300194033bae-a0c1a6f6d8af6340",
+    "releaseId": "github-copilot-28ba300194033bae",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Add VS Code Agents to Copilot usage metrics",
+    "what": "官方发布了「Add VS Code Agents to Copilot usage metrics」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-09-11T21:30:30.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+    "evidence": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-6a79ff6089bd30c9-f2ac74bc3e4c9003",
     "releaseId": "claude-code-6a79ff6089bd30c9",
     "toolSlug": "claude-code",
@@ -61,6 +82,29 @@
     "evidence": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260910.ged2ac40df...v0.61.0-nightly.20260911.ged2ac40df",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-1029e5a63c5142bb-9447fbfd4ab877da",
+    "releaseId": "codex-1029e5a63c5142bb",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Quick chats with Pets and Appshots on Windows 26.908",
+    "what": "官方发布了「Quick chats with Pets and Appshots on Windows 26.908」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "26.908",
+    "publishedAt": "2026-09-11T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-11-app",
+    "evidence": "## Chat while you work\n\nKeep ChatGPT close while you work in other apps.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-app"
+    ]
   },
   {
     "id": "github-copilot-ca8127be73ee1774-5c78c6feb35a3bf2",

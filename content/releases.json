@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-28ba300194033bae",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-11T21:30:30.000Z",
+    "collectedAt": "2026-09-12T00:34:59.194Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+    "title": "Add VS Code Agents to Copilot usage metrics",
+    "body": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s… The post Add VS Code Agents to Copilot usage metrics appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "46ab8bec01c179c1345f41127e8df692672cc3ba33edbc6734f0569a68fa044c",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-6a79ff6089bd30c9",
     "sourceSlug": "claude-code",
     "externalId": "2.1.269",
@@ -43,6 +58,23 @@
     "sourceLanguage": "en",
     "contentHash": "975b7736ba6e75cd8d44003100367268334b8ef3f3e20bf573c2c5003b28c34c",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-1029e5a63c5142bb",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-11:Quick chats with Pets and Appshots on Windows 26.908",
+    "version": "26.908",
+    "channel": "stable",
+    "publishedAt": "2026-09-11T00:00:00.000Z",
+    "collectedAt": "2026-09-12T00:34:58.507Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-11-app",
+    "title": "Quick chats with Pets and Appshots on Windows 26.908",
+    "body": "## Chat while you work\n\nKeep ChatGPT close while you work in other apps. In the ChatGPT desktop app on macOS and Windows, you can now type a quick chat from the floating Pets controls and press Enter to send it. Use @ to add context and $ to choose a skill. Select the bell icon to follow progress in your threads, then select a thread to open the full conversation.\n\nChoose a companion or show just the controls in Settings > Pets. Press Option+Space on macOS or Windows+Alt+P on Windows to show the controls and focus Quick Chat. Pressing the shortcut again keeps Quick Chat open. You can change Show pet in Settings > Keyboard shortcuts. To hide the controls, select Hide pet in the command menu or Settings > Pets.\n\nOn macOS, you can also send an appshot to the floating controls. Keep the main ChatGPT window in the background and choose Automatic for Appshot destination.\n\nLearn more about Pets.\n\n## Share an app window on Windows\n\nAppshots are now available in the ChatGPT desktop app on Windows. Press both Alt keys to share the frontmost app window with ChatGPT, then ask a question or describe what you want to do. An appshot includes a screenshot and available text from that window. You can customize the shortcut and choose which chat receives it in settings.\n\n## Other improvements and bug fixes\n\n- Open files directly from a conversation's Sources panel, or download files that ChatGPT can't preview.\n\n- Assign a Codex Micro key to Insert text and add your own reusable text to the active prompt without sending it.\n\n- Reset a pet to its default size in settings. Custom pets also stay in place when you refresh their artwork.\n\n- Keep unfinished comments on response text when you switch chats and return.\n\n- ChatGPT dictation now respects your saved Main language preference.\n\n- Keep tab widths and scroll positions more stable as you close browser tabs in full and split views.",
+    "sourceLanguage": "en",
+    "contentHash": "2c44123f3b143b58138db69f8d80f80d455cf828f2588c5b0fc94d8c7bd2b75a",
+    "sourceTopics": [
+      "codex-app"
+    ]
   },
   {
     "id": "github-copilot-ca8127be73ee1774",
