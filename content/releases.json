@@ -1,5 +1,20 @@
 [
   {
+    "id": "claude-code-7a58552fffbee806",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.270",
+    "version": "2.1.270",
+    "channel": "stable",
+    "publishedAt": "2026-09-12T22:35:55.987Z",
+    "collectedAt": "2026-09-12T22:35:55.987Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.270",
+    "body": "- Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
+    "sourceLanguage": "en",
+    "contentHash": "725abb2591cca8b2ff2c53a4a65a92222a1a28c04f999ffcc70b18dc71fecfcf",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-6685e430b79fef72",
     "sourceSlug": "gemini-cli",
     "externalId": "387415269",
