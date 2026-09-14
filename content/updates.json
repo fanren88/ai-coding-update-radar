@@ -1,5 +1,26 @@
 [
   {
+    "id": "claude-code-c41d288043d43b24-205add66d69a0cc8",
+    "releaseId": "claude-code-c41d288043d43b24",
+    "toolSlug": "claude-code",
+    "toolName": "Claude Code",
+    "title": "2.1.271",
+    "what": "官方发布了「2.1.271」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Claude Code 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "2.1.271",
+    "publishedAt": "2026-09-14T23:24:23.323Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "evidence": "Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or `/fast` typed in the session applies where your organization allows it\n- Added mouse support to the `/config` panel in fullscreen mode: the wheel scrolls the settings list, a click on a setting's value changes it, and the row under the pointer is highlighted\n- Added `claude self-hosted-runner --drain-marker-file <path>`: when that file exists at a SIGTERM drain, the runner reports its exit to the server as a host drain (telemetry only)\n- Added per-command `allowed_domains` to Bash, P",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-ef18d943849cad0e-3203d88614f1c27e",
     "releaseId": "github-copilot-ef18d943849cad0e",
     "toolSlug": "github-copilot",
