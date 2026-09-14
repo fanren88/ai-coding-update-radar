@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-ef18d943849cad0e-3203d88614f1c27e",
+    "releaseId": "github-copilot-ef18d943849cad0e",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Configure cost and quality in Copilot auto model selection",
+    "what": "官方发布了「Configure cost and quality in Copilot auto model selection」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-09-14T16:05:27.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+    "evidence": "GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-18badedb6066ad41-6a86a0b047e2cb0c",
     "releaseId": "gemini-cli-18badedb6066ad41",
     "toolSlug": "gemini-cli",

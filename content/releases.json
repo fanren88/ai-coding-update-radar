@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-ef18d943849cad0e",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-14T16:05:27.000Z",
+    "collectedAt": "2026-09-14T19:34:34.662Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+    "title": "Configure cost and quality in Copilot auto model selection",
+    "body": "GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for… The post Configure cost and quality in Copilot auto model selection appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "6e4dcc7d17add6e76ff566cf53567b072d2e465d80b59c4178de9d9bb720947b",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-18badedb6066ad41",
     "sourceSlug": "gemini-cli",
     "externalId": "388102758",
