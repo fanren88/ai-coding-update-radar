@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-0e69718d3291808e",
+    "sourceSlug": "gemini-cli",
+    "externalId": "389578816",
+    "version": "v0.62.0-nightly.20260916.g6a466a7e2",
+    "channel": "preview",
+    "publishedAt": "2026-09-16T01:28:53.000Z",
+    "collectedAt": "2026-09-16T07:53:20.042Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260916.g6a466a7e2",
+    "title": "Release v0.62.0-nightly.20260916.g6a466a7e2",
+    "body": "## What's Changed\n* fix(core): ensure AgentLoopContext properties are preserved across object spread by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29335\n* fix(a2a-server): add early return on unsupported store in tasks metadata endpoint by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29334\n* Changelog for v0.61.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29344\n* Changelog for v0.60.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29345\n* fix(core,acp): format MCP tool call titles as structured signatures and segregate explanations by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29341\n* chore(release): bump version to 0.62.0-nightly.20260915.gae28844fb by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29346\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260915.g9c1b0a610...v0.62.0-nightly.20260916.g6a466a7e2",
+    "sourceLanguage": "en",
+    "contentHash": "d88c7efede364fb89b45fd0995359dc78779206a8115e438684aa71b4d3842b3",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-6a89c345fac99028",
     "sourceSlug": "claude-code",
     "externalId": "2.1.273",
@@ -1823,12 +1838,12 @@
     "version": null,
     "channel": "unknown",
     "publishedAt": "2026-08-24T00:00:00.000Z",
-    "collectedAt": "2026-08-24T17:09:00.883Z",
+    "collectedAt": "2026-09-16T07:53:19.204Z",
     "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-08-24",
     "title": "Codex MCP server command deprecated",
-    "body": "The codex mcp-server command is now deprecated. Use the Codex app server instead. To use Codex from Claude Code, use the Codex plugin for Claude Code.",
+    "body": "The codex mcp-server command is now deprecated. Use the Codex app server instead.\n\nUpdate, September 5, 2026: The command and standalone codex-mcp-server binary have been removed. See the migration guidance.",
     "sourceLanguage": "en",
-    "contentHash": "82fafdee570c2090b13e408bc3841fb95bfd8e532f8602ec62736e7051c992eb",
+    "contentHash": "e565ef3e0c7316bfa740b5762b908bdc8f7fbfeb13cdae03590e07f564d08e9c",
     "sourceTopics": [
       "general"
     ]
