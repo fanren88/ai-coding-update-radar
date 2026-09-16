@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-41f2b23db141d620",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-16T20:17:18.000Z",
+    "collectedAt": "2026-09-16T21:40:14.317Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+    "title": "Copilot budget increase requests are generally available",
+    "body": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to… The post Copilot budget increase requests are generally available appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "06eeb596c8725ac0d18e98a434661753a921b65e9357e1d9d6b5bb89217951e2",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-0e69718d3291808e",
     "sourceSlug": "gemini-cli",
     "externalId": "389578816",

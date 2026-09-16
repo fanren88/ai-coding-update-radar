@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-41f2b23db141d620-2bf8c47597797b95",
+    "releaseId": "github-copilot-41f2b23db141d620",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Copilot budget increase requests are generally available",
+    "what": "官方发布了「Copilot budget increase requests are generally available」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-09-16T20:17:18.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+    "evidence": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-0e69718d3291808e-06bb0ea27284de2b",
     "releaseId": "gemini-cli-0e69718d3291808e",
     "toolSlug": "gemini-cli",
