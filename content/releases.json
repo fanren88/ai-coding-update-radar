@@ -1,5 +1,35 @@
 [
   {
+    "id": "claude-code-475284d8b43c4a18",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.276",
+    "version": "2.1.276",
+    "channel": "stable",
+    "publishedAt": "2026-09-18T07:35:52.333Z",
+    "collectedAt": "2026-09-18T07:35:52.333Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.276",
+    "body": "- Fixed every request failing with `400 … Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway (2.1.275 regression)",
+    "sourceLanguage": "en",
+    "contentHash": "26abf003c45f8d299100f2ec8675d08ebbd1e32e089f8e09e206e1d7fdc04f96",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-8069ff3aa3a1124f",
+    "sourceSlug": "gemini-cli",
+    "externalId": "391154887",
+    "version": "v0.62.0-nightly.20260918.g9450ade79",
+    "channel": "preview",
+    "publishedAt": "2026-09-18T01:23:37.000Z",
+    "collectedAt": "2026-09-18T07:35:53.322Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260918.g9450ade79",
+    "title": "Release v0.62.0-nightly.20260918.g9450ade79",
+    "body": "## What's Changed\n* fix(core): retain oauth refresh token on refresh and make credential deletion idempotent by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29339\n* fix(ui): guard against negative layout dimensions in border rendering by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29347\n* test(integration): deflake run_shell_command and file-system-interactive tests by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29185\n* fix(core): improve PTY file descriptor cleanup and execution lifecycle management by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29340\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260917.g6a466a7e2...v0.62.0-nightly.20260918.g9450ade79",
+    "sourceLanguage": "en",
+    "contentHash": "08cb268eb5f17c4ac9853523294e996926ae59e333780185353d1b4cecfabed9",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-6b9a95fc96da85d2",
     "sourceSlug": "claude-code",
     "externalId": "2.1.275",
@@ -269,6 +299,23 @@
     "body": "On October 14, 2026, GPT-5.5 will retire from ChatGPT, ChatGPT Work, and Codex on all plans, including consumer, Business, Enterprise, and Edu plans. This retirement does not apply to the OpenAI API.\n\nFor Codex with ChatGPT sign-in, switch from gpt-5.5 to gpt-5.6-sol (GPT-5.6 Sol) before the retirement date.\n\nUpdate workspace defaults, saved model settings, managed configurations, custom agents, scheduled tasks, and scripts that still select gpt-5.5.\n\nSee GPT-5.5 retirement and workspace model availability for migration guidance.",
     "sourceLanguage": "en",
     "contentHash": "01b7698068d2a9a3a38cb33d0641216e477fa7d4bd84103eeaddc690a8b98cb0",
+    "sourceTopics": [
+      "general"
+    ]
+  },
+  {
+    "id": "codex-a687f457376b33ac",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-14:GPT-5.3-Codex-Spark deprecated",
+    "version": "5.3",
+    "channel": "stable",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "collectedAt": "2026-09-18T07:35:51.905Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-codex-spark-deprecation",
+    "title": "GPT-5.3-Codex-Spark deprecated",
+    "body": "GPT-5.3-Codex-Spark was deprecated on September 14, 2026. The research preview is no longer available in the ChatGPT desktop app, Codex CLI, or IDE extension.\n\nSwitch to one of the recommended models, and update saved configurations, custom agents, and scripts that select gpt-5.3-codex-spark.\n\nFor faster responses with a supported model, see Fast mode.",
+    "sourceLanguage": "en",
+    "contentHash": "3304798e42a107488eb4adc09d0e43ba13d3be125fb10024ce2c2bccb5c6851c",
     "sourceTopics": [
       "general"
     ]
