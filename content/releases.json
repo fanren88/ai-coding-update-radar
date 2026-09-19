@@ -152,6 +152,23 @@
     ]
   },
   {
+    "id": "codex-b0c4b52ca12cdedd",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-18:ChatGPT for iOS 1.2026.251",
+    "version": "1.2026.251",
+    "channel": "stable",
+    "publishedAt": "2026-09-18T00:00:00.000Z",
+    "collectedAt": "2026-09-19T18:49:31.703Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-18-mobile",
+    "title": "ChatGPT for iOS 1.2026.251",
+    "body": "## New features\n\n- Create folders directly from the file picker.\n\n- Added support for writing blocks, with draft alternatives and copy actions.\n\n## Improvements and bug fixes\n\n- New tasks remember your worktree mode and setup environment for each project.\n\n- Long queued prompts show a compact preview and expand on tap.\n\n- Fixed queued prompts missing or appearing outdated after reopening a task.\n\n- Worktree task cards now open correctly after setup completes.\n\n- Restored the new-task button for projects containing only worktree tasks.\n\n- Improved voice-call reliability during temporary connection interruptions.\n\n- Better alignment of project, environment, and Git controls on iPad.\n\n- Fixed the thinking timer resetting when a new task starts.",
+    "sourceLanguage": "en",
+    "contentHash": "28a780451e512d2a4ab5bc11764ac46f5f29c4ac16138d565d842b0fa6e2fcd3",
+    "sourceTopics": [
+      "codex-mobile"
+    ]
+  },
+  {
     "id": "github-copilot-553eb3c867220f4c",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
