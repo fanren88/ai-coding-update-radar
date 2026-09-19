@@ -21,6 +21,27 @@
     "sourceTopics": []
   },
   {
+    "id": "github-copilot-90422616cebb86f4-467b33648f2bf86e",
+    "releaseId": "github-copilot-90422616cebb86f4",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Copilot code review: An improved review experience",
+    "what": "官方发布了「Copilot code review: An improved review experience」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-09-18T20:17:22.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+    "evidence": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept… The post Copilot code review: An improved review experience appeared first on The GitHub Blog.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-d1bb380da0e9010a-0c8acc9c5bbd0d9f",
     "releaseId": "github-copilot-d1bb380da0e9010a",
     "toolSlug": "github-copilot",
