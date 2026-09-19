@@ -1,5 +1,35 @@
 [
   {
+    "id": "claude-code-f4e61b9ee6ad636c",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.278",
+    "version": "2.1.278",
+    "channel": "stable",
+    "publishedAt": "2026-09-19T05:01:06.795Z",
+    "collectedAt": "2026-09-19T05:01:06.795Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.278",
+    "body": "- Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead (`CLAUDE_CODE_AUTO_MODE_SERVER=0` opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing\n- Added an `Auto mode server` row to `/status` showing whether this session's auto mode classifier runs on the server",
+    "sourceLanguage": "en",
+    "contentHash": "d50bc12b181b8b718578e455526e7408a13b144e104377280e5b7f37cb711f94",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-478876e6e6d3c61b",
+    "sourceSlug": "gemini-cli",
+    "externalId": "391873086",
+    "version": "v0.62.0-nightly.20260919.gcfbcaa8df",
+    "channel": "preview",
+    "publishedAt": "2026-09-19T01:25:15.000Z",
+    "collectedAt": "2026-09-19T05:01:07.492Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260919.gcfbcaa8df",
+    "title": "Release v0.62.0-nightly.20260919.gcfbcaa8df",
+    "body": "## What's Changed\n* chore/release: bump version to 0.62.0-nightly.20260918.g9450ade79 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29383\n* fix(core): synchronize ConPTY process exit lifecycle and harden PTY output finalization by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29379\n* fix(cli): suppress uncaught AbortError logs during request cancellation by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29343\n* fix(core,cli): improve terminal buffer memory management and format Windows diagnostic paths by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29380\n* fix(vscode-ide-companion): preserve terminal focus when closing diff tabs by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29378\n* fix(core): update auth error documentation link to valid anchor and add fallback (#26140) by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29377\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260918.g9450ade79...v0.62.0-nightly.20260919.gcfbcaa8df",
+    "sourceLanguage": "en",
+    "contentHash": "4978ee3d02c00b66242f3141e567ebf51a394b84744a618c5410e81540c22233",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-fd063252b2a62042",
     "sourceSlug": "claude-code",
     "externalId": "2.1.277",
