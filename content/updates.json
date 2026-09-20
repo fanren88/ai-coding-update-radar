@@ -63,6 +63,27 @@
     "sourceTopics": []
   },
   {
+    "id": "workbuddy-187f8bac907ca80e-71061ca096dddba4",
+    "releaseId": "workbuddy-187f8bac907ca80e",
+    "toolSlug": "workbuddy",
+    "toolName": "WorkBuddy",
+    "title": "WorkBuddy 5.6.0",
+    "what": "官方发布了「WorkBuddy 5.6.0」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 WorkBuddy 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.6.0",
+    "publishedAt": "2026-09-19T00:00:00.000Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-6-0-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-09-19",
+    "evidence": "新增设置「应用管理」，可查看已授权的第三方应用与 Buddy 应用，并支持一键撤销授权\n\n- 新增会话消息引用输入，选中他人消息即可作为上下文继续追问\n\n- 新增巴西葡萄牙语与印尼语界面，切换后重启依旧保持\n\n- 恢复自定义 MCP 直接编辑 mcp.json 的能力，可整份配置维护并即时生效\n\n- 新增闲置能力提醒卡片，长期未使用的插件和技能可一键关闭\n\n- Browser Use 兼容 Edge 加载项商店和 QQ 浏览器\n\n- 完善微信 macOS 系统 Share Sheet 转发到 WorkBuddy 的流程，高频分享给出频控提示\n\n- 新增语音输入实时反馈并延长最长录音时长，语音输入过程中不再打断手动编辑\n\n- 提升对话历史首帧速度，长会话和复杂任务续聊更流畅\n\n- 优化 Markdown 预览与编辑，切换 Tab 不再丢失编辑内容，Mermaid 等图表滚动更顺畅\n\n- 优化连接器管理，卡片描述、图标、连接状态和市场目录更新更稳定\n\n- 优化 MCP 服务管理、授权面板与探活重试，网络恢复后可自动重连\n\n- 优化云端任务产物栏与消息顺序，产物随对话出现，多轮消息不再乱序\n\n- 优化跨设备会话标题、模型、置顶顺序同步\n\n- 优化电脑操作、浏览器操作、Bash 命令等工具在对话中的展示形态\n\n- 优化购买积分体验，账户与订阅入口整合，支付到账变化更直观\n\n- 优化专家中心",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-fd063252b2a62042-61ddd879d44aa849",
     "releaseId": "claude-code-fd063252b2a62042",
     "toolSlug": "claude-code",
