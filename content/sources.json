@@ -11,10 +11,10 @@
   {
     "slug": "claude-code",
     "status": "healthy",
-    "lastSuccessAt": "2026-09-19T05:01:06.795Z",
+    "lastSuccessAt": "2026-09-21T13:17:03.216Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"1f066a48717224dfefe1cd27e4fe150d0901f3607f553c3001a4bb1f8915b855\"",
-    "lastContentHash": "5850d353ee9bc0436f9895ef1195072eb05f7dc09cb9c13d47c765570c964aa4",
+    "etag": "W/\"c4f3b6c04cb4d43d82e81db244fcce02e731d0a654bbe8bd0fabd5c78830d3ef\"",
+    "lastContentHash": "20a0d026144bb09687ea3e01c0f0dcc3d2b68496b12c61832a4713308644c0f9",
     "lastError": null
   },
   {
@@ -46,11 +46,11 @@
   },
   {
     "slug": "workbuddy",
-    "status": "degraded",
-    "lastSuccessAt": "2026-09-20T11:46:06.965Z",
-    "consecutiveErrors": 1,
+    "status": "healthy",
+    "lastSuccessAt": "2026-09-21T13:17:05.146Z",
+    "consecutiveErrors": 0,
     "etag": "W/\"6aaf8513-29068\"",
     "lastContentHash": "b8871980a5b0def731a55d66467cfcb6bbd4bbc88e70c76ebcb45e8ec04f163e",
-    "lastError": "fetch failed"
+    "lastError": null
   }
 ]
