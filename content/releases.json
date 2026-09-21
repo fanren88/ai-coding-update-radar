@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-9c38b0e540fa6708",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+    "version": "4.7",
+    "channel": "stable",
+    "publishedAt": "2026-09-21T14:54:12.000Z",
+    "collectedAt": "2026-09-21T19:42:52.156Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+    "title": "Grok 4.7 is now available in GitHub Copilot",
+    "body": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows. This model is… The post Grok 4.7 is now available in GitHub Copilot appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "eba1f604398d3a0c633b2e9f7e00c9bec3705d2b802396dca4c84e26856dea26",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-6b9a95fc96da85d2",
     "sourceSlug": "claude-code",
     "externalId": "2.1.275",

@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-9c38b0e540fa6708-d210af843524b287",
+    "releaseId": "github-copilot-9c38b0e540fa6708",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Grok 4.7 is now available in GitHub Copilot",
+    "what": "官方发布了「Grok 4.7 is now available in GitHub Copilot」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "4.7",
+    "publishedAt": "2026-09-21T14:54:12.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+    "evidence": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-6b9a95fc96da85d2-4ab382da28cc556d",
     "releaseId": "claude-code-6b9a95fc96da85d2",
     "toolSlug": "claude-code",
