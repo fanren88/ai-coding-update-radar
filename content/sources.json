@@ -38,19 +38,19 @@
   {
     "slug": "gemini-cli",
     "status": "healthy",
-    "lastSuccessAt": "2026-09-20T05:20:52.700Z",
+    "lastSuccessAt": "2026-09-21T05:23:49.158Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"bb549450949bbe56c8ea2c98fe14863d0967889123bf3aa57a233441c9f1bfc4\"",
-    "lastContentHash": "d76cd178e53b0920250cf4864a1f25d3ea4e379f004a3f1679bacc0ef38ee6f7",
+    "etag": "W/\"241c05e3482f6b7aae4f6f1b500ba3b1ab3e4731b91eb47cbf3f76bd99e74a05\"",
+    "lastContentHash": "e55f16f7924a0d69703c1b6e64eee4083fae4d3edec83323968355c76b0a10b4",
     "lastError": null
   },
   {
     "slug": "workbuddy",
-    "status": "healthy",
+    "status": "degraded",
     "lastSuccessAt": "2026-09-20T11:46:06.965Z",
-    "consecutiveErrors": 0,
+    "consecutiveErrors": 1,
     "etag": "W/\"6aaf8513-29068\"",
     "lastContentHash": "b8871980a5b0def731a55d66467cfcb6bbd4bbc88e70c76ebcb45e8ec04f163e",
-    "lastError": null
+    "lastError": "fetch failed"
   }
 ]
