@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-63e0251438a40139-59fba22ed2c1e46f",
+    "releaseId": "github-copilot-63e0251438a40139",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Local sandboxing in the GitHub Copilot app",
+    "what": "官方发布了「Local sandboxing in the GitHub Copilot app」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-09-23T15:00:57.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+    "evidence": "Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-cf4f876c079667fa-8dd8d34d2162cb03",
     "releaseId": "github-copilot-cf4f876c079667fa",
     "toolSlug": "github-copilot",
