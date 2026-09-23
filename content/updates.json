@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-566dfe7d34b559d7-f56634ef6d6ccdfa",
+    "releaseId": "github-copilot-566dfe7d34b559d7",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Faster C++ code intelligence with whole codebase indexing",
+    "what": "官方发布了「Faster C++ code intelligence with whole codebase indexing」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-09-22T22:24:48.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing",
+    "evidence": "C++ code intelligence in GitHub Copilot CLI is now faster with support for whole codebase indexing.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-c9d285bc13aaca45-c3d41cbec970521c",
     "releaseId": "claude-code-c9d285bc13aaca45",
     "toolSlug": "claude-code",
