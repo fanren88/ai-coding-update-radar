@@ -1,5 +1,67 @@
 [
   {
+    "id": "github-copilot-cf4f876c079667fa",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-23T02:14:54.000Z",
+    "collectedAt": "2026-09-23T07:56:54.773Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
+    "title": "OpenTelemetry in the GitHub Copilot app",
+    "body": "Understand how Copilot agents perform and interact with models and tools. The GitHub Copilot app now supports OpenTelemetry (OTel) configuration through enterprise-managed settings. OTel is an open source observability framework.… The post OpenTelemetry in the GitHub Copilot app appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "223b28bc7a7546aafed3db7e379e3ef0a6817697fa9da054aed46521a5d939ef",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-182f2698aadfa4d2",
+    "sourceSlug": "gemini-cli",
+    "externalId": "394228688",
+    "version": "v0.62.0-nightly.20260923.g62364cb20",
+    "channel": "preview",
+    "publishedAt": "2026-09-23T01:24:23.000Z",
+    "collectedAt": "2026-09-23T07:56:55.227Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260923.g62364cb20",
+    "title": "Release v0.62.0-nightly.20260923.g62364cb20",
+    "body": "## What's Changed\n* Feat/gemini 3.8 flash 3.5 flash lite by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29443\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260922.gd5b3e3acc...v0.62.0-nightly.20260923.g62364cb20",
+    "sourceLanguage": "en",
+    "contentHash": "ce5994e657316fd43116b47024b1e5b3abfb68ef58f5d4c8bb10722332129268",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-18036a2d23f1f849",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
+    "version": null,
+    "channel": "stable",
+    "publishedAt": "2026-09-23T00:34:18.000Z",
+    "collectedAt": "2026-09-23T07:56:54.773Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
+    "title": "New features and improvements in Copilot for JetBrains",
+    "body": "GitHub Copilot for JetBrains 1.18.0 brings AI-assisted tool approvals, more control over agent conversations, and shared skills and instructions for your organization. You can also review plans with the Codex… The post New features and improvements in Copilot for JetBrains appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "e8b7e33ba3397b5cb0ebccf2abe5bb22c0e1ad54d4dbf79cb5e4fce0e686bb9f",
+    "sourceTopics": []
+  },
+  {
+    "id": "codex-52173c88a60432cd",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-23:Codex CLI 0.156.1",
+    "version": "0.156.1",
+    "channel": "stable",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "collectedAt": "2026-09-23T07:56:53.997Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-394258789",
+    "title": "Codex CLI 0.156.1",
+    "body": "```bash\n$ npm install -g @openai/codex@0.156.1\n```\n\n## New Features\n\n- Choose GPT-6 Sol or GPT-6 Luna from the model picker. The rate-limit switch prompt now recommends GPT-6 Luna. (#47405)\n\n## Changelog\n\nFull Changelog: rust-v0.156.0...rust-v0.156.1\n\n- #47405 [hotfix 0.156.0] Add GPT-6 Sol and Luna to the model catalog (#47332) @imac-oai\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "4bbcf9231baf3f7fc65dbad81dd26c4fe17427a65ee7d33f043cc0e8227a1ac6",
+    "sourceTopics": [
+      "codex-cli"
+    ]
+  },
+  {
     "id": "github-copilot-566dfe7d34b559d7",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing",
@@ -151,6 +213,21 @@
     "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260920.gcfbcaa8df...v0.62.0-nightly.20260921.gcfbcaa8df",
     "sourceLanguage": "en",
     "contentHash": "c0b31c350776bf558c63dcfbab7c7fc2ed73b57e9624f1bae44f53308c3d2226",
+    "sourceTopics": []
+  },
+  {
+    "id": "workbuddy-5d0d3d457018685f",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-09-21:5.6.2",
+    "version": "5.6.2",
+    "channel": "stable",
+    "publishedAt": "2026-09-21T00:00:00.000Z",
+    "collectedAt": "2026-09-23T07:56:56.341Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-6-2-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-09-21",
+    "title": "WorkBuddy 5.6.2",
+    "body": "- 优化文档预览窗口的打开、保存、主题与关闭，未登录也可预览 PPT\n\n- 优化连接器授权与开关：授权完成后才显示图标，关闭后对话中不再残留可用工具\n\n- 优化技能安装、更新检测与闲置提醒，不同来源的同名技能不再误标已安装，套件内技能不再被误关\n\n- 减少对话中反复确认专家身份的追问\n\n- 修复项目新建本地任务长时间停在准备中，以及删除会话后本地助理打不开的问题\n\n- 修复超长本地会话「查看更多」无法翻到更早记录的问题\n\n- 修复历史会话专家身份丢失、任务结束后仍显示处理中、问答误显示「已跳过」的问题\n\n- 修复新建任务后工作空间选择丢失，以及输入框模型名称空白的问题\n\n- 修复推荐安装卡片超时后关不掉，以及新建会话后仍停留在分享勾选状态的问题\n\n- 修复从分享页返回需点两次才能继续对话的问题\n\n- 修复企业微信 / 微信转发聊天记录识别失败、卡片一直显示「准备中」的问题\n\n- 修复网页产物预览无法播放内嵌音频，以及对话中搜索文件结果为空的问题\n\n- 修复连接器授权成功后一直显示「连接中」，以及解除授权后无法重新连接的问题\n\n- 修复定时任务企业微信通知延迟或漏发、没有运行记录却反复执行，以及分享链接中途变化的问题\n\n- 修复快捷键重设后必须重启才生效的问题\n\n- 修复购买积分弹窗无法打开、取消发布的应用从列表消失，以及腾讯文档创建 PPT 失败的问题\n\n- 修复对话没有回复或服务异常后会话卡住，以及网页端偶发退出登录的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "11273eb25dce0ac324870105aa3293ac387d1fb97f0aeb70737db5fb723a3bcf",
     "sourceTopics": []
   },
   {
