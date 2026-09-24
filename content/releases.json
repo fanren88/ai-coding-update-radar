@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-0d4a45472b3c30e8",
+    "sourceSlug": "gemini-cli",
+    "externalId": "395218707",
+    "version": "v0.62.0-nightly.20260924.g8e70c862f",
+    "channel": "preview",
+    "publishedAt": "2026-09-24T01:25:37.000Z",
+    "collectedAt": "2026-09-24T07:47:33.666Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260924.g8e70c862f",
+    "title": "Release v0.62.0-nightly.20260924.g8e70c862f",
+    "body": "## What's Changed\n* Check for vsc integration test presence when attempting to run. by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29462\n* fix(cli): display retry progress indicator during connection recovery (#28340) by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29468\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260923.g62364cb20...v0.62.0-nightly.20260924.g8e70c862f",
+    "sourceLanguage": "en",
+    "contentHash": "f0bb1cd06faeb3f3ae0425813778ed2101ed1b9f2ab50a85b45dbbff58775052",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-f793806a4dd639aa",
     "sourceSlug": "gemini-cli",
     "externalId": "395156363",
