@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-2653f5794fb9985f-9b577de9a22333c9",
+    "releaseId": "github-copilot-2653f5794fb9985f",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Agentic autofix now uses Copilot Memory",
+    "what": "官方发布了「Agentic autofix now uses Copilot Memory」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-09-25T17:25:50.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+    "evidence": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-48eaa8bbafaa8bc4-c6db1a3a41771140",
     "releaseId": "github-copilot-48eaa8bbafaa8bc4",
     "toolSlug": "github-copilot",

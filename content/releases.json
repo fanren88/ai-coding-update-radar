@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-2653f5794fb9985f",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-25T17:25:50.000Z",
+    "collectedAt": "2026-09-25T21:48:00.757Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+    "title": "Agentic autofix now uses Copilot Memory",
+    "body": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts. When it… The post Agentic autofix now uses Copilot Memory appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "cad1acdad390a2581eebf9ee8ccb19bcf46fc65bd4532097ae4036466067f3cd",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-48eaa8bbafaa8bc4",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
