@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-48eaa8bbafaa8bc4",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-25T16:42:48.000Z",
+    "collectedAt": "2026-09-25T17:30:36.460Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
+    "title": "GitHub Copilot weekly releases — September 21",
+    "body": "This week’s releases add new models to Copilot, local sandboxing in the Copilot app, and updates to Copilot in Slack, Microsoft Teams, JetBrains, and VS Code. GitHub Copilot Claude Opus… The post GitHub Copilot weekly releases — September 21 appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "c05738de2c5c90d1ebc4d89d797957a2a9210f9c40e326cf404c7735d15684f2",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-c1d4e08f8273da72",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-09-25T16:33:42.000Z",
+    "collectedAt": "2026-09-25T17:30:36.460Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
+    "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
+    "body": "GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work. Whether you’re sharing files in Slack or… The post Updates to GitHub Copilot for Slack and Microsoft Teams appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "d229a03b016c2960e6fa6ffb23ff1beeffcf011202914e48118c2c4de79b44ff",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-4761d2dec851c040",
     "sourceSlug": "claude-code",
     "externalId": "2.1.281",
@@ -36,12 +66,12 @@
     "version": null,
     "channel": "unknown",
     "publishedAt": "2026-09-25T03:13:23.000Z",
-    "collectedAt": "2026-09-25T05:19:18.932Z",
+    "collectedAt": "2026-09-25T17:30:36.460Z",
     "sourceUrl": "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise",
-    "title": "Default Enablement of Copilot Features for Copilot Business and Enterprise",
-    "body": "We’re introducing a new global default policy for generally available GitHub Copilot features and supported client capabilities in enterprise and organization Copilot settings. For the next 28 days, you can… The post Default Enablement of Copilot Features for Copilot Business and Enterprise appeared first on The GitHub Blog.",
+    "title": "Default Enablement of Copilot features for Copilot Business and Enterprise",
+    "body": "We’re introducing a new global default policy for generally available GitHub Copilot features and supported client capabilities in enterprise and organization Copilot settings. For the next 28 days, you can… The post Default Enablement of Copilot features for Copilot Business and Enterprise appeared first on The GitHub Blog.",
     "sourceLanguage": "en",
-    "contentHash": "2a0f0484146b74633f6d711771b1ed6b0930fb4024e7d7a4c8895e89f530b75a",
+    "contentHash": "ba2f258ec7a51b98c34b580551e7b24ed43eee79ed939fd5d0e8a54b80da55ee",
     "sourceTopics": []
   },
   {
@@ -1431,12 +1461,12 @@
     "version": null,
     "channel": "unknown",
     "publishedAt": "2026-09-05T00:00:00.000Z",
-    "collectedAt": "2026-09-11T16:44:13.345Z",
+    "collectedAt": "2026-09-25T17:30:35.914Z",
     "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-05",
     "title": "Codex MCP server removed",
-    "body": "The codex mcp-server command and standalone codex-mcp-server binary have been removed after their deprecation on August 24, 2026. Update integrations that launch either command before upgrading Codex.\n\nUse the Codex app server for integrations. The app-server command is experimental and isn't supported for production workloads.\n\nSee the migration guidance for details. Codex continues to support connecting to external MCP servers through codex mcp.",
+    "body": "The codex mcp-server command and standalone codex-mcp-server binary have been removed after their deprecation on August 24, 2026. Update integrations that launch either command before upgrading Codex.\n\nUse the Codex app server for integrations. The app-server command is experimental and isn’t supported for production workloads.\n\nSee the migration guidance for details. Codex continues to support connecting to external MCP servers through codex mcp.",
     "sourceLanguage": "en",
-    "contentHash": "2329ce6c22f754155f91a7217a746a7d20a266853e1d16db5971c46386df4615",
+    "contentHash": "388b580c27289f612b936a40cebd2a80e909e98554bb8b272c43ee12ea38bf8e",
     "sourceTopics": [
       "general"
     ]
