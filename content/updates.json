@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-0b6d6fea37fa373b-3c5bd6d86fbaea2d",
+    "releaseId": "gemini-cli-0b6d6fea37fa373b",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.63.0-nightly.20260926.g2fe7c2d3f",
+    "what": "官方发布了「Release v0.63.0-nightly.20260926.g2fe7c2d3f」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.63.0-nightly.20260926.g2fe7c2d3f",
+    "publishedAt": "2026-09-26T01:20:07.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0-nightly.20260926.g2fe7c2d3f",
+    "evidence": "## What's Changed\n* fix(core): remove invalid diff.external override by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29467\n* chore(release): bump version to 0.63.0-nightly.20260923.gf50ba8608 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29471\n* Changelog for v0.62.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29470\n* fix(core): clean up temporary directory when background shell execution exits by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29437\n* fix(acp): resolve session bef",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-c5c65999067aae66-160965eeb0f42a27",
     "releaseId": "claude-code-c5c65999067aae66",
     "toolSlug": "claude-code",
@@ -19,6 +40,29 @@
     "evidence": "Added `x-claude-code-prompt-id` to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added `availableModelsMatch` managed setting: with `\"exact\"`, an `availableModels` entry allows only the model version it names, so new releases stay blocked until listed\n- Added `deniedModels` managed setting to block specific models, even when `availableModels` allows them\n- Added MCP tool, WebFetch and WebSearch outputs to the `tool.output` OpenTelemetry span event when `OTEL_LOG_TOOL_CONTENT=1`\n- Added `/doctor pro",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-08c67dc4029a5644-be779cdde3496ab5",
+    "releaseId": "codex-08c67dc4029a5644",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex CLI 0.157.1",
+    "what": "官方发布了「Codex CLI 0.157.1」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "0.157.1",
+    "publishedAt": "2026-09-26T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-397006677",
+    "evidence": "Release highlights could not be determined: the supplied PR index is empty, and the GitHub tag comparison returned 404.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-cli"
+    ]
   },
   {
     "id": "github-copilot-07dade88210664e3-81a3e5f5ac593770",

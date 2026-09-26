@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-0b6d6fea37fa373b",
+    "sourceSlug": "gemini-cli",
+    "externalId": "397017089",
+    "version": "v0.63.0-nightly.20260926.g2fe7c2d3f",
+    "channel": "preview",
+    "publishedAt": "2026-09-26T01:20:07.000Z",
+    "collectedAt": "2026-09-26T07:58:45.481Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0-nightly.20260926.g2fe7c2d3f",
+    "title": "Release v0.63.0-nightly.20260926.g2fe7c2d3f",
+    "body": "## What's Changed\n* fix(core): remove invalid diff.external override by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29467\n* chore(release): bump version to 0.63.0-nightly.20260923.gf50ba8608 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29471\n* Changelog for v0.62.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29470\n* fix(core): clean up temporary directory when background shell execution exits by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29437\n* fix(acp): resolve session before config initialization and avoid same-minute filename collisions by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29463\n* fix(core): align policy redirection gates, path validation, and workflow parsing by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29506\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260925.gbedef96ef...v0.63.0-nightly.20260926.g2fe7c2d3f",
+    "sourceLanguage": "en",
+    "contentHash": "171c8a25afc653b297e54522f9d230560a2a869af246b29dd1ad3acb574c0f6f",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-c5c65999067aae66",
     "sourceSlug": "claude-code",
     "externalId": "2.1.283",
@@ -13,6 +28,23 @@
     "sourceLanguage": "en",
     "contentHash": "e9f6e2a8abe226bc26cff4bdd8807a3efb8bb0bc5249dc7fbb8373c036b0463a",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-08c67dc4029a5644",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-26:Codex CLI 0.157.1",
+    "version": "0.157.1",
+    "channel": "stable",
+    "publishedAt": "2026-09-26T00:00:00.000Z",
+    "collectedAt": "2026-09-26T07:58:44.048Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-397006677",
+    "title": "Codex CLI 0.157.1",
+    "body": "```bash\n$ npm install -g @openai/codex@0.157.1\n```\n\n## Chores\n\n- Release highlights could not be determined: the supplied PR index is empty, and the GitHub tag comparison returned 404.\n\n## Changelog\n\nFull Changelog: rust-v0.157.0...rust-v0.157.1\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "3c75aafe9f942056338c57956dafe2ba24d145115b59944f798b75feb4df8282",
+    "sourceTopics": [
+      "codex-cli"
+    ]
   },
   {
     "id": "github-copilot-07dade88210664e3",
