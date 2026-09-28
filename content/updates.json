@@ -1,5 +1,47 @@
 [
   {
+    "id": "claude-code-3fed8f326deedba0-f89cab59b984367b",
+    "releaseId": "claude-code-3fed8f326deedba0",
+    "toolSlug": "claude-code",
+    "toolName": "Claude Code",
+    "title": "2.1.284",
+    "what": "官方发布了「2.1.284」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Claude Code 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "2.1.284",
+    "publishedAt": "2026-09-28T20:44:44.990Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "evidence": "Added Claude Sonnet 5.5 (`claude-sonnet-5-5`), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads\n- Added a \"Yes, but ask again next time\" answer to auto mode's prompt before a read outside the working directories, so you can allow that one read and still be asked about later ones\n- Added dollar amounts to the Claude apps gateway spend limit in `/usage` and the status line (for example \"$271.40 / $500.00 spent this month\") when the gateway runs this version or later; the status line's `rate_limits.spend_limit` also gains `used_usd`, `lim",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-469712811c22e040-c7dcb0ccc42f07a9",
+    "releaseId": "github-copilot-469712811c22e040",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Claude Sonnet 5.5 in GitHub Copilot",
+    "what": "官方发布了「Claude Sonnet 5.5 in GitHub Copilot」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.5",
+    "publishedAt": "2026-09-28T18:03:57.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+    "evidence": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-f9ac7040ff105b8f-7e9275ada78b1f67",
     "releaseId": "gemini-cli-f9ac7040ff105b8f",
     "toolSlug": "gemini-cli",
@@ -295,6 +337,29 @@
     "generatedBy": "fallback",
     "sourceTopics": [
       "codex-cli"
+    ]
+  },
+  {
+    "id": "codex-4808625628e5096f-61063a418516f31c",
+    "releaseId": "codex-4808625628e5096f",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "macOS security update 26.924",
+    "what": "官方发布了「macOS security update 26.924」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "26.924",
+    "publishedAt": "2026-09-25T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-25-app",
+    "evidence": "## Security fixes\n\n- Fixed CVE-2026-100754 on macOS in version 26.924.20706, with thanks to Patrick Wardle, Objective-See Foundation.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-app"
     ]
   },
   {
