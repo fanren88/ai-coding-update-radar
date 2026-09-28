@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-f9ac7040ff105b8f",
+    "sourceSlug": "gemini-cli",
+    "externalId": "397892751",
+    "version": "v0.63.0-nightly.20260928.g2fe7c2d3f",
+    "channel": "preview",
+    "publishedAt": "2026-09-28T01:42:38.000Z",
+    "collectedAt": "2026-09-28T05:47:39.211Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0-nightly.20260928.g2fe7c2d3f",
+    "title": "Release v0.63.0-nightly.20260928.g2fe7c2d3f",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.63.0-nightly.20260926.g2fe7c2d3f...v0.63.0-nightly.20260928.g2fe7c2d3f",
+    "sourceLanguage": "en",
+    "contentHash": "fb9ca26c7421fed4d2b2d1fa9547a478a6f2af0f5fd0408269a79ee791e574f3",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-0b6d6fea37fa373b",
     "sourceSlug": "gemini-cli",
     "externalId": "397017089",
