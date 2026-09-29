@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-98f4c9bfceaac47c-81c9b3b3390634cf",
+    "releaseId": "gemini-cli-98f4c9bfceaac47c",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.63.0-nightly.20260929.gfe6350238",
+    "what": "官方发布了「Release v0.63.0-nightly.20260929.gfe6350238」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.63.0-nightly.20260929.gfe6350238",
+    "publishedAt": "2026-09-29T01:19:35.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0-nightly.20260929.gfe6350238",
+    "evidence": "## What's Changed\n* fix(auth): prevent infinite auth loop from file contention, headless keyring, and supervisor state drops (#28341) by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29448\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.63.0-nightly.20260928.g2fe7c2d3f...v0.63.0-nightly.20260929.gfe6350238",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-3fed8f326deedba0-f89cab59b984367b",
     "releaseId": "claude-code-3fed8f326deedba0",
     "toolSlug": "claude-code",
@@ -61,6 +82,29 @@
     "evidence": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.63.0-nightly.20260926.g2fe7c2d3f...v0.63.0-nightly.20260928.g2fe7c2d3f",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-1a9c0b0b184053c2-b5ccedfee26e575c",
+    "releaseId": "codex-1a9c0b0b184053c2",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex CLI 0.158.0",
+    "what": "官方发布了「Codex CLI 0.158.0」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "0.158.0",
+    "publishedAt": "2026-09-28T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-397962047",
+    "evidence": "Configure copy-on-select and right-click paste in the fullscreen TUI.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-cli"
+    ]
   },
   {
     "id": "gemini-cli-0b6d6fea37fa373b-3c5bd6d86fbaea2d",
