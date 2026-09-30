@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-8bbf7d8222f63ebe",
+    "sourceSlug": "gemini-cli",
+    "externalId": "399647199",
+    "version": "v0.64.0-nightly.20260930.g38700b4b3",
+    "channel": "preview",
+    "publishedAt": "2026-09-30T01:33:55.000Z",
+    "collectedAt": "2026-09-30T08:58:41.917Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20260930.g38700b4b3",
+    "title": "Release v0.64.0-nightly.20260930.g38700b4b3",
+    "body": "## What's Changed\n* fix(core): enable autonomous plan execution in non-interactive mode by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29539\n* fix(core): disable truncation when maxChars <= 0 in formatTruncatedToolOutput by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29542\n* refactor(a2a-server): implement V1 to V2 settings migration logic by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29450\n* fix(acp): bridge PromptResponse.usage and emit usage_update notifications (#29389) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29549\n* Changelog for v0.63.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29565\n* fix(cli): propagate resolved folder trust state in headless mode (#29031) by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29528\n* chore(release): bump version to 0.64.0-nightly.20260929.gd75234cae by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29567\n\n## New Contributors\n* @elberthc-byte made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29549\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.63.0-nightly.20260929.gfe6350238...v0.64.0-nightly.20260930.g38700b4b3",
+    "sourceLanguage": "en",
+    "contentHash": "aa6f0f5e46e663dc611da0760877abf7196848ccc2d83883033c6cacb867364c",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-5b87a66f72916cd5",
     "sourceSlug": "gemini-cli",
     "externalId": "399534915",
