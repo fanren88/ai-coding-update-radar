@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-5dfdd7ed8705b360",
+    "sourceSlug": "gemini-cli",
+    "externalId": "400578173",
+    "version": "v0.64.0-nightly.20261001.gc6bccb7ec",
+    "channel": "preview",
+    "publishedAt": "2026-10-01T01:34:16.000Z",
+    "collectedAt": "2026-10-01T09:23:43.370Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261001.gc6bccb7ec",
+    "title": "Release v0.64.0-nightly.20261001.gc6bccb7ec",
+    "body": "## What's Changed\n* fix(cli): prevent CPU hang and quote swallowing on @ within code (#29434) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29557\n* fix(core): serialize file tool operations and make writes atomic (#29078) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29499\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20260930.g38700b4b3...v0.64.0-nightly.20261001.gc6bccb7ec",
+    "sourceLanguage": "en",
+    "contentHash": "8e80813035a271838fe59faa72fc57a29b042408a5eac9774b58310a4d6d4888",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-472ca847c4919dc0",
     "sourceSlug": "claude-code",
     "externalId": "2.1.286",
@@ -43,6 +58,23 @@
     "sourceLanguage": "en",
     "contentHash": "aa6f0f5e46e663dc611da0760877abf7196848ccc2d83883033c6cacb867364c",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-b7b377a42469c6d6",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-30:Codex CLI 0.159.3",
+    "version": "0.159.3",
+    "channel": "stable",
+    "publishedAt": "2026-09-30T00:00:00.000Z",
+    "collectedAt": "2026-10-01T09:23:42.306Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-400492869",
+    "title": "Codex CLI 0.159.3",
+    "body": "```bash\n$ npm install -g @openai/codex@0.159.3\n```\n\n## New Features\n\n- Eligible local sessions signed in with ChatGPT can now show optional reminders to complete account security setup. (#49744)\n\n## Changelog\n\nFull Changelog: rust-v0.159.2...rust-v0.159.3\n\n- #49744 [0.159] Backport account security setup reminders for 0.159.3 @andrewgu-oai\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "34fe852dd02e79eebeac3e66d9326f86d4e9c6316590d8523934f3d76ec38768",
+    "sourceTopics": [
+      "codex-cli"
+    ]
   },
   {
     "id": "gemini-cli-5b87a66f72916cd5",

@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-5dfdd7ed8705b360-30237d948d4a1aa9",
+    "releaseId": "gemini-cli-5dfdd7ed8705b360",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.64.0-nightly.20261001.gc6bccb7ec",
+    "what": "官方发布了「Release v0.64.0-nightly.20261001.gc6bccb7ec」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.64.0-nightly.20261001.gc6bccb7ec",
+    "publishedAt": "2026-10-01T01:34:16.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261001.gc6bccb7ec",
+    "evidence": "## What's Changed\n* fix(cli): prevent CPU hang and quote swallowing on @ within code (#29434) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29557\n* fix(core): serialize file tool operations and make writes atomic (#29078) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29499\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20260930.g38700b4b3...v0.64.0-nightly.20261001.gc6bccb7ec",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-472ca847c4919dc0-918fe22f2609ad3a",
     "releaseId": "claude-code-472ca847c4919dc0",
     "toolSlug": "claude-code",
@@ -61,6 +82,29 @@
     "evidence": "## What's Changed\n* fix(core): enable autonomous plan execution in non-interactive mode by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29539\n* fix(core): disable truncation when maxChars <= 0 in formatTruncatedToolOutput by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29542\n* refactor(a2a-server): implement V1 to V2 settings migration logic by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29450\n* fix(acp): bridge PromptResponse.usage and emit usage_update notifications (#29389) by @elberthc-byte in https://github.com/go",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-b7b377a42469c6d6-95bbf116f74570a1",
+    "releaseId": "codex-b7b377a42469c6d6",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex CLI 0.159.3",
+    "what": "官方发布了「Codex CLI 0.159.3」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "0.159.3",
+    "publishedAt": "2026-09-30T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-400492869",
+    "evidence": "Eligible local sessions signed in with ChatGPT can now show optional reminders to complete account security setup.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-cli"
+    ]
   },
   {
     "id": "gemini-cli-5b87a66f72916cd5-144d176ca593c0f5",
