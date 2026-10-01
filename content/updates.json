@@ -1731,29 +1731,6 @@
     "sourceTopics": []
   },
   {
-    "id": "codex-38ee95b024595432-15b8544330a91a76",
-    "releaseId": "codex-38ee95b024595432",
-    "toolSlug": "codex",
-    "toolName": "Codex",
-    "title": "GPT-5.5 retires from ChatGPT, ChatGPT Work, and Codex on October 14",
-    "what": "官方发布了「GPT-5.5 retires from ChatGPT, ChatGPT Work, and Codex on October 14」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
-    "who": "正在使用 Codex 的开发者",
-    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
-    "steps": [],
-    "category": "other",
-    "scope": "all",
-    "importance": "good_to_know",
-    "channel": "stable",
-    "version": "5.5",
-    "publishedAt": "2026-09-14T00:00:00.000Z",
-    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-gpt-55-retirement",
-    "evidence": "On October 14, 2026, GPT-5.5 will retire from ChatGPT, ChatGPT Work, and Codex on all plans, including consumer, Business, Enterprise, and Edu plans.",
-    "generatedBy": "fallback",
-    "sourceTopics": [
-      "general"
-    ]
-  },
-  {
     "id": "codex-a687f457376b33ac-5bdf47e4e8146678",
     "releaseId": "codex-a687f457376b33ac",
     "toolSlug": "codex",
@@ -1771,6 +1748,29 @@
     "publishedAt": "2026-09-14T00:00:00.000Z",
     "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-codex-spark-deprecation",
     "evidence": "GPT-5.3-Codex-Spark was deprecated on September 14, 2026.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "general"
+    ]
+  },
+  {
+    "id": "codex-38ee95b024595432-15b8544330a91a76",
+    "releaseId": "codex-38ee95b024595432",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "GPT-5.5 retires from ChatGPT, ChatGPT Work, and Codex on October 14",
+    "what": "官方发布了「GPT-5.5 retires from ChatGPT, ChatGPT Work, and Codex on October 14」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.5",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-gpt-55-retirement",
+    "evidence": "On October 14, 2026, GPT-5.5 will retire from ChatGPT, ChatGPT Work, and Codex on all plans, including consumer, Business, Enterprise, and Edu plans.",
     "generatedBy": "fallback",
     "sourceTopics": [
       "general"

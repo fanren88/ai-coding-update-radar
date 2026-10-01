@@ -1251,12 +1251,12 @@
     "version": "5.5",
     "channel": "stable",
     "publishedAt": "2026-09-14T00:00:00.000Z",
-    "collectedAt": "2026-09-15T21:43:48.650Z",
+    "collectedAt": "2026-10-01T01:30:40.746Z",
     "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-gpt-55-retirement",
     "title": "GPT-5.5 retires from ChatGPT, ChatGPT Work, and Codex on October 14",
-    "body": "On October 14, 2026, GPT-5.5 will retire from ChatGPT, ChatGPT Work, and Codex on all plans, including consumer, Business, Enterprise, and Edu plans. This retirement does not apply to the OpenAI API.\n\nFor Codex with ChatGPT sign-in, switch from gpt-5.5 to gpt-5.6-sol (GPT-5.6 Sol) before the retirement date.\n\nUpdate workspace defaults, saved model settings, managed configurations, custom agents, scheduled tasks, and scripts that still select gpt-5.5.\n\nSee GPT-5.5 retirement and workspace model availability for migration guidance.",
+    "body": "On October 14, 2026, GPT-5.5 will retire from ChatGPT, ChatGPT Work, and Codex on all plans, including consumer, Business, Enterprise, and Edu plans. This retirement does not apply to the OpenAI API.\n\nFor Codex with ChatGPT sign-in, choose an available replacement for your plan and client. See GPT-5.5 retirement for migration guidance.\n\nUpdate workspace defaults, saved model settings, managed configurations, custom agents, scheduled tasks, and scripts that still select gpt-5.5.\n\nSee GPT-5.5 retirement and workspace model availability for migration guidance.",
     "sourceLanguage": "en",
-    "contentHash": "01b7698068d2a9a3a38cb33d0641216e477fa7d4bd84103eeaddc690a8b98cb0",
+    "contentHash": "5b2e57cd93d6da4780066a1b9e43a6bd4ad7bd1adc0b16ea744c9a6b7d7b759f",
     "sourceTopics": [
       "general"
     ]
