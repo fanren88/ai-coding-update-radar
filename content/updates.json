@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-705956e4f1fcd62c-40fe1f5bb25fb65e",
+    "releaseId": "github-copilot-705956e4f1fcd62c",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Selected models in GitHub Copilot deprecated",
+    "what": "官方发布了「Selected models in GitHub Copilot deprecated」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-10-02T18:24:19.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+    "evidence": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions).",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-d4d71a9ee5325ecc-b40ca4b690abf7dd",
     "releaseId": "gemini-cli-d4d71a9ee5325ecc",
     "toolSlug": "gemini-cli",

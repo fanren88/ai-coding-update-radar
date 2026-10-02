@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-705956e4f1fcd62c",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-02T18:24:19.000Z",
+    "collectedAt": "2026-10-02T19:29:25.480Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+    "title": "Selected models in GitHub Copilot deprecated",
+    "body": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model… The post Selected models in GitHub Copilot deprecated appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "6561572a49ac643ab82f87482753e320db7d041f3a6b95e10c01a1f9310c9d24",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-d4d71a9ee5325ecc",
     "sourceSlug": "gemini-cli",
     "externalId": "401476363",
