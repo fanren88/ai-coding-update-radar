@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-d4d71a9ee5325ecc",
+    "sourceSlug": "gemini-cli",
+    "externalId": "401476363",
+    "version": "v0.64.0-nightly.20261002.gc9096a847",
+    "channel": "preview",
+    "publishedAt": "2026-10-02T01:33:21.000Z",
+    "collectedAt": "2026-10-02T06:07:14.593Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261002.gc9096a847",
+    "title": "Release v0.64.0-nightly.20261002.gc9096a847",
+    "body": "## What's Changed\n* fix(core): implement append-only delta patching and bounded history windowing in ChatRecordingService by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29568\n* fix(cli): persist state atomically and recover from backup on corruption by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29558\n* fix(cli): ensure Ctrl+C emergency abort reaches cancellation handler during active operations by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29586\n* fix(cli): resolve @file:line references and prevent ghost text wrap hang by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29581\n* fix(ui): ensure Windows ConPTY forwards IME cursor position by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29560\n* fix(cli): retry directory removal on Windows locking errors during extension updates by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29540\n* fix(acp): resolve session by exact id and handle listener cleanup on session failure by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29580\n* fix(cli): preserve scroll position and partition pending height budget by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29520\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261001.gc6bccb7ec...v0.64.0-nightly.20261002.gc9096a847",
+    "sourceLanguage": "en",
+    "contentHash": "3ee60c397138c2627ca185dbcb7c4ccae0c9f85455d631e4dc135ea397f0da6d",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-09225c6a6b8bb5c3",
     "sourceSlug": "claude-code",
     "externalId": "2.1.287",
