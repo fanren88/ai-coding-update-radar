@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-56f5a09e0fd7a249",
+    "sourceSlug": "gemini-cli",
+    "externalId": "402261904",
+    "version": "v0.64.0-nightly.20261003.gfb972b2f8",
+    "channel": "preview",
+    "publishedAt": "2026-10-03T01:29:14.000Z",
+    "collectedAt": "2026-10-03T05:41:41.120Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261003.gfb972b2f8",
+    "title": "Release v0.64.0-nightly.20261003.gfb972b2f8",
+    "body": "## What's Changed\n* fix(cli): ensure Enter and Spacebar reliably confirm selection list options by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29502\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261002.gc9096a847...v0.64.0-nightly.20261003.gfb972b2f8",
+    "sourceLanguage": "en",
+    "contentHash": "8c12aadcabf50943d8f70c0e0dba28a19b7e6ce985d0cc159efbbb5b7ab1ed96",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-5fef7bd6468ec2c5",
     "sourceSlug": "claude-code",
     "externalId": "2.1.288",
