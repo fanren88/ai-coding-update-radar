@@ -21,6 +21,29 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-9b607dc9c9a313da-701b68256cfef25f",
+    "releaseId": "codex-9b607dc9c9a313da",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex CLI 0.160.1",
+    "what": "官方发布了「Codex CLI 0.160.1」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "0.160.1",
+    "publishedAt": "2026-10-05T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-404001397",
+    "evidence": "Preserve SYSTEMROOT, TEMP, and TMP when launching remote stdio MCP servers with explicitly configured remote environment variables, allowing Unix hosts to retain the Windows executor's startup environment.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-cli"
+    ]
+  },
+  {
     "id": "claude-code-c45cd74194fee5b9-95a88d2f8ef28118",
     "releaseId": "claude-code-c45cd74194fee5b9",
     "toolSlug": "claude-code",

@@ -15,6 +15,23 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-9b607dc9c9a313da",
+    "sourceSlug": "codex",
+    "externalId": "2026-10-05:Codex CLI 0.160.1",
+    "version": "0.160.1",
+    "channel": "stable",
+    "publishedAt": "2026-10-05T00:00:00.000Z",
+    "collectedAt": "2026-10-05T22:54:06.336Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-404001397",
+    "title": "Codex CLI 0.160.1",
+    "body": "```bash\n$ npm install -g @openai/codex@0.160.1\n```\n\n## Bug Fixes\n\n- Preserve SYSTEMROOT, TEMP, and TMP when launching remote stdio MCP servers with explicitly configured remote environment variables, allowing Unix hosts to retain the Windows executor's startup environment.\n\n## Changelog\n\n- #51121: Backport Windows remote MCP environment preservation to 0.160.\n\nFull release on Github",
+    "sourceLanguage": "en",
+    "contentHash": "9d37fbfe0e8cf443b07a09bbf10072f43dc3ad7fa3c3894f7bc27095a25b6a34",
+    "sourceTopics": [
+      "codex-cli"
+    ]
+  },
+  {
     "id": "claude-code-c45cd74194fee5b9",
     "sourceSlug": "claude-code",
     "externalId": "2.1.289",
