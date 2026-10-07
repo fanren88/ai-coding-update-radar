@@ -1,5 +1,35 @@
 [
   {
+    "id": "gemini-cli-b4da0b6816af647f",
+    "sourceSlug": "gemini-cli",
+    "externalId": "405281690",
+    "version": "v0.65.0-nightly.20261007.gef59c532f",
+    "channel": "preview",
+    "publishedAt": "2026-10-07T01:31:41.000Z",
+    "collectedAt": "2026-10-07T01:47:01.540Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261007.gef59c532f",
+    "title": "Release v0.65.0-nightly.20261007.gef59c532f",
+    "body": "## What's Changed\n* fix(cli): enforce read-only workspace settings in untrusted folders by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29583\n* fix(core): avoid duplicate tool response turns when resuming sessions by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29618\n* fix(core): prevent deletion of resumed session history on quick exit (#29198) by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29584\n* Changelog for v0.64.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29656\n* Changelog for v0.63.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29659\n* fix(core): align OAuth callback iss parameter validation with RFC 9207 metadata by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29616\n* fix(cli): prevent unnecessary terminal clears and scroll resets when expanding with Ctrl+O by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29640\n* chore(release): bump version to 0.65.0-nightly.20261006.gfb972b2f8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29657\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261006.gfb972b2f8...v0.65.0-nightly.20261007.gef59c532f",
+    "sourceLanguage": "en",
+    "contentHash": "4d1089b2e855d51ba58c7b0bccd047ae0e3c56d0aeafc453e76b093b42e70287",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-f833eccb65deeb7d",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-06T23:43:00.000Z",
+    "collectedAt": "2026-10-07T01:47:00.982Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+    "title": "Update your IDE to restore agent activity in Copilot usage metrics",
+    "body": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out… The post Update your IDE to restore agent activity in Copilot usage metrics appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "a7a8099e578d751b806ff7144c444e54c43dfd7d5484c0795fb8c9f8a08dcf71",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-8689dd65e661b733",
     "sourceSlug": "claude-code",
     "externalId": "2.1.292",
@@ -87,6 +117,21 @@
     "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261005.gfb972b2f8...v0.64.0-nightly.20261006.gfb972b2f8",
     "sourceLanguage": "en",
     "contentHash": "27124be196897e618dbfe0fc68cea6c29c47f5777b37e5db514aa643cf2d3496",
+    "sourceTopics": []
+  },
+  {
+    "id": "cursor-d3eee65f4984a9c1",
+    "sourceSlug": "cursor",
+    "externalId": "/changelog/remote-control-local-agents",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-06T00:00:00.000Z",
+    "collectedAt": "2026-10-07T01:47:00.889Z",
+    "sourceUrl": "https://cursor.com/changelog/remote-control-local-agents",
+    "title": "Remote control for local agents",
+    "body": "You can now see and reply to the local agents running on your computer from the Cursor iOS app. #Get started Remote Control is on by default for everyone except Enterprise organizations. Download the Cursor iOS app and sign in. Computers on your account appear in the app automatically. Tap your computer in the app and approve your pairing request in the Cursor desktop app. Your local agents appear in a list. Tap one to see what it's doing or send it a message. #Agents keep running on your computer Remote control doesn't move your agents anywhere. It keeps running on your computer, and the app connects to it. Your computer needs to stay on and online for remote control to work. #Keep your computer awake To stop your computer from sleeping while you're away, turn on \"Keep this computer awake\" under Remote Control in Cursor's desktop settings. Your computer needs to be plugged in with the lid open. #For Enterprise teams Remote control is on by default, except for Enterprise organizations. Enterprise admins can turn it on in Org settings > Security and identity > Remote control. Remote control doesn't require cloud agents to work. Remote control is available today in the Cursor iOS app.",
+    "sourceLanguage": "en",
+    "contentHash": "22c3a1aa6419805d6f93d8862aafd24fbdcedb5860722060519afa6329d80808",
     "sourceTopics": []
   },
   {
