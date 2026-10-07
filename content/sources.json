@@ -2,10 +2,10 @@
   {
     "slug": "codex",
     "status": "healthy",
-    "lastSuccessAt": "2026-10-07T09:11:36.014Z",
+    "lastSuccessAt": "2026-10-07T17:31:34.337Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"f94f8d48fb121a55f7614b3da6b1910b\"",
-    "lastContentHash": "fe194964ae2109ed1b67725762f5331f6fc63626f11b1b4065d5d87c5cb8be25",
+    "etag": "W/\"a9a4195853d9af75aba4fcd43f0beca3\"",
+    "lastContentHash": "5edcb432b97f4bb34b81015eda6f365017c9f1b7b7f4720ab8f879648059a8ad",
     "lastError": null
   },
   {
@@ -29,10 +29,10 @@
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-10-07T01:47:00.982Z",
+    "lastSuccessAt": "2026-10-07T17:31:35.410Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"bc46f77564ac299c5a30341a28d29112\"",
-    "lastContentHash": "81a0f62ad273017ffeacb38501d6e356f23378ee88c4627d3e47af143006f6b6",
+    "etag": "W/\"dffc7fb7d94def48511f81e90cc92f6c\"",
+    "lastContentHash": "4901cc4b9771448975a2de1df0adc7bbe591bf147a3f4967ed6a63f98797edf2",
     "lastError": null
   },
   {
