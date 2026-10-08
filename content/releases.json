@@ -1,5 +1,35 @@
 [
   {
+    "id": "claude-code-b2775b67a1991bc4",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.294",
+    "version": "2.1.294",
+    "channel": "stable",
+    "publishedAt": "2026-10-08T06:36:13.323Z",
+    "collectedAt": "2026-10-08T06:36:13.323Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.294",
+    "body": "- Fixed `prompt` and `agent` hooks written as instructions (such as \"Block commands that...\") allowing what they should block\n- Improved how `prompt` hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
+    "sourceLanguage": "en",
+    "contentHash": "1391028669fefdb4243f77f662394e50b7a4ce4369c335847a38d4be107c16a2",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-791330cf1fce3dee",
+    "sourceSlug": "gemini-cli",
+    "externalId": "406317787",
+    "version": "v0.65.0-nightly.20261008.g44d764ee5",
+    "channel": "preview",
+    "publishedAt": "2026-10-08T01:35:49.000Z",
+    "collectedAt": "2026-10-08T06:36:14.219Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261008.g44d764ee5",
+    "title": "Release v0.65.0-nightly.20261008.g44d764ee5",
+    "body": "## What's Changed\n* fix(ci): add missing loop in unassign-inactive-assignees workflow by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29609\n* fix(core): enforce terminal user turn invariant and normalize request contents by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29612\n* `feat(telemetry): support custom OTLP headers in telemetry configuration` by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29641\n* fix(auth): prevent infinite verification and OAuth retry loops by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29655\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261007.gef59c532f...v0.65.0-nightly.20261008.g44d764ee5",
+    "sourceLanguage": "en",
+    "contentHash": "bab05de587168f9b4326740f822ef533addd19d1d6d5ef77dd2b286415ab10b5",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-02b81efd85ee0893",
     "sourceSlug": "claude-code",
     "externalId": "2.1.293",
