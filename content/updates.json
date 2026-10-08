@@ -1,5 +1,26 @@
 [
   {
+    "id": "claude-code-b11a2a2b772d152d-9267b6f44f025240",
+    "releaseId": "claude-code-b11a2a2b772d152d",
+    "toolSlug": "claude-code",
+    "toolName": "Claude Code",
+    "title": "2.1.295",
+    "what": "官方发布了「2.1.295」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Claude Code 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "2.1.295",
+    "publishedAt": "2026-10-08T20:04:56.011Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "evidence": "Added `onFailure: \"block\"` for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through\n- Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done\n- Added quoted text to the `/copy` picker, so a drafted message copies without its `>` markers\n- Added a warning to `claude plugin install`, `enable`, `disable` and `marketplace add` when the settings file they write to does not load\n- Added a line on stderr, when it is a terminal, ",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-b2775b67a1991bc4-f0a1776d1d1af460",
     "releaseId": "claude-code-b2775b67a1991bc4",
     "toolSlug": "claude-code",
@@ -40,6 +61,52 @@
     "evidence": "## What's Changed\n* fix(ci): add missing loop in unassign-inactive-assignees workflow by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29609\n* fix(core): enforce terminal user turn invariant and normalize request contents by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29612\n* `feat(telemetry): support custom OTLP headers in telemetry configuration` by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29641\n* fix(auth): prevent infinite verification and OAuth retry loops by @villahernandez-coder in https://github.com/google-gemini/ge",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-16b90248ec791fe5-46a092dc55da493c",
+    "releaseId": "codex-16b90248ec791fe5",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
+    "what": "官方发布了「GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "6.1",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-08-gpt-61-sol-ultrafast",
+    "evidence": "Ultrafast mode speeds up token generation with GPT-6.1 Sol in Codex and ChatGPT Work.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "general"
+    ]
+  },
+  {
+    "id": "codex-94f7a34558492e09-54c8ab870bb4054a",
+    "releaseId": "codex-94f7a34558492e09",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex CLI 0.162.0",
+    "what": "官方发布了「Codex CLI 0.162.0」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "0.162.0",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#github-release-407151970",
+    "evidence": "Add tools for creating and listing managed Git worktrees from trusted local projects when the worktrees feature is enabled.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-cli"
+    ]
   },
   {
     "id": "claude-code-02b81efd85ee0893-80c6f7897d5b7746",
