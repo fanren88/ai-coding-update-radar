@@ -109,6 +109,27 @@
     ]
   },
   {
+    "id": "workbuddy-51cf8157359cfd54-7eda68b57a3d2504",
+    "releaseId": "workbuddy-51cf8157359cfd54",
+    "toolSlug": "workbuddy",
+    "toolName": "WorkBuddy",
+    "title": "WorkBuddy 5.7.7",
+    "what": "官方发布了「WorkBuddy 5.7.7」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 WorkBuddy 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.7.7",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-7-7-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-10-08",
+    "evidence": "优化成长计划体验问题",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-02b81efd85ee0893-80c6f7897d5b7746",
     "releaseId": "claude-code-02b81efd85ee0893",
     "toolSlug": "claude-code",
