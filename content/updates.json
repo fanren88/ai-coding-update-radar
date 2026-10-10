@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-a91405951b83e939-7794149cab7b33f6",
+    "releaseId": "github-copilot-a91405951b83e939",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "New controls and chat improvements in Copilot for JetBrains",
+    "what": "官方发布了「New controls and chat improvements in Copilot for JetBrains」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-10-10T18:53:39.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+    "evidence": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-6f1086a38ded98de-7282c1caad6d39b6",
     "releaseId": "gemini-cli-6f1086a38ded98de",
     "toolSlug": "gemini-cli",
