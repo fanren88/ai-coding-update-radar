@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-4876f909213ae478-a0a0d1bdd828a8e3",
+    "releaseId": "gemini-cli-4876f909213ae478",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.65.0-nightly.20261012.g9b6e0265d",
+    "what": "官方发布了「Release v0.65.0-nightly.20261012.g9b6e0265d」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.65.0-nightly.20261012.g9b6e0265d",
+    "publishedAt": "2026-10-12T01:29:25.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261012.g9b6e0265d",
+    "evidence": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261010.g9b6e0265d...v0.65.0-nightly.20261012.g9b6e0265d",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-a91405951b83e939-7794149cab7b33f6",
     "releaseId": "github-copilot-a91405951b83e939",
     "toolSlug": "github-copilot",

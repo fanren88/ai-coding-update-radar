@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-4876f909213ae478",
+    "sourceSlug": "gemini-cli",
+    "externalId": "410044121",
+    "version": "v0.65.0-nightly.20261012.g9b6e0265d",
+    "channel": "preview",
+    "publishedAt": "2026-10-12T01:29:25.000Z",
+    "collectedAt": "2026-10-12T06:27:32.849Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261012.g9b6e0265d",
+    "title": "Release v0.65.0-nightly.20261012.g9b6e0265d",
+    "body": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261010.g9b6e0265d...v0.65.0-nightly.20261012.g9b6e0265d",
+    "sourceLanguage": "en",
+    "contentHash": "8fc258f51824364d1257cf19800376df661a43b5ba81de82e5f65efa95c622f1",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-a91405951b83e939",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
