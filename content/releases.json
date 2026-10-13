@@ -1,5 +1,35 @@
 [
   {
+    "id": "gemini-cli-3ea27aae2a777860",
+    "sourceSlug": "gemini-cli",
+    "externalId": "411151224",
+    "version": "v0.65.0-nightly.20261013.g51617c1bc",
+    "channel": "preview",
+    "publishedAt": "2026-10-13T01:36:45.000Z",
+    "collectedAt": "2026-10-13T07:03:22.154Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261013.g51617c1bc",
+    "title": "Release v0.65.0-nightly.20261013.g51617c1bc",
+    "body": "## What's Changed\n* fix(cli): keep loading other extensions when one fails the allowlist check by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29720\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261012.g9b6e0265d...v0.65.0-nightly.20261013.g51617c1bc",
+    "sourceLanguage": "en",
+    "contentHash": "9ee9d6386d1c543a44298b83bb91f067078501810e820cd292e499292452016f",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-9d90bbd97b855683",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-12T22:38:00.000Z",
+    "collectedAt": "2026-10-13T07:03:21.680Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+    "title": "Client telemetry user attribution and configurable capture",
+    "body": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three… The post Client telemetry user attribution and configurable capture appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "4b5d7076e87cd48b18e849d6dec59414a6a321ede0202505fff20d9e82190d83",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-4876f909213ae478",
     "sourceSlug": "gemini-cli",
     "externalId": "410044121",
