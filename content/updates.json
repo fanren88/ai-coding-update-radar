@@ -1,5 +1,26 @@
 [
   {
+    "id": "claude-code-f04225fded806a13-f4d895b27f2a00b5",
+    "releaseId": "claude-code-f04225fded806a13",
+    "toolSlug": "claude-code",
+    "toolName": "Claude Code",
+    "title": "2.1.300",
+    "what": "官方发布了「2.1.300」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Claude Code 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "2.1.300",
+    "publishedAt": "2026-10-14T18:50:52.463Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "evidence": "Added `virtualText` to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt\n- Added `cache_creation_5m_tokens` and `cache_creation_1h_tokens` to the OpenTelemetry `api_request` event, splitting cache writes by lifetime\n- Added `$.ui.view({ agentId })` for mods: shows an agent's transcript in the main view when you ask, and `$.ui.view({})` goes back\n- Added a `dir` prop on a mod's `Text` for right-to-left text: on Windows and in VS Code's terminal its rows read in that direction and sit flush right\n- Added `/advisor` on Claude Platform on ",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-5c2490652d3aa4f0-dfaebc5d12233648",
     "releaseId": "claude-code-5c2490652d3aa4f0",
     "toolSlug": "claude-code",
