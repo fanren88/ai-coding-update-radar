@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-ffb5a326c8ee4530-8fc533160696ab4a",
+    "releaseId": "github-copilot-ffb5a326c8ee4530",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "HydraFusion updates and new Max option",
+    "what": "官方发布了「HydraFusion updates and new Max option」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-10-14T20:01:35.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+    "evidence": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-f04225fded806a13-f4d895b27f2a00b5",
     "releaseId": "claude-code-f04225fded806a13",
     "toolSlug": "claude-code",
@@ -61,6 +82,29 @@
     "evidence": "## What's Changed\n* fix(cli): correct reverse search highlight index for expanding unicode characters by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29699\n* fix(core): treat whitespace-only UTF-16 and UTF-32 files as empty by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29722\n* fix(cli): restore debounced static UI refresh on terminal width changes by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29644\n* fix(cli): prevent session poisoning on rapid Ctrl-C interruption by @villahernandez-coder in https://github.com/google",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-4697ad8c9a4a81d0-8e7460a15c63b20a",
+    "releaseId": "codex-4697ad8c9a4a81d0",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "GPT-5.5 retirement in Codex",
+    "what": "官方发布了「GPT-5.5 retirement in Codex」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.5",
+    "publishedAt": "2026-10-14T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-14-gpt-55-retirement",
+    "evidence": "Effective October 14, 2026, at noon PDT (19:00 UTC), GPT-5.5 retires from Codex for users signed in with ChatGPT.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "general"
+    ]
   },
   {
     "id": "gemini-cli-a3ce4fc55eaefaa8-6ac54d51e2304cf2",
