@@ -289,6 +289,23 @@
     ]
   },
   {
+    "id": "codex-0d98400f60b2bcb1",
+    "sourceSlug": "codex",
+    "externalId": "2026-10-09:Composer predictions in Codex",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-09T00:00:00.000Z",
+    "collectedAt": "2026-10-15T12:01:17.316Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-09-composer-predictions",
+    "title": "Composer predictions in Codex",
+    "body": "Composer predictions adds autocomplete-style suggestions for your next message in the Codex desktop app. After Codex responds, it uses the current conversation to suggest a follow-up prompt in the message box. Press Tab to accept the suggestion as an editable draft, or type your own message. Accepting a prediction doesn’t send it for you.\n\nThe feature is available in beta to users aged 18 and older with personal ChatGPT Pro plans in supported regions, in local and SSH threads with GPT-6 Astra and GPT-6.1 Sol.\n\nLearn more about composer predictions.",
+    "sourceLanguage": "en",
+    "contentHash": "964c269f903f446676520249bfb4008262e90cb57199b1c475adcad6c7fe6bee",
+    "sourceTopics": [
+      "codex-app"
+    ]
+  },
+  {
     "id": "claude-code-b11a2a2b772d152d",
     "sourceSlug": "claude-code",
     "externalId": "2.1.295",
@@ -398,6 +415,23 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-0ab5e59a1b230f36",
+    "sourceSlug": "codex",
+    "externalId": "2026-10-08:Codex app 26.1007",
+    "version": "26.1007",
+    "channel": "stable",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "collectedAt": "2026-10-15T12:01:17.316Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-08-app",
+    "title": "Codex app 26.1007",
+    "body": "## Performance improvements and bug fixes\n\n- Fixed queued messages getting stuck on Sending and restored Steer in secondary app windows.\n\n- Improved scrolling and navigation between files in the Changes panel.\n\n- Added clearer recovery guidance when a tool call needs approval but the chat’s permissions prevent approval requests, with a link to those permissions when available.",
+    "sourceLanguage": "en",
+    "contentHash": "6d2d623e38a7ef91c6de0d23a188439ae3f3e1d822e1fd0e196618e4c7ac1bf3",
+    "sourceTopics": [
+      "codex-app"
+    ]
+  },
+  {
     "id": "claude-code-02b81efd85ee0893",
     "sourceSlug": "claude-code",
     "externalId": "2.1.293",
@@ -504,6 +538,23 @@
     "contentHash": "b2a9a8f56fd0bd848b1a787f917d249cb6f9f9a1d073d0b2fad251d91ad28f62",
     "sourceTopics": [
       "codex-cli"
+    ]
+  },
+  {
+    "id": "codex-4ff56383e80168d1",
+    "sourceSlug": "codex",
+    "externalId": "2026-10-07:Codex app 26.1002",
+    "version": "26.1002",
+    "channel": "stable",
+    "publishedAt": "2026-10-07T00:00:00.000Z",
+    "collectedAt": "2026-10-15T12:01:17.316Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-07-app",
+    "title": "Codex app 26.1002",
+    "body": "## Performance improvements and bug fixes\n\n- Fixed Windows sandbox refresh failures after app updates.\n\n- Fixed worktree creation and chat forking for WSL repositories whose paths conflicted with Windows directories.\n\n- Kept the recent chats section collapsed when switching between chats.\n\n- Fixed Remove from section so it removes a chat from its sidebar section without pinning it.",
+    "sourceLanguage": "en",
+    "contentHash": "6c50fe3e9cb0325d0436f5fc9607d0114c0a194a28cb4c9aa7a4f9ddd534bdad",
+    "sourceTopics": [
+      "codex-app"
     ]
   },
   {
@@ -903,6 +954,23 @@
     ]
   },
   {
+    "id": "codex-3b3911c3232825f9",
+    "sourceSlug": "codex",
+    "externalId": "2026-10-01:Codex app 26.930",
+    "version": "26.930",
+    "channel": "stable",
+    "publishedAt": "2026-10-01T00:00:00.000Z",
+    "collectedAt": "2026-10-15T12:01:17.316Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-01-app",
+    "title": "Codex app 26.930",
+    "body": "## New features\n\n- Added the option to move selected chats to a project at once.\n\n## Performance improvements and bug fixes\n\n- Improved recovery when attaching managed worktrees to chats.\n\n- Fixed large diffs appearing blank at some zoom levels.\n\n- Improved retries after queued messages fail to send or chats fail to open.",
+    "sourceLanguage": "en",
+    "contentHash": "c7d4e461594c1260b2e6c1cfc058f259efc7abe1d5f2c5797205a44b318c1a8a",
+    "sourceTopics": [
+      "codex-app"
+    ]
+  },
+  {
     "id": "claude-code-472ca847c4919dc0",
     "sourceSlug": "claude-code",
     "externalId": "2.1.286",
@@ -1136,6 +1204,23 @@
     "sourceLanguage": "zh",
     "contentHash": "113f7355d81cff078f561f167d5aa0996dd47caaa4d0df349e0daea2a74a4435",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-81bc80762bfeb5fd",
+    "sourceSlug": "codex",
+    "externalId": "2026-09-29:Codex app 26.928",
+    "version": "26.928",
+    "channel": "stable",
+    "publishedAt": "2026-09-29T00:00:00.000Z",
+    "collectedAt": "2026-10-15T12:01:17.316Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-29-app",
+    "title": "Codex app 26.928",
+    "body": "## Performance improvements and bug fixes\n\n- Improved terminal startup in attached worktrees and fixed failures caused by unavailable worktree environment settings.\n\n- Kept earlier answers visible when you send new instructions during a task.\n\n- Fixed automatic scrolling and prevented keyboard navigation through messages from jumping back to the latest response.\n\n- Improved startup recovery when you return to the app window.",
+    "sourceLanguage": "en",
+    "contentHash": "176dae7a19e3a1315e78a98d347e81b3101f03f68110685520c3b52deb00a085",
+    "sourceTopics": [
+      "codex-app"
+    ]
   },
   {
     "id": "claude-code-3fed8f326deedba0",

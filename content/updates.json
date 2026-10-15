@@ -403,6 +403,29 @@
     ]
   },
   {
+    "id": "codex-0d98400f60b2bcb1-a3ca273dff4ca32e",
+    "releaseId": "codex-0d98400f60b2bcb1",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Composer predictions in Codex",
+    "what": "官方发布了「Composer predictions in Codex」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-10-09T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-09-composer-predictions",
+    "evidence": "Composer predictions adds autocomplete-style suggestions for your next message in the Codex desktop app.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-app"
+    ]
+  },
+  {
     "id": "claude-code-b11a2a2b772d152d-9267b6f44f025240",
     "releaseId": "claude-code-b11a2a2b772d152d",
     "toolSlug": "claude-code",
@@ -554,6 +577,29 @@
     "sourceTopics": []
   },
   {
+    "id": "codex-0ab5e59a1b230f36-f27b73c39adb6c82",
+    "releaseId": "codex-0ab5e59a1b230f36",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex app 26.1007",
+    "what": "官方发布了「Codex app 26.1007」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "26.1007",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-08-app",
+    "evidence": "Fixed queued messages getting stuck on Sending and restored Steer in secondary app windows.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-app"
+    ]
+  },
+  {
     "id": "claude-code-02b81efd85ee0893-80c6f7897d5b7746",
     "releaseId": "claude-code-02b81efd85ee0893",
     "toolSlug": "claude-code",
@@ -702,6 +748,29 @@
     "generatedBy": "fallback",
     "sourceTopics": [
       "codex-cli"
+    ]
+  },
+  {
+    "id": "codex-4ff56383e80168d1-3e979f62dbdeb528",
+    "releaseId": "codex-4ff56383e80168d1",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex app 26.1002",
+    "what": "官方发布了「Codex app 26.1002」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "26.1002",
+    "publishedAt": "2026-10-07T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-07-app",
+    "evidence": "Fixed Windows sandbox refresh failures after app updates.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-app"
     ]
   },
   {
@@ -1257,6 +1326,29 @@
     ]
   },
   {
+    "id": "codex-3b3911c3232825f9-5c6436db2fb4ad66",
+    "releaseId": "codex-3b3911c3232825f9",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex app 26.930",
+    "what": "官方发布了「Codex app 26.930」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "26.930",
+    "publishedAt": "2026-10-01T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-01-app",
+    "evidence": "Added the option to move selected chats to a project at once.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-app"
+    ]
+  },
+  {
     "id": "claude-code-472ca847c4919dc0-918fe22f2609ad3a",
     "releaseId": "claude-code-472ca847c4919dc0",
     "toolSlug": "claude-code",
@@ -1580,6 +1672,29 @@
     "evidence": "修复企业下发的助理在「企业智能体」列表中消失的问题，现在可以正常找到并使用\n\n- 修复侧栏「助理」入口消失，以及「助理」「项目」入口位置不正确的问题",
     "generatedBy": "fallback",
     "sourceTopics": []
+  },
+  {
+    "id": "codex-81bc80762bfeb5fd-df670add948809c8",
+    "releaseId": "codex-81bc80762bfeb5fd",
+    "toolSlug": "codex",
+    "toolName": "Codex",
+    "title": "Codex app 26.928",
+    "what": "官方发布了「Codex app 26.928」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Codex 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "26.928",
+    "publishedAt": "2026-09-29T00:00:00.000Z",
+    "sourceUrl": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-29-app",
+    "evidence": "Improved terminal startup in attached worktrees and fixed failures caused by unavailable worktree environment settings.",
+    "generatedBy": "fallback",
+    "sourceTopics": [
+      "codex-app"
+    ]
   },
   {
     "id": "claude-code-3fed8f326deedba0-f89cab59b984367b",
