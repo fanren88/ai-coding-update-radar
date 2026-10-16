@@ -1,11 +1,11 @@
 [
   {
-    "id": "github-copilot-6fdf4a6bc9a49fd0-dca37011a798e47f",
+    "id": "github-copilot-6fdf4a6bc9a49fd0-916621267be33549",
     "releaseId": "github-copilot-6fdf4a6bc9a49fd0",
     "toolSlug": "github-copilot",
     "toolName": "GitHub Copilot",
-    "title": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
-    "what": "官方发布了「Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "title": "Multi-repo support and other improvements for GitHub in Slack and Teams",
+    "what": "官方发布了「Multi-repo support and other improvements for GitHub in Slack and Teams」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
     "who": "正在使用 GitHub Copilot 的开发者",
     "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
     "steps": [],
@@ -16,7 +16,7 @@
     "version": null,
     "publishedAt": "2026-10-16T02:16:35.000Z",
     "sourceUrl": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-    "evidence": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation.",
+    "evidence": "Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation.",
     "generatedBy": "fallback",
     "sourceTopics": []
   },
