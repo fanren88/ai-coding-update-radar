@@ -1,6 +1,120 @@
 [
   {
     "year": 2026,
+    "week": 43,
+    "generatedAt": "2026-10-19T06:16:14.867Z",
+    "introZh": "本周收录 26 条官方编程工具更新。",
+    "mustHandle": [],
+    "worthTrying": [],
+    "goodToKnow": [
+      {
+        "id": "gemini-cli-4ded04e2e39ae054-0928bbc08b8dda22",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "workbuddy-6e8d71b731c262f0-54c7f1c304d07922",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "claude-code-bdba53e71a1717e7-c189282add26df43",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "gemini-cli-4e3c291e149dcf29-6633ae51ae94378a",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "gemini-cli-fe37d24dc2d653fc-3524bc51250519fa",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "claude-code-3eb862d89bf08f25-4b5ce7593c305dd4",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "github-copilot-6fdf4a6bc9a49fd0-916621267be33549",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "gemini-cli-f3b6812dc97ca1ae-0164d0af473aac88",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "workbuddy-379e66ddc1583a2c-539982593d802907",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "cursor-024e05e393aab839-5e2de0c5b3c94c0e",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "claude-code-a1be965e30489a29-bf9ea96362beb603",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "github-copilot-0fb5cf8a26c77a05-7f3f1f29625a3991",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "codex-844b71a95ca1a11b-86ba7a73a50a4eec",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "github-copilot-ffb5a326c8ee4530-8fc533160696ab4a",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "claude-code-f04225fded806a13-f4d895b27f2a00b5",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "claude-code-5c2490652d3aa4f0-dfaebc5d12233648",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "gemini-cli-659b776482a67b98-c39bec4f2c67c8ab",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "codex-4697ad8c9a4a81d0-8e7460a15c63b20a",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "gemini-cli-a3ce4fc55eaefaa8-6ac54d51e2304cf2",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "gemini-cli-6c8566c163b63e8c-d960be4a069e1a54",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "github-copilot-23347420601cd4d2-78e1860260f1fa23",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "github-copilot-bca5e0416551d912-830b68b1a65f949d",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "gemini-cli-3ea27aae2a777860-767603dc29b219a4",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "cursor-d9c9dd60fe166a42-327edd7927cac38a",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "github-copilot-9d90bbd97b855683-bfdecc6eedcf8fa2",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      },
+      {
+        "id": "gemini-cli-4876f909213ae478-a0a0d1bdd828a8e3",
+        "reasonZh": "查看官方原文，根据自己的版本和使用场景决定是否升级。"
+      }
+    ]
+  },
+  {
+    "year": 2026,
     "week": 42,
     "generatedAt": "2026-10-12T07:25:42.806Z",
     "introZh": "本周收录 31 条官方编程工具更新。",
