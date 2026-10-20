@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-4929d6f49fb50a3d",
+    "sourceSlug": "gemini-cli",
+    "externalId": "417913136",
+    "version": "v0.66.0-nightly.20261020.g76e4d7c04",
+    "channel": "preview",
+    "publishedAt": "2026-10-20T01:33:51.000Z",
+    "collectedAt": "2026-10-20T05:12:56.282Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261020.g76e4d7c04",
+    "title": "Release v0.66.0-nightly.20261020.g76e4d7c04",
+    "body": "## What's Changed\n* fix(ui): preserve terminal scrollback during viewport refreshes by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29792\n* fix(cli): decode streamed Node HTTP activity chunks with StringDecoder by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29827\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.66.0-nightly.20261019.ged96faedf...v0.66.0-nightly.20261020.g76e4d7c04",
+    "sourceLanguage": "en",
+    "contentHash": "e7e613dd6556fbef9728d2eb369d10cc7d31e3c543909b544a41164b1f6a8495",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-acd592fa3d84202c",
     "sourceSlug": "claude-code",
     "externalId": "2.1.304",
