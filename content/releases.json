@@ -1,5 +1,35 @@
 [
   {
+    "id": "claude-code-8ab67572917965e6",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.306",
+    "version": "2.1.306",
+    "channel": "stable",
+    "publishedAt": "2026-10-21T07:58:21.627Z",
+    "collectedAt": "2026-10-21T07:58:21.627Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.306",
+    "body": "- Fixed `claude -p` inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables\n- Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
+    "sourceLanguage": "en",
+    "contentHash": "e67467dafff2df9aa5a6bcb451bc23c4cf4d9c61acd5b3b6c678a3a66d522687",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-1d4af0a8773ebf5e",
+    "sourceSlug": "gemini-cli",
+    "externalId": "419049529",
+    "version": "v0.67.0-nightly.20261021.gd00859d6b",
+    "channel": "preview",
+    "publishedAt": "2026-10-21T01:33:29.000Z",
+    "collectedAt": "2026-10-21T07:58:22.518Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261021.gd00859d6b",
+    "title": "Release v0.67.0-nightly.20261021.gd00859d6b",
+    "body": "## What's Changed\n* chore: migrate gsutil usage to gcloud storage by @gurusai-voleti in https://github.com/google-gemini/gemini-cli/pull/29839\n* fix(core): preserve user-level ~/.gitconfig in shell and git environments by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29832\n* fix(core): prevent false positive matches in isAuthenticationError by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29835\n* fix(core): support opt-in private network endpoints for MCP OAuth flows by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29844\n* Changelog for v0.65.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29853\n* chore(release): bump version to 0.67.0-nightly.20261020.gb041de017 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29854\n\n## New Contributors\n* @gurusai-voleti made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29839\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.66.0-nightly.20261020.g76e4d7c04...v0.67.0-nightly.20261021.gd00859d6b",
+    "sourceLanguage": "en",
+    "contentHash": "f50f524cb21ae71e9ac0f59bc39e41c1cbc07d7a663535b091dfb330ba99368b",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-9dc244e14fa4def3",
     "sourceSlug": "claude-code",
     "externalId": "2.1.305",
