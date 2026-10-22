@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-7bf4630bf25d5352",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-22T16:28:24.000Z",
+    "collectedAt": "2026-10-22T17:34:57.436Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
+    "title": "Industry comparisons in the Copilot impact dashboard",
+    "body": "The Copilot impact dashboard now includes an “Industry comparison” section. Enterprises, and organizations that aren’t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks… The post Industry comparisons in the Copilot impact dashboard appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "ca9c4ff1bddd044888539c8bc7bf20cd5f3f42d03c9d5533bdd041b9e2511f35",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-38095e2eea3f5f2d",
     "sourceSlug": "claude-code",
     "externalId": "2.1.308",
