@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-767a7f383549ba64-c90ebadb321fb32f",
+    "releaseId": "github-copilot-767a7f383549ba64",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Global default for Copilot features generally available",
+    "what": "官方发布了「Global default for Copilot features generally available」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-10-22T20:44:28.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+    "evidence": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-7bf4630bf25d5352-f7f7cffc5b1541d1",
     "releaseId": "github-copilot-7bf4630bf25d5352",
     "toolSlug": "github-copilot",

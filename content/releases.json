@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-767a7f383549ba64",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-22T20:44:28.000Z",
+    "collectedAt": "2026-10-22T21:53:37.742Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+    "title": "Global default for Copilot features generally available",
+    "body": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling… The post Global default for Copilot features generally available appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "63d37a9b52d21cd956f2161aeb2f6d8cf48f4ad36dc6e1450969c309e103b4c3",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-7bf4630bf25d5352",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
