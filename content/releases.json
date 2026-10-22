@@ -1,5 +1,35 @@
 [
   {
+    "id": "claude-code-38095e2eea3f5f2d",
+    "sourceSlug": "claude-code",
+    "externalId": "2.1.308",
+    "version": "2.1.308",
+    "channel": "stable",
+    "publishedAt": "2026-10-22T05:18:00.743Z",
+    "collectedAt": "2026-10-22T05:18:00.743Z",
+    "sourceUrl": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "title": "2.1.308",
+    "body": "- Bug fixes and reliability improvements",
+    "sourceLanguage": "en",
+    "contentHash": "a791e721a5bfdf86d2b4e2d464d7f73349d4f6ef1bc3423d136b49586b79e17f",
+    "sourceTopics": []
+  },
+  {
+    "id": "gemini-cli-c1ea6506a199a8cf",
+    "sourceSlug": "gemini-cli",
+    "externalId": "420213775",
+    "version": "v0.67.0-nightly.20261022.g09d81bf11",
+    "channel": "preview",
+    "publishedAt": "2026-10-22T01:23:52.000Z",
+    "collectedAt": "2026-10-22T05:18:01.747Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261022.g09d81bf11",
+    "title": "Release v0.67.0-nightly.20261022.g09d81bf11",
+    "body": "## What's Changed\n* Changelog for v0.66.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29852\n* feat(cli): bridge the IDE companion into container sandboxes over exec stdio by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29858\n* fix(core): prevent duplicate agent loading when workspace is home directory (#27692) by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29847\n* fix(ide): exclude IDE settings and GEMINI.md files from open file con text by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29848\n* fix(core): scope untrusted flag checks to external output and remember approved flags by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29833\n* fix(a2a-server): mount express.json() before A2A SDK route registration by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29850\n* fix(core): adhere to RFC 9110 token rules when splitting custom headers by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29865\n* fix(core): respect read-only files and hard links in atomic writeTextFile by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29749\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261021.gd00859d6b...v0.67.0-nightly.20261022.g09d81bf11",
+    "sourceLanguage": "en",
+    "contentHash": "060f53b2bcae675ba286f44ddaae0878af62451866ca69a0588411ab4afca0c3",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-c8af8c944bc9e30f",
     "sourceSlug": "claude-code",
     "externalId": "2.1.307",
