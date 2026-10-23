@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-2516b10037526633-25ff5fe9660e57b1",
+    "releaseId": "gemini-cli-2516b10037526633",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.67.0-nightly.20261023.ga713410ab",
+    "what": "官方发布了「Release v0.67.0-nightly.20261023.ga713410ab」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.67.0-nightly.20261023.ga713410ab",
+    "publishedAt": "2026-10-23T01:35:10.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261023.ga713410ab",
+    "evidence": "## What's Changed\n* fix(a2a-server,core): preserve extended token usage metadata and align per-turn reporting by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29834\n* fix(core): ensure all model turns with function calls receive thought signatures by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29828\n* fix(cli): handle termination signals and prevent tool execution after cancellation in non-interactive mode by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29849\n* fix(cli): preserve ${VAR} placeholders during deprecated setting",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-ae59980e46c0067d-0400284bad847a64",
     "releaseId": "claude-code-ae59980e46c0067d",
     "toolSlug": "claude-code",

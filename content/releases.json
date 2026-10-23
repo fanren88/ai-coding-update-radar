@@ -1,5 +1,20 @@
 [
   {
+    "id": "gemini-cli-2516b10037526633",
+    "sourceSlug": "gemini-cli",
+    "externalId": "421364633",
+    "version": "v0.67.0-nightly.20261023.ga713410ab",
+    "channel": "preview",
+    "publishedAt": "2026-10-23T01:35:10.000Z",
+    "collectedAt": "2026-10-23T07:54:18.699Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261023.ga713410ab",
+    "title": "Release v0.67.0-nightly.20261023.ga713410ab",
+    "body": "## What's Changed\n* fix(a2a-server,core): preserve extended token usage metadata and align per-turn reporting by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29834\n* fix(core): ensure all model turns with function calls receive thought signatures by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29828\n* fix(cli): handle termination signals and prevent tool execution after cancellation in non-interactive mode by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29849\n* fix(cli): preserve ${VAR} placeholders during deprecated settings migration by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29867\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261022.g09d81bf11...v0.67.0-nightly.20261023.ga713410ab",
+    "sourceLanguage": "en",
+    "contentHash": "a0349e1bf26b8769ad798e148ea7a09e52bf1ec6045e482473ffa23a7162dd53",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-ae59980e46c0067d",
     "sourceSlug": "claude-code",
     "externalId": "2.1.309",

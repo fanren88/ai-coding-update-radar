@@ -2,10 +2,10 @@
   {
     "slug": "codex",
     "status": "healthy",
-    "lastSuccessAt": "2026-10-22T21:53:36.924Z",
+    "lastSuccessAt": "2026-10-23T07:54:17.619Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"3165e876f479beddea54737e98d70c57\"",
-    "lastContentHash": "6af203d6f41c36e776e6ca45c9995b1a7f271a6c182bfacbc0ba1227662bcaab",
+    "etag": "W/\"3b662b9a22146feb84cf8204af6a7e11\"",
+    "lastContentHash": "4e2d614ec3abea5649bb255c8f2cb5ff10089e4731d74898f3d9d9feb3331445",
     "lastError": null
   },
   {
@@ -38,10 +38,10 @@
   {
     "slug": "gemini-cli",
     "status": "healthy",
-    "lastSuccessAt": "2026-10-22T05:18:01.747Z",
+    "lastSuccessAt": "2026-10-23T07:54:18.699Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"06672cf7ddb34420aae09866bab54cf49882a9eaa256b769c945f83da4b25da5\"",
-    "lastContentHash": "7c57ab0bff872d56003cc88c1d6a6f228c46bba002a2ee5f7102910f62d4630d",
+    "etag": "W/\"fc122e9d2d9101f0ffe7665923f41fdb0901e2f2864cbb161945481a9df16d1e\"",
+    "lastContentHash": "170bfd27d265344d154d4da48a8ea97af954f0734cafe1bfab05dfc9e1411266",
     "lastError": null
   },
   {
