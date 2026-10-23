@@ -1,12 +1,12 @@
 [
   {
     "slug": "codex",
-    "status": "healthy",
+    "status": "degraded",
     "lastSuccessAt": "2026-10-23T07:54:17.619Z",
-    "consecutiveErrors": 0,
+    "consecutiveErrors": 1,
     "etag": "W/\"3b662b9a22146feb84cf8204af6a7e11\"",
     "lastContentHash": "4e2d614ec3abea5649bb255c8f2cb5ff10089e4731d74898f3d9d9feb3331445",
-    "lastError": null
+    "lastError": "body_too_large"
   },
   {
     "slug": "claude-code",
@@ -29,10 +29,10 @@
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-10-23T00:54:00.572Z",
+    "lastSuccessAt": "2026-10-23T23:26:39.632Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"1f7f80af608265ad02d9950118a092f0\"",
-    "lastContentHash": "b973112ef74b5cbf339a1eb7f43b7f22fb3e85b3d8471edd85bd578df79ed20b",
+    "etag": "W/\"784685ca2f10887c508eb17049ddc277\"",
+    "lastContentHash": "e6d187d2b2a0552799241bcb31da9057a58e9ab46f2d96dcdf8ecb66fd4b229a",
     "lastError": null
   },
   {
