@@ -3,7 +3,7 @@
     "slug": "codex",
     "status": "degraded",
     "lastSuccessAt": "2026-10-24T04:58:18.114Z",
-    "consecutiveErrors": 11,
+    "consecutiveErrors": 12,
     "etag": "W/\"ff3f1bd163de5f8081a1ac951f3c3fc8\"",
     "lastContentHash": "1b337aa7c9b6df83718542da4f6743bdb94b30551a2771a80ee1830c0f4a5de2",
     "lastError": "body_too_large"
@@ -20,19 +20,19 @@
   {
     "slug": "cursor",
     "status": "healthy",
-    "lastSuccessAt": "2026-10-16T21:38:33.340Z",
+    "lastSuccessAt": "2026-10-26T21:10:14.328Z",
     "consecutiveErrors": 0,
     "etag": null,
-    "lastContentHash": "13828c56a46d4f2429c0a837372c353e6deedd58d4e550c434bccfa005c5beef",
+    "lastContentHash": "61da6e6d25ae8e69070fab6df64edcf68e9b34daba482a87a6eac26270f28665",
     "lastError": null
   },
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-10-24T04:58:19.106Z",
+    "lastSuccessAt": "2026-10-26T21:10:14.472Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"3f2325d1909bc87f1a30093da989b9e1\"",
-    "lastContentHash": "bffd81fe8718a109241607103a89668111f5abdff5be60f4fcacc40fb752262f",
+    "etag": "W/\"f8cc270ba8775ee467973acbf5225494\"",
+    "lastContentHash": "a663e1c95ec993c85b9f632a91db0031ff4f9d02a0a20f5d843c53c7e0ab5b18",
     "lastError": null
   },
   {

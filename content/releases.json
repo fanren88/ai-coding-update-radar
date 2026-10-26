@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-256c7b6c72dd5aaa",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+    "version": "6.1",
+    "channel": "stable",
+    "publishedAt": "2026-10-26T19:15:53.000Z",
+    "collectedAt": "2026-10-26T21:10:14.472Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+    "title": "GPT-6.1 Terra in GitHub Copilot",
+    "body": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In… The post GPT-6.1 Terra in GitHub Copilot appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "c99d89cbfb1e887dbf1f12ba106f19cda186d860445335c6250bd03d1d1b6c66",
+    "sourceTopics": []
+  },
+  {
     "id": "workbuddy-4e7a0def89fc177c",
     "sourceSlug": "workbuddy",
     "externalId": "2026-10-26:5.9.2",
@@ -374,6 +389,21 @@
     "body": "- 新增独立文件浏览器 HTML 在新窗口打开\n\n- 新增模型选择器配置自定义模型入口\n\n- 新增购买成功后 Buddy One 绑定引导\n\n- 新增海外版消息中心及运营位\n\n- 优化技能分享落地页与弹窗体验\n\n- 优化浏览器操作工具标题展示\n\n- 优化连接器失败与模型繁忙时的提示\n\n- 优化 Buddy 应用窗场景模板，避免覆盖已输入内容\n\n- 优化 AI native 助理右侧栏加载速度\n\n- 修复独立文件浏览器中特殊字符路径和 Office 宏格式文件无法打开的问题\n\n- 修复连接器 Token 失效无修复入口、无效 Key 误提示已连接、授权拒绝后加载卡住的问题\n\n- 修复频道 IM 删除消息卡片一直显示「同步中」、输入框右键无粘贴菜单的问题\n\n- 修复资料库按文档类型筛选不显示 docx、频道资料库导出白屏的问题\n\n- 修复专家搜索优先级错误、专家团任务中断及成员丢失的问题\n\n- 修复助理、对话、定时任务、待办、日历等模块的若干问题",
     "sourceLanguage": "zh",
     "contentHash": "58f58c3d8d364b67813eb25225aef81b56a566b4371b7b538bbf321dad55b134",
+    "sourceTopics": []
+  },
+  {
+    "id": "cursor-efdccadfbb6ce2a5",
+    "sourceSlug": "cursor",
+    "externalId": "/changelog/agent-sdk",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "collectedAt": "2026-10-26T21:10:14.328Z",
+    "sourceUrl": "https://cursor.com/changelog/agent-sdk",
+    "title": "Agent SDK",
+    "body": "The Agent SDK is available today. It allows you to define an agent as a folder of code, test it with evals, and deploy it to Cursor or your own infrastructure. Run npx @cursor/agent-sdk init ./my-bot, then agent-sdk dev to start the bot locally with a playground. Pass --template to start from a security reviewer, an owners-policy approver, a PR autofixer, or a Linear or Jira triager. #Deploy agents wherever you need them When you're ready to put an agent into use, you can deploy it to Cursor by running agent-sdk deploy from the project directory. The command builds the agent, gives it a URL, and starts it on our infrastructure. You can manage secrets and integrations from the dashboard, while continuing to use the same logs, evals, and playground available locally. #Agents as code An agent is a project. instructions.md is the prompt. Each file in tools/ is one typed action the model can call. skills/ holds procedures the model loads on demand, mcp-connections/ adds tools from MCP servers, and channels/ defines where the bot receives and answers messages. agent-sdk validate checks the project and agent-sdk info prints what was discovered. #Channels Agents wake on pull request, comment, and CI events from GitHub, GitLab, and Bitbucket; on mentions and DMs in Slack; on webhooks from any provider; and on a cron schedule. GitHub events pull through your Cursor account, so no public webhook URL is required. Slack is well-supported out of the box. Each conversation keeps its own session and a complete record of every message and tool call. Follow-ups on a pull request or Slack thread resume the same session. #Evals An eval sends a fixed message to the bot and asserts on what it did: which tools ran, with what input, and the shape of the reply. Run agent-sdk eval locally or in CI. agent-sdk github replay <pr-url> turns a real pull request into signed webhook payloads and sends them to the bot, so GitHub-driven bots can be tested without waiting for a push. Add --dry-run --fixtures-dir fixtures/ to save the payloads as eval fixtures. #Get started The Agent SDK is generally available today. Read the docs and get started.",
+    "sourceLanguage": "en",
+    "contentHash": "e3be012630d2d8265b69743a1ae052e80b5ea73a1090933d0c96ba479a7766f2",
     "sourceTopics": []
   },
   {
