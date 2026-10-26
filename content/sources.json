@@ -3,7 +3,7 @@
     "slug": "codex",
     "status": "degraded",
     "lastSuccessAt": "2026-10-24T04:58:18.114Z",
-    "consecutiveErrors": 10,
+    "consecutiveErrors": 11,
     "etag": "W/\"ff3f1bd163de5f8081a1ac951f3c3fc8\"",
     "lastContentHash": "1b337aa7c9b6df83718542da4f6743bdb94b30551a2771a80ee1830c0f4a5de2",
     "lastError": "body_too_large"
@@ -47,10 +47,10 @@
   {
     "slug": "workbuddy",
     "status": "healthy",
-    "lastSuccessAt": "2026-10-26T08:04:39.234Z",
+    "lastSuccessAt": "2026-10-26T15:26:15.449Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"6adefe78-2e45a\"",
-    "lastContentHash": "ef9cb7978d1ff9e5b2b3c65e833ad65c9ae6c1aab7be557b8447aad898e6685d",
+    "etag": "W/\"6adf5e5d-2e30a\"",
+    "lastContentHash": "cbb08b995af2b03fb9824bd8806aab5f1856f6081bb27402eda53a8b539a14bd",
     "lastError": null
   }
 ]
