@@ -30,6 +30,21 @@
     "sourceTopics": []
   },
   {
+    "id": "github-copilot-b26f70c790034ce0",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-26T22:31:30.000Z",
+    "collectedAt": "2026-10-27T08:20:55.498Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+    "title": "GitHub Copilot assisted permissions generally available",
+    "body": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,… The post GitHub Copilot assisted permissions generally available appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "f1ef4e40930ca792a19d5851ac743f3258129787c2f7e59e5893147acc903fc9",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-256c7b6c72dd5aaa",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
