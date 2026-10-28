@@ -75,6 +75,21 @@
     "sourceTopics": []
   },
   {
+    "id": "github-copilot-1e84e499960d1fc4",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-28T15:33:00.000Z",
+    "collectedAt": "2026-10-28T22:48:40.478Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
+    "title": "GitHub Copilot in VS Code, Universe releases",
+    "body": "This year, we focused on giving you more choice in how you work with GitHub Copilot in Visual Studio Code: which models you use, where your agents run, and how… The post GitHub Copilot in VS Code, Universe releases appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "96e25530736acc321c7b698a1bb7bd5759ac115737fed1c2a3416beeb804de4e",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-535be6664def3f05",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",

@@ -105,6 +105,27 @@
     "sourceTopics": []
   },
   {
+    "id": "github-copilot-1e84e499960d1fc4-48f3c5a8de08e60a",
+    "releaseId": "github-copilot-1e84e499960d1fc4",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "GitHub Copilot in VS Code, Universe releases",
+    "what": "官方发布了「GitHub Copilot in VS Code, Universe releases」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-10-28T15:33:00.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
+    "evidence": "This year, we focused on giving you more choice in how you work with GitHub Copilot in Visual Studio Code: which models you use, where your agents run, and how… The post GitHub Copilot in VS Code, Universe releases appeared first on The GitHub Blog.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-535be6664def3f05-4fc8a8c41cf337b0",
     "releaseId": "github-copilot-535be6664def3f05",
     "toolSlug": "github-copilot",
