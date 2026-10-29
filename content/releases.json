@@ -90,6 +90,21 @@
     "sourceTopics": []
   },
   {
+    "id": "github-copilot-11dab8e53a50e1d6",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-10-28T15:33:00.000Z",
+    "collectedAt": "2026-10-29T19:49:25.523Z",
+    "sourceUrl": "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
+    "title": "Repository plugin defaults and enterprise plugin controls generally available",
+    "body": "Repository plugin defaults and enterprise-managed plugin controls are now generally available in VS Code, Copilot CLI, and the GitHub Copilot app. Trusted repositories can install and enable default plugins for… The post Repository plugin defaults and enterprise plugin controls generally available appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "f3fc8056a9916b0055ff76eb67866dbac6c52ad7c9d2514c100b7d3abd275754",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-535be6664def3f05",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
