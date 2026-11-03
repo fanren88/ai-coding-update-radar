@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-2b4786f99076579d",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-11-03T15:11:46.000Z",
+    "collectedAt": "2026-11-03T18:00:46.765Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+    "title": "GitHub Copilot is now available in JetBrains Air",
+    "body": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your… The post GitHub Copilot is now available in JetBrains Air appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "2dff542f2852109cd82c82f037422a2e264d06d5cb5b2aad77d68308fd9e5b1c",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-dca20ac58e8487db",
     "sourceSlug": "claude-code",
     "externalId": "2.1.317",

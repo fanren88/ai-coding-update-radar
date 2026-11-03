@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-2b4786f99076579d-f173f81bb4d637b3",
+    "releaseId": "github-copilot-2b4786f99076579d",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "GitHub Copilot is now available in JetBrains Air",
+    "what": "官方发布了「GitHub Copilot is now available in JetBrains Air」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-11-03T15:11:46.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+    "evidence": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-dca20ac58e8487db-a2094092ebeeed58",
     "releaseId": "claude-code-dca20ac58e8487db",
     "toolSlug": "claude-code",
