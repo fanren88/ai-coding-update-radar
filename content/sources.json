@@ -3,7 +3,7 @@
     "slug": "codex",
     "status": "degraded",
     "lastSuccessAt": "2026-10-24T04:58:18.114Z",
-    "consecutiveErrors": 50,
+    "consecutiveErrors": 51,
     "etag": "W/\"ff3f1bd163de5f8081a1ac951f3c3fc8\"",
     "lastContentHash": "1b337aa7c9b6df83718542da4f6743bdb94b30551a2771a80ee1830c0f4a5de2",
     "lastError": "body_too_large"
@@ -11,19 +11,19 @@
   {
     "slug": "claude-code",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-04T06:56:48.862Z",
+    "lastSuccessAt": "2026-11-06T19:40:15.340Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"dcd05f3f10a92fcf385b6a95963981b5ff32161f998195492f907f044fc6fe3f\"",
-    "lastContentHash": "629a3b382b70181c927c276b248e4b0affa3a04c5c1581f79df5c49809fa2034",
+    "etag": "W/\"4ed6e5544f7227668f7a3f9473ef1b3a41ae6839f578ec4a6f89191efb880385\"",
+    "lastContentHash": "b19b53831784f6cbd54354a0f5e9ff4c92b3df45c0e5304fac1fd03ee277fb82",
     "lastError": null
   },
   {
     "slug": "cursor",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-05T21:12:37.484Z",
+    "lastSuccessAt": "2026-11-06T19:40:15.621Z",
     "consecutiveErrors": 0,
     "etag": null,
-    "lastContentHash": "63098fa75458e760c215936475b935993e31dc076b8a59ee2fcd352d729cf443",
+    "lastContentHash": "ba0fd2fa4c41cb72814d29d1f3ac49e7ad6db73c5e24dfef8ef4a2e83a627364",
     "lastError": null
   },
   {
