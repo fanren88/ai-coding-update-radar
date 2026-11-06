@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-525555dfe497cbaa",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-11-06T00:19:07.000Z",
+    "collectedAt": "2026-11-06T02:47:32.156Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+    "title": "Usage metrics API adds code review details and addressed rate",
+    "body": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed… The post Usage metrics API adds code review details and addressed rate appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "bcfe695bed0f7c4b11f79716ea3f9c31e68d38fff963cb06f7d2b846c8357d66",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-0778fb85d9153ba6",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-11-06T00:08:31.000Z",
+    "collectedAt": "2026-11-06T02:47:32.156Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+    "title": "Usage metrics API flags telemetry and version gaps",
+    "body": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in… The post Usage metrics API flags telemetry and version gaps appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "d4edba54d809cc7ce6766e8acbeed2f317666537ce0cdf83eb4e176e1e152d46",
+    "sourceTopics": []
+  },
+  {
     "id": "cursor-fff7de245ad9cb50",
     "sourceSlug": "cursor",
     "externalId": "/changelog/build-live-apps",
