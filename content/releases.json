@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-copilot-a5fcc1255202f357",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-11-06T22:17:28.000Z",
+    "collectedAt": "2026-11-07T00:17:34.548Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+    "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+    "body": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption… The post Copilot impact dashboard adds chat and VS Code agent usage appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "454d27c6fcb27d93ea39b0fab93ff6c61437dd0d5602a366d0d7575f53dfebac",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-353c4d26111c8c91",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-11-06T21:00:26.000Z",
+    "collectedAt": "2026-11-07T00:17:34.548Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+    "title": "GitHub Copilot weekly releases — November 2",
+    "body": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge… The post GitHub Copilot weekly releases — November 2 appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "69db766d3db10ea4a8fad5f953d5215fd74c31375479978194626c2a2cdd096e",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-ee5f2185103c7100",
     "sourceSlug": "claude-code",
     "externalId": "2.1.319",
