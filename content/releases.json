@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-cc9249299f5d778e",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-11-07T00:27:19.000Z",
+    "collectedAt": "2026-11-07T06:32:14.619Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+    "title": "Copilot code review: API management and review overview updates",
+    "body": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,… The post Copilot code review: API management and review overview updates appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "ef36f894d9070be5ee0e2fe25e1121469abea21ecdf852a2002b8c31eb359b45",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-a5fcc1255202f357",
     "sourceSlug": "github-copilot",
     "externalId": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",

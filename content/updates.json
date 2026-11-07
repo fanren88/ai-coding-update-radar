@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-cc9249299f5d778e-7bf290ea6c5ab755",
+    "releaseId": "github-copilot-cc9249299f5d778e",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Copilot code review: API management and review overview updates",
+    "what": "官方发布了「Copilot code review: API management and review overview updates」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-11-07T00:27:19.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+    "evidence": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "github-copilot-a5fcc1255202f357-be0fc962b45f198c",
     "releaseId": "github-copilot-a5fcc1255202f357",
     "toolSlug": "github-copilot",
