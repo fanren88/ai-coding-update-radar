@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-ce169ea5d1f169f1",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-11-10T17:04:10.000Z",
+    "collectedAt": "2026-11-10T20:59:24.947Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+    "title": "C++ language server now auto-configures MSBuild builds",
+    "body": "The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a… The post C++ language server now auto-configures MSBuild builds appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "dffe1783ed312908a9db459d917c13f5756de1757fdc267bcc6a213c4940e8f5",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-1fce5e0c79afba84",
     "sourceSlug": "claude-code",
     "externalId": "2.1.322",
@@ -12,6 +27,21 @@
     "body": "- Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
     "sourceLanguage": "en",
     "contentHash": "1f3ec5e5d0d03828105636392a5822037f2ce77ad82dbd63b29aadf0bd37ff20",
+    "sourceTopics": []
+  },
+  {
+    "id": "github-copilot-e09c77a9ac2bb834",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-11-09-gemini-4-carbon-in-github-copilot",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-11-10T02:26:51.000Z",
+    "collectedAt": "2026-11-10T20:59:24.947Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-09-gemini-4-carbon-in-github-copilot",
+    "title": "Gemini 4 Carbon in GitHub Copilot",
+    "body": "Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation… The post Gemini 4 Carbon in GitHub Copilot appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "d8a1cd542ab9446bb2ff37fa6312cabc3e1aa65b7b41ef963c3c233ec0ec81cb",
     "sourceTopics": []
   },
   {
