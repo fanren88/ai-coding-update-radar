@@ -3,7 +3,7 @@
     "slug": "codex",
     "status": "degraded",
     "lastSuccessAt": "2026-10-24T04:58:18.114Z",
-    "consecutiveErrors": 73,
+    "consecutiveErrors": 74,
     "etag": "W/\"ff3f1bd163de5f8081a1ac951f3c3fc8\"",
     "lastContentHash": "1b337aa7c9b6df83718542da4f6743bdb94b30551a2771a80ee1830c0f4a5de2",
     "lastError": "body_too_large"
@@ -29,10 +29,10 @@
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-12T23:51:39.838Z",
+    "lastSuccessAt": "2026-11-13T16:42:56.498Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"24c006d62511b92b4de66f851e1e19c0\"",
-    "lastContentHash": "8823418d3d29160a055f0002cf23a1f2d31a5a67ed00508d2f13f696e44c9f9a",
+    "etag": "W/\"ab53435c95acf734646ea417ebc7b2e0\"",
+    "lastContentHash": "8352cdc6ade13cbb258071d15a98056d834631223e6d6f3dbd74cf261e6efed1",
     "lastError": null
   },
   {
