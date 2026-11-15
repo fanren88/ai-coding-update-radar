@@ -1,5 +1,20 @@
 [
   {
+    "id": "workbuddy-72954bde7459fdb1",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-11-15:5.11.3",
+    "version": "5.11.3",
+    "channel": "stable",
+    "publishedAt": "2026-11-15T00:00:00.000Z",
+    "collectedAt": "2026-11-15T17:22:55.695Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-11-3-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-11-15",
+    "title": "WorkBuddy 5.11.3",
+    "body": "- 新增会话流快速问答入口，可在对话中快速发起推荐问答或切回 Agent 模式\n\n- 修复定时任务云端任务混入「这台电脑」本地列表的问题\n\n- 修复任务运行会话顶栏编辑时，分组下拉缺少新建分组与选择本地文件夹选项的问题\n\n- 修复置顶任务通过右键菜单移入分组时与拖拽行为不一致，取消置顶后未直接落到目标分组的问题\n\n- 偶现修复拖拽任务时侧栏出现空白置顶区的问题\n\n- 修复定时任务侧栏入口与聚合页未读红点点击后未及时消失的问题\n\n- 修复本地历史会话在特定情况下从侧栏任务列表中丢失的问题\n\n- 修复设置独立窗口在浅色模式下错误显示为深色的问题，以及无外观权限账号被云端外观配置强制切换至深色的问题\n\n- 修复运行期间切换至新上架皮肤后主窗口回退为浅色的问题\n\n- 修复企业版账号未折叠限频付费线路的问题\n\n- 修复 CE 会话缺少项目资源注册导致项目相关 MCP 工具和技能目录不可用的问题\n\n- 修复 Buddy 应用请求未走正确域名端点的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "e40ac024c261d88c7d07397458c807e8d8d24ef8fada5c1c8a6e4b8112fad83c",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-b7d63e8799e5b165",
     "sourceSlug": "claude-code",
     "externalId": "2.1.325",
@@ -177,6 +192,21 @@
     "body": "Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation… The post Gemini 4 Carbon in GitHub Copilot appeared first on The GitHub Blog.",
     "sourceLanguage": "en",
     "contentHash": "d8a1cd542ab9446bb2ff37fa6312cabc3e1aa65b7b41ef963c3c233ec0ec81cb",
+    "sourceTopics": []
+  },
+  {
+    "id": "workbuddy-0bf46a09d4af7a23",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-11-10:5.11.2",
+    "version": "5.11.2",
+    "channel": "stable",
+    "publishedAt": "2026-11-10T00:00:00.000Z",
+    "collectedAt": "2026-11-15T17:22:55.695Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-11-2-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-11-10",
+    "title": "WorkBuddy 5.11.2",
+    "body": "- 新增侧栏「置顶 / 最近 / 分组」独立分区展示，支持按类型筛选\n\n- 新增任务置顶交互优化，支持置顶任务管理与排序\n\n- 新增新建会话时打开本地文件夹入口，会话归属更灵活\n\n- 新增桌面端与移动端侧栏数据实时同步（置顶、最近及分组）\n\n- 新增 Extension Service 支持声明继承 WorkBuddy 代理\n\n- 优化任务执行时即时展示上一轮产物卡片\n\n- 优化侧栏分组展开/收起动画，消除重启首屏闪烁\n\n- 优化分组内会话按更新时间排序，涵盖云端项目/助理/机器人\n\n- 优化轮次结束后及时释放沙箱，降低峰值占用\n\n- 优化连接器只读连接不再抢先取消授权\n\n- 优化云端图片识别\n\n- 优化定时任务卡片去重\n\n- 优化技能资源文件变更走独立窗口处理\n\n- 优化沙箱 Office 预览空闲时停止保活轮询\n\n- 修复侧栏闪烁及未读点显示异常的问题\n\n- 修复产物卡片偶现消失的问题\n\n- 修复云端任务被误判为失败的问题\n\n- 修复部分场景下沙箱未释放的问题\n\n- 修复思考设置不生效的问题\n\n- 修复技能分享失败的问题\n\n- 修复套件删除弹窗无法正常关闭的问题",
+    "sourceLanguage": "zh",
+    "contentHash": "2c73073e795b07867ebc92c30dae7594903c333022c9c5bcfaaf3e1869526a78",
     "sourceTopics": []
   },
   {
@@ -477,6 +507,21 @@
     "body": "- 首页全新改版，下线办公/开发/设计入口，统一任务栏、菜单与顶栏\n\n- 定时任务全面升级，支持立即运行、编辑、重命名、删除与启动/暂停\n\n- 独立文件浏览器支持标签页拖出独立窗口、右侧栏预览\n\n- 频道 IM 新增组件化消息卡片与自定义表情包，消息可跨端同步，频道与专家支持一键分享\n\n- 创意设计接入图片编辑，图片视频产物统一在画布打开并默认入库\n\n- 优化上传、浏览器操作与对话推荐等体验，并修复云电脑、频道、资料库等若干问题",
     "sourceLanguage": "zh",
     "contentHash": "b26490f0f970ca17304911c65daed55d16c7d9a43cd6af20be719da70a4efccc",
+    "sourceTopics": []
+  },
+  {
+    "id": "workbuddy-f61017961f77caad",
+    "sourceSlug": "workbuddy",
+    "externalId": "2026-11-03:5.11.1",
+    "version": "5.11.1",
+    "channel": "stable",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "collectedAt": "2026-11-15T17:22:55.695Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-11-1-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-11-03",
+    "title": "WorkBuddy 5.11.1",
+    "body": "- 优化云端任务离屏恢复能力\n\n- 优化输入框工具栏稳定性\n\n- 优化云电脑连接器体验\n\n- 优化企业微信授权流程\n\n- 优化定时任务表现\n\n- 优化安装速度\n\n- 修复内容丢失问题\n\n- 修复会话卡死问题\n\n- 修复页面崩溃问题\n\n- 修复产物预览异常\n\n- 修复技能分享问题\n\n- 修复海外版显示问题",
+    "sourceLanguage": "zh",
+    "contentHash": "fe1159768cb05440537324ee6907ad8f3d6556d47e20cc7391a19a70f56449fc",
     "sourceTopics": []
   },
   {
