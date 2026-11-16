@@ -1,17 +1,32 @@
 [
   {
+    "id": "github-copilot-7fb1e28de2e6ac9d",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-11-16T14:30:07.000Z",
+    "collectedAt": "2026-11-16T18:52:27.877Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
+    "title": "Take GitHub Mobile with you on iPhone Duo",
+    "body": "GitHub Mobile now supports iPhone Duo, with a layout that adapts when unfolded and vertical tabs to help you move between key areas like Copilot, Pull Requests, Issues, and Notifications.… The post Take GitHub Mobile with you on iPhone Duo appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "6ea3dadae04c724b6c71d0a634b2635eb29ee4c2c9f0a0b8ea439a94c07208fa",
+    "sourceTopics": []
+  },
+  {
     "id": "workbuddy-72954bde7459fdb1",
     "sourceSlug": "workbuddy",
     "externalId": "2026-11-15:5.11.3",
     "version": "5.11.3",
     "channel": "stable",
     "publishedAt": "2026-11-15T00:00:00.000Z",
-    "collectedAt": "2026-11-15T17:22:55.695Z",
+    "collectedAt": "2026-11-16T18:52:30.022Z",
     "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-11-3-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-11-15",
     "title": "WorkBuddy 5.11.3",
-    "body": "- 新增会话流快速问答入口，可在对话中快速发起推荐问答或切回 Agent 模式\n\n- 修复定时任务云端任务混入「这台电脑」本地列表的问题\n\n- 修复任务运行会话顶栏编辑时，分组下拉缺少新建分组与选择本地文件夹选项的问题\n\n- 修复置顶任务通过右键菜单移入分组时与拖拽行为不一致，取消置顶后未直接落到目标分组的问题\n\n- 偶现修复拖拽任务时侧栏出现空白置顶区的问题\n\n- 修复定时任务侧栏入口与聚合页未读红点点击后未及时消失的问题\n\n- 修复本地历史会话在特定情况下从侧栏任务列表中丢失的问题\n\n- 修复设置独立窗口在浅色模式下错误显示为深色的问题，以及无外观权限账号被云端外观配置强制切换至深色的问题\n\n- 修复运行期间切换至新上架皮肤后主窗口回退为浅色的问题\n\n- 修复企业版账号未折叠限频付费线路的问题\n\n- 修复 CE 会话缺少项目资源注册导致项目相关 MCP 工具和技能目录不可用的问题\n\n- 修复 Buddy 应用请求未走正确域名端点的问题",
+    "body": "- 修复任务运行会话顶栏编辑时，分组下拉缺少新建分组与选择本地文件夹选项的问题\n\n- 修复置顶任务通过右键菜单移入分组时与拖拽行为不一致，取消置顶后未直接落到目标分组的问题\n\n- 修复拖拽任务时侧栏偶现空白置顶区的问题\n\n- 修复定时任务侧栏入口与聚合页未读红点点击后未及时消失的问题\n\n- 修复本地历史会话在特定情况下从侧栏任务列表中丢失的问题\n\n- 修复设置独立窗口在浅色模式下错误显示为深色的问题，以及无外观权限账号被云端外观配置强制切换至深色的问题\n\n- 修复运行期间切换至新上架皮肤后主窗口回退为浅色的问题\n\n- 修复 CE 会话缺少项目资源注册导致项目相关 MCP 工具和技能目录不可用的问题\n\n- 修复 Buddy 应用请求未走正确域名端点的问题",
     "sourceLanguage": "zh",
-    "contentHash": "e40ac024c261d88c7d07397458c807e8d8d24ef8fada5c1c8a6e4b8112fad83c",
+    "contentHash": "5dc77c57b85b690d40d8d562ab1957e7d65905e94848860a3f6e07e86f013272",
     "sourceTopics": []
   },
   {

@@ -3,7 +3,7 @@
     "slug": "codex",
     "status": "degraded",
     "lastSuccessAt": "2026-10-24T04:58:18.114Z",
-    "consecutiveErrors": 83,
+    "consecutiveErrors": 84,
     "etag": "W/\"ff3f1bd163de5f8081a1ac951f3c3fc8\"",
     "lastContentHash": "1b337aa7c9b6df83718542da4f6743bdb94b30551a2771a80ee1830c0f4a5de2",
     "lastError": "body_too_large"
@@ -29,10 +29,10 @@
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-13T23:50:23.206Z",
+    "lastSuccessAt": "2026-11-16T18:52:27.877Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"e4ba3f1e905c25a576ac192ccb8c33d5\"",
-    "lastContentHash": "65d6b5a3765fa22d1a6ad56b45a87adbe2ca55519422d2a88b1683c8610ec237",
+    "etag": "W/\"80d40e96fe8714b39558cc9e60c4273c\"",
+    "lastContentHash": "262072c13745e20d0223f3546125bfdc3f096646081b7c3cf2d0befce6921ce3",
     "lastError": null
   },
   {
@@ -47,10 +47,10 @@
   {
     "slug": "workbuddy",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-15T17:22:55.695Z",
+    "lastSuccessAt": "2026-11-16T18:52:30.022Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"6af98218-2f64f\"",
-    "lastContentHash": "8f3deb916cc35fd6afabb359b549b02753a3df939107c44f1df55792401c8ce6",
+    "etag": "W/\"6afade7b-2f549\"",
+    "lastContentHash": "5da7a136211113811759375df6027d8ddef95975b5dcae685bccc27fbef79769",
     "lastError": null
   }
 ]
