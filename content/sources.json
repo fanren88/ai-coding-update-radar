@@ -3,7 +3,7 @@
     "slug": "codex",
     "status": "degraded",
     "lastSuccessAt": "2026-10-24T04:58:18.114Z",
-    "consecutiveErrors": 84,
+    "consecutiveErrors": 85,
     "etag": "W/\"ff3f1bd163de5f8081a1ac951f3c3fc8\"",
     "lastContentHash": "1b337aa7c9b6df83718542da4f6743bdb94b30551a2771a80ee1830c0f4a5de2",
     "lastError": "body_too_large"
@@ -11,10 +11,10 @@
   {
     "slug": "claude-code",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-13T23:50:22.511Z",
+    "lastSuccessAt": "2026-11-17T03:07:18.555Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"c85713b45ef0ada82183e3daafafb15508401db78dabd5eceb2021ac269dca79\"",
-    "lastContentHash": "aaf9776ff453672ca7866cd23317a352fbaa62bb8c4f5bf89de1c1621ec705ca",
+    "etag": "W/\"fe57d14b88452f1b36f16a4db531ec2d5f3c2234e2a7397c750513b05ebb18dd\"",
+    "lastContentHash": "346c9503784112055a85df179517231cf635262b7b5a41227a2504ae4c492c68",
     "lastError": null
   },
   {
@@ -29,10 +29,10 @@
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-16T18:52:27.877Z",
+    "lastSuccessAt": "2026-11-17T03:07:18.969Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"80d40e96fe8714b39558cc9e60c4273c\"",
-    "lastContentHash": "262072c13745e20d0223f3546125bfdc3f096646081b7c3cf2d0befce6921ce3",
+    "etag": "W/\"05334df6caa2a7cca8904892580cacfe\"",
+    "lastContentHash": "9d1939d188667d727b2b802eb06e0bbf52e21202c2a249c9dd44b8869a2931d2",
     "lastError": null
   },
   {
