@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-6e93a4cc09914f56-5467cd0624322c0f",
+    "releaseId": "github-copilot-6e93a4cc09914f56",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Customize GitHub Copilot for your team",
+    "what": "官方发布了「Customize GitHub Copilot for your team」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-11-18T16:00:13.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+    "evidence": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-eaf06b22a6f4b0cb-431921526ad154f3",
     "releaseId": "claude-code-eaf06b22a6f4b0cb",
     "toolSlug": "claude-code",
