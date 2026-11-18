@@ -3,7 +3,7 @@
     "slug": "codex",
     "status": "degraded",
     "lastSuccessAt": "2026-10-24T04:58:18.114Z",
-    "consecutiveErrors": 87,
+    "consecutiveErrors": 88,
     "etag": "W/\"ff3f1bd163de5f8081a1ac951f3c3fc8\"",
     "lastContentHash": "1b337aa7c9b6df83718542da4f6743bdb94b30551a2771a80ee1830c0f4a5de2",
     "lastError": "body_too_large"
@@ -11,10 +11,10 @@
   {
     "slug": "claude-code",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-17T03:07:18.555Z",
+    "lastSuccessAt": "2026-11-18T03:51:39.520Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"fe57d14b88452f1b36f16a4db531ec2d5f3c2234e2a7397c750513b05ebb18dd\"",
-    "lastContentHash": "346c9503784112055a85df179517231cf635262b7b5a41227a2504ae4c492c68",
+    "etag": "W/\"384fe02be4d5c1e636375b545da9ddfbcc8ec02b3ba56e553a974e4e949c7c63\"",
+    "lastContentHash": "fbb329ebd01b5b4248f3c4bbfbd232a1b4cbc3b5c9ce3e08688157539e92a30f",
     "lastError": null
   },
   {
