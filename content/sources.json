@@ -3,7 +3,7 @@
     "slug": "codex",
     "status": "degraded",
     "lastSuccessAt": "2026-10-24T04:58:18.114Z",
-    "consecutiveErrors": 90,
+    "consecutiveErrors": 91,
     "etag": "W/\"ff3f1bd163de5f8081a1ac951f3c3fc8\"",
     "lastContentHash": "1b337aa7c9b6df83718542da4f6743bdb94b30551a2771a80ee1830c0f4a5de2",
     "lastError": "body_too_large"
@@ -11,10 +11,10 @@
   {
     "slug": "claude-code",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-18T03:51:39.520Z",
+    "lastSuccessAt": "2026-11-19T03:49:10.544Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"384fe02be4d5c1e636375b545da9ddfbcc8ec02b3ba56e553a974e4e949c7c63\"",
-    "lastContentHash": "fbb329ebd01b5b4248f3c4bbfbd232a1b4cbc3b5c9ce3e08688157539e92a30f",
+    "etag": "W/\"4e62d6eacfed68688c85efd8e2896fa535e1e4b7960cacc5d94c9667c1c71644\"",
+    "lastContentHash": "dd5cb781e5d2ea36bf7951590b64c929efe42690ac43bc1fb1d0e0f3c160fc3a",
     "lastError": null
   },
   {
@@ -29,19 +29,19 @@
   {
     "slug": "github-copilot",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-18T22:17:56.773Z",
+    "lastSuccessAt": "2026-11-19T03:49:11.094Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"c084c51e2d9e81d851dcb3d3b1ee3068\"",
-    "lastContentHash": "aa9a8939554808c626725838bb976e7ad99cc434f52af04ba71ac0b284b7a8b3",
+    "etag": "W/\"1290fdfb2a4e1bfb58610441367005f9\"",
+    "lastContentHash": "8a4bef779bce56e779bb1b5d3318570d848b6845bee101f6607deed5b04cd92b",
     "lastError": null
   },
   {
     "slug": "gemini-cli",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-11T02:12:50.778Z",
+    "lastSuccessAt": "2026-11-19T03:49:11.645Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"4c38fa8774ff23ca24eef64b81601f0d3a496a38e9909207b61c8b0983ccfe61\"",
-    "lastContentHash": "5b870a2fd86f2f06a6259834c777640f1657f975fc505bb65654d28ee69af14f",
+    "etag": "W/\"6caa4566f96fc0ebfb0e72b279a939e4a73b28e41987f4b0a999ddcc2ff8268a\"",
+    "lastContentHash": "429706e9dab07be9f986f2101a8ea222a7543136d17456e3820f853aa85cefef",
     "lastError": null
   },
   {
