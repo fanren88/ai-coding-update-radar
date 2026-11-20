@@ -1,5 +1,26 @@
 [
   {
+    "id": "gemini-cli-93d93c010fefdacd-ddc996ccba35a9d0",
+    "releaseId": "gemini-cli-93d93c010fefdacd",
+    "toolSlug": "gemini-cli",
+    "toolName": "Gemini CLI",
+    "title": "Release v0.71.0-nightly.20261120.gd4cb1713f",
+    "what": "官方发布了「Release v0.71.0-nightly.20261120.gd4cb1713f」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 Gemini CLI 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "preview",
+    "version": "v0.71.0-nightly.20261120.gd4cb1713f",
+    "publishedAt": "2026-11-20T01:12:42.000Z",
+    "sourceUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261120.gd4cb1713f",
+    "evidence": "## What's Changed\n* fix(core,cli): preserve literal `$` characters during template placeholder replacement by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/30136\n* feat(cli): add /stats heatmap subcommand for daily token usage by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/30135\n* fix(core): prevent __GCLI_EXPAND_TARGET__ env collision in expandEnvVars by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/30138\n* chore(release): bump version to 0.69.0-nightly.20261104.g89e9d25d6 by @gemini-cli-robot in https://github.co",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-8dbf662dfeccf942-49887bed762b87a6",
     "releaseId": "claude-code-8dbf662dfeccf942",
     "toolSlug": "claude-code",
