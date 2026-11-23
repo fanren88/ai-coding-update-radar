@@ -3,7 +3,7 @@
     "slug": "codex",
     "status": "degraded",
     "lastSuccessAt": "2026-10-24T04:58:18.114Z",
-    "consecutiveErrors": 103,
+    "consecutiveErrors": 104,
     "etag": "W/\"ff3f1bd163de5f8081a1ac951f3c3fc8\"",
     "lastContentHash": "1b337aa7c9b6df83718542da4f6743bdb94b30551a2771a80ee1830c0f4a5de2",
     "lastError": "body_too_large"
@@ -38,10 +38,10 @@
   {
     "slug": "gemini-cli",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-22T02:37:47.972Z",
+    "lastSuccessAt": "2026-11-23T08:08:16.637Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"806cf548647550be9b367b0826253b9087669f012cade547a3ca3aeffee540ef\"",
-    "lastContentHash": "3ed8211cd910c31db2cdb52da3b30f87645d06c95f65ebb5ee356f8b8c8b36b8",
+    "etag": "W/\"36e612ca87d6cca5dafc51ba59f0da6d02a192b7e27b45c5a8baf379d2981b46\"",
+    "lastContentHash": "ecd5cb0480459e14be53baab19779e57eafe162548f59ce72cc8b635015b864d",
     "lastError": null
   },
   {
