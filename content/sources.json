@@ -3,7 +3,7 @@
     "slug": "codex",
     "status": "degraded",
     "lastSuccessAt": "2026-10-24T04:58:18.114Z",
-    "consecutiveErrors": 105,
+    "consecutiveErrors": 106,
     "etag": "W/\"ff3f1bd163de5f8081a1ac951f3c3fc8\"",
     "lastContentHash": "1b337aa7c9b6df83718542da4f6743bdb94b30551a2771a80ee1830c0f4a5de2",
     "lastError": "body_too_large"
@@ -11,10 +11,10 @@
   {
     "slug": "claude-code",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-21T03:26:00.023Z",
+    "lastSuccessAt": "2026-11-24T04:57:32.135Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"fdffb21a366baa0b3baf2131450fb5a1bc3448ef55fd0d219e510b806d00b20e\"",
-    "lastContentHash": "7abe09ab75d12df35e0cb6c99cc08838bd4e4e9ca53cce811b21b55ec82bc1e0",
+    "etag": "W/\"2d8bc3bf394690d407216ad8d45864ded4c752d891ebe594ef7e7a56dea62e69\"",
+    "lastContentHash": "5c719cfba97f7a5a7229c0bbba46c72a06afbab73fd069bddbe9036fef3f2132",
     "lastError": null
   },
   {
@@ -30,7 +30,7 @@
     "slug": "github-copilot",
     "status": "degraded",
     "lastSuccessAt": "2026-11-21T03:26:00.613Z",
-    "consecutiveErrors": 1,
+    "consecutiveErrors": 2,
     "etag": "W/\"0cdab7e762e15d7ed49a7cd1186a617d\"",
     "lastContentHash": "142d0653d5525a41d2be913602dce985544889a7597fe2e8d1057d811353dd5a",
     "lastError": "parser_returned_no_releases"
@@ -38,10 +38,10 @@
   {
     "slug": "gemini-cli",
     "status": "healthy",
-    "lastSuccessAt": "2026-11-23T08:08:16.637Z",
+    "lastSuccessAt": "2026-11-24T04:57:33.141Z",
     "consecutiveErrors": 0,
-    "etag": "W/\"36e612ca87d6cca5dafc51ba59f0da6d02a192b7e27b45c5a8baf379d2981b46\"",
-    "lastContentHash": "ecd5cb0480459e14be53baab19779e57eafe162548f59ce72cc8b635015b864d",
+    "etag": "W/\"010ab9fe4b141016314f41403ebac8545ef25545abd014cf80392ba71b2004c3\"",
+    "lastContentHash": "6c4cdf42dde137bc931133efd6cfe476df18a84d5b81a71d4ca7b3998a0dc2f7",
     "lastError": null
   },
   {
