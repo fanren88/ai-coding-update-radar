@@ -1,5 +1,26 @@
 [
   {
+    "id": "github-copilot-69c0601d70f93f1e-c7f142f1972047e2",
+    "releaseId": "github-copilot-69c0601d70f93f1e",
+    "toolSlug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "title": "Copilot code review billing will default to the organization",
+    "what": "官方发布了「Copilot code review billing will default to the organization」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 GitHub Copilot 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "unknown",
+    "version": null,
+    "publishedAt": "2026-11-25T22:18:03.000Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+    "evidence": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026.",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-f0443805839ed550-dfc7f9ddb3ec3031",
     "releaseId": "claude-code-f0443805839ed550",
     "toolSlug": "claude-code",

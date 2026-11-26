@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-copilot-69c0601d70f93f1e",
+    "sourceSlug": "github-copilot",
+    "externalId": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+    "version": null,
+    "channel": "unknown",
+    "publishedAt": "2026-11-25T22:18:03.000Z",
+    "collectedAt": "2026-11-26T00:38:45.343Z",
+    "sourceUrl": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+    "title": "Copilot code review billing will default to the organization",
+    "body": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep… The post Copilot code review billing will default to the organization appeared first on The GitHub Blog.",
+    "sourceLanguage": "en",
+    "contentHash": "9c35f781f211aeebde4922a8af9f3d5465d8b61293e43c7218b1e182169f7c16",
+    "sourceTopics": []
+  },
+  {
     "id": "claude-code-f0443805839ed550",
     "sourceSlug": "claude-code",
     "externalId": "2.1.332",
