@@ -168,6 +168,27 @@
     "sourceTopics": []
   },
   {
+    "id": "workbuddy-e43b7a04c3e5c3d3-ac2d4647a66f4ec6",
+    "releaseId": "workbuddy-e43b7a04c3e5c3d3",
+    "toolSlug": "workbuddy",
+    "toolName": "WorkBuddy",
+    "title": "WorkBuddy 5.12.0",
+    "what": "官方发布了「WorkBuddy 5.12.0」。当前条目直接来自官方更新日志，尚未进行 AI 中文拆分。",
+    "who": "正在使用 WorkBuddy 的开发者",
+    "action": "查看官方原文，根据自己的版本和使用场景决定是否升级。",
+    "steps": [],
+    "category": "other",
+    "scope": "all",
+    "importance": "good_to_know",
+    "channel": "stable",
+    "version": "5.12.0",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "sourceUrl": "https://www.codebuddy.cn/docs/workbuddy/Changelog#_5-12-0-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83-%F0%9F%9A%80-2026-11-23-%E7%81%B0%E5%BA%A6%E4%B8%AD",
+    "evidence": "新增插件市场，将连接器、技能、专家统一整合为「插件」概念，支持在会话「+」号中统一管理插件的安装、开关与授权\n\n- 新增快速问答模式，支持在项目与会话中独立切换，快速问答与自主工作模式的模型设置相互隔离不干扰\n\n- 新增资料库外观皮肤切换，可在设置中自由切换主题并即时生效\n\n- 新增支持查询冷归档中的云端任务和历史会话\n\n- 新增海外版 PC 端支持通过邮箱验证注销个人账号\n\n- 优化搜索页企业专家 Tab，切换 Tab 时关键词保持不变无需重新输入\n\n- 优化插件安装与授权流程，旧版本已连接的连接器升级后自动同步安装对应插件，安装后即时刷新状态\n\n- 优化插件开关逻辑，关闭插件后对话中不再显示已关闭的插件选项\n\n- 优化定时任务企微推送，开启后可正确推送给指定处理人，连接企微后任务执行记录不再误报中断\n\n- 修复侧边栏升级后置顶区与本地任务分组消失的问题\n\n- 修复快速问答模式重启后模型短暂闪现快速模型随后才恢复的问题\n\n- 修复对话中同一技能可被重复添加出现多个相同胶囊的问题\n\n- 修复资料库按表格类型筛选未筛出表格文件、部分 PPT 文件被误分类为文档的问题\n\n- 修复对话产生的临时文件短时间内大量塞入废纸篓的问题\n\n- 修复任务完成后偶现仍显示「用户已取消」的问题\n\n- 修复云端任务待确认时左侧列表状态显示为加载中而非「待确认」的问题\n\n- 修复断网后会话失败侧边栏进行中状",
+    "generatedBy": "fallback",
+    "sourceTopics": []
+  },
+  {
     "id": "gemini-cli-8a51adb82c2a13ee-bf3bdaa9f328fd4a",
     "releaseId": "gemini-cli-8a51adb82c2a13ee",
     "toolSlug": "gemini-cli",
